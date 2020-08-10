@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+
+  <meta charset="utf-8">
+  <title>JOA Project</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/css/animate.min.css" rel="stylesheet">
+  <link href="/assets/css/Data_homepage.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/style_dorne.css" rel="stylesheet">
+  <link href="/assets/css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/assets/css/animate0.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap0.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/perfect-scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/table.css">
+  <script src="/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="/assets/js/popper.js"></script>
+  <script src="/assets/js/bootstrap0.min.js"></script>
+  <script src="/assets/js/select2.min.js"></script>
+  <script src="/assets/js/perfect-scrollbar.min.js"></script>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/jquery-migrate.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/easing.min.js"></script>
+  <script src="/assets/js/wow.min.js"></script>
+  <script src="/assets/js/waypoints.min.js"></script>
+  <script src="/assets/js/counterup.min.js"></script>
+  <script src="/assets/js/hoverIntent.js"></script>
+  <script src="/assets/js/superfish.min.js"></script>
+  <script src="/assets/js/contactform.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+<style media="screen">
+  a {
+    color: #2dc997;
+  }
+
+  a:hover, a:active, a:focus {
+    color: #2dca98;
+    outline: none;
+    text-decoration: none;
+  }
+  .responsive {
+width: 100%;
+height: auto;
+}
+
+.outerbox {
+  width: 100%;
+  background:black;
+  display:block;
+  height: 1000px;
+  display:inline-box;
+}
+.rightbox {
+  width: 60%;
+  float: right;
+  display:block;
+  background:black;
+  padding: 50px 80px 50px 0px;
+  display:inline-block;
+}
+.cta-title1 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: right;
+}
+.cta-text1 {
+  color: white;
+  text-align: right;
+}
+
+.tree {
+min-height:1030px;
+padding:120px 0px 40px 70px;;
+background-color:#000000;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+display:inline-block;
+}
+.tree li {
+list-style-type:none;
+margin:0;
+padding:10px 0px 0px 0px;
+position:relative
+}
+.tree li::before, .tree li::after {
+content:'';
+left:-20px;
+position:absolute;
+right:auto
+}
+.tree li::before {
+border-left:1px solid #ffffff;
+bottom:50px;
+height:100%;
+top:0;
+width:1px
+}
+.tree li::after {
+border-top:1px solid #ffffff;
+height:20px;
+top:30px;
+width:25px
+}
+.tree li span {
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border:1px solid #000000;
+border-radius:5px;
+display:inline-block;
+padding:3px 8px 0px 8px;
+text-decoration:none;
+background:#000000;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: large
+}
+.tree li.parent_li>span {
+cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+border:0
+}
+.tree li:last-child::before {
+height:30px
+}
+.tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+background:#000000;
+border:1px solid #000000;
+color:#ffffff
+}
+.panel-collapse collapse in{
+background:#000000;
+}
+.fa fa-plus-square{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+</style>
+
+<script>
+  $(function () {
+ $('.tree li:has(ul)').addClass('parent_li').find(' > span').attr('title', 'Collapse this branch');
+ $('.parent_li').find(' > ul > li').hide();
+
+ $('.tree li.parent_li > span').on('click', function (e) {
+     var children = $(this).parent('li.parent_li').find(' > ul > li');
+     if (children.is(":visible")) {
+         children.hide('fast');
+         $(this).attr('title', 'Expand this branch').find(' > i').addClass('fa-plus-square').removeClass('fa-minus-square');
+     } else {
+         children.show('fast');
+         $(this).attr('title', 'Collapse this branch').find(' > i').addClass('fa-minus-square').removeClass('fa-plus-square');
+     }
+     e.stopPropagation();
+ });
+});
+</script>
+
+
+</head>
+
+
+  <body>
+
+<header id="header">
+   <div class="container">
+     <div id="logo">
+       <a href="https://scripps.ucsd.edu/"><img src="/assets/images/sioLogo-scale.png" alt="" title=""></a>
+     </div>
+     <nav id="nav-menu-container">
+       <ul class="nav-menu">
+         <li class="menu-active"><a href="index.html">Home</a></li>
+         <li><a href="http://joa.ucsd.edu/joa">Java OceanAtlas</a></li>
+         <li><a href="https://archive.cchdo.io/virtualcruise/">Outreach</a></li>
+         <li class="menu-has-children"><a href="Data_homepage.html">Data</a>
+           <ul>
+             <li class="menu-has-children"><a href="#">Vertical Section Data</a>
+               <ul>
+                 <li><a href="#">Pacific Ocean</a></li>
+                 <li><a href="atlantic_datapage.html">Atlantic Ocean</a></li>
+                 <li><a href="indian_datapage.html">Indian Ocean</a></li>
+                 <li><a href="#">Southern Ocean</a></li>
+                 <li><a href="#">Arctic Ocean</a></li>
+               </ul>
+             </li>
+             <li><a href="http://joa.ucsd.edu/data/woa/woa98.html">World Ocean Atlas Data</a></li>
+             <li><a href="http://joa.ucsd.edu/data/other">Other Data files</a></li>
+           </ul>
+         </li>
+         <li><a href="aboutus.html">About Us</a></li>
+         <li><a href="contactus.html">Contact Us</a></li>
+       </ul>
+     </nav><!-- #nav-menu-container -->
+   </div>
+</header><!-- #header -->
+
+
+<section id="hero">
+  <div class="hero-container">
+      <h1>Explore Indian Ocean Data</h1>
+      <h2>Navigate your desired data below</h2>
+      <center><img src="/assets/images/katdata.jpg" alt="" class="responsive"></center>
+  </div>
+</section><!-- #hero -->
+
+<section id="call-to-action1">
+<section id="call-to-action3">
+    <div class="container wow fadeIn">
+        <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
+          <h3 class="cta-title1" style="text-align:center">About Indian Ocean Data</h3>
+          <br />
+          <p class="cta-text1" style="text-align:center">We have prepared ca. 2200 vertical sections from the original NODC data files contributing to SIO Professor Joseph Reid's ‘pre-WOCE’ (pre-1990s) World Ocean data collection. From the many thousands of cruises in NODC Archives, and some newer cruises originally from colleagues, over more than two decades Joe sifted for the best available data from each region of the World Ocean (except for the Arctic). His intended purpose was to make maps of water properties, and so he cut off stations from a cruise where a better (better for his purposes) cruise overlapped it. He made corrections to many of the data for known offsets (mostly standard seawater batch offsets). Here we went into the NODC files and retrieved the entire cruise data set for each cruise Joe used, assembled the stations into sensible vertical sections, applied the same corrections Joe used, and then we culled many bad data values. The resulting 2200 sections represent the basic data knowledge of the deep ocean basins prior to the 1990s. The data sets all include temperature and salinity, nearly all have dissolved oxygen data, and most have nutrient (NO3, PO4, and/or SiO3) data.</p>
+        </div>
+      </div>
+</section>
+</section>
+<!-- #call-to-action -->
+
+<div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
+<div class="tree ">
+   <ul>
+       <span style="color:white;font-size:large"><b><u>Indian Ocean</u></b></span>
+           <ul>
+              <li>	<span style="background:#5cb85c;color:white">Download all Indian Data</span></li>
+              
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I01/IR01</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I01/IR01 Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1993</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1998</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I02</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I02 Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2000</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I03_I04</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I03_I04 Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1976</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2003</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I04</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I04 Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2004</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I04_I07N</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I04_I07N Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2004</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I05</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I05 Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1987</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2000</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2002</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2009</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I06S</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I06S Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1993</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1996</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2008</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2019</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I07N</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I07N Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2018</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I07S</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I07S Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2019</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I08N</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I08N Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2019</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I08S/I09N</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I08S/I09N Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1994</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2007</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2016</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I09S</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I09S Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1994</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2004</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2012</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+               <li>
+               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>I10/IR06</span>
+                 <ul>
+                   <li>	<span style="background:#5cb85c;color:white">Download all I10/IR06 Data</span></li>
+                   
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1989</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1992</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995_a</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>1995_b</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2000_a</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2000_b</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>2015</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>WOA</span>
+                         <ul>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                             <li> <span style="color:white">File</span> </li>
+                         </ul>
+                     </li>
+                    
+                 </ul>
+               </li>
+               
+   </ul>
+   </ul>
+</div>
+
+<div class="rightbox">
+<div class="container h-100" style="width:80%">
+<div class="row h-100 align-items-center justify-content-center">
+<div class="col-12 col-md-10">
+<div class="hero-search-form">
+<div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
+<h6>What data are you looking for?</h6>
+<div class="row">
+<form action="#" method="get">
+<center>
+  <select class="custom-select" id="verticalSectionDropdown">
+    <option value="All" selected="selected">Vertical Section</option>
+    
+    <option value="I01/IR01">I01/IR01</option>
+    
+    <option value="I02">I02</option>
+    
+    <option value="I03_I04">I03_I04</option>
+    
+    <option value="I04">I04</option>
+    
+    <option value="I04_I07N">I04_I07N</option>
+    
+    <option value="I05">I05</option>
+    
+    <option value="I06S">I06S</option>
+    
+    <option value="I07N">I07N</option>
+    
+    <option value="I07S">I07S</option>
+    
+    <option value="I08N">I08N</option>
+    
+    <option value="I08S/I09N">I08S/I09N</option>
+    
+    <option value="I09S">I09S</option>
+    
+    <option value="I10/IR06">I10/IR06</option>
+    
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select class="custom-select" id="yearDropdown">
+    <option value="All">Year</option>
+    
+    <option value="1976">1976</option>
+    
+    <option value="1987">1987</option>
+    
+    <option value="1989">1989</option>
+    
+    <option value="1992">1992</option>
+    
+    <option value="1993">1993</option>
+    
+    <option value="1994">1994</option>
+    
+    <option value="1995">1995</option>
+    
+    <option value="1996">1996</option>
+    
+    <option value="1998">1998</option>
+    
+    <option value="2000">2000</option>
+    
+    <option value="2002">2002</option>
+    
+    <option value="2003">2003</option>
+    
+    <option value="2004">2004</option>
+    
+    <option value="2007">2007</option>
+    
+    <option value="2008">2008</option>
+    
+    <option value="2009">2009</option>
+    
+    <option value="2012">2012</option>
+    
+    <option value="2015">2015</option>
+    
+    <option value="2016">2016</option>
+    
+    <option value="2018">2018</option>
+    
+    <option value="2019">2019</option>
+    
+    <option value="WOA">WOA</option>
+    
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select class="custom-select" id="fileDropdown">
+    <option value="All">File</option>
+    <option value="Basin">.csv</option>
+    <option value="Sub Basin">.jos</option>
+    <option value="Option_3">.txt</option>
+    <option value="Option_4">.joa</option>
+    <option value="Option_5">.zip</option>
+  </select>
+</center>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <div class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100 ver3 m-b-110">
+          <div class="table100-head">
+            <table>
+            <thead>
+            <tr class="row100 head">
+                <th class="cell100 column1">Vertical Section</th>
+                <th class="cell100 column2">Year</th>
+                <th class="cell100 column4">File</th>
+            </tr>
+          </thead>
+        </table>
+        </div>
+        <div class="table100-body js-pscroll" style="max-height:1500px">
+        <table class="table" id="datatable1">
+        <tbody id="datatable">
+        
+        
+          <tr>
+              <td class="cell100 column1">I01/IR01</td>
+              <td class="cell100 column2">1993</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I01/IR01</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I01/IR01</td>
+              <td class="cell100 column2">1998</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I01/IR01</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I02</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I02</td>
+              <td class="cell100 column2">2000</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I02</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I03_I04</td>
+              <td class="cell100 column2">1976</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I03_I04</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I03_I04</td>
+              <td class="cell100 column2">2003</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I03_I04</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I04</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I04</td>
+              <td class="cell100 column2">2004</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I04_I07N</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I04_I07N</td>
+              <td class="cell100 column2">2004</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I05</td>
+              <td class="cell100 column2">1987</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I05</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I05</td>
+              <td class="cell100 column2">2000</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I05</td>
+              <td class="cell100 column2">2002</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I05</td>
+              <td class="cell100 column2">2009</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I05</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I06S</td>
+              <td class="cell100 column2">1993</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I06S</td>
+              <td class="cell100 column2">1996</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I06S</td>
+              <td class="cell100 column2">2008</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I06S</td>
+              <td class="cell100 column2">2019</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I06S</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I07N</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I07N</td>
+              <td class="cell100 column2">2018</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I07N</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I07S</td>
+              <td class="cell100 column2">2019</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I07S</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I08N</td>
+              <td class="cell100 column2">1995</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I08N</td>
+              <td class="cell100 column2">2019</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I08N</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I08S/I09N</td>
+              <td class="cell100 column2">1994</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I08S/I09N</td>
+              <td class="cell100 column2">2007</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I08S/I09N</td>
+              <td class="cell100 column2">2016</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I08S/I09N</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I09S</td>
+              <td class="cell100 column2">1994</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I09S</td>
+              <td class="cell100 column2">2004</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I09S</td>
+              <td class="cell100 column2">2012</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I09S</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">1989</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">1992</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">1995_a</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">1995_b</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">2000_a</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">2000_b</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">2015</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+          <tr>
+              <td class="cell100 column1">I10/IR06</td>
+              <td class="cell100 column2">WOA</td>
+              <td class="cell100 column4">File</td>
+            </tr>
+        
+        
+        </tbody>
+        </table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+    $('.js-pscroll').each(function(){
+      var ps = new PerfectScrollbar(this);
+
+      $(window).on('resize', function(){
+        ps.update();
+      })
+    });
+
+	$('.container').on("change", 'select', function() {
+	  var section = $('#verticalSectionDropdown').val().toLowerCase(),
+	    year = $('#yearDropdown').val().toLowerCase(),
+	    file = $('#fileDropdown').val().toLowerCase();
+
+	  var table = $("#datatable");
+	  var trs = table.find('tr');
+	  trs.hide();
+
+	  var filtered = trs.filter(function(index, elem) {
+	    var tds = $(elem).find('td');
+	    if (section !== "all" && tds.eq(0).text().trim().toLowerCase() !== section) {
+	      return false;
+	    }
+	    if (year !== "all" && tds.eq(1).text().trim().toLowerCase() !== year) {
+	      return false;
+	    }
+	    if (file !== "all" && tds.eq(2).text().trim().toLowerCase() !== file) {
+	      return false;
+	    }
+	    return true;
+	  })
+
+	  filtered.show();
+
+	  if (filtered.length == 0) {
+	    alert("No Records Found!");
+	  }
+
+	});
+</script>
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="credits">
+      <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+      -->
+      Credits <a href="https://www.linkedin.com/in/dakshh-saraf-70a572170/">Credentials</a>
+    </div>
+  </div>
+</footer><!-- #footer -->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  </body>
+</html>

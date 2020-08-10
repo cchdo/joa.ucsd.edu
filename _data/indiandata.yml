@@ -1,0 +1,162 @@
+section:
+  - title: I01/IR01
+    years:
+      - year: 1993
+        file: File
+      - year: 1995
+        file: File
+      - year: 1998
+        file: File
+      - year: WOA
+        file: File
+  - title: I02
+    years:
+      - year: 1995
+        file: File
+      - year: 2000
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I03_I04
+    years:
+      - year: 1976
+        file: File
+      - year: 1995
+        file: File
+      - year: 2003
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I04
+    years:
+      - year: 1995
+        file: File
+      - year: 2004
+        file: File
+
+  - title: I04_I07N
+    years:
+      - year: 1995
+        file: File
+      - year: 2004
+        file: File
+
+  - title: I05
+    years:
+      - year: 1987
+        file: File
+      - year: 1995
+        file: File
+      - year: 2000
+        file: File
+      - year: 2002
+        file: File
+      - year: 2009
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I06S
+    years:
+      - year: 1993
+        file: File
+      - year: 1996
+        file: File
+      - year: 2008
+        file: File
+      - year: 2019
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I07N
+    years:
+      - year: 1995
+        file: File
+      - year: 2018
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I07S
+    years:
+      - year: 2019
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I08N
+    years:
+      - year: 1995
+        file: File
+      - year: 2019
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I08S/I09N
+    years:
+      - year: 1994
+        file: File
+      - year: 2007
+        file: File
+      - year: 2016
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I09S
+    years:
+      - year: 1994
+        file: File
+      - year: 2004
+        file: File
+      - year: 2012
+        file: File
+      - year: WOA
+        file: File
+
+  - title: I10/IR06
+    years:
+      - year: 1989
+        file: File
+      - year: 1992
+        file: File
+      - year: 1995_a
+        file: File
+      - year: 1995_b
+        file: File
+      - year: 2000_a
+        file: File
+      - year: 2000_b
+        file: File
+      - year: 2015
+        file: File
+      - year: WOA
+        file: File
+
+yeardropdown:
+  - year: 1976
+  - year: 1987
+  - year: 1989
+  - year: 1992
+  - year: 1993
+  - year: 1994
+  - year: 1995
+  - year: 1996
+  - year: 1998
+  - year: 2000
+  - year: 2002
+  - year: 2003
+  - year: 2004
+  - year: 2007
+  - year: 2008
+  - year: 2009
+  - year: 2012
+  - year: 2015
+  - year: 2016
+  - year: 2018
+  - year: 2019
+  - year: WOA

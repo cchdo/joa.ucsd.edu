@@ -1,0 +1,6 @@
+name: My Jekyll Website
+
+sass:
+  style: compressed
+
+baseurl: "joaucsd"

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+{% include datapage_head.html %}
+
+  <body>
+
+{% include header.html %}
+
+<section id="hero">
+  <div class="hero-container">
+      <h1>Explore {{page.ocean}} Ocean Data</h1>
+      <h2>Navigate your desired data below</h2>
+      <center><img src="/assets/images/katdata.jpg" alt="" class="responsive"></center>
+  </div>
+</section><!-- #hero -->
+
+{{content}}
+
+<script>
+    $('.js-pscroll').each(function(){
+      var ps = new PerfectScrollbar(this);
+
+      $(window).on('resize', function(){
+        ps.update();
+      })
+    });
+
+	$('.container').on("change", 'select', function() {
+	  var section = $('#verticalSectionDropdown').val().toLowerCase(),
+	    year = $('#yearDropdown').val().toLowerCase(),
+	    file = $('#fileDropdown').val().toLowerCase();
+
+	  var table = $("#datatable");
+	  var trs = table.find('tr');
+	  trs.hide();
+
+	  var filtered = trs.filter(function(index, elem) {
+	    var tds = $(elem).find('td');
+	    if (section !== "all" && tds.eq(0).text().trim().toLowerCase() !== section) {
+	      return false;
+	    }
+	    if (year !== "all" && tds.eq(1).text().trim().toLowerCase() !== year) {
+	      return false;
+	    }
+	    if (file !== "all" && tds.eq(2).text().trim().toLowerCase() !== file) {
+	      return false;
+	    }
+	    return true;
+	  })
+
+	  filtered.show();
+
+	  if (filtered.length == 0) {
+	    alert("No Records Found!");
+	  }
+
+	});
+</script>
+
+{% include footer.html %}
+
+  </body>
+</html>

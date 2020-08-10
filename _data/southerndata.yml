@@ -1,0 +1,569 @@
+section:
+  - title: A01/AR07
+    years:
+      - year: 1991
+        file: File
+      - year: 1994
+        file: File
+      - year: 2000
+        file: File
+      - year: 2009
+        file: File
+      - year: WOA
+        file: File
+  - title: A01E/AR07E
+    years:
+      - year: 1990
+        file: File
+      - year: 1991_a
+        file: File
+      - year: 1991_b
+        file: File
+      - year: 1992
+        file: File
+      - year: 1994
+        file: File
+      - year: 1995
+        file: File
+      - year: 1996
+        file: File
+      - year: 1997_a
+        file: File
+      - year: 1997_b
+        file: File
+      - year: 2000
+        file: File
+      - year: 2001
+        file: File
+      - year: 2003_a
+        file: File
+      - year: 2003_b
+        file: File
+      - year: 2004
+        file: File
+      - year: 2005_a
+        file: File
+      - year: 2005_b
+        file: File
+      - year: 2007
+        file: Filev
+      - year: 2009
+        file: File
+      - year: 2011_a
+        file: File
+      - year: 2011_b
+        file: File
+      - year: 2014
+        file: File
+      - year: 2015
+        file: File
+      - year: WOA
+        file: File
+  - title: A01W/AR07W
+    years:
+      - year: 1990
+        file: File
+      - year: 1991
+        file: File
+      - year: 1992
+        file: File
+      - year: 1993
+        file: File
+      - year: 1994
+        file: File
+      - year: 1995
+        file: File
+      - year: 1996_a
+        file: File
+      - year: 1996_b
+        file: File
+      - year: 1997_a
+        file: File
+      - year: 1997_b
+        file: File
+      - year: 1998
+        file: File
+      - year: 1999_a
+        file: File
+      - year: 1999_b
+        file: File
+      - year: 2000
+        file: File
+      - year: 2001
+        file: File
+      - year: 2002_a
+        file: File
+      - year: 2002_b
+        file: Filev
+      - year: 2003
+        file: File
+      - year: 2004
+        file: File
+      - year: 2005
+        file: File
+      - year: 2006
+        file: File
+      - year: 2007
+        file: File
+      - year: 2008_a
+        file: File
+      - year: 2008_b
+        file: File
+      - year: 2009_a
+        file: File
+      - year: 2009_b
+        file: File
+      - year: 2010
+        file: File
+      - year: 2011_a
+        file: File
+      - year: 2011_b
+        file: File
+      - year: 20012
+        file: File
+      - year: 2013
+        file: Filev
+      - year: 2014
+        file: File
+      - year: 2015
+        file: File
+      - year: 2016
+        file: File
+      - year: WOA
+        file: File
+  - title: A02/AR19
+    years:
+      - year: 1957
+        file: File
+      - year: 1982
+        file: File
+      - year: 1993_a
+        file: File
+      - year: 1993_b
+        file: File
+      - year: 1994
+        file: File
+      - year: 1996_a
+        file: File
+      - year: 1996_b
+        file: File
+      - year: 1997
+        file: File
+      - year: 1998
+        file: File
+      - year: 1999
+        file: File
+      - year: 2000
+        file: File
+      - year: 2001
+        file: File
+      - year: 2007
+        file: File
+      - year: 2008
+        file: File
+      - year: 2010
+        file: File
+      - year: 2011
+        file: File
+      - year: 2017
+        file: File
+      - year: WOA
+        file: File
+  - title: A03
+    years:
+      - year: 1981
+        file: File
+      - year: 1993
+        file: File
+      - year: 2005
+        file: File
+      - year: WOA
+        file: File
+  - title: A05/AR01
+    years:
+      - year: 1981
+        file: File
+      - year: 1992
+        file: File
+      - year: 1998
+        file: File
+      - year: 2004
+        file: File
+      - year: 2005
+        file: File
+      - year: 2010
+        file: File
+      - year: 2011
+        file: File
+      - year: 2015
+        file: File
+      - year: 2020
+        file: File
+      - year: WOA
+        file: File
+  - title: A06/AR03
+    years:
+      - year: 1989
+        file: File
+      - year: 1993
+        file: File
+      - year: 2000
+        file: File
+      - year: 2010
+        file: File
+      - year: WOA
+        file: File
+  - title: A07
+    years:
+      - year: 1993
+        file: File
+      - year: WOA
+        file: File
+  - title: A08
+    years:
+      - year: 1983
+        file: File
+      - year: 1994
+        file: File
+      - year: WOA
+        file: File
+  - title: A09/A09.5
+    years:
+      - year: 1991
+        file: File
+      - year: 2009
+        file: File
+      - year: 2018
+        file: File
+      - year: WOA
+        file: File
+  - title: A10
+    years:
+      - year: 1983
+        file: File
+      - year: 1992
+        file: File
+      - year: 2003
+        file: File
+      - year: 2009
+        file: File
+      - year: 2011
+        file: File
+      - year: 2017
+        file: File
+      - year: 2018
+        file: File
+      - year: WOA
+        file: File
+  - title: A11
+    years:
+      - year: 1992
+        file: File
+      - year: WOA
+        file: File
+  - title: A12/S02/SR01
+    years:
+      - year: 1986
+        file: File
+      - year: 1992
+        file: File
+      - year: 1999
+        file: File
+      - year: 2000
+        file: File
+      - year: 2002
+        file: File
+      - year: 2005
+        file: File
+      - year: 2007
+        file: File
+      - year: 2008_a
+        file: File
+      - year: 2008_b
+        file: File
+      - year: 2010
+        file: File
+      - year: 2012
+        file: File
+      - year: 2014
+        file: File
+      - year: WOA
+        file: File
+  - title: A13/A13.5
+    years:
+      - year: 1983
+        file: File
+      - year: 1995
+        file: File
+      - year: 2010
+        file: File
+      - year: WOA
+        file: File
+  - title: A14
+    years:
+      - year: 1995
+        file: File
+      - year: WOA
+        file: File
+  - title: A15
+    years:
+      - year: 1994
+        file: File
+      - year: WOA
+        file: File
+  - title: A16/AR21
+    years:
+      - year: 1988-1989
+        file: File
+      - year: 1990
+        file: File
+      - year: 1991-1993
+        file: File
+      - year: 1995
+        file: File
+      - year: 1998
+        file: File
+      - year: 2003-2005
+        file: File
+      - year: 2008
+        file: File
+      - year: 2009
+        file: File
+      - year: 2011
+        file: File
+      - year: 20013-2014
+        file: File
+      - year: WOA
+        file: File
+  - title: A17
+    years:
+      - year: 1994
+        file: File
+      - year: 2001
+        file: File
+      - year: 2002
+        file: File
+      - year: 2013
+        file: File
+      - year: 2019
+        file: File
+      - year: WOA
+        file: File
+  - title: A20
+    years:
+      - year: 1983
+        file: File
+      - year: 1997
+        file: File
+      - year: 2003
+        file: File
+      - year: 2012
+        file: File
+      - year: WOA
+        file: File
+  - title: A21/S01
+    years:
+      - year: 1990
+        file: File
+      - year: 1993
+        file: File
+      - year: 2006
+        file: File
+      - year: 2008
+        file: File
+      - year: 2010_a
+        file: File
+      - year: 2010_b
+        file: File
+      - year: WOA
+        file: File
+  - title: A22
+    years:
+      - year: 1985
+        file: File
+      - year: 1997
+        file: File
+      - year: 2003
+        file: File
+      - year: 2012
+        file: File
+      - year: WOA
+        file: File
+  - title: A23
+    years:
+      - year: 1989
+        file: File
+      - year: 1995
+        file: File
+      - year: 1999
+        file: File
+      - year: 2012
+        file: File
+      - year: 2015
+        file: File
+      - year: 2016
+        file: File
+      - year: 2017
+        file: File
+      - year: 2018
+        file: File
+      - year: 2020
+        file: File
+      - year: WOA
+        file: File
+  - title: A24N
+    years:
+      - year: 1997
+        file: File
+      - year: WOA
+        file: File
+  - title: A24S
+    years:
+      - year: 1997
+        file: File
+      - year: WOA
+        file: File
+  - title: A25
+    years:
+      - year: 1997
+        file: File
+      - year: 2002
+        file: File
+      - year: 2004
+        file: File
+      - year: 2006
+        file: File
+      - year: 2008
+        file: File
+      - year: 2010
+        file: File
+      - year: WOA
+        file: File
+  - title: AR04
+    years:
+      - year: 1990
+        file: File
+      - year: 1991
+        file: File
+      - year: 1992
+        file: File
+      - year: 1994_a
+        file: File
+      - year: 1994_b
+        file: File
+      - year: 1995
+        file: File
+      - year: 1996
+        file: File
+      - year: 2000
+        file: File
+      - year: 2002
+        file: File
+      - year: 2003
+        file: File
+  - title: AR16
+    years:
+      - year: 1992
+        file: File
+  - title: AR18
+    years:
+      - year: 1992
+        file: File
+      - year: 1993
+        file: File
+      - year: 1994
+        file: File
+      - year: 1995
+        file: File
+      - year: 1997
+        file: File
+      - year: WOA
+        file: File
+  - title: AR24
+    years:
+      - year: 1991
+        file: File
+      - year: 1996
+        file: File
+      - year: 1997_a
+        file: File
+      - year: 1997_b
+        file: File
+      - year: WOA
+        file: File
+  - title: Mediterranean
+    years:
+      - year: 1994
+        file: File
+      - year: 1997
+        file: File
+      - year: 1998
+        file: File
+      - year: 2001
+        file: File
+      - year: 2011
+        file: File
+      - year: 2013
+        file: File
+      - year: WOA
+        file: File
+  - title: OSNAP
+    years:
+      - year: 1994
+        file: File
+  - title: OVIDE
+    years:
+      - year: 2002
+        file: File
+      - year: 2004
+        file: File
+      - year: 2006
+        file: File
+      - year: 2008
+        file: File
+      - year: 2010
+        file: File
+      - year: WOA
+        file: File
+
+yeardropdown:
+  - year: 1957
+  - year: 1981
+  - year: 1982
+  - year: 1983
+  - year: 1985
+  - year: 1986
+  - year: 1988
+  - year: 1989
+  - year: 1990
+  - year: 1991
+  - year: 1992
+  - year: 1993
+  - year: 1994
+  - year: 1995
+  - year: 1996
+  - year: 1997
+  - year: 1998
+  - year: 1999
+  - year: 2000
+  - year: 2001
+  - year: 2002
+  - year: 2003
+  - year: 2004
+  - year: 2005
+  - year: 2006
+  - year: 2007
+  - year: 2008
+  - year: 2009
+  - year: 2010
+  - year: 2011
+  - year: 2012
+  - year: 2013
+  - year: 2014
+  - year: 2015
+  - year: 2016
+  - year: 2017
+  - year: 2018
+  - year: 2019
+  - year: 2020
+  - year: WOA
