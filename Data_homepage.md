@@ -4,8 +4,6 @@ title : Data Homepage
 css: Data_homepage
 ---
 
-
-
 <section id="hero">
   <div class="hero-container">
     <h1>Java OceanAtlas Data</h1>
@@ -39,17 +37,17 @@ css: Data_homepage
           <p class="cta-text">We have prepared ca. 2200 vertical sections from the original NODC data files contributing to SIO Professor Joseph Reid's ‘pre-WOCE’ (pre-1990s) World Ocean data collection. From the many thousands of cruises in NODC Archives, and some newer cruises originally from colleagues, over more than two decades Joe sifted for the best available data from each region of the World Ocean (except for the Arctic). His intended purpose was to make maps of water properties, and so he cut off stations from a cruise where a better (better for his purposes) cruise overlapped it. He made corrections to many of the data for known offsets (mostly standard seawater batch offsets). Here we went into the NODC files and retrieved the entire cruise data set for each cruise Joe used, assembled the stations into sensible vertical sections, applied the same corrections Joe used, and then we culled many bad data values. The resulting 2200 sections represent the basic data knowledge of the deep ocean basins prior to the 1990s. The data sets all include temperature and salinity, nearly all have dissolved oxygen data, and most have nutrient (NO3, PO4, and/or SiO3) data.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
-          <a class="cta-btn align-middle" href="http://www.joaucsd.com/Atlantic_datapage.html">Pacific Ocean</a>
+          <a class="cta-btn align-middle" href="pacific_datapage.html">Pacific Ocean</a>
           <br> <br>
-            <a class="cta-btn align-middle" href="Atlantic_datapage.html">Atlantic Ocean</a>
+            <a class="cta-btn align-middle" href="atlantic_datapage.html">Atlantic Ocean</a>
             <br> <br>
-            <a class="cta-btn align-middle" href="http://www.joaucsd.com/Atlantic_datapage.html">Arctic Ocean</a>
+            <a class="cta-btn align-middle" href="arctic_datapage.html">Arctic Ocean</a>
             <br> <br>
-            <a class="cta-btn align-middle" href="http://www.joaucsd.com/Atlantic_datapage.html">Indian Ocean</a>
+            <a class="cta-btn align-middle" href="indian_datapage.html">Indian Ocean</a>
             <br> <br>
-            <a class="cta-btn align-middle" href="http://www.joaucsd.com/Atlantic_datapage.html">Southern Ocean</a>
+            <a class="cta-btn align-middle" href="southern_datapage.html">Southern Ocean</a>
             <br> <br>
-            <a class="cta-btn align-middle" href="http://www.joaucsd.com/Atlantic_datapage.html">Other</a>
+            <a class="cta-btn align-middle" href="#">Other</a>
       </div>
     </div>
     </div>
