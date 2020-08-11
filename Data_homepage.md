@@ -26,9 +26,6 @@ css: Data_homepage
 </section><!-- #hero -->
 
 
-  <!--==========================
-  Call To Action Section
-  ============================-->
   <section id="call-to-action">
     <div class="container wow fadeIn">
       <div class="row">
