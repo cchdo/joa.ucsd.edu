@@ -25,7 +25,7 @@ css: contactus
          <div class="col-12 col-md-4">
            <div class="contact-information">
              <h5>Address</h5>
-             <p>Room #50<br>Deep-Sea Drilling West<br>2350 Downwind Way<br>La Jolla, CA 92037</p>
+             <p>Room #50<br>Deep-Sea Drilling West<br>2215 Downwind Way<br>La Jolla, CA 92037</p>
 
              <h5>Email</h5>
              <p class="mb-0">jswift @ucsd.edu</p>
