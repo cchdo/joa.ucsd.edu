@@ -209,7 +209,7 @@ Call To Action Section
         <div class="info">
           <div>
             <i class="fa fa-map-marker"></i>
-            <p>Room #50<br>Deep-Sea Drilling West<br>2350 Downwind Way<br>La Jolla, CA 92037</p>
+            <p>Room #50<br>Deep-Sea Drilling West<br>2215 Downwind Way<br>La Jolla, CA 92037</p>
           </div>
 
           <div>
