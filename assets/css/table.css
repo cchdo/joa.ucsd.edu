@@ -153,19 +153,16 @@ iframe {
 .container-table100 {
   width: 100%;
   min-height: 100vh;
+  height: auto;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 33px 30px;
+  padding: 33px 2.5vw;
 }
 
 .wrap-table100 {
-  width: 1170px;
+  width: 50vw;
 }
 
 /*//////////////////////////////////////////////////////////////////
