@@ -1,7 +1,7 @@
 section:
   - title: S04_circumAA
     years:
-      - year: 1992_1994_1996
+      - year: 1992-1994-1996
         file: File
       - year: WOA
         file: File
