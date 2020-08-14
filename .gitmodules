@@ -1,0 +1,3 @@
+[submodule "outreach/virtualcruise"]
+	path = outreach/virtualcruise
+	url = https://github.com/cchdo/virtual-cruise.git
