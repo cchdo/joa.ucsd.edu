@@ -115,16 +115,6 @@ section:
         file: File
       - year: 2018
         file: File
-  - title: A13/A13.5
-    years:
-      - year: 1983
-        file: File
-      - year: 1995
-        file: File
-      - year: 2010
-        file: File
-      - year: WOA
-        file: File
   - title: SR04
     years:
       - year: 1989
