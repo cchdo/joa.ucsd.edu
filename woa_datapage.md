@@ -107,7 +107,7 @@ ocean: World Ocean Atlas
         <div class="table100-body js-pscroll" style="max-height:1500px">
         <table class="table" id="datatable1">
         <tbody id="datatable">
-        {% for item in site.data.atlanticdata.section%}
+        {% for item in site.data.woadata.section%}
         {% for entry in item.years%}
           <tr>
               <td class="cell100 column1">{{item.title}}</td>
