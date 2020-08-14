@@ -1,0 +1,50 @@
+section:
+  - title: WOA 1998 files
+    years:
+      - year: WOA98 global files
+        file: File
+      - year: WOA98 regional files
+        file: File
+  - title: WOA 2005 files
+    years:
+      - year: WOA05 decimated regional files
+        file: File
+      - year: WOA05 global files
+        file: File
+      - year: WOA05 regional files
+        file: File
+
+  - title: WOA 2009 files
+    years:
+      - year: WOA09 annual global files
+        file: File
+      - year: WOA09 annual regional files
+        file: File
+      - year: WOA09 seasonal regional files
+        file: File
+  - title: WOA 2013 files
+    years:
+      - year: WOA13 global files
+        file: File
+  - title: WOA 2018 files
+    years:
+      - year: WOA18 global annual mean files
+        file: File
+      - year: WOA18 global seasonal files 0 to 800 meters
+        file: File
+      - year: WOA_2018_meridional section_files
+        file: File
+      - year: WOA_2018_zonal_section_files
+        file: File
+      - year: WOA18 regional annual average files
+        file: File
+      - year: WOA18 regional seasonal files
+        file: File
+
+  
+yeardropdown:
+  - year: 1998
+  - year: 2005
+  - year: 2009
+  - year: 2013
+  - year: 2018
