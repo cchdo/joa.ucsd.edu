@@ -185,7 +185,7 @@ Call To Action Section
         <p class="cta-text">Where do the data on this site come from? Take our 'virtual research cruise': Read the proposal, explore the decks of SIO's R/V Roger Revelle, watch at-sea documentaries with scientists, technical specialists, students, and crew, read weekly reports, and examine the final data.</p>
       </div>
       <div class="col-lg-3 cta-btn-container text-center">
-        <a class="cta-btn align-middle" href="https://archive.h2o.ucsd.edu/virtualcruise/">Explore</a>
+        <a class="cta-btn align-middle" href="{{'/outreach/virtualcruise/' | relative_url}}">Explore</a>
       </div>
     </div>
 
