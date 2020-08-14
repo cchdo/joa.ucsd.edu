@@ -30,9 +30,9 @@ section:
     years:
       - year: WOA18 global annual mean files
         file: File
-      - year: WOA18 global seasonal files 0 to 800 meters
+      - year: WOA18 global seasonal files
         file: File
-      - year: WOA_2018_meridional section_files
+      - year: WOA_2018_meridional files
         file: File
       - year: WOA_2018_zonal_section_files
         file: File
