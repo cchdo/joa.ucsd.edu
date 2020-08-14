@@ -57,7 +57,7 @@ css: Data_homepage
     <div class="container wow fadeIn">
       <div class="row">
         <div class="col-lg-3 cta-btn1-container text-center">
-          <a class="cta-btn1 align-middle" href="https://archive.h2o.ucsd.edu/virtualcruise/">Explore</a>
+          <a class="cta-btn1 align-middle" href="woa_datapage.html">Explore</a>
         </div>
         <div class="col-lg-9 text-center text-lg-left">
           <h3 class="cta-title1">World Ocean Atlas Data</h3>
