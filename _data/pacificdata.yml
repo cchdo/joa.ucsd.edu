@@ -211,16 +211,17 @@ section:
       - year: 2009
         file: File
       - year: 2013
-        file: File        
-   - title: P31
+        file: File
+        
+  - title: P31
     years:
       - year: 1994
         file: File
-   - title: ALIZE
+  - title: ALIZE
     years:
       - year: Unknown
         file: File         
-   - title: HOT
+  - title: HOT
     years:
       - year: Unknown
         file: File
