@@ -24,7 +24,7 @@ ocean: Pacific
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
               <li>	<span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li>
-              {% for item in site.data.indiandata.section %}
+              {% for item in site.data.pacificdata.section %}
                <li>
                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                  <ul>
