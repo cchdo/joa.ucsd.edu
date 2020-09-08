@@ -30,10 +30,6 @@ css: Data_homepage
           <li><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Windows specific installation instructions</a></li>
         </p>
       </div>
-      <div class="col-lg-9 text-center text-lg-right" style="flex:0 0 100%;max-width:100%">
-        <h3 class="cta-title" style="text-align:right">About Java OceanAtlas</h3>
-        <p class="cta-text" style="text-align:right">Hey</p>
-      </div>
     </div>
 </section>
 </section><!-- #call-to-action -->
@@ -104,31 +100,4 @@ netCDF files and the need to make a plot before browsing.</p>
     </section>
 
 
-<!--==========================
-Call To Action Section
-============================-->
 
-<section id="call-to-action1">
-<section id="call-to-action3">
-    <div class="container wow fadeIn">
-      <div class="row">
-        <div class="col-lg-9 text-center text-lg-left" style="max-width:50%">   
-         <h3 class="cta-title">Install</h3>
-        <p class="cta-text">
-          <li><a href="http://joa.ucsd.edu/joa/joa_download_instructions.html">General installation instructions</a></li>
-          <li><a href="http://joa.ucsd.edu/joa/joa_download_mac.html">Mac specific installation instructions</a></li>
-          <li><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Windows specific installation instructions</a></li>
-        </p>
-        </div>
-        <div class="col-lg-3 cta-btn-container text-center" style="display:block;max-width:50%">
-          <h3 class="cta-title" style="text-align:right">Install</h3>
-        <p class="cta-text" style="text-align:right">
-          <li><a href="http://joa.ucsd.edu/joa/joa_download_instructions.html">General installation instructions</a></li>
-          <li><a href="http://joa.ucsd.edu/joa/joa_download_mac.html">Mac specific installation instructions</a></li>
-          <li>><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Windows specific installation instructions</a></li>
-        </p>
-      </div>
-    </div>
-  </div>
-  </section>
-    </section>
