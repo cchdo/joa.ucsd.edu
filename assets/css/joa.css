@@ -1,0 +1,1011 @@
+#container {
+  background: #faf3e7;
+  color: #32473c;
+  padding: 2em 1em;
+  -moz-border-radius-topleft: 1em;
+  -webkit-border-top-left-radius: 1em;
+  border-top-left-radius: 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  margin-left: 0;
+}
+
+/* rounded */
+.contained,
+.contained p,
+#right .section, 
+.tour.page #right li a,
+#guided_tour_content,
+.image,
+.image img
+.home.index .links,
+.home.contact .contained table,
+.joa .contained table,
+.joa .contained ul, 
+.joa .contained ol,
+.joa .downloads div.span4
+{
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+
+/* main container */
+.contained {
+  height: 100%;
+  background: #fefcf9;
+  padding: 10px;
+}
+.contained h1 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  color: #94d0ec;
+  margin-bottom:5px;
+}
+.contained h2{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom:6px;
+}
+.contained h3{
+  line-height: 1em;
+}
+
+.contained p {
+  background-color: #f2f2f2;
+	padding: 0.5em 1em;
+  margin: 0.5em 0;
+}
+.alert-block > p {
+  background-color: inherit;
+  border-radius: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* right column styles */
+#right h1 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0 0 0.2em 0;
+}
+#right h2 {
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin-top: 0.5em;
+}
+#right ul {
+  list-style: none;
+  margin-left: 0.5em;
+}
+#right .section {
+  background-color: #FEFCF9;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+#right .section p {
+  line-height: 1.3em;
+}
+
+/* Guided Tour */
+.tour.page #right li a {
+  display: block;
+  font-size: 1.1em;
+  padding: 0.5em 0.5em;
+	text-decoration: none;
+	color:#32473C;
+}
+.tour.page #right li.active a {
+  background-color: #D2D2D2;
+}
+.tour.page #right li a:hover {
+  background-color: #E2E2E2;
+}
+
+#guided_tour h1, #guided_tour h2 {
+	margin-left: 0;
+}
+#guided_tour_content {
+	background-color: #f2f2f2;
+	float:right;
+	padding: 1em;
+	padding-bottom: 0;
+}
+#guided_tour_content p{
+	margin: 0em 0 1em 0;
+	float: none;
+	width: auto;
+}
+
+#guided_tour_content ul li{
+	margin-left: 1.5em;
+
+}
+
+.oceanography_text {
+	color: #113F90 !important;
+}
+
+.gt_fig {
+	width: 95%;
+	padding: 1em;
+	margin: .5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e3e3e3;
+}
+
+.gt_image{
+	width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gt_caption{
+	font-size: smaller;
+	width: 95%;
+	margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 1em 0 0 0;
+}
+
+#guided_tour ul li{
+	list-style-image: url(images/guided_tour/gt_arrow.png);
+}
+.gt_ul_other{
+	list-style-type: disc;
+}
+.gt_ul_other li{
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+.gt_data_table{
+	border: 2px solid #000;
+	margin-bottom: 10px;
+	width: 100%;
+	border-collapse: collapse;
+}
+.gt_data_table tr{
+	border: 1px solid #000;
+}
+.gt_data_table th{
+	text-align: left;
+}
+
+.image {
+  text-align: center;
+}
+.image img {
+  border: 7px solid #f2f2f2;
+}
+.image caption {
+  color: #a8a8a8;
+  margin-top: 0.3em;
+}
+
+/* home */
+.home.index .contained p {
+  background-color: inherit;
+}
+.home.index .contained .image {
+  float: left;
+  margin-right: 1em;
+}
+.home #right .section.link a {
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  margin: -1em;
+}
+.home.index .main {
+  margin-left: 210px;
+}
+.home.index .links {
+  background-color: #f2f2f2;
+}
+.home.contact .contained table {
+  background: #F2F2F2;
+  margin: 0.5em 0;
+  width: 100%;
+}
+.home.contact .contained td {
+  padding: 0.8em;
+}
+.home.links_resources .contained ul li {
+	padding: 1em;
+	background-color: #f2f2f2;
+}
+
+
+#dpo_ad p{
+  line-height: 1.5em;
+  background-color: #F2F2F2;
+  padding: .5em;
+}
+#dpo_ad h1 {
+  font-weight: bold;
+  padding: .5em;
+  padding-left: .2em;
+}
+#dpo_ad h1 a {
+  color:#32473C;
+}
+
+.emphasize {
+  color: #FF6600; 
+  font-weight: bold;
+}
+
+/* JOA */
+.joa #right a.btn {
+  margin: 0.3em 0;
+}
+.joa .contained p {
+	padding: 1em;
+}
+.joa .contained table {
+	width: 50.45em !important;
+	padding: 1em !important;
+	background-color:#F2F2F2;
+	float: right;
+}
+.joa .contained table tr td{
+	padding: 1em !important;
+	margin-left: 3em !important;
+}
+.joa .contained ol {
+  list-style-type: decimal;
+}
+.joa .contained ul {
+  list-style-type: disc;
+}
+.joa .contained li {
+  margin-left: 1.5em;
+  margin-top: .5em;
+}
+.joa .contained ul, 
+.joa .contained ol {
+  background-color: #f2f2f2;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+.joa .contained h3 {
+  clear: right;
+}
+
+.joa .downloads .row {
+  text-align: center;
+}
+.joa .downloads p {
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+.joa .downloads div.span4 {
+  background-color: #F2F2F2;
+  height: 9em;
+  padding: 1em;
+}
+.joa .downloads div.span8 {
+  background-color: #F2F2F2;
+  height: 9em;
+  padding: 1em;
+  text-align: left;
+}
+.joa.index .downloads .alerted div.span4 {
+  height: 19em;
+}
+.joa .downloads .alert {
+  text-align: left;
+}
+.joa.features h3 {
+  font-size: 1em;
+}
+
+
+#feature_list li{
+	list-style-type: none;
+}
+.feature_type {
+	margin-top: .5em;
+}
+
+/* Data pages */
+.data .contained h3 {
+  color: #648a9b;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  clear: both;
+}
+.woa_table, .data_table, .ship_table, .ship_code_table {
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  width: 100%;
+  padding: .25em;
+  margin-top: 1em;
+}
+.data_map {
+	text-align: center !important;
+	background-color: #fff;
+}
+.data_table th, .ship_table th {
+	background-color: #fefcf9;
+	text-align: left !important;
+}
+.data_table .description, .ship_table .description, .ship_code_table .description {
+	background-color: #f9f9f9;
+}
+.ship_table tr:hover {
+	background-color: #f9f9f9;
+}
+
+.woa_table td, .data_table td, .ship_table td, .ship_code_table td {
+  font-size: smallest;
+  padding: 2px;
+  color:#32473C;
+}
+.woa_table a, .data_table a, .ship_table a, .ship_code_table a {
+  color:#32473C;
+}
+#container {
+  background: #faf3e7;
+  color: #32473c;
+  padding: 2em 1em;
+  -moz-border-radius-topleft: 1em;
+  -webkit-border-top-left-radius: 1em;
+  border-top-left-radius: 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  margin-left: 0;
+}
+
+/* menu */
+#nav {
+  position: absolute;
+  bottom: 0;
+  right: 1em;
+}
+.menu {
+  font-size: medium;
+  list-style-type: none;
+  height: 2em;
+  -webkit-margin-after: 0;
+}  
+.menu li {
+  float: left;
+  display: inline;
+  margin-right: -.35em;
+}
+.menu li:last-child {
+  border-right: none;
+}
+.menu li a {
+  display: block;
+  height: 1.5em;
+  line-height: 1.5em;
+  padding: 0.5em 1em;
+  color: #a8a8a8;
+  text-decoration: none;
+}
+ul.menu #current_tab,
+.menu :hover,
+.menu .over {
+  background-color: #B3D8D3 ;
+  -moz-border-radius-topleft: 0.25em;
+  -moz-border-radius-topright: 0.25em;
+  -webkit-border-top-right-radius: 0.25em;
+  -webkit-border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+  border-top-left-radius: 0.25em;
+}
+ul.menu #current_tab a,
+.menu :hover a,
+.menu .over a {
+  color: #32473C;
+}
+
+
+
+/* rounded */
+.contained,
+.contained p,
+#right .section, 
+.tour.page #right li a,
+#guided_tour_content,
+.image,
+.image img
+.home.index .links,
+.home.contact .contained table,
+.joa .contained table,
+.joa .contained ul, 
+.joa .contained ol,
+.joa .downloads div.span4
+{
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+
+/* main container */
+.contained {
+  height: 100%;
+  background: #fefcf9;
+  padding: 10px;
+}
+.contained h1 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  color: #94d0ec;
+  margin-bottom:5px;
+}
+.contained h2{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom:6px;
+}
+.contained h3{
+  line-height: 1em;
+}
+
+.contained p {
+  background-color: #f2f2f2;
+	padding: 0.5em 1em;
+  margin: 0.5em 0;
+}
+.alert-block > p {
+  background-color: inherit;
+  border-radius: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* right column styles */
+#right h1 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0 0 0.2em 0;
+}
+#right h2 {
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin-top: 0.5em;
+}
+#right ul {
+  list-style: none;
+  margin-left: 0.5em;
+}
+#right .section {
+  background-color: #FEFCF9;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+#right .section p {
+  line-height: 1.3em;
+}
+
+/* Guided Tour */
+.tour.page #right li a {
+  display: block;
+  font-size: 1.1em;
+  padding: 0.5em 0.5em;
+	text-decoration: none;
+	color:#32473C;
+}
+.tour.page #right li.active a {
+  background-color: #D2D2D2;
+}
+.tour.page #right li a:hover {
+  background-color: #E2E2E2;
+}
+
+#guided_tour h1, #guided_tour h2 {
+	margin-left: 0;
+}
+#guided_tour_content {
+	background-color: #f2f2f2;
+	float:right;
+	padding: 1em;
+	padding-bottom: 0;
+}
+#guided_tour_content p{
+	margin: 0em 0 1em 0;
+	float: none;
+	width: auto;
+}
+
+#guided_tour_content ul li{
+	margin-left: 1.5em;
+
+}
+
+.oceanography_text {
+	color: #113F90 !important;
+}
+
+.gt_fig {
+	width: 95%;
+	padding: 1em;
+	margin: .5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e3e3e3;
+}
+
+.gt_image{
+	width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gt_caption{
+	font-size: smaller;
+	width: 95%;
+	margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 1em 0 0 0;
+}
+
+#guided_tour ul li{
+	list-style-image: url(images/guided_tour/gt_arrow.png);
+}
+.gt_ul_other{
+	list-style-type: disc;
+}
+.gt_ul_other li{
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+.gt_data_table{
+	border: 2px solid #000;
+	margin-bottom: 10px;
+	width: 100%;
+	border-collapse: collapse;
+}
+.gt_data_table tr{
+	border: 1px solid #000;
+}
+.gt_data_table th{
+	text-align: left;
+}
+
+.image {
+  text-align: center;
+}
+.image img {
+  border: 7px solid #f2f2f2;
+}
+.image caption {
+  color: #a8a8a8;
+  margin-top: 0.3em;
+}
+
+/* home */
+.home.index .contained p {
+  background-color: inherit;
+}
+.home.index .contained .image {
+  float: left;
+  margin-right: 1em;
+}
+.home #right .section.link a {
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  margin: -1em;
+}
+.home.index .main {
+  margin-left: 210px;
+}
+.home.index .links {
+  background-color: #f2f2f2;
+}
+.home.contact .contained table {
+  background: #F2F2F2;
+  margin: 0.5em 0;
+  width: 100%;
+}
+.home.contact .contained td {
+  padding: 0.8em;
+}
+.home.links_resources .contained ul li {
+	padding: 1em;
+	background-color: #f2f2f2;
+}
+
+
+#dpo_ad p{
+  line-height: 1.5em;
+  background-color: #F2F2F2;
+  padding: .5em;
+}
+#dpo_ad h1 {
+  font-weight: bold;
+  padding: .5em;
+  padding-left: .2em;
+}
+#dpo_ad h1 a {
+  color:#32473C;
+}
+
+.emphasize {
+  color: #FF6600; 
+  font-weight: bold;
+}
+
+/* JOA */
+.joa #right a.btn {
+  margin: 0.3em 0;
+}
+.joa .contained p {
+	padding: 1em;
+}
+.joa .contained table {
+	width: 50.45em !important;
+	padding: 1em !important;
+	background-color:#F2F2F2;
+	float: right;
+}
+.joa .contained table tr td{
+	padding: 1em !important;
+	margin-left: 3em !important;
+}
+.joa .contained ol {
+  list-style-type: decimal;
+}
+.joa .contained ul {
+  list-style-type: disc;
+}
+.joa .contained li {
+  margin-left: 1.5em;
+  margin-top: .5em;
+}
+.joa .contained ul, 
+.joa .contained ol {
+  background-color: #f2f2f2;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+.joa .contained h3 {
+  clear: right;
+}
+
+.joa .downloads .row {
+  text-align: center;
+}
+.joa .downloads p {
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+.joa .downloads div.span4 {
+  background-color: #F2F2F2;
+  height: 9em;
+  padding: 1em;
+}
+.joa .downloads div.span8 {
+  background-color: #F2F2F2;
+  height: 9em;
+  padding: 1em;
+  text-align: left;
+}
+.joa.index .downloads .alerted div.span4 {
+  height: 19em;
+}
+.joa .downloads .alert {
+  text-align: left;
+}
+.joa.features h3 {
+  font-size: 1em;
+}
+
+
+#feature_list li{
+	list-style-type: none;
+}
+.feature_type {
+	margin-top: .5em;
+}
+
+/* Data pages */
+.data .contained h3 {
+  color: #648a9b;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  clear: both;
+}
+.woa_table, .data_table, .ship_table, .ship_code_table {
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  width: 100%;
+  padding: .25em;
+  margin-top: 1em;
+}
+.data_map {
+	text-align: center !important;
+	background-color: #fff;
+}
+.data_table th, .ship_table th {
+	background-color: #fefcf9;
+	text-align: left !important;
+}
+.data_table .description, .ship_table .description, .ship_code_table .description {
+	background-color: #f9f9f9;
+}
+.ship_table tr:hover {
+	background-color: #f9f9f9;
+}
+
+.woa_table td, .data_table td, .ship_table td, .ship_code_table td {
+  font-size: smallest;
+  padding: 2px;
+  color:#32473C;
+}
+.woa_table a, .data_table a, .ship_table a, .ship_code_table a {
+  color:#32473C;
+}
+
+.data_table .space {
+	background-color: #f2f2f2;
+}
+.data_table img{
+	vertical-align: text-top !important;
+}
+.data_table ul li {
+	color: #6599AA;
+}
+.data_table ul li ul li {
+	color: #000 !important;
+	list-style: disc;
+	margin-left: 20px;
+}
+
+#data-files-supplied {
+	padding: 1em;
+	background-color: #ffffff;
+}
+#data-files-supplied h3 {
+	background-color: #696969;
+	padding-left: .25em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.data.reid h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+.data.reid ol {
+  float: none;
+  padding: 0 0 0 1em;
+}
+.data.reid table {
+  text-align: left;
+  width: 100%;
+  background: #f2f2f2;
+}
+.data.reid table h3 {
+  font-size: 1.2em;
+  display: inline;
+}
+.data.reid td {
+  padding: 0.25em;
+}
+.data.reid .index a {
+  color: #32473c;
+  white-space: nowrap;
+}
+.data.reid .subbasin img {
+  float: left;
+  margin-right: 1em;
+}
+.data.reid .subbasin table {
+  vertical-align: top;
+}
+.data.reid .subbasin h4 {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #86a61b;
+}
+.data.reid .subbasin th {
+  width: 5em;
+}
+.data.reid .Atlantic table {
+  width: 48%;
+}
+.data.reid .Pacific table {
+  width: 32%;
+}
+.data.reid table a {
+  color: #6599AA;
+}
+.data.reid .nodc {
+  width: 8em;
+}
+.data.reid .ship {
+  width: 25em;
+}
+.data .contained .nodc a {
+  color: #86A61B;
+}
+.data .contained .description td {
+  padding-bottom: 1em;
+}
+.data .contained thead {
+  background: #fff;
+}
+
+.woa table {
+  background: #f2f2f2;
+  width: 100%;
+  padding: .25em;
+  margin-top: 1em;
+}
+.woa table td {
+  padding: 0 0.2em;
+}
+.woa table a {
+  color: #32473C;
+}
+.woa table li {
+  padding-left: 1em;
+}
+.woa p {
+  background: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+  float: none;
+}
+.woa h3 {
+  margin-top: 1em;
+}
+.woa h4,
+.woa h4 a {
+  color: #86a61b;
+}
+
+.data.arctic ul {
+ width: 15em;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.data_table .space {
+	background-color: #f2f2f2;
+}
+.data_table img{
+	vertical-align: text-top !important;
+}
+.data_table ul li {
+	color: #6599AA;
+}
+.data_table ul li ul li {
+	color: #000 !important;
+	list-style: disc;
+	margin-left: 20px;
+}
+
+#data-files-supplied {
+	padding: 1em;
+	background-color: #ffffff;
+}
+#data-files-supplied h3 {
+	background-color: #696969;
+	padding-left: .25em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.data.reid h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+.data.reid ol {
+  float: none;
+  padding: 0 0 0 1em;
+}
+.data.reid table {
+  text-align: left;
+  width: 100%;
+  background: #f2f2f2;
+}
+.data.reid table h3 {
+  font-size: 1.2em;
+  display: inline;
+}
+.data.reid td {
+  padding: 0.25em;
+}
+.data.reid .index a {
+  color: #32473c;
+  white-space: nowrap;
+}
+.data.reid .subbasin img {
+  float: left;
+  margin-right: 1em;
+}
+.data.reid .subbasin table {
+  vertical-align: top;
+}
+.data.reid .subbasin h4 {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #86a61b;
+}
+.data.reid .subbasin th {
+  width: 5em;
+}
+.data.reid .Atlantic table {
+  width: 48%;
+}
+.data.reid .Pacific table {
+  width: 32%;
+}
+.data.reid table a {
+  color: #6599AA;
+}
+.data.reid .nodc {
+  width: 8em;
+}
+.data.reid .ship {
+  width: 25em;
+}
+.data .contained .nodc a {
+  color: #86A61B;
+}
+.data .contained .description td {
+  padding-bottom: 1em;
+}
+.data .contained thead {
+  background: #fff;
+}
+
+.woa table {
+  background: #f2f2f2;
+  width: 100%;
+  padding: .25em;
+  margin-top: 1em;
+}
+.woa table td {
+  padding: 0 0.2em;
+}
+.woa table a {
+  color: #32473C;
+}
+.woa table li {
+  padding-left: 1em;
+}
+.woa p {
+  background: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+  float: none;
+}
+.woa h3 {
+  margin-top: 1em;
+}
+.woa h4,
+.woa h4 a {
+  color: #86a61b;
+}
+
+.data.arctic ul {
+ width: 15em;
+}
+
+a.btn {
+  text-decoration: none;
+}
