@@ -115,9 +115,9 @@ netCDF files and the need to make a plot before browsing.</p>
           <br><br><br>
           <a class="cta-btn align-middle" href="1">Guided Tour</a>
           <br><br><br><br><br><br>
-          <a class="http://joa.ucsd.edu/static/joa/files/JOA5_UserGuide.pdf" href="#">User Guide (PDF)</a>
+          <a class="cta-btn align-middle" href="http://joa.ucsd.edu/static/joa/files/JOA5_UserGuide.pdf">User Guide (PDF)</a>
           <br><br><br><br><br><br>
-          <a class="http://joa.ucsd.edu/joa/features.html" href="#">JOA Features</a>
+          <a class="cta-btn align-middle" href="http://joa.ucsd.edu/joa/features.html">JOA Features</a>
       </div>
     </div>
   </div>
