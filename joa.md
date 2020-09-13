@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : joahomelayout
 title : JOA
 css: Data_homepage
 ---
