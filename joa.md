@@ -1,5 +1,5 @@
 ---
-layout : joahomelayout
+layout : default
 title : JOA
 css: Data_homepage
 ---
@@ -29,15 +29,13 @@ css: Data_homepage
           <li><a href="http://joa.ucsd.edu/joa/joa_download_mac.html">Mac specific installation instructions</a></li>
           <li><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Windows specific installation instructions</a></li>
         </p>
+   <h3 class="cta-title">Support Files</h3>
+          <li><a href="http://joa.ucsd.edu/joa/etopo5.html">Bathymetry Add-ins (Etopo5 and Etopo2)</a></li>
       </div>
     </div>
 </section>
-</section><!-- #call-to-action -->
+</section>
 
-
-<!--==========================
-Call To Action Section
-============================-->
 <section id="call-to-action">
     <div class="container wow fadeIn">
       <div class="row">
@@ -99,5 +97,29 @@ netCDF files and the need to make a plot before browsing.</p>
   </section>
     </section>
 
-
+<section id="call-to-action">
+    <div class="container wow fadeIn">
+      <div class="row">
+        <div class="col-lg-9 text-center text-lg-left">   
+         <h3 class="cta-title">Guides</h3>
+        <h3 class="cta-title" style="font-size:20px;">Guided Tour</h3>
+          <p class="cta-text">This tutorial provides an introduction of the basic use of Java OceanAtlas to explore oceanographic data. It is organized from the most basic features to intermediate ones.</p>
+          <br><br>
+          <h3 class="cta-title" style="font-size:20px;">JOA User Guide</h3>
+          <p class="cta-text">The User Guide is an attempt to document Java OceanAtlas features in an indexed and consistent manner, a goal which in some ways is nearly out of reach.</p>
+          <br><br>
+          <h3 class="cta-title" style="font-size:20px;">Managing JOA Features</h3>
+          <p class="cta-text">Enable built-in JOA features, such as additional plot and calculation types. Also use to temporarily disable features.</p>
+        </div>
+        <div class="col-lg-3 cta-btn-container text-center" style="display:block;">
+          <br><br><br>
+          <a class="cta-btn align-middle" href="1">Guided Tour</a>
+          <br><br><br><br><br><br>
+          <a class="http://joa.ucsd.edu/static/joa/files/JOA5_UserGuide.pdf" href="#">User Guide (PDF)</a>
+          <br><br><br><br><br><br>
+          <a class="http://joa.ucsd.edu/joa/features.html" href="#">JOA Features</a>
+      </div>
+    </div>
+  </div>
+  </section>
 
