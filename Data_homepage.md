@@ -61,7 +61,7 @@ css: Data_homepage
         </div>
         <div class="col-lg-9 text-center text-lg-left">
           <h3 class="cta-title1">World Ocean Atlas Data</h3>
-          <p class="cta-text1">We have prepared ca. 2200 vertical sections from the original NODC data files contributing to SIO Professor Joseph Reid's ‘pre-WOCE’ (pre-1990s) World Ocean data collection. From the many thousands of cruises in NODC Archives, and some newer cruises originally from colleagues, over more than two decades Joe sifted for the best available data from each region of the World Ocean (except for the Arctic). His intended purpose was to make maps of water properties, and so he cut off stations from a cruise where a better (better for his purposes) cruise overlapped it. He made corrections to many of the data for known offsets (mostly standard seawater batch offsets). Here we went into the NODC files and retrieved the entire cruise data set for each cruise Joe used, assembled the stations into sensible vertical sections, applied the same corrections Joe used, and then we culled many bad data values. The resulting 2200 sections represent the basic data knowledge of the deep ocean basins prior to the 1990s. The data sets all include temperature and salinity, nearly all have dissolved oxygen data, and most have nutrient (NO3, PO4, and/or SiO3) data.</p>
+   We have prepared ca. 2200 vertical sections from the original NODC data files contributing to SIO Professor Joseph Reid's ‘pre-WOCE’ (pre-1990s) World Ocean data collection. From the many thousands of cruises in NODC Archives, and some newer cruises originally from colleagues, over more than two decades Joe sifted for the best available data from each region of the World Ocean (except for the Arctic). His intended purpose was to make maps of water properties, and so he cut off stations from a cruise where a better (better for his purposes) cruise overlapped it. He made corrections to many of the data for known offsets (mostly standard seawater batch offsets). Here we went into the NODC files and retrieved the entire cruise data set for each cruise Joe used, assembled the stations into sensible vertical sections, applied the same corrections Joe used, and then we culled many bad data values. The resulting 2200 sections represent the basic data knowledge of the deep ocean basins prior to the 1990s. The data sets all include temperature and salinity, nearly all have dissolved oxygen data, and most have nutrient (NO3, PO4, and/or SiO3) data.
         </div>
 
       </div>
@@ -97,13 +97,11 @@ css: Data_homepage
 
         <div class="col-lg-15 content order-lg-1 order-2">
           <h2 class="title">Java OceanAtlas Data Files</h2>
-          <p>
             The data sets provided for the UCSD Java OceanAtlas site were put together by Jim Swift in order to provide students and researchers alike some of the best available 'blue water' ocean vertical profile data.
             <br><br>
             The emphasis in most of the data collection is on the discreet sample ("bottle") data. For some of the cruises and transects we also supply CTD data.
             <br><br>
             All data are available here in Java OceanAtlas binary format, and many are also available in ASCII. (Note, however, that one can use JOA to export bottle data in ASCII-spreadsheet "WHP-Exchange" format.)
-          </p>
         </div>
       </div>
 
