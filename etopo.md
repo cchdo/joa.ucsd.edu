@@ -1,0 +1,108 @@
+---
+layout : joalayout
+title : Bathymetry Add-ins
+css: joa
+---
+  <h3>To use:</h3>
+  <ul>
+    <li>Downloaded files should be installed in the JOA_Support folder found in your JOA installation folder.</li>
+    <li>You will see the files you downloaded in the "Bathymetry" panel of the map plot dialog box. You can use any of the "ROSE" colorbars to color the bathymetry.</li>
+    <li>You can use more than one etopo file for any map plot by command-clicking.</li>
+  </ul>
+
+  <h3>Etopo-5</h3>
+  <ul>
+    <li><a href="/static/etopo5/etopo5_world_set.zip" class="joa_link">All 7 regions</a> (13.7 MB)</li>
+    <li><a href="/static/etopo5/etopo5_arc.zip " class="joa_link">Arctic</a> (727 KB)</li>
+    <li><a href="/static/etopo5/etopo5_ant.zip " class="joa_link">Antarctic</a> (1 MB)</li>
+    <li><a href="/static/etopo5/etopo5_natl.zip" class="joa_link">North Atlantic</a> (2 MB)</li>
+    <li><a href="/static/etopo5/etopo5_natl.zip" class="joa_link">South Atlantic</a> (1.7 MB)</li>
+    <li><a href="/static/etopo5/etopo5_ind.zip " class="joa_link">Indian</a> (2.2 MB)</li>
+    <li><a href="/static/etopo5/etopo5_npac.zip" class="joa_link">North Pacific</a> (3.2 MB)</li>
+    <li><a href="/static/etopo5/etopo5_spac.zip" class="joa_link">South Pacific</a> (9.2 MB)</li>
+  </ul>
+
+  <h3>Etopo-2</h3>
+  <p><b>For small areas only</b></p>
+  <!--
+    <p>
+    Smith and Sandwell is a high resolution bathymetry resource that is
+    compatible with Java OceanAtlas 3.0. Due to the size of this data set
+    (around 270MB), we advise you to only use small subsets.
+    </p>
+    <ul>
+    <li style="margin-top:-10px;">
+    Go to the National Geophysical Data Center website at:
+    <a href="http://www.ngdc.noaa.gov/mgg/global/etopo2.html" class="joa_link">http://www.ngdc.noaa.gov/mgg/global/etopo2.html</a><br />
+    </li>
+    <li>Select Product: netCDF</li>
+    <li>Select an appropriate region</li>
+    <li>Change the name to be compatable with JOA. The name you choose must contain the text "ETOPO2" and end with the .nc extension. Example: ETOPO2_Kodiak.nc, etopo2_Bering_Sea.nc</li>
+    </ul>
+  -->
+
+  <!-- <h3>Using the Smith and Sandwell 2-Minute Bathymetry Data with JOA</h3> -->
+
+  <p>
+  The Smith and Sandwell global bathymetry data set can be used to make a
+  high-resolution bathymetry resource that is compatible with Java OceanAtlas.
+  Due to the size of this data set (around 270MB), we advise you to only use
+  small subsets. To use the Smith and Sandwell 2 minute bathymetry data with JOA
+  follow these steps:
+  </p>
+
+  <ol>
+    <li>
+      Go to the National Virtual Ocean Data web site at: 
+      <a href=" https://ferret.pmel.noaa.gov/nvods/las/UI.vm" class="joa_link">https://ferret.pmel.noaa.gov/nvods/las/UI.vm</a>
+      <br>
+      <img alt="Etopo-1" src="assets/images/etopo1.png">
+    </li>
+    <li>
+     Click the “Data Set” button and then the "by Dataset Name” link. Navigate to the Smith and Sandwell and click button next to "Topography and Bathymetry (8123m
+      → 10799m)". The web page should display a new world map:
+      <br>
+      <img alt="Etopo-2" src="assets/images/etopo2.png">
+    </li>
+    <li>
+      Use the Region selection tool to select a predefined area or draw a
+      selection rectangle on the world map:
+      <br>
+      <img alt="Etopo-3" src="assets/images/etopo3.png">
+    </li>
+    <li>
+      The map will zoom to the selected region:<br>
+      <img alt="Etopo-4" src="assets/images/etopo4.png">
+    </li>
+    <li>
+      Click the Save As… button to download a netCDF file to your machine.
+      <br>
+      <img alt="Etopo-5" src="assets/images/etopo5.png">
+    </li>
+    <li>Click OK</li>
+    <li>
+      Your file will be downloaded to the default download directory on your PC
+      or Mac
+    </li>
+    <li>
+      Change the name to be compatible with JOA—the file I got back from LAS was
+      called <em>5563CDE002C5CA2695995E278DC0A9AC_ferret_listing.nc</em>. The
+      name you choose must contain the text ”ETOPO2” and end with the .nc
+      extension.
+    </li>
+    <li>
+      Example:
+      <em>ETOPO2_North_Pacific.nc</em>, <em>etopo2_Bering_Sea.nc</em></li>
+    <li>
+      Downloaded files should be installed in the JOA Support folder found in
+      your JOA installation folder
+    </li>
+    <li>
+      You will see the files you downloaded in the Bathymetry panel of the map
+      dialog. You can use any of the "ROSE (Relief Of Surface of Earth)"
+      colorbars to color the bathymetry:<br>
+      <img alt="Etopo-6" src="assets/images/etopo6.png">
+    </li>
+  </ol>
+	<br><br>
+	West-to-east and south-to-north are preferred for left-to-right section orientations by the author (Swift) and many of his colleagues at the UCSD Scripps Institution of Oceanography. Many of the Java OceanAtlas data files are organized to reflect this preference.</span>
