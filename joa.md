@@ -30,7 +30,7 @@ css: Data_homepage
           <li><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Windows specific installation instructions</a></li>
         </p>
    <h3 class="cta-title">Support Files</h3>
-          <li><a href="http://joa.ucsd.edu/joa/etopo5.html">Bathymetry Add-ins (Etopo5 and Etopo2)</a></li>
+          <li><a href="etopo">Bathymetry Add-ins (Etopo5 and Etopo2)</a></li>
       </div>
     </div>
 </section>
