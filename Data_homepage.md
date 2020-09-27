@@ -7,7 +7,7 @@ css: Data_homepage
 <section id="hero">
   <div class="hero-container">
     <h1>Java OceanAtlas Data</h1>
-    <h2>Explore the best cleaned, vetted World Ocean Bottle and CTD Profile Data</h2>
+    <h2>Explore cleaned, vetted World Ocean Bottle and CTD Profile Data</h2>
       <div style="display: inline-block;">
     <a href="#call-to-action" class="btn-get-started">Best Vertical Section Data</a>
      &nbsp;&nbsp;&nbsp;&nbsp;
