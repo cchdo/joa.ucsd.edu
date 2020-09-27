@@ -2,7 +2,7 @@
 layout : default
 css: main
 title : Welcome to the Java OceanAtlas Suite
-description : Explore the best cleaned, vetted World Ocean Bottle and CTD Profile Data
+description : Explore cleaned, vetted World Ocean Bottle and CTD Profile Data
 section_1:
   title: About the Java OceanAtlas Suite
 section_2_title : About Java OceanAtlas
