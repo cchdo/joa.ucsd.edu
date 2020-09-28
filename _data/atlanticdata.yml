@@ -62,27 +62,82 @@ section:
   - title: A01W/AR07W
     years:
       - year: 1990
-        file: File
+        file: AR07W_1990_bot_clean_hy1.csv
+      - year: 1990
+        file: AR07W_1990_bot_clean.joa
+      - year: 1990
+        file: AR07W_1990_ctd_clean.joa  
+      - year: 1990
+        file: AR07W_1990_ctd_clean_ct1.zip  
+        
       - year: 1991
         file: File
+        
       - year: 1992
-        file: File
+        file: AR07W_1992_bot_clean_hy1.csv
+      - year: 1992
+        file: AR07W_1992_bot_clean.joa        
+      - year: 1992
+        file: AR07W_1992_ctd_clean.joa
+      - year: 1992
+        file: AR07W_1993_ctd_clean_ct1.zip  
+        
       - year: 1993
-        file: File
+        file: AR07W_1993_bot_clean_hy1.csv
+      - year: 1993
+        file: AR07W_1993_bot_clean.joa        
+      - year: 1993
+        file: AR07W_1993_ctd_clean.joa
+      - year: 1993
+        file: AR07W_1993_ctd_clean_ct1.zip
+        
       - year: 1994
-        file: File
+        file: AR07W_1994_bot_clean_hy1.csv
+      - year: 1994
+        file: AR07W_1994_bot_clean.joa        
+      - year: 1994
+        file: AR07W_1994_ctd_clean.joa
+      - year: 1994
+        file: AR07W_1994_ctd_clean_ct1.zip
+        
       - year: 1995
-        file: File
+        file: A01W_1995_oldclean_bottle_hy1.csv
+      - year: 1995
+        file: A01W_1995_oldclean_bottle.joa 
+        
       - year: 1996_a
-        file: File
+        file: AR07W_1996a_bot_clean_hy1.csv
+      - year: 1996_a
+        file: AR07W_1996a_bot_clean.joa        
+      - year: 1996_a
+        file: AR07W_1996a_ctd_clean.joa
+      - year: 1996_a
+        file: AR07W_1996_ct1.zip
+        
       - year: 1996_b
         file: File
+        
       - year: 1997_a
-        file: File
+        file: AR07W_1997a_bot_clean_hy1.csv
+      - year: 1997_a
+        file: AR07W_1997a_bot_clean.joa  
+      - year: 1997_a
+        file: AR07W_1997a_ctd_clean2_ct1.zip
+
       - year: 1997_b
-        file: File
+        file: AR07W_1997b_bot_clean_hy1.csv
+      - year: 1997_b
+        file: AR07W_1997b_bot_clean.joa  
+
       - year: 1998
-        file: File
+        file: AR07W_1998_bot_clean2_hy1.csv
+      - year: 1998
+        file: AR07W_1998_bot_clean.joa        
+      - year: 1998
+        file: AR07W_1998_ctd_clean.joa
+      - year: 1998
+        file: AR07W_1998_ctd_clean_ct1.zip
+        
       - year: 1999_a
         file: File
       - year: 1999_b
