@@ -10,7 +10,7 @@ css: Data_homepage
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
         <br><br><br><br>
         <h3 class="cta-title">About Dr. James Swift</h3>
-        <p class="cta-text">Dr. James Swift is a Research Oceanographer Emeritus at the UCSD Scripps Institution of Oceanography. His research interests include Arctic physical oceanography, ocean measurement and interpretation, and World Ocean water masses and circulation. He helps coordinate academic field activities for.US GO-SHIP and is past director of the CLIVAR and Carbon Hydrographic Data Office (CCHDO).With John "Oz" Osborne he created this suite of ocean data exploration tools and data for teaching and research.</p>
+        <p class="cta-text">Dr. James Swift is a Research Oceanographer Emeritus at the UCSD Scripps Institution of Oceanography. His research interests include Arctic physical oceanography, ocean measurement and interpretation, and World Ocean water masses and circulation. He helps coordinate academic field activities for US GO-SHIP and is past director of the CLIVAR and Carbon Hydrographic Data Office (CCHDO). With John "Oz" Osborne he created this suite of ocean data exploration tools and data for teaching and research.</p>
       </div>
       </div>
   </div>
