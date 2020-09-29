@@ -6,7 +6,7 @@ ocean: Other
 
 <section id="hero">
   <div class="hero-container">
-      <h1>Explore {{page.ocean}} Ocean Data</h1>
+      <h1>Explore {{page.ocean}} Best Section Data</h1>
       <h2>Navigate your desired data below</h2>
       <center><img src="assets/images/othervertical.jpg" alt="" class="responsive"></center>
   </div>
@@ -16,9 +16,9 @@ ocean: Other
 <section id="call-to-action3">
     <div class="container wow fadeIn">
         <div class="col-lg-9 text-center text-lg-left"  style="flex:0 0 100%;max-width:100%">
-          <h3 class="cta-title1" style="text-align:center">About {{page.ocean}} Ocean Data</h3>
+          <h3 class="cta-title1" style="text-align:center">About {{page.ocean}} Best Section Data</h3>
           <br>
-          <p class="cta-text1" style="text-align:center">Vertical section data from Arctic Ocean and Nordic Seas expeditions from J. Swift's files. The data values for measured parameters are unchanged (with one exception), but the files have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p>
+          <p class="cta-text1" style="text-align:center">Global-scale vertical sections assembled by J. Swift from the Best Vertical Sections, intended to illuminate the largest-scale spatial structure of seawater characteristics. The data have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p>
         </div>
       </div>
 </section>
