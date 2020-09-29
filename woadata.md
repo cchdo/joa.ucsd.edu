@@ -4,7 +4,13 @@ title : World Ocean Atlas Datapage
 ocean: World Ocean Atlas
 ---
 
-
+<section id="hero">
+  <div class="hero-container">
+      <h1>Explore {{page.ocean}} Ocean Data</h1>
+      <h2>Navigate your desired data below</h2>
+      <center><img src="assets/images/cleandatamap.jpg" alt="" class="responsive"></center>
+  </div>
+</section><!-- #hero -->
 
 <section id="call-to-action1">
 <section id="call-to-action3">
