@@ -20,6 +20,7 @@ css: joa
     <li><a href="/static/etopo5/etopo5_ind.zip " class="joa_link">Indian</a> (2.2 MB)</li>
     <li><a href="/static/etopo5/etopo5_npac.zip" class="joa_link">North Pacific</a> (3.2 MB)</li>
     <li><a href="/static/etopo5/etopo5_spac.zip" class="joa_link">South Pacific</a> (9.2 MB)</li>
+    <li><a href="/static/etopo5/etopo5_spac.zip" class="joa_link">North Indian</a> (9.2 MB)</li>
   </ul>
 
   <h3>Etopo-2</h3>
@@ -53,7 +54,7 @@ css: joa
 
   <ol>
     <li>
-      Go to the National Virtual Ocean Data web site at: 
+      Go to the National Virtual Ocean Data web site at:
       <a href=" https://ferret.pmel.noaa.gov/nvods/las/UI.vm" class="joa_link">https://ferret.pmel.noaa.gov/nvods/las/UI.vm</a>
       <br>
       <img alt="Etopo-1" src="assets/images/etopo1.png">
