@@ -55,6 +55,7 @@ css: Data_homepage
           <p class="cta-text">Tested for Windows 10. It has not been tested under Windows 8.1 or earlier versions of Windows. This version of JOA contains an embedded Java environment and does not require a separate Java download</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
+<<<<<<< HEAD
         <h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3>
         <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(121 MB)</p>
@@ -64,6 +65,13 @@ css: Data_homepage
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
         <br>
         <h3 class="cta-title" style="font-size:20px;">Windows</h3>
+=======
+          <h3 class="cta-title" style="font-size:20px;">macOS</h3>
+          <a class="cta-btn align-middle" href="#">Get JOA 5.5</a>
+          <p class="cta-text" style="text-align:center;">(71 MB)</p>
+          <br>
+            <h3 class="cta-title" style="font-size:20px;">Windows</h3>
+>>>>>>> 02dee2b91e5a2c89c42321385ef8e8799fe278ea
           <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
           <p class="cta-text" style="text-align:center;">(59 MB)</p>
       </div>
@@ -128,3 +136,4 @@ netCDF files and the need to make a plot before browsing.</p>
     </div>
   </div>
   </section>
+
