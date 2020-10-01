@@ -9,7 +9,7 @@ ocean: World Ocean Atlas
   <br>
       <h1>Explore {{page.ocean}} Ocean Data</h1>
       <h2>Navigate your desired data below</h2>
-      <center><img src="assets/images/cleandatamap.jpg" alt="" class="responsive"></center>
+      <center><img src="assets/images/woamap.jpg" alt="" class="responsive"></center>
   </div>
 </section><!-- #hero -->
 
