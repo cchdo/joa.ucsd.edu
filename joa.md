@@ -16,7 +16,7 @@ css: Data_homepage
     </div>
 
   </div>
-</section>
+</section>a
 </section><!-- #call-to-action -->
 
 <section id="call-to-action1">
@@ -42,29 +42,34 @@ css: Data_homepage
       <div class="row">
         <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
           <h3 class="cta-title">Download Current Versions</h3>
-          <h3 class="cta-title">JOA 5.5 macOS 10.14 or earlier</h3>
+          <h3 class="cta-title">JOA 5.5 for Windows, macOS 10.15 or earlier</h3>
           <p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via  'About Java OceanAtlas' under the Java OceanAtlas menu.</p>
           <br>
         </div>
           <div class="col-lg-9 text-center text-lg-left">   
+          <br><br><br>
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
           <p class="cta-text">Tested on macOS High Sierra (10.13) and Mojave (10.14). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download.</p>
-          <br><br>
+          <br><br><br><br><br>
           <h3 class="cta-title" style="font-size:20px;">Windows</h3>
           <p class="cta-text">Tested for Windows 10. It has not been tested under Windows 8.1 or earlier versions of Windows. This version of JOA contains an embedded Java environment and does not require a separate Java download</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
-          <h3 class="cta-title" style="font-size:20px;">macOS</h3>
-          <a class="cta-btn align-middle" href="#">Get JOA 5.5</a>
-          <p class="cta-text" style="text-align:center;">(71 MB)</p>
-          <br>
-            <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-          <a class="cta-btn align-middle" download="http://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
-          <p class="cta-text" style="text-align:center;">(74 MB)</p>
+        <h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get JOA 5.5</a>
+        <p class="cta-text" style="text-align:center;">(121 MB)</p>
+        <br>
+        <h3 class="cta-title" style="font-size:20px;">macOS 10.12-10.14</h3>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get JOA 5.5</a>
+        <p class="cta-text" style="text-align:center;">(111 MB)</p>
+        <br>
+        <h3 class="cta-title" style="font-size:20px;">Windows</h3>
+          <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
+          <p class="cta-text" style="text-align:center;">(59 MB)</p>
       </div>
     </div>
     </div>
-  </section><!-- #call-to-action -->
+</section><!-- #call-to-action -->
 
   <section id="call-to-action1">
 <section id="call-to-action3">
@@ -85,11 +90,11 @@ netCDF files and the need to make a plot before browsing.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center" style="display:block;">
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
-          <a class="cta-btn align-middle" download="http://cchdo.ucsd.edu/data/12001/JOA5.3.zip">Get JOA 5.3</a>
+          <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/12001/JOA5.3.zip">Get JOA 5.3</a>
           <p class="cta-text" style="text-align:center;">(71 MB)</p>
           <br>
             <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-          <a class="cta-btn align-middle" download="http://cchdo.ucsd.edu/data/12002/JOA%205.3%20Setup.msi">Get JOA 5.3</a>
+          <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/12002/JOA%205.3%20Setup.msi">Get JOA 5.3</a>
           <p class="cta-text" style="text-align:center;">(74 MB)</p>
       </div>
     </div>
