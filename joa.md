@@ -59,7 +59,7 @@ css: Data_homepage
           <p class="cta-text" style="text-align:center;">(71 MB)</p>
           <br>
             <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-          <a class="cta-btn align-middle" href="http://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
+          <a class="cta-btn align-middle" download="http://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
           <p class="cta-text" style="text-align:center;">(74 MB)</p>
       </div>
     </div>
@@ -85,11 +85,11 @@ netCDF files and the need to make a plot before browsing.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center" style="display:block;">
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
-          <a class="cta-btn align-middle" href="http://cchdo.ucsd.edu/data/12001/JOA5.3.zip">Get JOA 5.3</a>
+          <a class="cta-btn align-middle" download="http://cchdo.ucsd.edu/data/12001/JOA5.3.zip">Get JOA 5.3</a>
           <p class="cta-text" style="text-align:center;">(71 MB)</p>
           <br>
             <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-          <a class="cta-btn align-middle" href="http://cchdo.ucsd.edu/data/12002/JOA%205.3%20Setup.msi">Get JOA 5.3</a>
+          <a class="cta-btn align-middle" download="http://cchdo.ucsd.edu/data/12002/JOA%205.3%20Setup.msi">Get JOA 5.3</a>
           <p class="cta-text" style="text-align:center;">(74 MB)</p>
       </div>
     </div>
