@@ -28,7 +28,7 @@ css: Data_homepage
           <li><a href="http://joa.ucsd.edu/joa/joa_download_instructions.html">General installation instructions</a></li>
           <li><a href="http://joa.ucsd.edu/joa/joa_download_mac.html">Mac specific installation instructions</a></li>
           <li><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Windows specific installation instructions</a></li>
-          <li><a href="http://joa.ucsd.edu/joa/joa_download_windows.html">Installation instructions for JOA 5.5 on Linux and running JOA 5.5 from terminal in macOS Catalina</a></li>
+          <li><a href="assets/documents/JOA5_linux_terminal.pdf">Installation instructions for JOA 5.5 on Linux and running JOA 5.5 from terminal in macOS Catalina</a></li>
         </p>
    <h3 class="cta-title">Support Files</h3>
           <li><a href="etopo">Bathymetry Add-ins (Etopo5 and Etopo2)</a></li>
@@ -46,13 +46,13 @@ css: Data_homepage
         <p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via  'About Java OceanAtlas' under the Java OceanAtlas menu.</p>
           <br>
         </div>
-          <div class="col-lg-9 text-center text-lg-left"> 
+          <div class="col-lg-9 text-center text-lg-left">
           <br><br><br>
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
           <p class="cta-text">Tested on macOS High Sierra (10.13) and Mojave (10.14). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download.</p>
           <br><br><br><br><br>
           <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-          <p class="cta-text">Tested for Windows 10. It has not been tested under Windows 8.1 or earlier versions of Windows. This version of JOA contains an embedded Java environment and does not require a separate Java download</p>
+          <p class="cta-text">JOA 5.5 was tested on Windows 10 (1903). The installer .msi file should run on basically every recent-ish Windows OS, both 32 and 64-bit versions: Vista, Server, 7, 8, 8.1, and 10. Java 8 (the embedded JRE) is compatible with all of those except Vista and some old versions of Server.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
         <h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3>
@@ -121,9 +121,9 @@ netCDF files and the need to make a plot before browsing.</p>
           <br><br><br>
           <a class="cta-btn align-middle" href="1">Guided Tour</a>
           <br><br><br><br><br><br>
-          <a class="cta-btn align-middle" href="http://joa.ucsd.edu/static/joa/files/JOA5_UserGuide.pdf">User Guide (PDF)</a>
+          <a class="cta-btn align-middle" href="">User Guide (PDF)</a>
           <br><br><br><br><br><br>
-          <a class="cta-btn align-middle" href="http://joa.ucsd.edu/joa/features.html">JOA Features</a>
+          <a class="cta-btn align-middle" href="assets/documents/JOA5_userguide.pdf">JOA Features</a>
       </div>
     </div>
   </div>
