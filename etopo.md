@@ -4,7 +4,7 @@ title : Bathymetry Add-ins
 css: joa
 ---
 <div id="container" class="joa etopo5  row-fluid" style="max-width:125vh;text-align:left;">
-<div id="main_content" class="contained span8">
+<div id="main_content" class="contained span8" style="min-width:122vh">
 <div id="top"></div>
 	<h1>Java OceanAtlas Application</h1>
   <div class="joa_installation">

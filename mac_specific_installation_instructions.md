@@ -1,6 +1,6 @@
 ---
 layout : joadoclayout
-title : Windows Installation Instructions
+title : Mac Installation Instructions
 css: joa
 ---
 

@@ -4,10 +4,10 @@ title : Download and installation instructions
 css: joa
 ---
 <div id="container" class="tour page  row-fluid" style="max-width:125vh;text-align:left;">
-<div id="main_content" class="contained span8">
+<div id="main_content" class="contained span8" style="min-width:122vh">
 <div id="top"></div>
 	<h1>Java OceanAtlas Application</h1>
-	<h2>{{page.title}}</h2>
+	<h2>{{page.title}}</h2>a
 
 <p>
   Java OceanAtlas (JOA) is a computer application written in Java.  JOA and its
