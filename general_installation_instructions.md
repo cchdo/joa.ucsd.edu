@@ -25,7 +25,7 @@ computer with these contents:</p>
 <p>Windows</p>
 <div class="image">
   <img alt="List of folders: bathymetry, coastlines, Example Data Files, Java OceanAtlas 5.0, JOA_Support, lexicon.txt, ndeditsettings.txt, temp"
-       src="assets/images/general_install_2.jpg"">
+       src="assets/images/general_install_2.jpg">
 </div>
 
 <p>

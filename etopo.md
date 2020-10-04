@@ -1,5 +1,5 @@
 ---
-layout : joalayout
+layout : joadoclayout
 title : Bathymetry Add-ins
 css: joa
 ---
@@ -12,7 +12,7 @@ css: joa
 
   <h3>Etopo-5</h3>
   <ul>
-    <li><a href="/static/etopo5/etopo5_world_set.zip" class="joa_link">All 7 regions</a> (13.7 MB)</li>
+    <li><a href="/static/etopo5/etopo5_world_set.zip" class="joa_link">All 8 regions</a> (13.7 MB)</li>
     <li><a href="/static/etopo5/etopo5_arc.zip " class="joa_link">Arctic</a> (727 KB)</li>
     <li><a href="/static/etopo5/etopo5_ant.zip " class="joa_link">Antarctic</a> (1 MB)</li>
     <li><a href="/static/etopo5/etopo5_natl.zip" class="joa_link">North Atlantic</a> (2 MB)</li>
@@ -20,7 +20,7 @@ css: joa
     <li><a href="/static/etopo5/etopo5_ind.zip " class="joa_link">Indian</a> (2.2 MB)</li>
     <li><a href="/static/etopo5/etopo5_npac.zip" class="joa_link">North Pacific</a> (3.2 MB)</li>
     <li><a href="/static/etopo5/etopo5_spac.zip" class="joa_link">South Pacific</a> (9.2 MB)</li>
-    <li><a href="/static/etopo5/etopo5_spac.zip" class="joa_link">North Indian</a> (9.2 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16112/etopo5_nind.nc" class="joa_link">North Indian</a> (9.2 MB)</li>
   </ul>
 
   <h3>Etopo-2</h3>
@@ -106,4 +106,5 @@ css: joa
     </li>
   </ol>
 	<br><br>
-	West-to-east and south-to-north are preferred for left-to-right section orientations by the author (Swift) and many of his colleagues at the UCSD Scripps Institution of Oceanography. Many of the Java OceanAtlas data files are organized to reflect this preference.</span>
+  <p>
+	West-to-east and south-to-north are preferred for left-to-right section orientations by the author (Swift) and many of his colleagues at the UCSD Scripps Institution of Oceanography. Many of the Java OceanAtlas data files are organized to reflect this preference.</p>

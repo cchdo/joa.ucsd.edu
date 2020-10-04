@@ -18,7 +18,7 @@ css: joa
 <img alt="Windows-4" src="assets/images/windows4.jpg"></p>
 
 <p>Click Finish at the end of the installation process:<br>
-<img alt="Windows-5" src="assets/images/windows5.jpg></p>
+<img alt="Windows-5" src="assets/images/windows5.jpg"></p>
 
 <h3>Windows System Requirements</h3>
 <p>
