@@ -1,52 +1,8 @@
 ---
+layout : joadoclayout
+title : Download and installation instructions
 css: joa
 ---
-
-
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-
-{% include joa_head.html %}
-<style>
-body {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  position: relative;
-  background-color: lightblue;
-	}
-.cta-btn {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  border: 2px solid #000000;
-  color: #000000;
-}
-
-.cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
-
-
-</style>
-  <body>
-{% include joaheader.html %}
-<br><br><br><br><br>
-<center>
-<div id="container" class="tour page  row-fluid" style="max-width:125vh;text-align:left;">
-<div id="main_content" class="contained span8">
-<div id="top"></div>        
-<div id="guided_tour" style="font-family:verdana;">
-	<h1>Java OceanAtlas Application</h1>
-	<h2>Download and installation instructions</h2>
-	<div id="guided_tour_content">
 
 <p>
   Java OceanAtlas (JOA) is a computer application written in Java.  JOA and its
@@ -90,15 +46,3 @@ computer with these contents:</p>
   extracted from ETOPO-5 with bathymetry and elevations at 5-minute spatial
   resolution.
 </p>
-
-</div>
-</div>
-    </div>      
-  </div>
-</center>
-<br><br>
-
-{% include footer.html %}
-
-</body>
-</html>

@@ -25,9 +25,9 @@ css: Data_homepage
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
         <h3 class="cta-title">Install</h3>
         <p class="cta-text">
-          <li><a href="general_installation_instructions.md">General installation instructions</a></li>
+          <li><a href="general_installation_instructions">General installation instructions</a></li>
           <li><a href="http://joa.ucsd.edu/joa/joa_download_mac.html">Mac specific installation instructions</a></li>
-          <li><a href="windows_specific_installation_instructions.html">Windows specific installation instructions</a></li>
+          <li><a href="windows_specific_installation_instructions">Windows specific installation instructions</a></li>
           <li><a href="assets/documents/JOA5_linux_terminal.pdf">Installation instructions for JOA 5.5 on Linux and running JOA 5.5 from terminal in macOS Catalina</a></li>
         </p>
    <h3 class="cta-title">Support Files</h3>
@@ -123,7 +123,7 @@ netCDF files and the need to make a plot before browsing.</p>
           <br><br><br><br><br><br>
           <a class="cta-btn align-middle" href="assets/documents/JOA5_userguide.pdf">User Guide (PDF)</a>
           <br><br><br><br><br><br>
-          <a class="cta-btn align-middle" href="joa_features.md">JOA Features</a>
+          <a class="cta-btn align-middle" href="joa_features">JOA Features</a>
       </div>
     </div>
   </div>

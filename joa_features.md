@@ -1,5 +1,5 @@
 ---
-layout : joalayout
+layout : joadoclayout
 title : Managing Java OceanAtlas Features
 css: joa
 ---
