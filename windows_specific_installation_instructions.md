@@ -18,7 +18,7 @@ css: joa
 <img alt="Windows-2" src="assets/images/windows2.jpg"></p>
 
 <p>Select an installation folder if different than the default:<br>
-<img alt="Windows-3" src="assets/images/windows3.jpg></p>
+<img alt="Windows-3" src="assets/images/windows3.jpg"></p>
 
 <p>Click Install to install JOA onto your PC:  <br>
 <img alt="Windows-4" src="assets/images/windows4.jpg"></p>

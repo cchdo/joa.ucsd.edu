@@ -7,18 +7,18 @@ css: joa
 <div id="main_content" class="contained span8">
 <div id="top"></div>
 	<h1>Java OceanAtlas Application</h1>
-  <div class="joa_installation">f
+  <div class="joa_installation">
 	<h2>{{page.title}}</h2>
 
 
-  <h3>To use:</h3>
+  <h2>To use:</h2>
   <ul>
     <li>Downloaded files should be installed in the JOA_Support folder found in your JOA installation folder.</li>
     <li>You will see the files you downloaded in the "Bathymetry" panel of the map plot dialog box. You can use any of the "ROSE" colorbars to color the bathymetry.</li>
     <li>You can use more than one etopo file for any map plot by command-clicking.</li>
   </ul>
 
-  <h3>Etopo-5</h3>
+  <h2>Etopo-5</h2>
   <ul>
     <li><a href="/static/etopo5/etopo5_world_set.zip" class="joa_link">All 8 regions</a> (13.7 MB)</li>
     <li><a href="/static/etopo5/etopo5_arc.zip " class="joa_link">Arctic</a> (727 KB)</li>
@@ -31,7 +31,7 @@ css: joa
     <li><a href="https://cchdo.ucsd.edu/data/16112/etopo5_nind.nc" class="joa_link">North Indian</a> (9.2 MB)</li>
   </ul>
 
-  <h3>Etopo-2</h3>
+  <h2>Etopo-2</h2>
   <p><b>For small areas only</b></p>
   <p>
   The Smith and Sandwell global bathymetry data set can be used to make a

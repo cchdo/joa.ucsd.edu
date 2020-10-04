@@ -3,7 +3,7 @@ layout : joadoclayout
 title : Download and installation instructions
 css: joa
 ---
-<div id="container" class="joa joa_download_instructions  row-fluid" style="max-width:125vh;text-align:left;">
+<div id="container" class="tour page  row-fluid" style="max-width:125vh;text-align:left;">
 <div id="main_content" class="contained span8">
 <div id="top"></div>
 	<h1>Java OceanAtlas Application</h1>
@@ -39,7 +39,7 @@ computer with these contents:</p>
   co-located in the same folder/directory on your computer.
 </p>
 
-<h3 id="support_files">Support Files</h3>
+<h2 id="support_files">Support Files</h2>
 <h4>Bathymetry Add-ins</h4>
 <p>
   If you would like to add higher-resolution ETOPO files, download any or all
