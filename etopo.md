@@ -3,6 +3,14 @@ layout : joadoclayout
 title : Bathymetry Add-ins
 css: joa
 ---
+<div id="container" class="joa etopo5  row-fluid" style="max-width:125vh;text-align:left;">
+<div id="main_content" class="contained span8">
+<div id="top"></div>
+	<h1>Java OceanAtlas Application</h1>
+  <div class="joa_installation">f
+	<h2>{{page.title}}</h2>
+
+
   <h3>To use:</h3>
   <ul>
     <li>Downloaded files should be installed in the JOA_Support folder found in your JOA installation folder.</li>
@@ -25,25 +33,6 @@ css: joa
 
   <h3>Etopo-2</h3>
   <p><b>For small areas only</b></p>
-  <!--
-    <p>
-    Smith and Sandwell is a high resolution bathymetry resource that is
-    compatible with Java OceanAtlas 3.0. Due to the size of this data set
-    (around 270MB), we advise you to only use small subsets.
-    </p>
-    <ul>
-    <li style="margin-top:-10px;">
-    Go to the National Geophysical Data Center website at:
-    <a href="http://www.ngdc.noaa.gov/mgg/global/etopo2.html" class="joa_link">http://www.ngdc.noaa.gov/mgg/global/etopo2.html</a><br />
-    </li>
-    <li>Select Product: netCDF</li>
-    <li>Select an appropriate region</li>
-    <li>Change the name to be compatable with JOA. The name you choose must contain the text "ETOPO2" and end with the .nc extension. Example: ETOPO2_Kodiak.nc, etopo2_Bering_Sea.nc</li>
-    </ul>
-  -->
-
-  <!-- <h3>Using the Smith and Sandwell 2-Minute Bathymetry Data with JOA</h3> -->
-
   <p>
   The Smith and Sandwell global bathymetry data set can be used to make a
   high-resolution bathymetry resource that is compatible with Java OceanAtlas.
@@ -105,6 +94,6 @@ css: joa
       <img alt="Etopo-6" src="assets/images/etopo6.png">
     </li>
   </ol>
-	<br><br>
   <p>
 	West-to-east and south-to-north are preferred for left-to-right section orientations by the author (Swift) and many of his colleagues at the UCSD Scripps Institution of Oceanography. Many of the Java OceanAtlas data files are organized to reflect this preference.</p>
+  </div>

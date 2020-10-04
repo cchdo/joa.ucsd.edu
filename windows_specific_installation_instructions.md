@@ -4,6 +4,12 @@ title : Windows Installation Instructions
 css: joa
 ---
 
+<div id="container" class="joa joa_download_windows  row-fluid" style="max-width:125vh;text-align:left;">
+<div id="main_content" class="contained span8">
+<div id="top"></div>
+	<h1>Java OceanAtlas Application</h1>
+	<h2>{{page.title}}</h2>
+
 <h2>Installation</h2>
 <p>After downloading, just double-click installer icon to begin installation process:<br>
 <img alt="Windows-1" src="assets/images/windows1.jpg"></p>

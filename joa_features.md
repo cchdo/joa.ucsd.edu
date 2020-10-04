@@ -3,6 +3,11 @@ layout : joadoclayout
 title : Managing Java OceanAtlas Features
 css: joa
 ---
+<div id="container" class="joa features  row-fluid" style="max-width:125vh;text-align:left;">
+<div id="main_content" class="contained span8">
+<div id="top"></div>
+	<h1>Java OceanAtlas Application</h1>
+	<h2>{{page.title}}</h2>
 
 <p>The JOA application was written originally to be the application centerpiece of an electronic
 atlas of ocean profile data. The application has evolved and grown as users suggested new
@@ -87,7 +92,7 @@ choices in the JOA Feature Manager will change.</p>
     <li>Allow Map Plots</li>
     <li>Allow Contour Plots</li>
     <li>Allow Station Calculation XY Plots</li>
-    <li>Allow Property-Property Plotsv
+    <li>Allow Property-Property Plots</li>
   </ul>
 
   <h3 class="feature_type">Station Calculations</h3>
