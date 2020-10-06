@@ -16,7 +16,7 @@ css: Data_homepage
     </div>
 
   </div>
-</section>a
+</section>
 </section><!-- #call-to-action -->
 
 <section id="call-to-action1">
@@ -73,8 +73,8 @@ css: Data_homepage
   </section>
   </section>
 
-    <section id="joa_5.3">
-  <section id="call-to-action1">
+<section id="joa_5.3">
+<section id="call-to-action1">
 <section id="call-to-action3">
     <div class="container wow fadeIn">
       <div class="row">
@@ -102,9 +102,9 @@ netCDF files and the need to make a plot before browsing.</p>
       </div>
     </div>
   </div>
-  </section>
-    </section>
-      </section>
+</section>
+</section>
+</section>
 
 
 <section id="call-to-action">
