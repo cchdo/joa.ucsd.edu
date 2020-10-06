@@ -68,4 +68,3 @@ JOA 5.5: macOS 10.12 or higher (may work under previous versions of macOS but ha
 JOA 5.3: Mac OS X 10.10 or higher<br>
 JOA 5.2.1: Mac OS X 10.9 or lower<br>
 4 GB of RAM (standard version) or 16 GB of RAM (pro version)
-</p>

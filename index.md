@@ -150,22 +150,19 @@ cruise_counter: 1463
     <div class="row">
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
         <div class="box">
-          <div class="icon"><a href="Data_homepage#call-to-action"><i class="fa fa-photo"></i></a></div>
-          <h4 class="title"><a href="Data_homepage#call-to-action">Vertical Section Data</a></h4>
+          <h4 class="title"><a href="Data_homepage#call-to-action"><u>Vertical Section Data</u></a></h4>
           <p class="description">Cleaned versions of some of the finest World Ocean vertical section CTD and bottle data yet obtained, for education and research use. WHP-Basin Scale Sections.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
         <div class="box">
-          <div class="icon"><a href="Data_homepage#call-to-action1"><i class="fa fa-photo"></i></a></div>
-          <h4 class="title"><a href="Data_homepage#call-to-action1">World Ocean Atlas Data</a></h4>
+          <h4 class="title"><a href="Data_homepage#call-to-action1"><u>World Ocean Atlas Data</u></a></h4>
           <p class="description">Temperature, salinity, oxygen, and nutrient data extracted from the Levitus et al. WOA averaged property fields; on sub-grids and on vertical sections.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
         <div class="box">
-          <div class="icon"><a href="Data_homepage#call-to-action2"><i class="fa fa-photo"></i></a></div>
-          <h4 class="title"><a href="Data_homepage#call-to-action2">Other Data Files</a></h4>
+          <h4 class="title"><a href="Data_homepage#call-to-action2"><u>Other Data Files</u></a></h4>
           <p class="description">Pre-1990s sections for examining basin-scale ocean water properties, a collection of Arctic and Nordic Sea data, and a few custom-made data files.</p>
         </div>
       </div>
