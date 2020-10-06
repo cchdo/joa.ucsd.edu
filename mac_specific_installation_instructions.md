@@ -10,15 +10,13 @@ css: joa
 	<h1>Java OceanAtlas Application</h1>
 	<h2>{{page.title}}</h2>
 
-<p>
 <ul>
 <li>You do not have to install a separate Java environment for JOA 5.5 </li>
 <li>The installation process depends on what operating system you are using. To check what version of macOS is installed on your computer, go to the apple menu in the top left corner of your screen and select <b>About This Mac.</b> JOA 5.5 has been tested on versions 12-15 of macOS.</li>
 </ul>
-</p>
+
 
 <h2>Installation on macOS Catalina (10.15) </h2>
-<p>
 <ol>
 <li>You must download JOA 5.5 from Safari. Open Safari and go to Preferences. In the General tab, turn on Open “safe” files after downloading. This is necessary for JOA to install correctly.</li>
 
@@ -34,10 +32,8 @@ css: joa
 
 <li>Move or copy the Java OceanAtlas folder to the desired location on your computer. We recommend putting it in Applications.</li>
 </ol>
-</p>
 
 <h2>Installation on macOS Sierra (10.12), High Sierra (10.13), and Mojave (10.14)</h2>
-<p>
 <ol>
 <li>Download the DMG file </li>
 
@@ -51,7 +47,18 @@ css: joa
 
 <img alt="Mac-5" src="assets/images/mac5.jpg">
 </ol>
-</p>
+
+<h2>Fixing Blurry Fonts in JOA</h2>
+<p>If you are using Mojave or Catalina, you may notice certain text to be poorly rendered and difficult to read, such as colorbar labels: <br>
+<img alt="Mac-6" src="assets/images/mac6.jpg">
+<ol>
+<li>Quit JOA. Open Terminal (Terminal can be found in your /Applications/Utilities/ folder). You will see some text in your Terminal window. The gray box is your cursor.</li>
+<li>Copy and paste the following text into Terminal and press return: <br>
+	<center><font face="Consolas">defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO</font></center>
+</li>
+<img alt="Mac-7" src="assets/images/mac7.jpg">
+<li>After you press return, a new line of text with your computer and account name will appear. There will be nothing to indicate that a change has taken effect. Quit terminal and restart JOA. If text still appears fuzzy, try logging out of your account and logging back on.</li>
+</ol>
 
 <h2>System Requirements:</h2>
 <p>
