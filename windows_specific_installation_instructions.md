@@ -26,7 +26,7 @@ css: joa
 <p>Click Finish at the end of the installation process:<br>
 <img alt="Windows-5" src="assets/images/windows5.jpg"></p>
 
-<h3>Windows System Requirements</h3>
+<h2>Windows System Requirements</h2>
 <p>
 JOA 5.5: Microsoft Windows 10 (may work under earlier version of Windows but has not been tested)<br>
 JOA 5.3: Microsoft Windows 8 or 8.1 (not tested under Windows 10)<br>
