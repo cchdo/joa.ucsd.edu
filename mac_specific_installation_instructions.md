@@ -24,11 +24,9 @@ css: joa
 
 <li>Download the Zip file.</li>
 
-<img alt="Mac-2" src="assets/images/mac2.jpg">
-
 <li>When the download is finished, there will be a folder called Java OceanAtlas in your downloads folder that contains these files:</li>
 
-<img alt="Mac-3" src="assets/images/mac3.jpg">
+<img alt="Mac-2" src="assets/images/mac2.jpg">
 
 <li>Move or copy the Java OceanAtlas folder to the desired location on your computer. We recommend putting it in Applications.</li>
 </ol>
@@ -39,26 +37,27 @@ css: joa
 
 <li>Double click Java OceanAtlas.dmg to open it. You will see this window:</li>
 
-<img alt="Mac-4" src="assets/images/mac4.jpg">
+<img alt="Mac-3" src="assets/images/mac3.jpg">
 
 <li>Drag the folder called Java OceanAtlas to the provided link to your Applications folder, or to the desired location on your computer. Do not run JOA directly from the DMG.</li>
 
 <li>You will see these files in the Java OceanAtlas folder. You can now eject the DMG from finder or unmount it using the Disk Utility application. The DMG can be kept as a backup or discarded entirely.</li>
 
-<img alt="Mac-5" src="assets/images/mac5.jpg">
+<img alt="Mac-2" src="assets/images/mac2.jpg">
 </ol>
 
 <h2>Fixing Blurry Fonts in JOA</h2>
 <p>If you are using Mojave or Catalina, you may notice certain text to be poorly rendered and difficult to read, such as colorbar labels: <br>
-<img alt="Mac-6" src="assets/images/mac6.jpg">
+<img alt="Mac-4" src="assets/images/mac4.jpg">
 <ol>
 <li>Quit JOA. Open Terminal (Terminal can be found in your /Applications/Utilities/ folder). You will see some text in your Terminal window. The gray box is your cursor.</li>
-<li>Copy and paste the following text into Terminal and press return: <br>
-	<center><font face="Consolas">defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO</font></center>
+<li>Copy and paste the following text into Terminal and press return: <br><br>
+	<center><p style="font-family:Consolas">defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO</p></center>
 </li>
-<img alt="Mac-7" src="assets/images/mac7.jpg">
+<img alt="Mac-5" src="assets/images/mac5.jpg">
 <li>After you press return, a new line of text with your computer and account name will appear. There will be nothing to indicate that a change has taken effect. Quit terminal and restart JOA. If text still appears fuzzy, try logging out of your account and logging back on.</li>
 </ol>
+</p>
 
 <h2>System Requirements:</h2>
 <p>
