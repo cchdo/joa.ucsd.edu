@@ -20,15 +20,16 @@ css: joa
 
   <h2>Etopo-5</h2>
   <ul>
-    <li><a href="/static/etopo5/etopo5_world_set.zip" class="joa_link">All 8 regions</a> (13.7 MB)</li>
-    <li><a href="/static/etopo5/etopo5_arc.zip " class="joa_link">Arctic</a> (727 KB)</li>
-    <li><a href="/static/etopo5/etopo5_ant.zip " class="joa_link">Antarctic</a> (1 MB)</li>
-    <li><a href="/static/etopo5/etopo5_natl.zip" class="joa_link">North Atlantic</a> (2 MB)</li>
-    <li><a href="/static/etopo5/etopo5_natl.zip" class="joa_link">South Atlantic</a> (1.7 MB)</li>
-    <li><a href="/static/etopo5/etopo5_ind.zip " class="joa_link">Indian</a> (2.2 MB)</li>
-    <li><a href="/static/etopo5/etopo5_npac.zip" class="joa_link">North Pacific</a> (3.2 MB)</li>
-    <li><a href="/static/etopo5/etopo5_spac.zip" class="joa_link">South Pacific</a> (9.2 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16345/etopo5_all_8_files.zip" class="joa_link">All 8 regions</a> (15.3 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16352/etopo5ArcticNew.nc" class="joa_link">Arctic</a> (6.0 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16346/etopo5_ant.nc" class="joa_link">Antarctic</a> (6.0 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16348/etopo5_natl.nc" class="joa_link">North Atlantic</a> (5.0 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16350/etopo5_satl.nc" class="joa_link">South Atlantic</a> (5.0 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16347/etopo5_ind.nc" class="joa_link">Indian</a> (6.6 MB)</li>
     <li><a href="https://cchdo.ucsd.edu/data/16112/etopo5_nind.nc" class="joa_link">North Indian</a> (9.2 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16349/etopo5_npac.nc" class="joa_link">North Pacific</a> (7.9 MB)</li>
+    <li><a href="https://cchdo.ucsd.edu/data/16351/etopo5_spac.nc" class="joa_link">South Pacific</a> (7.9 MB)</li>
+
   </ul>
 
   <h2>Etopo-2</h2>
