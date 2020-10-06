@@ -7,7 +7,7 @@ css: joa
 <div id="main_content" class="contained span8" style="min-width:122vh">
 <div id="top"></div>
 	<h1>Java OceanAtlas Application</h1>
-	<h2>{{page.title}}</h2>a
+	<h2>{{page.title}}</h2>
 
 <p>
   Java OceanAtlas (JOA) is a computer application written in Java.  JOA and its
