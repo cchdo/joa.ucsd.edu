@@ -30,6 +30,5 @@ css: joa
 <p>
 JOA 5.5: Microsoft Windows 10 (may work under earlier version of Windows but has not been tested)<br>
 JOA 5.3: Microsoft Windows 8 or 8.1 (not tested under Windows 10)<br>
-JOA 5.2.1: Microsoft Windows XP or Windows 7<br>
 4 GB of RAM (JOA 5.5 standard version, earlier versions of JOA) or 16 GB of RAM (JOA 5.5 pro version)
 </p>

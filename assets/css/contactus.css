@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background:rgba(52, 59, 64, 0.9)
+  background-color:#F0F8FF
 }
 
 #header #logo {
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: #F0F8FF;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: #F0F8FF;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(52, 59, 64, 0.9);
+  background: #F0F8FF;
   display: none;
 }
 

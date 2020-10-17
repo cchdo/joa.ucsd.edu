@@ -95,6 +95,4 @@ css: joa
       <img alt="Etopo-6" src="assets/images/etopo6.png">
     </li>
   </ol>
-  <p>
-	West-to-east and south-to-north are preferred for left-to-right section orientations by the author (Swift) and many of his colleagues at the UCSD Scripps Institution of Oceanography. Many of the Java OceanAtlas data files are organized to reflect this preference.</p>
   </div>

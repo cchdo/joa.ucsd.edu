@@ -8,7 +8,7 @@ ocean: World Ocean Atlas
   <div class="hero-container">
   <br>
       <h1>Explore {{page.ocean}} Ocean Data</h1>
-      <h2>Navigate your desired data below</h2>
+      <h2>Navigate to your desired data below</h2>
       <center><img src="assets/images/woamap.jpg" alt="" class="responsive"></center>
   </div>
 </section><!-- #hero -->

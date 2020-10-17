@@ -24,7 +24,7 @@ css: joa
 <br>
 <li>Download the Zip file.</li>
 
-<li>When the download is finished, there will be a folder called Java OceanAtlas in your downloads folder that contains these files:</li>
+<li>When the download is finished, there will be a folder called Java OceanAtlas in your Downloads folder that contains these files:</li>
 <br>
 <center><img alt="Mac-2" src="assets/images/mac2.jpg"></center>
 <br>
@@ -66,5 +66,4 @@ css: joa
 <p>
 JOA 5.5: macOS 10.12 or higher (may work under previous versions of macOS but has not been tested) <br>
 JOA 5.3: Mac OS X 10.10 or higher<br>
-JOA 5.2.1: Mac OS X 10.9 or lower<br>
 4 GB of RAM (standard version) or 16 GB of RAM (pro version)</p></p>
