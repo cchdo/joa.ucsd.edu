@@ -42,12 +42,5 @@ computer with these contents:</p>
 <h2 id="support_files">Support Files</h2>
 <h4>Bathymetry Add-ins</h4>
 <p>
-  If you would like to add higher-resolution ETOPO files, download any or all
-  of these files and unzip them into the JOA_Support folder/subdirectory on
-  your computer.
-</p>
-<p>
-  Java OceanAtlas contains ETOPO-60 and ETOPO-20 files. These are binary files
-  extracted from ETOPO-5 with bathymetry and elevations at 5-minute spatial
-  resolution.
+The Java OceanAtlas download contains various bathymetry files, including coarse ETOPO-60 (one degree spatial resolution) and medium ETOPO-20 (twenty minute resolution) files. If you would like to add higher-resolution files, <a href="etopo">download</a> any or all of the fine resolution ETOPO-5 files (five minute resolution) and place them (unzipped if your bathymetry file download was zipped) into the JOA_Support folder/subdirectory on your computer.
 </p>
