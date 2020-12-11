@@ -45,7 +45,7 @@ css: Data_homepage
             <br> <br>
             <a class="cta-btn align-middle" href="southerndata">Southern Ocean</a>
             <br> <br>
-            <a class="cta-btn align-middle" href="#">Other</a>
+            <a class="cta-btn align-middle" href="othervertical">Other</a>
       </div>
     </div>
     </div>
