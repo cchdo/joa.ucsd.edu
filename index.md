@@ -49,8 +49,9 @@ cruise_counter: 1463
           The Java OceanSuite includes
             <ul>
                 <li>Downloads, documentation and support files for the Java OceanAtlas (JOA) application for Windows and MacOS,</li>
-                <li>an extensive collection of groomed World Ocean vertical profile water sample and CTD data in ASCII WHP-Exchange and JOA binary formats, and</li>
-                <li>a virtual research cruise to the far southeast Indian Ocean aboard SIO's R/V Roger Revelle.</li>
+                <li>an extensive collection of groomed World Ocean vertical profile water sample and CTD data in ASCII WHP-Exchange and JOA binary formats,</li>
+                <li>a virtual research cruise to the far southeast Indian Ocean aboard SIO's R/V Roger Revelle, and</li>
+                <li>suggestions and support for data analysis and exploration projects.</li>
             </ul>
         </p>
       </div>
@@ -82,13 +83,12 @@ cruise_counter: 1463
 <section id="about">
   <div class="container">
     <div class="row about-container">
-
       <div class="col-lg-15 content order-lg-1 order-2">
         <h2 class="title">{{page.section_3_title}}</h2>
         <p>
           The data provided here were prepared to provide students and researchers a collection of the best available 'blue water' ocean vertical profiles. Most data are in both ASCII WHP-Exchange and Java OceanAtlas binary formats. We have added value to many of these data by organizing sections, by combining and deleting stations, and by correcting some errors. Note that we continually update the data, replacing data files with preferred versions or adding cruises, old and new, to the collection.
           <br><br>
-         The collection 'Best Vertical Section Data' contains some of the finest-quality vertical section bottle and CTD data yet obtained from the World Ocean, from WOCE, CLIVAR, GO-SHIP and other programs of similar focus and quality.
+         The collection 'Best Vertical Section Data' contains some of the finest-quality vertical section bottle and CTD data yet obtained from the World Ocean, from WOCE, CLIVAR, GO-SHIP and other programs of similar focus and quality.Includes a compilation of matched section segments - crossings of the same path in one basin or region from different years.
           <br><br>
           The collection 'World Ocean Atlas Data' contains vertical profile data extracted for mapping and vertical sections from various iterations of the NOAA/NCEI/NODC World Ocean Atlas data, originally on standard level surfaces on a 1-degree positional grid for the World Ocean.
           <br><br>
@@ -180,6 +180,7 @@ Call To Action Section
       <div class="col-lg-9 text-center text-lg-left">
         <h3 class="cta-title">Outreach</h3>
         <p class="cta-text">Where do the data on this site come from? Take our 'virtual research cruise': Read the proposal, explore the decks of SIO's R/V Roger Revelle, watch at-sea documentaries with scientists, technical specialists, students, and crew, read weekly reports, and examine the final data.</p>
+        <p class="cta-text">Create a data exploration and analysis project using Java OceanAtlas and data from this site. We provide both general and specific project ideas and also guides to fruitful techniques for carrying out the projects.</p>
       </div>
       <div class="col-lg-3 cta-btn-container text-center">
         <a class="cta-btn align-middle" href="{{'/outreach/virtualcruise/' | relative_url}}">Explore</a>
