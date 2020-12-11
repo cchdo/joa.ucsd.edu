@@ -32,7 +32,7 @@ css: Data_homepage
         <div class="col-lg-9 text-center text-lg-left">
           <h3 class="cta-title">"The Best" Vertical Section Data</h3>
           <br><br><br>
-          <p class="cta-text">Ocean basin spanning vertical section data from the WOCE Hydrographic Program, CLIVAR Repeat Hydrography, GO-SHIP and other programs with similar intent and high quality standards. Many of the sections have been occupied multiple times. The data values for measured parameters are identical those available from the CLIVAR and Carbon Hydrographic Data Office (CCHDO), but the files have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p>
+          <p class="cta-text">Ocean basin spanning vertical section data from the WOCE Hydrographic Program, CLIVAR Repeat Hydrography, GO-SHIP and other programs with similar intent and high quality standards. Many of the sections have been occupied multiple times. The data values for measured parameters are identical those available from the CLIVAR and Carbon Hydrographic Data Office (CCHDO), but the files have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order. Data are organized by ocean region, section name, and year. A supplementary category contains compiled data such as global-spanning sections, and a collection of matched section segments - crossings of the same path in one basin or region from different years.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
           <a class="cta-btn align-middle" href="pacificdata">Pacific Ocean</a>
@@ -45,7 +45,7 @@ css: Data_homepage
             <br> <br>
             <a class="cta-btn align-middle" href="southerndata">Southern Ocean</a>
             <br> <br>
-            <a class="cta-btn align-middle" href="#">Other</a>
+            <a class="cta-btn align-middle" href="othervertical">Other</a>
       </div>
     </div>
     </div>

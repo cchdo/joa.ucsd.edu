@@ -19,7 +19,8 @@ ocean: Other
         <div class="col-lg-9 text-center text-lg-left"  style="flex:0 0 100%;max-width:100%">
           <h3 class="cta-title1" style="text-align:center">About {{page.ocean}} Best Section Data</h3>
           <br>
-          <p class="cta-text1" style="text-align:center">Global-scale vertical sections assembled by J. Swift from the Best Vertical Sections, intended to illuminate the largest-scale spatial structure of seawater characteristics. The data have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p>
+          <p class="cta-text1" style="text-align:center">Global-scale vertical sections assembled by J. Swift from the Best Vertical Sections, intended to illuminate the largest-scale spatial structure of seawater characteristics. The data have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p><br>
+          <p class="cta-text1" style="text-align:center">A collection of carefully-matched section segments from all of the oceans - crossings of the same path in one basin or region from different years. These are included to facilitate accurate comparisons of seawater characteristics from different years. Data file names are designed to identify spacially-matched sets.</p>
         </div>
       </div>
 </section>
