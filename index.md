@@ -88,7 +88,7 @@ cruise_counter: 1463
         <p>
           The data provided here were prepared to provide students and researchers a collection of the best available 'blue water' ocean vertical profiles. Most data are in both ASCII WHP-Exchange and Java OceanAtlas binary formats. We have added value to many of these data by organizing sections, by combining and deleting stations, and by correcting some errors. Note that we continually update the data, replacing data files with preferred versions or adding cruises, old and new, to the collection.
           <br><br>
-         The collection 'Best Vertical Section Data' contains some of the finest-quality vertical section bottle and CTD data yet obtained from the World Ocean, from WOCE, CLIVAR, GO-SHIP and other programs of similar focus and quality.Includes a compilation of matched section segments - crossings of the same path in one basin or region from different years.
+         The collection 'Best Vertical Section Data' contains some of the finest-quality vertical section bottle and CTD data yet obtained from the World Ocean, from WOCE, CLIVAR, GO-SHIP and other programs of similar focus and quality. Includes a compilation of matched section segments - crossings of the same path in one basin or region from different years.
           <br><br>
           The collection 'World Ocean Atlas Data' contains vertical profile data extracted for mapping and vertical sections from various iterations of the NOAA/NCEI/NODC World Ocean Atlas data, originally on standard level surfaces on a 1-degree positional grid for the World Ocean.
           <br><br>
