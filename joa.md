@@ -16,7 +16,7 @@ css: Data_homepage
     </div>
 
   </div>
-</section>a
+</section>
 </section><!-- #call-to-action -->
 
 <section id="call-to-action1">
