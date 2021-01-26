@@ -35,7 +35,7 @@ section:
         file: File
       - year: 2018
         file: File
-  - title: SR01
+  - title: SR04
     years:
       - year: 1992_a
         file: File
@@ -74,62 +74,6 @@ section:
       - year: 2015_b
         file: File
       - year: 2016
-        file: File
-  - title: SR03
-    years:
-      - year: 1991
-        file: File
-      - year: 1993
-        file: File
-      - year: 1994_a
-        file: File
-      - year: 1994_b
-        file: File
-      - year: 1994_c
-        file: File
-      - year: 1995
-        file: File
-      - year: 1996_a
-        file: File
-      - year: 1996_b
-        file: File
-      - year: 1998
-        file: File
-      - year: 2001
-        file: File
-      - year: 2002
-        file: File
-      - year: 2003_a
-        file: File
-      - year: 2003_b
-        file: File
-      - year: 2007_a
-        file: File
-      - year: 2007_b
-        file: File
-      - year: 2008
-        file: File
-      - year: 2011
-        file: File
-      - year: 2017
-        file: File
-      - year: 2018
-        file: File
-  - title: SR04
-    years:
-      - year: 1989
-        file: File
-      - year: 1990
-        file: File
-      - year: 1992_a
-        file: File
-      - year: 1992_b
-        file: File
-      - year: 1996
-        file: File
-      - year: 1998
-        file: File
-      - year: 2010
         file: File
 
 

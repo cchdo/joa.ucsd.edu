@@ -9,10 +9,6 @@ section:
         file: File
       - year: 2014
         file: File
-  - title: P01NW
-    years:
-      - year: 1993-1994
-        file: File
   - title: P02
     years:
       - year: 1993
@@ -27,21 +23,9 @@ section:
         file: File
       - year: 2005
         file: File
-  - title: P03W
-    years:
-      - year: 2013
-        file: File
   - title: P04
     years:
       - year: 1989
-        file: File
-  - title: P04W
-    years:
-      - year: 2015
-        file: File
-  - title: P05H
-    years:
-      - year: 1987
         file: File
   - title: P06
     years:
@@ -77,7 +61,6 @@ section:
         file: File
       - year: 2016
         file: File
-   
   - title: P10
     years:
       - year: 1993
@@ -120,16 +103,13 @@ section:
         file: File
       - year: 2010-2011
         file: File
-  - title: P14N
+  - title: P14N/S
     years:
       - year: 1992-1993
         file: File
-      - year: 2007
-        file: File
-        
-  - title: P14S
-    years:
       - year: 1996
+        file: File
+      - year: 2007
         file: File
       - year: 2012
         file: File
@@ -150,7 +130,7 @@ section:
         file: File
       - year: 2016
         file: File
- 
+
   - title: P16
     years:
       - year: 1980
@@ -169,14 +149,7 @@ section:
         file: File
       - year: 2018
         file: File
- 
-  - title: P16S(ANT)
-    years:
-      - year: 2011
-        file: File
-      - year: 2018
-        file: File
-    
+
   - title: P17
     years:
       - year: 1991-1993
@@ -185,12 +158,8 @@ section:
         file: File
       - year: 2017
         file: File
-        
-  - title: P17E/P19C
-    years:
-      - year: 1992
-        file: File
-       
+
+
   - title: P18
     years:
       - year: 1994
@@ -199,13 +168,14 @@ section:
         file: File
       - year: 2016
         file: File
-        
+
   - title: P19
     years:
       - year: 1993
         file: File
       - year: 1995
-        file: File       
+        file: File
+
   - title: P21
     years:
       - year: 1994
@@ -214,15 +184,17 @@ section:
         file: File
       - year: 2013
         file: File
-        
+
   - title: P31
     years:
       - year: 1994
         file: File
+
   - title: ALIZE
     years:
       - year: Unknown
-        file: File         
+        file: File
+
   - title: HOT
     years:
       - year: Unknown

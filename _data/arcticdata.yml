@@ -1,23 +1,51 @@
 section:
-  - title: AOS94
+  - title: ARKTIS II/3
     years:
       - year: 1994
         file: File
-  - title: ODEN 2005
+  - title: ARKTIS IV/3
     years:
       - year: 2005
         file: File
-  - title: ARC01
+  - title: ARCTIC 1996
     years:
       - year: 2015_a
         file: File
       - year: 2015_b
         file: File
-  - title: HUDSON
+  - title: AOS94
     years:
       - year: 1982
         file: File
-  - title: NORDIC SEAS 2002
+  - title: ODEN 2005
+    years:
+      - year: 2002
+        file: File
+  - title: ARC01 2015
+    years:
+      - year: 2002
+        file: File
+  - title: Geotraces 2015
+    years:
+      - year: 2002
+        file: File
+  - title: Chukchi/Beaufort
+    years:
+      - year: 2002
+        file: File
+  - title: Greenland Sea 75N
+    years:
+      - year: 2002
+        file: File
+  - title: Hudson 1982
+    years:
+      - year: 2002
+        file: File
+  - title: Greenland Sea Project 1988/89
+    years:
+      - year: 2002
+        file: File
+  - title: Nordic Seas 2002
     years:
       - year: 2002
         file: File
@@ -27,4 +55,3 @@ yeardropdown:
   - year: 2002
   - year: 2005
   - year: 2015
- 
