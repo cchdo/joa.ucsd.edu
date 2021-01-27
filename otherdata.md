@@ -1,13 +1,13 @@
 ---
 layout : datapage
-title : Other Best Vertical Section Data
+title : Other Data
 ocean: Other
 ---
 
 <section id="hero">
   <div class="hero-container">
   <br>
-      <h1>Explore {{page.ocean}} Best Section Data</h1>
+      <h1>Explore {{page.ocean}} Ocean Data</h1>
       <h2>Navigate to your desired data below</h2>
       <center><img src="assets/images/othervertical.jpg" alt="" class="responsive"></center>
   </div>
@@ -32,7 +32,7 @@ ocean: Other
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
               <li>	<span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li>
-              {% for item in site.data.otherverticaldata.section %}
+              {% for item in site.data.otherdata.section %}
                <li>
                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                  <ul>
@@ -67,14 +67,14 @@ ocean: Other
 <center>
   <select class="custom-select" id="verticalSectionDropdown">
     <option value="All" selected="selected">Vertical Section</option>
-    {% for item in site.data.otherverticaldata.section%}
+    {% for item in site.data.otherdata.section%}
     <option value="{{item.title}}">{{item.title}}</option>
     {% endfor %}
   </select>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <select class="custom-select" id="yearDropdown">
     <option value="All">Year</option>
-    {% for item in site.data.otherverticaldata.yeardropdown %}
+    {% for item in site.data.otherdata.yeardropdown %}
     <option value="{{item.year}}">{{item.year}}</option>
     {% endfor %}
   </select>
@@ -115,7 +115,7 @@ ocean: Other
         <div class="table100-body js-pscroll" style="max-height:1500px">
         <table class="table" id="datatable1">
         <tbody id="datatable">
-        {% for item in site.data.otherverticaldata.section%}
+        {% for item in site.data.otherdata.section%}
         {% for entry in item.years%}
           <tr>
               <td class="cell100 column1">{{item.title}}</td>

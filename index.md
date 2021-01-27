@@ -179,8 +179,7 @@ Call To Action Section
     <div class="row">
       <div class="col-lg-9 text-center text-lg-left">
         <h3 class="cta-title">Outreach</h3>
-        <p class="cta-text">Where do the data on this site come from? Take our 'virtual research cruise': Read the proposal, explore the decks of SIO's R/V Roger Revelle, watch at-sea documentaries with scientists, technical specialists, students, and crew, read weekly reports, and examine the final data.</p>
-        <p class="cta-text">Create a data exploration and analysis project using Java OceanAtlas and data from this site. We provide both general and specific project ideas and also guides to fruitful techniques for carrying out the projects.</p>
+        <p class="cta-text">A virtual research cruise to the far southeast Indian Ocean aboard SIO's R/V Roger Revelle: tour the ship, watch videos of activities at sea and interviews with students, crew, techs, officers, and scientists, read the weekly reports, read the NSF proposal that funded the cruise, examine some aspects of the data, etc.</p>
       </div>
       <div class="col-lg-3 cta-btn-container text-center">
         <a class="cta-btn align-middle" href="{{'/outreach/virtualcruise/' | relative_url}}">Explore</a>
