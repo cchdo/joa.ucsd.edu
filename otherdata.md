@@ -97,39 +97,5 @@ ocean: Other
 </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div class="limiter">
-    <div class="container-table100">
-      <div class="wrap-table100">
-        <div class="table100 ver3 m-b-110">
-          <div class="table100-head">
-            <table>
-            <thead>
-            <tr class="row100 head">
-                <th class="cell100 column1">Vertical Section</th>
-                <th class="cell100 column2">Year</th>
-                <th class="cell100 column4">File</th>
-            </tr>
-          </thead>
-        </table>
-        </div>
-        <div class="table100-body js-pscroll" style="max-height:1500px">
-        <table class="table" id="datatable1">
-        <tbody id="datatable">
-        {% for item in site.data.otherdata.section%}
-        {% for entry in item.years%}
-          <tr>
-              <td class="cell100 column1">{{item.title}}</td>
-              <td class="cell100 column2">{{entry.year}}</td>
-              <td class="cell100 column4">{{entry.file}}</td>
-            </tr>
-        {% endfor %}
-        {% endfor %}
-        </tbody>
-        </table>
-</div>
-</div>
-</div>
-</div>
-</div>
 </div>
 </div>
