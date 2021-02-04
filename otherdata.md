@@ -20,8 +20,7 @@ ocean: Other
           <h3 class="cta-title1" style="text-align:center">About {{page.ocean}} Best Section Data</h3>
           <br>
           <p class="cta-text1" style="text-align:center"2200 mostly pre-1990 vertical sections based on SIO Professor Joseph Reid's World Ocean data collection. Other pre-1990s Atlantic, Indian, and Pacific basin scale sections, including from the highly-regarded GEOSECS, TTO, and SAVE expeditions. A collection of Arctic Ocean and Nordic Sea data is also provided.</p><br>
-       
-        </div>
+       </div>
       </div>
 </section>
 </section><!-- #call-to-action -->
