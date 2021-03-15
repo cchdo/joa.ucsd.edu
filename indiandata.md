@@ -119,7 +119,7 @@ ocean: Indian
           <tr>
               <td class="cell100 column1">{{item.title}}</td>
               <td class="cell100 column2">{{entry.year}}</td>
-              <td class="cell100 column4">{{entry.file}}</td>
+              <td class="cell100 column4"><a href = "{{entry.path}}">{{entry.file}}</a>/td>
             </tr>
         {% endfor %}
         {% endfor %}
