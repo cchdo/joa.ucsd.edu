@@ -23,7 +23,7 @@ Call To Action Section
   <div class="container wow fadeIn">
       <div class="col-lg-9 text-center text-lg-left"  style="flex:0 0 100%;max-width:100%">
         <h3 class="cta-title1">About Java OceanAtlas</h3>
-        <p class="cta-text1" style="text-align:justify">Java OceanAtlas was developed by scientific programmer John "Oz" Osborne (OceanAtlas Software, Vashon, WA, USA), with assistance from data scientist Maria Osborne working with Dr. James Swift. <a href="http://joa.ucsd.edu/dpo/dpo_joa_examples/background/backgrounda.html">Read about the Background of Java OceanAtlas.</a></p>
+        <p class="cta-text1" style="text-align:justify">Java OceanAtlas was developed by scientific programmer John "Oz" Osborne (OceanAtlas Software, Vashon, WA, USA), with assistance from data scientist Maria Osborne working with Dr. James Swift. <a href="assets/documents/Background_of_Java_OceanAtlas.docx">Read about the Background of Java OceanAtlas.</a></p>
       </div>
 
     </div>
@@ -69,7 +69,7 @@ Call To Action Section
   <div class="row">
     <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
       <h3 class="cta-title">About the DPO JOA Examples</h3>
-      <p class="cta-text">Read about the <a href="http://joa.ucsd.edu/dpo/dpo_joa_examples/background/index.html"><u>Background of the DPO JOA Examples.</u></a></p>
+      <p class="cta-text">Read about the <a href="https://joa_old.cchdo.io/dpo/dpo_joa_examples/background/index.html"><u>Background of the DPO JOA Examples.</u></a></p>
     </div>
   </div>
 
