@@ -13,7 +13,7 @@ css: Data_homepage
      &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="#call-to-action1" class="btn-get-started">World Ocean Atlas Data</a>
     &nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="#call-to-action2" class="btn-get-started">Other Data Files</a>
+   <a href="#call-to-action2" class="btn-get-started">'The Best' CTD/Hydrographic Data</a>
     <br><br><br><br><br><br><br><br><br>
     <h3>Learn About</h3>
     <a href="#about" class="btn-get-started1">Java OceanAtlas Data Files</a>
@@ -72,7 +72,7 @@ css: Data_homepage
     <div class="container wow fadeIn">
       <div class="row">
         <div class="col-lg-9 text-center text-lg-left">
-          <h3 class="cta-title">Other Data Files</h3>
+          <h3 class="cta-title">Legacy/Historical Data</h3>
           <p class="cta-text">Our largest collection in terms of sheer number of sections is ca. 2200 mostly pre-WOCE (pre-1990's) vertical sections assembled from the original NODC data files contributing to SIO Professor Joseph Reid's World Ocean data collection. From the many cruises in NODC Archives, and some newer cruises originally from colleagues, over more than two decades Joe sifted for the best available data from each region of the World Ocean (except for the Arctic). Here we went into the NODC files, retrieved the cruise data set for each cruise Joe used, assembled the stations into sensible vertical sections, applied the same corrections Joe used, and then we culled many bad data values. The resulting 2200 sections represent the basic data knowledge of the deep ocean basins prior to the 1990s. The data sets all include temperature and salinity, nearly all have dissolved oxygen data, and most have nutrient (NO3, PO4, and/or SiO3) data. The data are available in JOA binary and also in an NODC text data format called "SD2". NODC no longer delivers data in SD2 format, but the JOA application will import/read any of these data files.<br>Under "Other Data Files" we also have a somewhat dated collection of pre-1990s sections as Atlantic, Indian, and Pacific Pre-WOCE Basin Scale Sections, along with sections from the highly-regarded GEOSECS, TTO, and SAVE expeditions. A collection of Arctic Ocean and Nordic Sea data is also provided.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
