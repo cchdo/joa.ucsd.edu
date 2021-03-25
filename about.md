@@ -25,7 +25,6 @@ Call To Action Section
         <h3 class="cta-title1">About Java OceanAtlas</h3>
         <p class="cta-text1" style="text-align:justify">Java OceanAtlas was developed by scientific programmer John "Oz" Osborne (OceanAtlas Software, Vashon, WA, USA), with assistance from data scientist Maria Osborne working with Dr. James Swift. <a href="assets/documents/Background_of_Java_OceanAtlas.pdf">Read about the Background of Java OceanAtlas.</a></p>
       </div>
-
     </div>
 </section>
 </section><!-- #call-to-action -->
@@ -55,9 +54,7 @@ Call To Action Section
         <h3 class="cta-title1">About this site</h3>
         <p class="cta-text1" style="text-align:justify">The principal design and implementation of the present site were carried out by Dakshh Saraf. Earlier versions of the site were created and managed by Carolina Berys-Gonzalez, Matthew Chen, and Roxanne Lee. The JOA DPO Examples site design was created by Roxanne Lee and Irene Chan.</p>
       </div>
-
     </div>
-
 </section>
 </section><!-- #call-to-action -->
 <!--==========================
@@ -72,7 +69,6 @@ Call To Action Section
       <p class="cta-text">Read about the <a href="https://joa_old.cchdo.io/dpo/dpo_joa_examples/background/index.html"><u>Background of the DPO JOA Examples.</u></a></p>
     </div>
   </div>
-
 </div>
 </section>
 </section><!-- #call-to-action -->
