@@ -38,7 +38,7 @@ Call To Action Section
     <div class="row">
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
         <h3 class="cta-title">About the Data</h3>
-        <p class="cta-text">The data on this site were assembled by Dr. James Swift from sources including the CLIVAR and Carbon Hydrographic Data Office, the Reid/Mantyla data set, Syd Levitus' World Ocean Atlas data sets, as well as his own research files. A host of talented UCSD undergraduate research assistants prepared data files and built the site, with assistance from CCHDO technical specialists.</p>
+        <p class="cta-text">The data on this site were assembled by Dr. James Swift from sources including the CLIVAR and Carbon Hydrographic Data Office, the Reid/Mantyla data set, Syd Levitus' World Ocean Atlas data sets, as well as his own research files. A host of talented UCSD undergraduate research assistants prepared data files and built the site, with assistance from CCHDO technical specialists. <a href="assets/documents/Data_Acknowledgements.pdf">Read data acknowledgements</a> </p>
       </div>
     </div>
 
