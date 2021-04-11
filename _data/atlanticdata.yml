@@ -1,4 +1,20 @@
 section:
+  - title: A01/AR07
+    years:
+      - year: 1981_1982
+        files :
+          - name: natl.1981.6N.58N.joa
+            path: data/A01:AR07 complete/A01_1981_1982/natl.1981.6N.58N.joa
+      - year: 1995
+        files :
+          - name: A01_1995_bot_clean_edited_hy1.csv
+            path: data/A01:AR07 complete/A01_1995/A01_1995_bot_clean_edited_hy1.csv
+          - name: A01_1995_bot_clean_edited.joa
+            path: data/A01:AR07 complete/A01_1995/A01_1995_bot_clean_edited.joa
+      - year: WOA
+        files :
+          - name: A01_WOA05_clean_vol.joa
+            path: data/A01:AR07 complete/A01_WOA/A01_WOA05_clean_vol.joa
   - title: A01E/AR07E
     years:
       - year: 1990
@@ -7,9 +23,82 @@ section:
             path: data/A01E:AR07E/AR07E_1990/AR07E_1990_bot_clean_sorted_hy1.csv
           - name: AR07E_1990_bot_clean_sorted.joa
             path: data/A01E:AR07E/AR07E_1990/AR07E_1990_bot_clean_sorted.joa
-
-
-
+      - year: 1991_a
+        files :
+          - name: AR07E_1991_04_APR_bot_clean.joa
+            path: data/A01E:AR07E/AR07E_1991_a/AR07E_1991_04_APR_bot_clean.joa
+          - name: AR07E_1991_04_APR_bot_clean2_hy1.csv
+            path: data/A01E:AR07E/AR07E_1991_a/AR07E_1991_04_APR_bot_clean2_hy1.csv
+      - year: 1991_b
+        files :
+          - name: AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
+            path: data/A01E:AR07E/AR07E_1991_b/AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
+          - name: AR07E_1991_08_AUG_bot_clean_edited.joa
+            path: data/A01E:AR07E/AR07E_1991_b/AR07E_1991_08_AUG_bot_clean_edited.joa
+      - year: 1991_c
+        files :
+          - name: AR07E_1991_09_SEP_bottle_clean_hy1.csv
+            path: data/A01E:AR07E/AR07E_1991_c/AR07E_1991_09_SEP_bottle_clean_hy1.csv
+          - name: AR07E_1991_09_SEP_bottle_clean.joa
+            path: data/A01E:AR07E/AR07E_1991_c/AR07E_1991_09_SEP_bottle_clean.joa
+      - year: 1992
+        files :
+          - name: AR07E_1992_bot_clean.joa
+            path: data/A01E:AR07E/AR07E_1992/AR07E_1992_bot_clean.joa
+          - name: AR07E_1992_bot_clean2_hy1.csv
+            path: data/A01E:AR07E/AR07E_1992/AR07E_1992_bot_clean2_hy1.csv
+      - year: 1994
+        files :
+          - name: AR07E_1994_bottle_clean_hy1.csv
+            path: data/A01E:AR07E/AR07E_1994/AR07E_1994_bottle_clean_hy1.csv
+          - name: AR07E_1994_bottle_clean.joa
+            path: data/A01E:AR07E/AR07E_1994/AR07E_1994_bottle_clean.joa
+      - year: 1997
+        files :
+          - name: AR07E_1997_08_AUG_b_bot_clean.joa
+            path: data/A01E:AR07E/AR07E_1997/AR07E_1997_08_AUG_b_bot_clean.joa
+          - name: AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
+            path: data/A01E:AR07E/AR07E_1997/AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
+      - year: 2000
+        files :
+          - name: AR07E_2000_bot_clean.joa
+            path: data/A01E:AR07E/AR07E_2000/AR07E_2000_bot_clean.joa
+          - name: AR07E_2000_bot_clean2_hy1.csv
+            path: data/A01E:AR07E/AR07E_2000/AR07E_2000_bot_clean2_hy1.csv
+      - year: 2005
+        files :
+          - name: AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
+            path: data/A01E:AR07E/AR07E_2005/AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
+          - name: AR07E_2005_09_SEP_bot_clean_edited.joa
+            path: data/A01E:AR07E/AR07E_2005/AR07E_2005_09_SEP_bot_clean_edited.joa
+      - year: 2007
+        files :
+          - name: AR07E_2007_bot_clean_edited_hy1.csv
+            path: data/A01E:AR07E/AR07E_2007/AR07E_2007_bot_clean_edited_hy1.csv
+          - name: AR07E_2007_bot_clean_edited.joa
+            path: data/A01E:AR07E/AR07E_2007/AR07E_2007_bot_clean_edited.joa
+      - year: 2011
+        files :
+          - name: AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
+            path: data/A01E:AR07E/AR07E_2011/AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
+          - name: AR07E_2011_05_MAY_bot_clean_edited.joa
+            path: data/A01E:AR07E/AR07E_2011/AR07E_2011_05_MAY_bot_clean_edited.joa
+      - year: 2012
+        files :
+          - name: AR07E_2012_06_JUN_b_bot_clean.joa
+            path: data/A01E:AR07E/AR07E_2012/AR07E_2012_06_JUN_b_bot_clean.joa
+          - name: AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
+            path: data/A01E:AR07E/AR07E_2012/AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
+      - year: 2015
+        files :
+          - name: AR07E_2015_partial_bottle_clean_hy1.csv
+            path: data/A01E:AR07E/AR07E_2015/AR07E_2015_partial_bottle_clean_hy1.csv
+          - name: AR07E_2015_partial_bottle_clean.joa
+            path: data/A01E:AR07E/AR07E_2015/AR07E_2015_partial_bottle_clean.joa
+      - year: WOA
+        files :
+          - name:
+            path:
 
 yeardropdown:
   - year: 1957
