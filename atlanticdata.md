@@ -39,10 +39,9 @@ ocean: Atlantic
                    {% for entry in item.years%}
                      <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
                          <ul>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
+                             {% for entry in item.years.files%}
+                             <li><span style="color:white"><a href="{{entry.path}}">{{entry.name}}</a></span></li>
+                             {% endfor %}
                          </ul>
                      </li>
                     {% endfor %}
