@@ -10,91 +10,91 @@ section:
           - name: A01_1995_bot_clean_edited_hy1.csv
             path: https://cchdo.ucsd.edu/data/18644/A01_1995_bot_clean_edited_hy1.csv
           - name: A01_1995_bot_clean_edited.joa
-            path: https://cchdo.ucsd.edu/data/18644/A01_1995_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18645/A01_1995_bot_clean_edited.joa
       - year: WOA
         files :
           - name: A01_WOA05_clean_vol.joa
-            path: https://cchdo.ucsd.edu/data/18644/A01_1995_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18646/A01_WOA05_clean_vol.joa
   - title: A01E/AR07E
     years:
       - year: 1990
         files :
           - name: AR07E_1990_bot_clean_sorted_hy1.csv
-            path: data/A01E:AR07E/AR07E_1990/AR07E_1990_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18647/AR07E_1990_bot_clean_sorted_hy1.csv
           - name: AR07E_1990_bot_clean_sorted.joa
-            path: data/A01E:AR07E/AR07E_1990/AR07E_1990_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/18648/AR07E_1990_bot_clean_sorted.joa
       - year: 1991_a
         files :
           - name: AR07E_1991_04_APR_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_1991_a/AR07E_1991_04_APR_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18649/AR07E_1991_04_APR_bot_clean.joa
           - name: AR07E_1991_04_APR_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_1991_a/AR07E_1991_04_APR_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18650/AR07E_1991_04_APR_bot_clean2_hy1.csv
       - year: 1991_b
         files :
           - name: AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_1991_b/AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18651/AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
           - name: AR07E_1991_08_AUG_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_1991_b/AR07E_1991_08_AUG_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/18652/AR07E_1991_08_AUG_bot_clean_edited.joa
       - year: 1991_c
         files :
           - name: AR07E_1991_09_SEP_bottle_clean_hy1.csv
-            path: data/A01E:AR07E/AR07E_1991_c/AR07E_1991_09_SEP_bottle_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18653/AR07E_1991_09_SEP_bottle_clean_hy1.csv
           - name: AR07E_1991_09_SEP_bottle_clean.joa
-            path: data/A01E:AR07E/AR07E_1991_c/AR07E_1991_09_SEP_bottle_clean.joa
+            path: https://cchdo.ucsd.edu/data/18654/AR07E_1991_09_SEP_bottle_clean.joa
       - year: 1992
         files :
           - name: AR07E_1992_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_1992/AR07E_1992_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18655/AR07E_1992_bot_clean.joa
           - name: AR07E_1992_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_1992/AR07E_1992_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18656/AR07E_1992_bot_clean2_hy1.csv
       - year: 1994
         files :
           - name: AR07E_1994_bottle_clean_hy1.csv
-            path: data/A01E:AR07E/AR07E_1994/AR07E_1994_bottle_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18657/AR07E_1994_bottle_clean_hy1.csv
           - name: AR07E_1994_bottle_clean.joa
-            path: data/A01E:AR07E/AR07E_1994/AR07E_1994_bottle_clean.joa
+            path: https://cchdo.ucsd.edu/data/18658/AR07E_1994_bottle_clean.joa
       - year: 1997
         files :
           - name: AR07E_1997_08_AUG_b_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_1997/AR07E_1997_08_AUG_b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18659/AR07E_1997_08_AUG_b_bot_clean.joa
           - name: AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_1997/AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18660/AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
       - year: 2000
         files :
           - name: AR07E_2000_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_2000/AR07E_2000_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18661/AR07E_2000_bot_clean.joa
           - name: AR07E_2000_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_2000/AR07E_2000_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18662/AR07E_2000_bot_clean2_hy1.csv
       - year: 2005
         files :
           - name: AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_2005/AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18663/AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
           - name: AR07E_2005_09_SEP_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_2005/AR07E_2005_09_SEP_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/18664/AR07E_2005_09_SEP_bot_clean_edited.joa
       - year: 2007
         files :
           - name: AR07E_2007_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_2007/AR07E_2007_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18665/AR07E_2007_bot_clean_edited_hy1.csv
           - name: AR07E_2007_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_2007/AR07E_2007_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/18666/AR07E_2007_bot_clean_edited.joa
       - year: 2011
         files :
           - name: AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_2011/AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18667/AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
           - name: AR07E_2011_05_MAY_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_2011/AR07E_2011_05_MAY_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/18668/AR07E_2011_05_MAY_bot_clean_edited.joa
       - year: 2012
         files :
           - name: AR07E_2012_06_JUN_b_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_2012/AR07E_2012_06_JUN_b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18669/AR07E_2012_06_JUN_b_bot_clean.joa
           - name: AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_2012/AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18670/AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
       - year: 2015
         files :
           - name: AR07E_2015_partial_bottle_clean_hy1.csv
-            path: data/A01E:AR07E/AR07E_2015/AR07E_2015_partial_bottle_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18671/AR07E_2015_partial_bottle_clean_hy1.csv
           - name: AR07E_2015_partial_bottle_clean.joa
-            path: data/A01E:AR07E/AR07E_2015/AR07E_2015_partial_bottle_clean.joa
+            path: https://cchdo.ucsd.edu/data/18672/AR07E_2015_partial_bottle_clean.joa
       - year: WOA
         files :
           - name:
@@ -103,86 +103,240 @@ section:
     years:
       - year: 1990
         files :
-          - name: AR07E_1990_bot_clean_sorted_hy1.csv
-            path: data/A01E:AR07E/AR07E_1990/AR07E_1990_bot_clean_sorted_hy1.csv
-          - name: AR07E_1990_bot_clean_sorted.joa
-            path: data/A01E:AR07E/AR07E_1990/AR07E_1990_bot_clean_sorted.joa
-      - year: 1991_a
-        files :
-          - name: AR07E_1991_04_APR_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_1991_a/AR07E_1991_04_APR_bot_clean.joa
-          - name: AR07E_1991_04_APR_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_1991_a/AR07E_1991_04_APR_bot_clean2_hy1.csv
-      - year: 1991_b
-        files :
-          - name: AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_1991_b/AR07E_1991_08_AUG_bot_clean_edited_hy1.csv
-          - name: AR07E_1991_08_AUG_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_1991_b/AR07E_1991_08_AUG_bot_clean_edited.joa
-      - year: 1991_c
-        files :
-          - name: AR07E_1991_09_SEP_bottle_clean_hy1.csv
-            path: data/A01E:AR07E/AR07E_1991_c/AR07E_1991_09_SEP_bottle_clean_hy1.csv
-          - name: AR07E_1991_09_SEP_bottle_clean.joa
-            path: data/A01E:AR07E/AR07E_1991_c/AR07E_1991_09_SEP_bottle_clean.joa
+          - name: AR07W_1990_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16124/AR07W_1990_bot_clean.joa
+          - name: AR07W_1990_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16123/AR07W_1990_bot_clean_hy1.csv
+          - name: AR07W_1990_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16126/AR07W_1990_ctd_clean.joa
+          - name: AR07W_1990_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16125/AR07W_1990_ctd_clean_ct1.zip
       - year: 1992
         files :
-          - name: AR07E_1992_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_1992/AR07E_1992_bot_clean.joa
-          - name: AR07E_1992_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_1992/AR07E_1992_bot_clean2_hy1.csv
+          - name: AR07W_1992_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16128/AR07W_1992_bot_clean.joa
+          - name: AR07W_1992_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16127/AR07W_1992_bot_clean_hy1.csv
+          - name: AR07W_1992_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16130/AR07W_1992_ctd_clean.joa
+          - name: AR07W_1992_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16129/AR07W_1992_ctd_clean_ct1.zip
+      - year: 1993
+        files :
+          - name: AR07W_1993_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16132/AR07W_1993_bot_clean.joa
+          - name: AR07W_1993_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16131/AR07W_1993_bot_clean_hy1.csv
+          - name: AR07W_1993_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16134/AR07W_1993_ctd_clean.joa
+          - name: AR07W_1993_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16133/AR07W_1993_ctd_clean_ct1.zip
       - year: 1994
         files :
-          - name: AR07E_1994_bottle_clean_hy1.csv
-            path: data/A01E:AR07E/AR07E_1994/AR07E_1994_bottle_clean_hy1.csv
-          - name: AR07E_1994_bottle_clean.joa
-            path: data/A01E:AR07E/AR07E_1994/AR07E_1994_bottle_clean.joa
-      - year: 1997
+          - name: AR07W_1994_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16136/AR07W_1994_bot_clean.joa
+          - name: AR07W_1994_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16135/AR07W_1994_bot_clean_hy1.csv
+          - name: AR07W_1994_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16138/AR07W_1994_ctd_clean.joa
+          - name: AR07W_1994_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16137/AR07W_1994_ctd_clean_ct1.zip
+      - year: 1995
         files :
-          - name: AR07E_1997_08_AUG_b_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_1997/AR07E_1997_08_AUG_b_bot_clean.joa
-          - name: AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_1997/AR07E_1997_08_AUG_b_bot_clean2_hy1.csv
+          - name: AR07W_1995_06_JUN_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18674/AR07W_1995_06_JUN_bot_clean.joa
+          - name: AR07W_1995_06_JUN_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18675/AR07W_1995_06_JUN_bot_clean2_hy1.csv
+      - year: 1996
+        files :
+          - name: AR07W_1996_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16139/AR07W_1996_ct1.zip
+          - name: AR07W_1996_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16140/AR07W_1996a_bot_clean_hy1.csv
+          - name: AR07W_1996_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16142/AR07W_1996a_ctd_clean.joa
+          - name: AR07W_1996_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16139/AR07W_1996_ct1.zip
+      - year: 1997_a
+        files :
+          - name: AR07W_1997a_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16144/AR07W_1997a_bot_clean.joa
+          - name: AR07W_1997a_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16143/AR07W_1997a_bot_clean_hy1.csv
+          - name: AR07W_1997a_ctd_clean2_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16145/AR07W_1997a_ctd_clean2_ct1.zip
+      - year: 1997_b
+        files :
+          - name: AR07W_1997b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16147/AR07W_1997b_bot_clean.joa
+          - name: AR07W_1997b_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16146/AR07W_1997b_bot_clean_hy1.csv
+      - year: 1998
+        files :
+          - name: AR07W_1998_bot_clean2.joa
+            path: https://cchdo.ucsd.edu/data/16149/AR07W_1998_bot_clean2.joa
+          - name: AR07W_1998_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16148/AR07W_1998_bot_clean2_hy1.csv
+          - name: AR07W_1998_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16151/AR07W_1998_ctd_clean.joa
+          - name: AR07W_1998_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16150/AR07W_1998_ctd_clean_ct1.zip
+      - year: 1999
+        files :
+          - name: AR07W_1999a_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16153/AR07W_1999a_bot_clean.joa
+          - name: AR07W_1999a_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16152/AR07W_1999a_bot_clean_hy1.csv
+          - name: AR07W_1999a_ctd_clean2_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16154/AR07W_1999a_ctd_clean2_ct1.zip
       - year: 2000
         files :
-          - name: AR07E_2000_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_2000/AR07E_2000_bot_clean.joa
-          - name: AR07E_2000_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_2000/AR07E_2000_bot_clean2_hy1.csv
+          - name: AR07W_2000_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16158/AR07W_2000_bot_clean.joa
+          - name: AR07W_2000_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16157/AR07W_2000_bot_clean_hy1.csv
+      - year: 2001
+        files :
+          - name: AR07W_2001_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16160/AR07W_2001_bot_clean.joa
+          - name: AR07W_2001_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16159/AR07W_2001_bot_clean_hy1.csv
+          - name: AR07W_2001_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16162/AR07W_2001_ctd_clean.joa
+          - name: AR07W_2001_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16161/AR07W_2001_ctd_clean_ct1.zip
+      - year: 2002_a
+        files :
+          - name: AR07W_2002_06_JUN_bot_clean3.joa
+            path: https://cchdo.ucsd.edu/data/18677/AR07W_2002_06_JUN_bot_clean3.joa
+          - name: AR07W_2002_06_JUN_bot_clean3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18676/AR07W_2002_06_JUN_bot_clean3_hy1.csv
+      - year: 2002_b
+        files :
+          - name: AR07W_2002_11_NOV_CTD_clean.joa
+            path: https://cchdo.ucsd.edu/data/16163/AR07W_2002_b_CTD_cleaned.joa
+      - year: 2003
+        files :
+          - name: AR07W_2003_07_JUL_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18678/AR07W_2003_07_JUL_bot_clean.joa
+          - name: AR07W_2003_07_JUL_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18679/AR07W_2003_07_JUL_bot_clean2_hy1.csv
+          - name: AR07W_2003_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16167/AR07W_2003_ctd_clean.joa
+          - name: AR07W_2003_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16166/AR07W_2003_ctd_clean_ct1.zip
+      - year: 2004
+        files :
+          - name: AR07W_2004_05_MAY_bot_clean2.joa
+            path: https://cchdo.ucsd.edu/data/18680/AR07W_2004_05_MAY_bot_clean2.joa
+          - name: AR07W_2004_05_MAY_bot_clean3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18681/AR07W_2004_05_MAY_bot_clean3_hy1.csv
+          - name: AR07W_2004_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16171/AR07W_2004_ctd_clean.joa
+          - name: AR07W_2004_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16170/AR07W_2004_ctd_clean_ct1.zip
       - year: 2005
         files :
-          - name: AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_2005/AR07E_2005_09_SEP_bot_clean_edited_hy1.csv
-          - name: AR07E_2005_09_SEP_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_2005/AR07E_2005_09_SEP_bot_clean_edited.joa
+          - name: AR07W_2005_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16173/AR07W_2005_bot_clean.joa
+          - name: AR07W_2005_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16172/AR07W_2005_bot_clean_hy1.csv
+          - name: AR07W_2005_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16175/AR07W_2005_ctd_clean.joa
+          - name: AR07W_2005_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16174/AR07W_2005_ctd_clean_ct1.zip
+      - year: 2006
+        files :
+          - name: AR07W_2006_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16177/AR07W_2006_bot_clean.joa
+          - name: AR07W_2006_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16176/AR07W_2006_bot_clean_hy1.csv
+          - name: AR07W_2006_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16179/AR07W_2006_ctd_clean.joa
+          - name: AR07W_2006_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16178/AR07W_2006_ctd_clean_ct1.zip
       - year: 2007
         files :
-          - name: AR07E_2007_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_2007/AR07E_2007_bot_clean_edited_hy1.csv
-          - name: AR07E_2007_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_2007/AR07E_2007_bot_clean_edited.joa
-      - year: 2011
+          - name: AR07W_2007_05_MAY_bot_clean3.joa
+            path: https://cchdo.ucsd.edu/data/18683/AR07W_2007_05_MAY_bot_clean3.joa
+          - name: AR07W_2007_05_MAY_bot_clean3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18682/AR07W_2007_05_MAY_bot_clean3_hy1.csv
+      - year: 2008_a
         files :
-          - name: AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
-            path: data/A01E:AR07E/AR07E_2011/AR07E_2011_05_MAY_bot_clean_edited_hy1.csv
-          - name: AR07E_2011_05_MAY_bot_clean_edited.joa
-            path: data/A01E:AR07E/AR07E_2011/AR07E_2011_05_MAY_bot_clean_edited.joa
-      - year: 2012
+          - name: AR07W_2008_05_MAY_bot_clean3.joa
+            path: https://cchdo.ucsd.edu/data/18685/AR07W_2008_05_MAY_bot_clean3.joa
+          - name: AR07W_2008_05_MAY_bot_clean3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18684/AR07W_2008_05_MAY_bot_clean3_hy1.csv
+      - year: 2008_b
         files :
-          - name: AR07E_2012_06_JUN_b_bot_clean.joa
-            path: data/A01E:AR07E/AR07E_2012/AR07E_2012_06_JUN_b_bot_clean.joa
-          - name: AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
-            path: data/A01E:AR07E/AR07E_2012/AR07E_2012_06_JUN_b_bot_clean2_hy1.csv
-      - year: 2015
+          - name: AR07W_2008_08_AUG_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18686/AR07W_2008_08_AUG_bot_clean.joa
+          - name: AR07W_2008_08_AUG_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18687/AR07W_2008_08_AUG_bot_clean2_hy1.csv
+      - year: 2009_a
         files :
-          - name: AR07E_2015_partial_bottle_clean_hy1.csv
-            path: data/A01E:AR07E/AR07E_2015/AR07E_2015_partial_bottle_clean_hy1.csv
-          - name: AR07E_2015_partial_bottle_clean.joa
-            path: data/A01E:AR07E/AR07E_2015/AR07E_2015_partial_bottle_clean.joa
-      - year: WOA
+          - name: AR07W_2009a_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16183/AR07W_2009a_bot_clean.joa
+          - name: AR07W_2009a_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16182/AR07W_2009a_bot_clean_hy1.csv
+          - name: AR07W_2009a_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16184/AR07W_2009a_ctd_clean_ct1.zip
+      - year: 2009_b
+        files :
+          - name: AR07W_2009b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16186/AR07W_2009b_bot_clean.joa
+          - name: AR07W_2009b_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16185/AR07W_2009b_bot_clean_hy1.csv
+      - year: 2010
+        files :
+          - name: AR07W_2010_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/16188/AR07W_2010_bot_clean.joa
+          - name: AR07W_2010_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/16187/AR07W_2010_bot_clean_hy1.csv
+          - name: AR07W_2010_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/16190/AR07W_2010_ctd_clean.joa
+          - name: AR07W_2010_ctd_clean_ct1.zip
+            path: https://cchdo.ucsd.edu/data/16189/AR07W_2010_ctd_clean_ct1.zip
+      - year: 2011_a
+        files :
+          - name: AR07W_2011_05_MAY_a_bot_clean3.joa
+            path: https://cchdo.ucsd.edu/data/18689/AR07W_2011_05_MAY_a_bot_clean3.joa
+          - name: AR07W_2011_05_MAY_a_bot_clean3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18688/AR07W_2011_05_MAY_a_bot_clean3_hy1.csv
+      - year: 2011_b
         files :
           - name:
             path:
+      - year: 2012
+        files :
+          - name: AR07W_2012_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/18691/AR07W_2012_bot_clean_sorted.joa
+          - name: AR07W_2012_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18690/AR07W_2012_bot_clean_sorted_hy1.csv
+      - year: 2013
+        files :
+          - name: AR07W_2013_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/18693/AR07W_2013_bot_clean_sorted.joa
+          - name: AR07W_2013_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18692/AR07W_2013_bot_clean_sorted_hy1.csv
+      - year: 2014
+        files :
+          - name: AR07W_2014_05_MAY_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/18694/AR07W_2014_05_MAY_bot_clean.joa
+          - name: AR07W_2014_05_MAY_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18695/AR07W_2014_05_MAY_bot_clean2_hy1.csv
+      - year: 2015
+        files :
+          - name: AR07W_2015_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/18697/AR07W_2015_bot_clean_sorted.joa
+          - name: AR07W_2015_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18696/AR07W_2015_bot_clean_sorted_hy1.csv
+      - year: 2016
+        files :
+          - name: AR07W_2016_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/18699/AR07W_2016_bot_clean_sorted.joa
+          - name: AR07W_2016_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18698/AR07W_2016_bot_clean_sorted_hy1.csv
 yeardropdown:
   - year: 1957
   - year: 1981
