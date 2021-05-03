@@ -72,10 +72,8 @@ ocean: Atlantic
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <select class="custom-select" id="yearDropdown">
     <option value="All">Year</option>
-    {% for item in site.data.atlanticdata.section %}
-    {% for entry in item.years%}
-    <option value="{{item.year}}">{{entry.year}}</option>
-    {% endfor %}
+    {% for item in site.data.atlanticdata.yeardropdown %}
+    <option value="{{item.year}}">{{item.year}}</option>
     {% endfor %}
   </select>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
