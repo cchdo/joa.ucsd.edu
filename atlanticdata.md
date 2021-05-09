@@ -33,6 +33,7 @@ ocean: Atlantic
               <li>	<span style="background:#5cb85c;color:white">Download all Atlantic Data</span></li>
               <li>
               <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
+              <ul>
               {% for item in site.data.atlanticdata.section %}
                <li>
                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
@@ -50,7 +51,9 @@ ocean: Atlantic
                  </ul>
                </li>
                {% endfor %}
+               </ul>
                </li>
+
 
    </ul>
    </ul>
