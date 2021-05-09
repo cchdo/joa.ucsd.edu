@@ -1134,7 +1134,7 @@ section:
       - year: 1994
         files :
           - name:
-            path: 
+            path:
       - year: 1997
         files :
           - name:
@@ -1159,6 +1159,13 @@ section:
         files :
           - name:
             path:
+matched:
+  - title: A02_1994
+    files :
+        - name: natl.1981.6N.58N.joa
+          path: https://cchdo.ucsd.edu/data/18643/natl.1981.6N.58N.joa
+        - name: natl.1981.6N.58N.joa
+          path: https://cchdo.ucsd.edu/data/18643/natl.1981.6N.58N.joa
 
 
 yeardropdown:
