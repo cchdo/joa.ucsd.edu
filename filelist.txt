@@ -1,328 +1,135 @@
-A16/AR21
+A02_1994_bot_clean_east.joa (File has been sent or submitted)
+A02_1994_bot_clean_west.joa (File has been sent or submitted)
 
-1988-1989
-A16_1988_1989_bot_clean.joa (sent or submitted)
-A16_1988_1989_bot_clean_hy1.csv (sent or submitted)
-A16_1988_1989_ctd_clean.joa (sent or submitted)
-A16_1988_1989_ct1.zip (sent or submitted)
-A16_1988_1989_heavydeci_CTD.joa (sent or submitted)
+A02_1997_bot_clean_east.joa (File has been sent or submitted)
+A02_1997_bot_clean_west.joa (File has been sent or submitted)
 
+A02_2001_bot_clean_sorted_east.joa (File has been sent or submitted)
+A02_2001_bot_clean_sorted_west.joa (File has been sent or submitted)
 
-1991-1993
-A16_1991_1993_bot_clean.joa (File has been sent or submitted)
-A16_1991_1993_bot_clean_hy1.csv (File has been sent or submitted)
-A16_1991_1993_ctd_clean.joa (File has been sent or submitted)
-A16_1991_1993_ct1.zip (File has been sent or submitted)
+A02_2017_bot_clean_east.joa (File has been sent or submitted)
+A02_2017_bot_clean_west.joa (File has been sent or submitted)
 
 
-1998
-A16N_1998_bot_clean.joa (File has been sent or submitted)
-A16N_1998_bot_clean3_hy1.csv (File has been sent or submitted)
-A16N_1998_ctd_clean_ct1.zip (File has been sent or submitted)
+A03_1993_bot_clean3_east.joa (File has been sent or submitted)
+A03_1993_bot_clean3_west.joa (File has been sent or submitted)
 
-1999
+A03_2005_bot_clean3_east.joa (File has been sent or submitted)
+A03_2005_bot_clean3_west.joa (File has been sent or submitted)
 
-2003-2005
-A16_2003_2005_bot_clean.joa (sent or submitted)
-A16_2003_2005_bot_clean_hy1.csv (sent or submitted)
-A16_2003_2005_ct1.zip (sent or submitted)
-A16_2003_2005_decimated_clean_CTD.joa (File has been sent or submitted)
-A16_2003_2005_undecimated_CTD.joa (File has been sent or submitted)
-A16_2003_2005_undecimated_CTD.jos (File has been sent or submitted)
-READ_ME_re_A16_undecimated_data_file.txt (File has been sent or submitted)
 
-2008
+A05_1992_bot_clean_east.joa (File has been sent or submitted)
+A05_1992_bot_clean_westof60W.joa (File has been sent or submitted)
+A05_1992_bot_clean_westcentral.joa (File has been sent or submitted)
 
-2009
+A05_1998_bot_clean_east.joa (File has been sent or submitted)
+A05_1998_bot_clean_westcentral.joa (File has been sent or submitted)
+A05_1998_bot_clean_westof60W.joa (File has been sent or submitted)
 
-2010
+A05_2004_bot_clean_east.joa (File has been sent or submitted)
+A05_2004_bot_clean_westcentral.joa (File has been sent or submitted)
+A05_2004_bot_clean_westof60W.joa (File has been sent or submitted)
 
-2011
+A05_2010_bot_clean3_east.joa (File has been sent or submitted)
+A05_2010_bot_clean3_westof60W.joa (File has been sent or submitted)
+A05_2010_bot_clean3_westcentral.joa (File has been sent or submitted)
 
-2013-2014
-A16_2013_2014_bot_clean_w_extra_sorted.joa (sent or submitted)
-A16_2013_2014_bot_clean_w_extra_sorted_hy1.csv (File has been sent or submitted)
-A16_2013_2014_CTD_clean_w_extra_sorted.joa (sent or submitted)
+A05_2011_bot_clean_sorted_east.joa (File has been sent or submitted)
+A05_2011_bot_clean_sorted_westcentral.joa (File has been sent or submitted)
+A05_2011_bot_clean_sorted_westof60W.joa (File has been sent or submitted)
 
-WOA
-A16_WOA05_in_mass_units.joa (File has been sent or submitted)
-A16_WOA05_in_mass_units_hy1.csv (File has been sent or submitted)
+A05_2015_bot_clean_edited_east.joa (File has been sent or submitted)
+A05_2015_bot_clean_edited_westcentral.joa (File has been sent or submitted)
+A05_2015_bot_clean_edited_westof60W.joa (File has been sent or submitted)
 
+A05_2020_bot_clean2_east.joa (File has been sent or submitted)
+A05_2020_bot_clean2_westof60W.joa (File has been sent or submitted)
+A05_2020_bot_clean2_westcentral.joa (File has been sent or submitted)
 
-A17
 
-1994
-A17_1994_bot_clean3_sorted.joa (File has been sent or submitted)
-A17_1994_bot_clean3_sorted_hy1.csv (File has been sent or submitted)
+A06_1993_bot_clean3_fareast.joa (File has been sent or submitted)
+A06_1993_bot_clean3_eastcentral.joa (File has been sent or submitted)
+A06_1993_bot_clean3_west.joa (File has been sent or submitted)
 
-2001
-A17_2001_bot_clean_sorted.joa (File has been sent or submitted)
-A17_2001_bot_clean_sorted_hy1.csv (File has been sent or submitted)
+A06_2010_bot_clean_fareast.joa (File has been sent or submitted)
+A06_2010_bot_clean_eastcentral.joa (File has been sent or submitted)
+A06_2010_bot_clean_west.joa (File has been sent or submitted)
 
-2002
-A17_2002_bot_clean_sorted.joa (File has been sent or submitted)
-A17_2002_bot_clean_sorted_hy1.csv (File has been sent or submitted)
 
-2013
-A17_2013_bot_clean_sorted.joa (File has been sent or submitted)
-A17_2013_bot_clean_sorted_hy1.csv (File has been sent or submitted)
+A09_1991_bot_clean3_eastcentral.joa (File has been sent or submitted)
+A09_1991_bot_clean3_west.joa (File has been sent or submitted)
 
-2019
-A17_2019_bot_clean_sorted.joa (File has been sent or submitted)
-A17_2019_bot_clean_sorted_hy1.csv (File has been sent or submitted)
+A09.5_2009_bot_clean2_eastcentral.joa (File has been sent or submitted)
+A09.5_2009_bot_clean2_fareast.joa (File has been sent or submitted)
+A09.5_2009_bot_clean2_west.joa (File has been sent or submitted)
 
-WOA
+A09.5_2018_bot_clean3_eastcentral.joa (File has been sent or submitted)
+A09.5_2018_bot_clean3_fareast.joa (File has been sent or submitted)
+A09.5_2018_bot_clean3_west.joa (File has been sent or submitted)
 
 
-A20
+A10_1992_bot_clean_east_new.joa (File has been sent or submitted)
+A10_1992_bot_clean_far_east_new.joa (File has been sent or submitted)
+A10_1992_bot_clean_stn_west.joa (File has been sent or submitted)
 
-1983 (will need to be resurrected from Jim's file natl.1983.OC.52W.joa)
+A10_2003_bot_clean_east_new.joa (File has been sent or submitted)
+A10_2003_bot_clean_far_east_new.joa (File has been sent or submitted)
+A10_2003_bot_clean_stn_west.joa (File has been sent or submitted)
 
-1997
-A20_1997_bot_clean3_sorted.joa (File has been sent or submitted)
-A20_1997_bot_clean3_sorted_hy1.csv (File has been sent or submitted)
+A10_2011_bot_clean_east_new.joa (File has been sent or submitted)
+A10_2011_bot_clean_Far_east_new.joa (File has been sent or submitted)
+A10_2011_bot_clean_stn_west.joa (File has been sent or submitted)
 
-2003
-A20_2003_bot_clean2_sorted_hy1.csv (File has been sent or submitted)
-A20_2003_bot_clean2_sorted.joa (File has been sent or submitted)
+A10_2018_bot_clean4_east.joa (File has been sent or submitted)
+A10_2018_bot_clean4_fareast.joa (File has been sent or submitted)
+A10_2018_bot_clean4_west.joa (File has been sent or submitted)
 
-2012
-A20_2012_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-A20_2012_bot_clean_sorted.joa (File has been sent or submitted)
 
-2021
-(coming, summer 2021)
+A13.5_AJAX_1983_1984_bottle_clean_south.joa (File has been sent or submitted)
+A13.5_AJAX_1983_1984_bottle_clean_30Sto7S.joa (File has been sent or submitted)
+A13.5_AJAX_1983_1984_bottle_clean_northof7S.joa (File has been sent or submitted)
 
-WOA
+A13.5_2010_bot_clean_south.joa (File has been sent or submitted)
+A13.5_2010_bot_clean_30Sto7S.joa (File has been sent or submitted)
+A13.5_2010_bot_clean_northof7S.joa (File has been sent or submitted)
 
 
-A21
+A16_1988_1989_bot_clean_south.joa (File has been sent or submitted)
+A16_1988_1989_bot_clean_southcentral.joa (File has been sent or submitted)
+A16_1988_1989_bot_clean_1Sto18N.joa (File has been sent or submitted)
+A16_1988_1989_bot_clean_18Nto42N.joa (File has been sent or submitted)
+A16_1988_1989_bot_clean_42Nto64N.joa (File has been sent or submitted)
 
-1990 (includes SR01_1990)
-A21_SR01_1990_bot_clean3_edited_hy1.csv (File has been sent or submitted)
-A21_SR01_1990_bot_clean3_edited.joa (File has been sent or submitted)
+A16_2003_2005_bot_clean_farsouth.joa (File has been sent or submitted)
+A16_2003_2005_bot_clean_south.joa (File has been sent or submitted)
+A16_2003_2005_bot_clean_southcentral.joa (File has been sent or submitted)
+A16_2003_2005_bot_clean_1Sto18N.joa (File has been sent or submitted)
+A16_2003_2005_bot_clean_18Nto42N.joa (File has been sent or submitted)
+A16_2003_2005_bot_clean_42Nto64N.joa (File has been sent or submitted)
 
-1993 (will need to be 'searched and rescued' from AWI files)
+A16_2013_2014_bot_clean_farsouth.joa (File has been sent or submitted)
+A16_2013_2014_bot_clean_south.joa (File has been sent or submitted)
+A16_2013_2014_bot_clean_southcentral.joa (File has been sent or submitted)
+A16_2013_2014_bot_clean_1Sto18N.joa (File has been sent or submitted)
+A16_2013_2014_bot_clean_18Nto42N.joa (File has been sent or submitted)
+A16_2013_2014_bot_clean_42Nto64N.joa (File has been sent or submitted)
 
-2006
 
-2008
+A20_1997_bot_clean_sorted_northof20N.joa (File has been sent or submitted)
+A20_1997_bot_clean_sorted_southof20N.joa (File has been sent or submitted)
 
-2010_a
-A21_2010_03_b_partial_bot_clean.joa (File has been sent or submitted)
-A21_2010_03_b_partial_bot_clean2_hy1.csv (File has been sent or submitted)
+A20_2003_bot_clean_sorted_northof20N.joa (File has been sent or submitted)
+A20_2003_bot_clean_sorted_southof20N.joa (File has been sent or submitted)
 
-2010_b
+A20_2012_bot_clean_northof20N.joa (File has been sent or submitted)
+A20_2012_bot_clean_southof20N.joa (File has been sent or submitted)
 
-WOA
 
+A22_1997_bot_clean_sorted_south.joa (File has been sent or submitted)
+A22_1997_bot_clean_sorted_north.joa (File has been sent or submitted)
 
-A22
+A22_2003_bot_clean_sorted_south.joa (File has been sent or submitted)
+A22_2003_bot_clean_sorted_north.joa (File has been sent or submitted)
 
-1985 (will need to be resurrected from Jim's files)
-
-1997
-A22_1997_bot_clean_sorted.joa (sent or submitted)
-A22_1997_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-2003
-A22_2003_bot_clean_sorted.joa (sent or submitted)
-A22_2003_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-2012
-A22_2012_bot_clean_sorted.joa (sent or submitted)
-A22_2012_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-2021
-(coming, summer 2021)
-
-WOA
-
-
-A23 (Note: There is a repeated crossing of the waters downstream from Drake Passage, with several years of data, mostly already cleaned, that we should consider adding to the clean data set, under some reasonable section name.)
-
-1989
-A23_1989_bot_clean_sorted.joa (File has been sent or submitted)
-A23_1989_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-1995
-A23_1995_bot_clean_sorted.joa (File has been sent or submitted)
-A23_1995_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-1999
-A23_1999_bot_clean_edited.joa (File has been sent or submitted)
-A23_1999_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-2012
-
-2015
-
-2016
-
-2017
-
-2018
-
-2020
-
-WOA
-
-
-A24N
-
-1997
-A24N_1997_bot_clean_sorted.joa (File has been sent or submitted)
-A24N_1997_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-WOA
-
-
-A24S
-
-1997
-A24S_1997_bot_clean.joa (File has been sent or submitted)
-A24S_1997_bot_clean_hy1.csv (File has been sent or submitted)
-
-WOA
-
-
-A25/OVIDE
-
-
-1997
-A25_1997_bot_clean_edited.joa (File has been sent or submitted)
-A25_1997_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-2002
-A25_OVIDE_2002_bot_clean3.joa (File has been sent or submitted)
-A25_OVIDE_2002_bot_clean3_hy1.csv (File has been sent or submitted)
-
-2004
-A25_OVIDE_2004_bot_clean_edited.joa (File has been sent or submitted)
-A25_OVIDE_2004_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-2006
-A25_OVIDE_2006_bot_clean_edited.joa (File has been sent or submitted)
-A25_OVIDE_2006_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-2008
-A25_OVIDE_2008_bot_clean.joa (File has been sent or submitted)
-A25_OVIDE_2008_bot_clean2_hy1.csv (File has been sent or submitted)
-
-2010
-A25_OVIDE_2010_bot_clean.joa (File has been sent or submitted)
-A25_OVIDE_2010_bot_clean2_hy1.csv (File has been sent or submitted)
-
-WOA
-
-
-AR04
-
-1990
-AR04W_1990_44W_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-AR04W_1990_44W_bot_clean_sorted.joa (File has been sent or submitted)
-
-1991
-AR04E_1991_35W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-AR04E_1991_35W_bot_clean_edited.joa (File has been sent or submitted)
-AR04W_1991_44W_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-AR04W_1991_44W_bot_clean_sorted.joa (File has been sent or submitted)
-
-1992
-AR04E_1992_35W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-AR04E_1992_35W_bot_clean_edited.joa (File has been sent or submitted)
-AR04W_1992_44W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-AR04W_1992_44W_bot_clean_edited.joa (File has been sent or submitted)
-
-1994
-AR04E_1994_35W_bot_clean_edited.joa (File has been sent or submitted)
-AR04E_1994_35W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-AR04W_1994_44W_bot_clean_sorted.joa (File has been sent or submitted)
-AR04W_1994_44W_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-1995
-AR04E_1995_35W_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-AR04E_1995_35W_bot_clean_sorted.joa (File has been sent or submitted)
-AR04W_1995_45to41W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-AR04W_1995_45to41W_bot_clean_edited.joa (File has been sent or submitted)
-
-1996
-AR04E_1996_35W_bot_clean_edited.joa (File has been sent or submitted)
-AR04E_1996_35W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-AR04W_1996_45to41W_bot_clean_edited.joa (File has been sent or submitted)
-AR04W_1996_45to41W_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-2000
-AR04E_2000_35W_long_bot_clean_sorted.joa (File has been sent or submitted)
-AR04E_2000_35W_long_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-2002
-AR04E_2002_40W_bot_clean_sorted.joa (File has been sent or submitted)
-AR04E_2002_40W_bot_clean_sorted_hy1.csv (File has been sent or submitted)
-
-2003
-AR04E_2003_35W_long_bot_clean_nobottleO2_sorted.joa (File has been sent or submitted)
-AR04E_2003_35W_long_bot_clean_nobottleO2_sorted_hy1.csv (File has been sent or submitted)
-
-2004
-AR04C_2004_SE_N_ATL_pair_bot_clean_edited.joa (File has been sent or submitted)
-AR04C_2004_SE_N_ATL_pair_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-2005
-AR04C_2005_15N_bot_clean_edited.joa (File has been sent or submitted)
-AR04C_2005_15N_bot_clean_edited_hy1.csv (File has been sent or submitted)
-
-
-AR16 (messy, not yet done)
-
-1992
-
-
-AR18 (messy,not yet done)
-
-1992
-
-1993
-
-1994
-
-1995
-
-1997
-
-WOA
-
-
-AR24 (messy, not yet done)
-
-1991
-
-1996
-
-1997_a
-
-1997_b
-
-WOA
-
-
-Mediterranean (messy, most not yet done)
-
-1994
-
-1997
-
-1998
-
-2001
-
-2011
-MedSea_06MT20110405_clean_hy1.joa
-MedSea_06MT20110405_clean_subset_hy1.joa
-
-2013
-
-WOA
-
-
-OSNAP
+A22_2012_bot_clean_sorted_south.joa (File has been sent or submitted)
+A22_2012_bot_clean_sorted_north.joa (File has been sent or submitted
