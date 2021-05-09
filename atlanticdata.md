@@ -61,12 +61,12 @@ ocean: Atlantic
                 <li>
                   <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                   <ul>
-                    <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Matched Segment Data</span></li>
-                    {% for file in item.files %}
+                    <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Segment Data</span></li>
                           <ul>
+                              {% for file in item.files %}
                               <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
+                              {% endfor %}
                           </ul>
-                     {% endfor %}
                   </ul>
                 </li>
                 {% endfor %}
