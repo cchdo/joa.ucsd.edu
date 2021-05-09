@@ -54,7 +54,7 @@ ocean: Atlantic
                </ul>
                </li>
 
-               <li>
+               <!-- <li>
                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
                <ul>
                {% for item in site.data.atlanticdata.matched %}
@@ -71,7 +71,24 @@ ocean: Atlantic
                 </li>
                 {% endfor %}
                 </ul>
-                </li>
+                </li> -->
+
+                <li>
+                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
+                <ul>
+                {% for item in site.data.atlanticdata.matched %}
+                 <li>
+                  <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+                   <ul>
+                     <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                                {% for file in item.files%}
+                               <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
+                                {% endfor %}
+                   </ul>
+                 </li>
+                 {% endfor %}
+                 </ul>
+                 </li>
 
 
    </ul>
