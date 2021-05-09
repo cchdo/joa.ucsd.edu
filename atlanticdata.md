@@ -31,11 +31,13 @@ ocean: Atlantic
        <span style="color:white;font-size:large"><b><u>Atlantic Ocean</u></b></span>
            <ul>
               <li>	<span style="background:#5cb85c;color:white">Download all Atlantic Data</span></li>
+              <li>
+              <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
               {% for item in site.data.atlanticdata.section %}
                <li>
                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                  <ul>
-                   <li>	<span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                   <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
                    {% for entry in item.years%}
                      <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
                          <ul>
@@ -48,6 +50,8 @@ ocean: Atlantic
                  </ul>
                </li>
                {% endfor %}
+               </li>
+
    </ul>
    </ul>
 </div>
