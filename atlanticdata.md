@@ -55,7 +55,7 @@ ocean: Atlantic
                </li>
 
                 <li>
-                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
+                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
                 <ul>
                 {% for item in site.data.atlanticdata.matched %}
                  <li>
