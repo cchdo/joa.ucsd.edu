@@ -30,25 +30,46 @@ ocean: Indian
    <ul>
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
-              <li>	<span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li>
-              {% for item in site.data.indiandata.section %}
+               <li>	<span style="background:#5cb85c;color:white">Download all Indian Data</span></li>
                <li>
-               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+               <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
+               <ul>
+               {% for item in site.data.indiandata.section %}
+                <li>
+                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+                  <ul>
+                    <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                    {% for entry in item.years%}
+                      <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
+                          <ul>
+                              {% for file in entry.files%}
+                              <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
+                              {% endfor %}
+                          </ul>
+                      </li>
+                     {% endfor %}
+                  </ul>
+                </li>
+                {% endfor %}
+                </ul>
+                </li>
+
+                 <li>
+                 <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
                  <ul>
-                   <li>	<span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
-                   {% for entry in item.years%}
-                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
-                         <ul>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                         </ul>
-                     </li>
-                    {% endfor %}
-                 </ul>
-               </li>
-               {% endfor %}
+                 {% for item in site.data.indiandata.matched %}
+                  <li>
+                   <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+                    <ul>
+                      <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                                 {% for file in item.files%}
+                                <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
+                                 {% endfor %}
+                    </ul>
+                  </li>
+                  {% endfor %}
+                  </ul>
+                  </li>
    </ul>
    </ul>
 </div>
@@ -112,19 +133,21 @@ ocean: Indian
         </table>
         </div>
         <div class="table100-body js-pscroll" style="max-height:1500px">
-        <table class="table" id="datatable1">
-        <tbody id="datatable">
-        {% for item in site.data.indiandata.section%}
-        {% for entry in item.years%}
-          <tr>
-              <td class="cell100 column1">{{item.title}}</td>
-              <td class="cell100 column2">{{entry.year}}</td>
-              <td class="cell100 column4"><a href = "{{entry.path}}">{{entry.file}}</a>/td>
-            </tr>
-        {% endfor %}
-        {% endfor %}
-        </tbody>
-        </table>
+            <table class="table" id="datatable1">
+            <tbody id="datatable">
+            {% for item in site.data.indiandata.section%}
+            {% for entry in item.years%}
+            {% for file in entry.files%}
+              <tr>
+                  <td class="cell100 column1">{{item.title}}</td>
+                  <td class="cell100 column2">{{entry.year}}</td>
+                  <td class="cell100 column4"><a href="{{file.path}}">{{file.name}}</a></td>
+                </tr>
+            {% endfor %}
+            {% endfor %}
+            {% endfor %}
+            </tbody>
+            </table>
 </div>
 </div>
 </div>
