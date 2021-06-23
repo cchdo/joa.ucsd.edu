@@ -45,9 +45,9 @@ css: Data_homepage
         <h3 class="cta-title">Download Current Versions</h3>
         <h3 class="cta-title">JOA 5.5 for Windows, macOS 10.15 or earlier</h3>
         <p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via  'About Java OceanAtlas' under the Java OceanAtlas menu.
+          </p>
           <br>
           Click here to find the <a href="general_installation_instructions"><u>General installation instructions</u></a> for JOA.
-          </p>
           <br>
         </div>
           <div class="col-lg-9 text-center text-lg-left">
