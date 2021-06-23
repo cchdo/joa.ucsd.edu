@@ -50,7 +50,7 @@ css: Data_homepage
           <div class="col-lg-9 text-center text-lg-left">
           <br><br><br>
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
-          <p class="cta-text">Tested on MacOS Catalina (10.15), Mojave (10.14) and High Sierra (10.13). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download.</p>
+          <p class="cta-text">Tested on MacOS Monterey (12 beta), Big Sur (11), Catalina (10.15), Mojave (10.14) and High Sierra (10.13). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download. <b>Note: Exact installation instructions must be followed for Mac OS 10.15 and above.</b></p>
           <br><br><br><br><br>
           <h3 class="cta-title" style="font-size:20px;">Windows</h3>
           <p class="cta-text">JOA 5.5 was tested on Windows 10 (1903). The installer .msi file should run on basically every recent-ish Windows OS, both 32 and 64-bit versions: Vista, Server, 7, 8, 8.1, and 10. Java 8 (the embedded JRE) is compatible with all of those except Vista and some old versions of Server.</p>
