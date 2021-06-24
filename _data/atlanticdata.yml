@@ -1314,7 +1314,7 @@ matched:
         - name: A06_2010_bot_clean_west.joa
           path: https://cchdo.ucsd.edu/data/19214/A06_2010_bot_clean_west.joa
   - title: A09_1991
-    zip_path:
+    zip_path: https://cchdo.ucsd.edu/data/19678/A09_1991.zip
     files :
         - name: A09_1991_bot_clean3_eastcentral.joa
           path: https://cchdo.ucsd.edu/data/19215/A09_1991_bot_clean3_eastcentral.joa
