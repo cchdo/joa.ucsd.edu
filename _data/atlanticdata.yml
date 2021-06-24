@@ -953,10 +953,10 @@ section:
     years:
       - year: 1997
         files :
-          - name: A24S_1997_bot_clean.joa
-            path: https://cchdo.ucsd.edu/data/18898/A24S_1997_bot_clean.joa
-          - name: A24S_1997_bot_clean_hy1.csv
-            path: https://cchdo.ucsd.edu/data/18897/A24S_1997_bot_clean_hy1.csv
+          - name: A25_1997_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/18900/A25_1997_bot_clean_edited.joa
+          - name: A25_1997_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/18899/A25_1997_bot_clean_edited_hy1.csv
       - year: 2002
         files :
           - name: A25_OVIDE_2002_bot_clean3.joa
