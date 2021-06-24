@@ -100,12 +100,12 @@ ocean: Indian
   </select>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <select class="custom-select" id="fileDropdown">
-    <option value="All">File</option>
-    <option value="Basin">.csv</option>
-    <option value="Sub Basin">.jos</option>
-    <option value="Option_3">.txt</option>
-    <option value="Option_4">.joa</option>
-    <option value="Option_5">.zip</option>
+  <option value="All">File</option>
+  <option value=".csv">.csv</option>
+  <option value=".jos">.jos</option>
+  <option value=".txt">.txt</option>
+  <option value=".joa">.joa</option>
+  <option value=".zip">.zip</option>
   </select>
 </center>
 </form>

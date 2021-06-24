@@ -1475,7 +1475,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/16228/A22_2003_bot_clean_sorted_south.joa
         - name: A22_2003_bot_clean_sorted_north.joa
           path: https://cchdo.ucsd.edu/data/16227/A22_2003_bot_clean_sorted_north.joa
-  - title:
+  - title: A22_2012
     zip_path: https://cchdo.ucsd.edu/data/19630/A22_2012.zip
     files :
         - name: A22_2012_bot_clean_sorted_south.joa

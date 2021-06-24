@@ -1,5 +1,6 @@
 section:
   - title: I01/IR01
+    zip_path: https://cchdo.ucsd.edu/data/19586/I01:IR01.zip
     years:
       - year: 1995
         files :
@@ -14,6 +15,7 @@ section:
           - name: I01W_1995b_bot_clean_edited.joa
             path: https://cchdo.ucsd.edu/data/19305/I01W_1995b_bot_clean_edited.joa
   - title: ISS2
+    zip_path: https://cchdo.ucsd.edu/data/19597/ISS2.zip
     years:
       - year: 1995
         files :
@@ -26,6 +28,7 @@ section:
           - name: ISS2_1995_ArabianSeaTrack_bot_clean_limited_data_hy1.csv
             path: https://cchdo.ucsd.edu/data/19314/ISS2_1995_ArabianSeaTrack_bot_clean_limited_data_hy1.csv
   - title: I02
+    zip_path: https://cchdo.ucsd.edu/data/19587/I02.zip
     years:
       - year: 1995
         files :
@@ -35,6 +38,7 @@ section:
             path: https://cchdo.ucsd.edu/data/19307/I02_1995_1996_bot_clean_edited.joa
 
   - title: I04W_I03
+    zip_path: https://cchdo.ucsd.edu/data/19588/I04W_I03.zip
     years:
       - year: 1976
         files :
@@ -60,6 +64,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16806/I04W_I03_WOA05_in_mass_units.joa
 
   - title: I05
+    zip_path: https://cchdo.ucsd.edu/data/19589/I05.zip
     years:
       - year: 1987
         files :
@@ -93,6 +98,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16813/I05_2009_bot_clean_hy1.csv
 
   - title: I06S
+    zip_path: https://cchdo.ucsd.edu/data/19590/I06S.zip
     years:
       - year: 1993
         files :
@@ -120,6 +126,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16819/I06S_2019_bottle_clean_hy1.csv
 
   - title: I07N/ISS02
+    zip_path: https://cchdo.ucsd.edu/data/19592/I07N:ISS02.zip
     years:
       - year: 1995
         files :
@@ -136,6 +143,7 @@ section:
 
 
   - title: I07_complete
+    zip_path: https://cchdo.ucsd.edu/data/19591/I07_complete.zip
     years:
       - year: 2018_2019
         files :
@@ -145,6 +153,7 @@ section:
             path: https://cchdo.ucsd.edu/data/19313/I07_2018_2019_bottle_clean.joa
 
   - title: I08N
+    zip_path: https://cchdo.ucsd.edu/data/19593/I08N.zip
     years:
       - year: 1995a
         files :
@@ -166,6 +175,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16828/I08N_2019_CTD_std_levels_only.joa
 
   - title: I08S/I09N
+    zip_path: https://cchdo.ucsd.edu/data/19594/I08S:I09N.zip
     years:
       - year: 1995
         files :
@@ -193,6 +203,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16835/WOA05_I8S_I9N_in_mass_units_hy1.csv
 
   - title: I09S
+    zip_path: https://cchdo.ucsd.edu/data/19595/I09S.zip
     years:
       - year: 1994
         files :
@@ -214,6 +225,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16841/I09S_2012_01_JAN_bot_clean2_hy1.csv
 
   - title: I10/IR06
+    zip_path: https://cchdo.ucsd.edu/data/19596/I10:IR06.zip
     years:
       - year: 1982
         files :
@@ -244,6 +256,7 @@ section:
 
 matched:
   - title: I03
+    zip_path: https://cchdo.ucsd.edu/data/19580/I03.zip
     files :
         - name: I03_1995_bot_clean3_east.joa
           path: https://cchdo.ucsd.edu/data/16843/I03_1995_bot_clean3_east.joa
@@ -258,6 +271,7 @@ matched:
         - name: I03_2003_bot_clean_west.joa
           path: https://cchdo.ucsd.edu/data/16847/I03_2003_bot_clean_west.joa
   - title: I05
+    zip_path: https://cchdo.ucsd.edu/data/19589/I05.zip
     files :
         - name: I05_1987_bot_clean_eastof88E.joa
           path: https://cchdo.ucsd.edu/data/19287/I05_1987_bot_clean_eastof88E.joa
@@ -277,7 +291,9 @@ matched:
           path: https://cchdo.ucsd.edu/data/16853/I05_2002_bot_clean_west.joa
         - name: I05_2009_bot_clean_west.joa
           path: https://cchdo.ucsd.edu/data/16856/I05_2009_bot_clean_west.joa
+
   - title: I06S
+    zip_path: https://cchdo.ucsd.edu/data/19590/I06S.zip
     files :
         - name: I06S_1996_bottle_clean_sorted_southof49S.joa
           path: https://cchdo.ucsd.edu/data/16858/I06S_1996_bottle_clean_sorted_southof49S.joa
@@ -292,6 +308,7 @@ matched:
         - name: I06S_2019_bottle_clean_sorted_northof49S_incomplete.joa
           path: https://cchdo.ucsd.edu/data/16861/I06S_2019_bottle_clean_sorted_northof49S_incomplete.joa
   - title: I07N
+    zip_path: https://cchdo.ucsd.edu/data/19583/I07N.zip
     files :
         - name: I07N_1995_all_bottle_clean_south.joa
           path: https://cchdo.ucsd.edu/data/16864/I07N_1995_all_bottle_clean_south.joa
@@ -301,7 +318,9 @@ matched:
           path: https://cchdo.ucsd.edu/data/16863/I07N_1995_all_bottle_clean_northto15N.joa
         - name: I07N_2018_bottle_clean_northto15N.joa
           path: https://cchdo.ucsd.edu/data/16865/I07N_2018_bottle_clean_northto15N.joa
+
   - title: I08S/I09N
+    zip_path: https://cchdo.ucsd.edu/data/19594/I08S:I09N.zip
     files :
         - name: I08S_I09N_1995_Antarctic_far_south_Indian.joa
           path: https://cchdo.ucsd.edu/data/19292/I08S_I09N_1995_Antarctic_far_south_Indian.joa
@@ -335,7 +354,9 @@ matched:
           path: https://cchdo.ucsd.edu/data/16869/I08S_I09N_2007_bot_north_new.joa
         - name: I08S_I09N_2016_bot_north_new.joa
           path: https://cchdo.ucsd.edu/data/16871/I08S_I09N_2016_bot_north_new.joa
+
   - title: I09S
+    zip_path: https://cchdo.ucsd.edu/data/19595/I09S.zip
     files :
         - name: I09S_1994_bot_clean3_south.joa
           path: https://cchdo.ucsd.edu/data/16874/I09S_1994_bot_clean3_south.joa
