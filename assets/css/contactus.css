@@ -1258,7 +1258,7 @@ a,
 a:active,
 a:focus,
 a:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
