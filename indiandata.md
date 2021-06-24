@@ -30,7 +30,7 @@ ocean: Indian
    <ul>
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
-               <li>	<span style="background:#5cb85c;color:white">Download all Indian Data</span></li>
+               <li><a href = "https://cchdo.ucsd.edu/data/19657/Indian_Ocean_Data.zip"><span style="background:#5cb85c;color:white">Download all Indian Data</span></a></li>
                <li>
                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
                <ul>
@@ -38,7 +38,7 @@ ocean: Indian
                 <li>
                 	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                   <ul>
-                    <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                    <li><a href = "{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></a></li>
                     {% for entry in item.years%}
                       <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
                           <ul>
@@ -61,7 +61,7 @@ ocean: Indian
                   <li>
                    <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                     <ul>
-                      <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                      <li><a href = "{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></a></li>
                                  {% for file in item.files%}
                                 <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
                                  {% endfor %}

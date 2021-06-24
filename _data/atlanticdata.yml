@@ -572,7 +572,7 @@ section:
           - name:
             path:
   - title: A10
-    zip_path:
+    zip_path: https://cchdo.ucsd.edu/data/19676/A10.zip
     years:
       - year: 1992
         files :
@@ -597,42 +597,42 @@ section:
       - year: 2009
         files :
           - name: A10_2009_bot_clean.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19659/A10_2009_bot_clean.joa
           - name: A10_2009_bot_clean3_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19660/A10_2009_bot_clean3_hy1.csv
       - year: 2011
         files :
           - name: A10_2011_bot_clean4.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19662/A10_2011_bot_clean4.joa
           - name: A10_2011_bot_clean4_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19661/A10_2011_bot_clean4_hy1.csv
       - year: 2017
         files :
           - name: A10_2017_bot_clean3_edited_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19663/A10_2017_bot_clean3_edited_hy1.csv
           - name: A10_2017_bot_clean3_edited.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19664/A10_2017_bot_clean3_edited.joa
       - year: 2018
         files :
           - name: A10_2018_bot_clean4.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19666/A10_2018_bot_clean4.joa
           - name: A10_2018_bot_clean4_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19665/A10_2018_bot_clean4_hy1.csv
       - year: WOA
         files :
           - name: A10_WOA05_in_mass_units.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19668/A10_WOA05_in_mass_units.joa
           - name: A10_WOA05_in_mass_units_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19667/A10_WOA05_in_mass_units_hy1.csv
   - title: A11
-    zip_path:
+    zip_path: https://cchdo.ucsd.edu/data/19677/A11.zip
     years:
       - year: 1992
         files :
           - name: A11_1992_bot_clean_edited.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19670/A11_1992_bot_clean_edited.joa
           - name: A11_1992_bot_clean_edited_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19669/A11_1992_bot_clean_edited_hy1.csv
       - year: WOA
         files :
           - name:

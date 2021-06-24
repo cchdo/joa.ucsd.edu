@@ -48,7 +48,7 @@ section:
           - name: P02_2004_bot_clean_sorted.joa
             path: https://cchdo.ucsd.edu/data/16295/P02_2004_bot_clean_sorted.joa
           - name: P02_2004_bot_clean_sorted_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19671/P02_2004_bot_clean_sorted_hy1.csv
           - name: P02_2004_ct1.zip
             path: https://cchdo.ucsd.edu/data/16296/P02_2004_ct1.zip
           - name: P02_2004_ctd_clean.joa
@@ -58,7 +58,7 @@ section:
           - name: P02_2013_bot_clean_sorted.joa
             path: https://cchdo.ucsd.edu/data/16302/P02_2013_bot_clean_sorted.joa
           - name: P02_2013_bot_clean_sorted_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19672/P02_2013_bot_clean_sorted_hy1.csv
           - name: P02_2013_ct1.zip
             path: https://cchdo.ucsd.edu/data/16303/P02_2013_ct1.zip
           - name: P02_2013_ctd_clean.joa
@@ -66,9 +66,9 @@ section:
       - year: WOA
         files :
           - name: P02_WOA05_in_mass_units.joa
-            path:
+            path: https://cchdo.ucsd.edu/data/19674/P02_WOA05_in_mass_units.joa
           - name: P02_WOA05_in_mass_units_hy1.csv
-            path:
+            path: https://cchdo.ucsd.edu/data/19673/P02_WOA05_in_mass_units_hy1.csv
 
   - title: P03
     years:
