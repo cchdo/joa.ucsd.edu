@@ -26,7 +26,7 @@ css: Data_homepage
         <h3 class="cta-title">Install</h3>
         <p class="cta-text">
           <li><a href="general_installation_instructions">General installation instructions</a></li>
-          <li><a href="mac_specific_installation_instructions">Mac specific installation instructions</a></li>
+          <li><a href="mac_specific_installation_instructions">Mac specific installation instructions for Mac OS 10.15 (Catalina) and above (Mac OS 11 Big Sur, and Mac OS 12 Monterey)</a></li>
           <li><a href="windows_specific_installation_instructions">Windows specific installation instructions</a></li>
           <li><a href="assets/documents/JOA5_linux_terminal.pdf">Installation instructions for JOA 5.5 on Linux and running JOA 5.5 from terminal in macOS Catalina</a></li>
         </p>
@@ -44,16 +44,23 @@ css: Data_homepage
         <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
         <h3 class="cta-title">Download Current Versions</h3>
         <h3 class="cta-title">JOA 5.5 for Windows, macOS 10.15 or earlier</h3>
-        <p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via  'About Java OceanAtlas' under the Java OceanAtlas menu.</p>
+        <p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via  'About Java OceanAtlas' under the Java OceanAtlas menu.
+          </p>
+          <br>
+          Click here to find the <a href="general_installation_instructions"><u>General installation instructions</u></a> for JOA.
           <br>
         </div>
           <div class="col-lg-9 text-center text-lg-left">
-          <br><br><br>
+          <br><br>
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
-          <p class="cta-text">Tested on MacOS Catalina (10.15), Mojave (10.14) and High Sierra (10.13). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download.</p>
-          <br><br><br><br><br>
+          <p class="cta-text">Tested on MacOS Monterey (12 beta), Big Sur (11), Catalina (10.15), Mojave (10.14) and High Sierra (10.13). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download. <b>Note: Exact installation instructions must be followed for Mac OS 10.15 and above.</b></p>
+          <br>
+            Click here to find the <a href="mac_specific_installation_instructions"><u>Mac specific installation instructions</u></a> for Mac OS 10.15 (Catalina) and above (Mac OS 11 Big Sur, and Mac OS 12 Monterey). 
+           <br><br><br>
           <h3 class="cta-title" style="font-size:20px;">Windows</h3>
           <p class="cta-text">JOA 5.5 was tested on Windows 10 (1903). The installer .msi file should run on basically every recent-ish Windows OS, both 32 and 64-bit versions: Vista, Server, 7, 8, 8.1, and 10. Java 8 (the embedded JRE) is compatible with all of those except Vista and some old versions of Server.</p>
+           <br>
+            Click here to find the <a href="windows_specific_installation_instructions"><u>Windows specific installation instructions</u></a> for Windows.    
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
         <h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3>

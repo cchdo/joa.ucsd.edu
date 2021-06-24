@@ -12,11 +12,11 @@ css: joa
 
 <ul>
 <li>You do not have to install a separate Java environment for JOA 5.5 </li>
-<li>The installation process depends on what operating system you are using. To check what version of macOS is installed on your computer, go to the apple menu in the top left corner of your screen and select <b>About This Mac.</b> JOA 5.5 has been tested on versions 12-15 of macOS.</li>
+<li>The installation process depends on what operating system you are using. To check what version of macOS is installed on your computer, go to the apple menu in the top left corner of your screen and select <b>About This Mac.</b> JOA 5.5 has been tested on versions 10.12-10.15, 11, and 12 (beta) of macOS.</li>
 </ul>
 
 
-<h2>Installation on macOS Catalina (10.15) </h2>
+<h2>Installation on macOS Catalina (10.15), Big Sur (11), and Monterey (12) </h2>
 <ol>
 <li>You must download JOA 5.5 from Safari. Open Safari and go to Preferences. In the General tab, turn on Open “safe” files after downloading. This is necessary for JOA to install correctly.</li>
 <br>
