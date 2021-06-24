@@ -986,8 +986,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-size: 14px;
   position: relative;
-  margin-top: 30px;
-  height: 100px;
+  margin-top: 3vh;
+  height: 10vh;
   clear: both;
 }
 
