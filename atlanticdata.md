@@ -3,7 +3,6 @@ layout : datapage
 title : Atlantic Datapage
 ocean: Atlantic
 ---
-
 <section id="hero">
   <div class="hero-container">
   <br><br><br><br>
@@ -30,7 +29,7 @@ ocean: Atlantic
    <ul>
        <span style="color:white;font-size:large"><b><u>Atlantic Ocean</u></b></span>
            <ul>
-              <li>	<span style="background:#5cb85c;color:white">Download all Atlantic Data</span></li>
+              <li>	<span style="background:#5cb85c;color:white"><a href = "https://cchdo.ucsd.edu/data/19656/Atlantic_Ocean_Data.zip">Download all Atlantic Data</a></span></li>
               <li>
               <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
               <ul>
@@ -38,7 +37,7 @@ ocean: Atlantic
                <li>
                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                  <ul>
-                   <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                   <li><span style="background:#5cb85c;color:white"><a href = "{{item.zip_path}}">Download all {{item.title}} Data</a></span></li>
                    {% for entry in item.years%}
                      <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
                          <ul>

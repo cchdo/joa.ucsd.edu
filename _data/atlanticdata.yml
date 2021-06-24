@@ -1,5 +1,6 @@
 section:
   - title: A01/AR07
+    zip_path: https://cchdo.ucsd.edu/data/19631/A01:AR07.zip
     years:
       - year: 1981-1982
         files :
@@ -16,6 +17,7 @@ section:
           - name: A01_WOA05_clean_vol.joa
             path: https://cchdo.ucsd.edu/data/18646/A01_WOA05_clean_vol.joa
   - title: A01E/AR07E
+    zip_path: https://cchdo.ucsd.edu/data/19632/A01E:AR07E.zip
     years:
       - year: 1990
         files :
@@ -100,6 +102,7 @@ section:
           - name:
             path:
   - title: A01W/AR07W
+    zip_path: https://cchdo.ucsd.edu/data/19633/A01W:AR07W.zip
     years:
       - year: 1990
         files :
