@@ -60,7 +60,7 @@ ocean: Atlantic
                  <li>
                   <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
                    <ul>
-                     <li><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
+                     <li><a href = "{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></a></li>
                                 {% for file in item.files%}
                                <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
                                 {% endfor %}
