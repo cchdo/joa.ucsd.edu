@@ -239,11 +239,12 @@ Call To Action Section
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
       -->
-      <a href="https://www.nsf.gov/"><img src="assets/images/logo_nsf.svg" alt="NSF logo" height="60" width="60"></a>
-      <a href="https://www.noaa.gov/"><img src="assets/images/logo_noaa_new.svg" alt="NOAA logo" height="60" width="280"></a>
-      <a href="https://scripps.ucsd.edu/"><img src="assets/images/logo_sio_color.svg" alt="SIO logo" height="60" width="60"></a>
-      <a href="http://www.clivar.org/"><img src="assets/images/logo_clivar.svg" alt="CLIVAR logo" height="60" width="95"></a>
-      <a href="https://www.go-ship.org/"><img src="assets/images/logo_goship.svg" alt="GO-SHIP logo" height="60" width="60"></a><br />
+      <a href="https://www.nsf.gov/"><img src="assets/images/logo_nsf.svg" alt="NSF logo" height="60" width="60"></a>&emsp;
+      <a href="https://www.noaa.gov/"><img src="assets/images/logo_noaa_new.svg" alt="NOAA logo" height="60" width="280"></a>&emsp;
+      <a href="https://scripps.ucsd.edu/"><img src="assets/images/logo_sio_color.svg" alt="SIO logo" height="60" width="60"></a>&emsp;
+      <a href="http://www.clivar.org/"><img src="assets/images/logo_clivar.svg" alt="CLIVAR logo" height="60" width="95"></a>&emsp;
+      <a href="https://www.go-ship.org/"><img src="assets/images/logo_goship.svg" alt="GO-SHIP logo" height="60" width="60"></a>&emsp;
+      <br><br>
       <small>Any opinions, findings, and conclusions or recommendations expressed in this material are those of Dr James Swift and do not necessarily reflect the views of the supporting agencies.</small><br>
     </div>
   </div>
