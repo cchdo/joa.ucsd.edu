@@ -31,13 +31,13 @@ section:
             path:
   - title: P01NW
     years:
-      - year: 1985_1993
+      - year: 1985-1993
         files :
           - name: TBD
             path:
   - title: P02
     years:
-      - year: 1993_1994
+      - year: 1993-1994
         files :
           - name: P02_1993_1994_botclean_T_S_O2.joa
             path: https://cchdo.ucsd.edu/data/16290/P02_1993_1994_botclean_T_S_O2.joa
@@ -82,7 +82,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16307/P03_1985_ct1.zip
           - name: P03_1985_ctd_clean.joa
             path: https://cchdo.ucsd.edu/data/16308/P03_1985_ctd_clean.joa
-      - year: 2005_2006
+      - year: 2005-2006
         files :
           - name: P03_2005_2006_all_bot_clean2.joa
             path: https://cchdo.ucsd.edu/data/19446/P03_2005_2006_all_bot_clean2.joa
@@ -130,7 +130,7 @@ section:
             path: https://cchdo.ucsd.edu/data/16327/P06_2003_bot_clean_hy1.csv
           - name: P06_2003_ct1.zip
             path: https://cchdo.ucsd.edu/data/16330/P06_2003_ct1.zip
-      - year: 2009_2010
+      - year: 2009-2010
         files :
           - name: P06_2009_2010_bot_clean.joa
             path: https://cchdo.ucsd.edu/data/16334/P06_2009_2010_bot_clean.joa
@@ -226,7 +226,7 @@ section:
         files :
           - name: TBD
             path:
-      - year: 2011_2012
+      - year: 2011-2012
         files :
           - name: P10_2011_2012_bot_clean2.joa
             path: https://cchdo.ucsd.edu/data/19451/P10_2011_2012_bot_clean2.joa
@@ -250,7 +250,7 @@ section:
 
   - title: P13
     years:
-      - year: 1991_1993
+      - year: 1991-1993
         files :
           - name: TBD
             path:
@@ -258,18 +258,18 @@ section:
         files :
           - name: TBD
             path:
-      - year: 2010_2011
+      - year: 2010-2011
         files :
           - name: TBD
             path:
 
   - title: P14
     years:
-      - year: 1992_1993_1996
+      - year: 1992-1993-1996
         files :
           - name: TBD
             path:
-      - year: 2007_2012
+      - year: 2007-2012
         files :
           - name: TBD
             path:
@@ -280,7 +280,7 @@ section:
         files :
           - name: TBD
             path:
-      - year: 1990_1994
+      - year: 1990-1994
         files :
           - name: TBD
             path:
@@ -321,7 +321,7 @@ section:
             path: https://cchdo.ucsd.edu/data/19472/P16N_1984_bot_clean3.joa
           - name: P16N_1984_bot_clean3_hy1.csv
             path: https://cchdo.ucsd.edu/data/19471/P16N_1984_bot_clean3_hy1.csv
-      - year: 1991_1992
+      - year: 1991-1992
         files :
           - name: P16_1991_1992_bot_clean_edited.joa
             path: https://cchdo.ucsd.edu/data/19457/P16_1991_1992_bot_clean_edited.joa
@@ -329,7 +329,7 @@ section:
             path: https://cchdo.ucsd.edu/data/19456/P16_1991_1992_bot_clean_edited_hy1.csv
           - name: P16_1991_1992_ctd_clean.joa
             path: https://cchdo.ucsd.edu/data/19458/P16_1991_1992_ctd_clean.joa
-      - year: 2005_2006
+      - year: 2005-2006
         files :
           - name: P16_2005_2006_bot_clean.joa
             path: https://cchdo.ucsd.edu/data/19459/P16_2005_2006_bot_clean.joa
@@ -339,7 +339,7 @@ section:
             path: https://cchdo.ucsd.edu/data/19461/P16_2005_2006_ct1.zip
           - name: P16_2005_2006_ctd_clean.joa
             path: https://cchdo.ucsd.edu/data/19462/P16_2005_2006_ctd_clean.joa
-      - year: 2014_2015
+      - year: 2014-2015
         files :
           - name: P16_2014_2015_bot_clean_sorted.joa
             path: https://cchdo.ucsd.edu/data/19463/P16_2014_2015_bot_clean_sorted.joa
@@ -375,7 +375,7 @@ section:
 
   - title: P16_complete
     years:
-      - year: 2011_2014_2015
+      - year: 2011-2014-2015
         files :
           - name: P16_complete_2011_2014_2015_bot_clean.joa
             path: https://cchdo.ucsd.edu/data/19466/P16_complete_2011_2014_2015_bot_clean.joa
@@ -384,7 +384,7 @@ section:
 
   - title: P17
     years:
-      - year: 1991_1992_1993
+      - year: 1991-1992-1993
         files :
           - name: TBD
             path:
@@ -404,7 +404,7 @@ section:
 
   - title: P17E_P19C_53S
     years:
-      - year: 1992_1993
+      - year: 1992-1993
         files :
           - name: P17E_1992_P19C_1993_53S_bottle_clean.joa
             path: https://cchdo.ucsd.edu/data/19485/P17E_1992_P19C_1993_53S_bottle_clean.joa
