@@ -245,7 +245,7 @@ Call To Action Section
       <a href="http://www.clivar.org/"><img src="assets/images/logo_clivar.svg" alt="CLIVAR logo" height="60" width="95"></a>&emsp;
       <a href="https://www.go-ship.org/"><img src="assets/images/logo_goship.svg" alt="GO-SHIP logo" height="60" width="60"></a>&emsp;
       <br><br>
-      <small>Any opinions, findings, and conclusions or recommendations expressed in this material are those of Dr James Swift and do not necessarily reflect the views of the supporting agencies.</small><br>
+      <small style="color:black;">Any opinions, findings, and conclusions or recommendations expressed in this material are those of Dr James Swift and do not necessarily reflect the views of the supporting agencies.</small><br>
     </div>
   </div>
 </footer><!-- #footer -->
