@@ -165,7 +165,7 @@ section:
   - title: I07S_I07N
     zip_path: https://cchdo.ucsd.edu/data/19756/I07S_I07N.zip
     years:
-      - year: 2018_2019
+      - year: 2018-2019
         files :
           - name: I07_2018_2019_bottle_clean_hy1.csv
             path: https://cchdo.ucsd.edu/data/19312/I07_2018_2019_bottle_clean_hy1.csv
