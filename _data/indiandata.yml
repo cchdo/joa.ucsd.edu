@@ -63,8 +63,18 @@ section:
           - name: I04W_I03_WOA05_in_mass_units.joa
             path: https://cchdo.ucsd.edu/data/16806/I04W_I03_WOA05_in_mass_units.joa
 
+  - title: I04
+    zip_path: https://cchdo.ucsd.edu/data/19752/I04.zip
+    years:
+      - year: 1995
+        files :
+          - name: I04_1995_all_cruise_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19726/I04_1995_all_cruise_bot_clean.joa
+          - name: I04_1995_all_cruise_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19727/I04_1995_all_cruise_bot_clean2_hy1.csv
+
   - title: I05
-    zip_path: https://cchdo.ucsd.edu/data/19589/I05.zip
+    zip_path: https://cchdo.ucsd.edu/data/19753/I05.zip
     years:
       - year: 1987
         files :
@@ -74,16 +84,16 @@ section:
             path: https://cchdo.ucsd.edu/data/16807/I05_1987_bot_clean_sorted_hy1.csv
       - year: 1995a
         files :
-          - name: I08N_I05E_1995_bot_clean_sorted.joa
-            path: https://cchdo.ucsd.edu/data/19280/I08N_I05E_1995_bot_clean_sorted.joa
-          - name: I08N_I05E_1995_bot_clean_sorted_hy1.csv
-            path: https://cchdo.ucsd.edu/data/19279/I08N_I05E_1995_bot_clean_sorted_hy1.csv
+          - name: I05E_1995a_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/19729/I05E_1995a_bot_clean_edited.joa
+          - name: I05E_1995a_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19728/I05E_1995a_bot_clean_edited_hy1.csv
       - year: 1995b
         files :
-          - name: TBD
-            path:
-          - name: TBD
-            path:
+          - name: I05W_1995b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19730/I05W_1995b_bot_clean.joa
+          - name: I05W_1995b_bot_clean3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19731/I05W_1995b_bot_clean3_hy1.csv
       - year: 2002
         files :
           - name: I05_2002_bot_clean_hy1.csv
@@ -96,6 +106,16 @@ section:
             path: https://cchdo.ucsd.edu/data/16814/I05_2009_bot_clean_hy1.joa
           - name: I05_2009_bot_clean_hy1.csv
             path: https://cchdo.ucsd.edu/data/16813/I05_2009_bot_clean_hy1.csv
+
+  - title: I05W_I04_I07C_I07N
+    zip_path: https://cchdo.ucsd.edu/data/19754/I05W_I04_I07C_I07N.zip
+    years:
+      - year: 1995
+        files :
+          - name: I05W_I04_I07C_I07N_1995_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19733/I05W_I04_I07C_I07N_1995_bot_clean.joa
+          - name: I05W_I04_I07C_I07N_1995_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19732/I05W_I04_I07C_I07N_1995_bot_clean_hy1.csv
 
   - title: I06S
     zip_path: https://cchdo.ucsd.edu/data/19590/I06S.zip
@@ -125,25 +145,25 @@ section:
           - name: I06S_2019_bottle_clean_hy1.csv
             path: https://cchdo.ucsd.edu/data/16819/I06S_2019_bottle_clean_hy1.csv
 
-  - title: I07N/ISS02
-    zip_path: https://cchdo.ucsd.edu/data/19592/I07N:ISS02.zip
+  - title: I07N/I07C/ISS02
+    zip_path: https://cchdo.ucsd.edu/data/19755/I07N:I07C:ISS02.zip
     years:
       - year: 1995
         files :
-          - name: TBD
-            path:
-          - name: TBD
-            path:
+          - name: I07C_I07N_1995_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19734/I07C_I07N_1995_bot_clean_hy1.csv
+          - name: I07C_I07N_1995_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19735/I07C_I07N_1995_bot_clean.joa
       - year: 2018
         files :
-          - name: I07N_2018_bottle_clean_hy1.joa
+          - name: I07C_I07N_2018_bottle_clean.joa
             path: https://cchdo.ucsd.edu/data/16826/I07N_2018_bottle_clean_hy1.joa
-          - name: I07N_2018_bottle_clean_hy1.csv
-            path: https://cchdo.ucsd.edu/data/16825/I07N_2018_bottle_clean_hy1.csv
+          - name: I07C_I07N_2018_bottle_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19736/I07C_I07N_2018_bottle_clean_hy1.csv
 
 
-  - title: I07_complete
-    zip_path: https://cchdo.ucsd.edu/data/19591/I07_complete.zip
+  - title: I07S_I07N
+    zip_path: https://cchdo.ucsd.edu/data/19756/I07S_I07N.zip
     years:
       - year: 2018_2019
         files :
@@ -153,18 +173,20 @@ section:
             path: https://cchdo.ucsd.edu/data/19313/I07_2018_2019_bottle_clean.joa
 
   - title: I08N
-    zip_path: https://cchdo.ucsd.edu/data/19593/I08N.zip
+    zip_path: https://cchdo.ucsd.edu/data/19758/I08N.zip
     years:
       - year: 1995a
         files :
-          - name: I08N_I05E_1995_bot_clean_sorted.joa
-            path: https://cchdo.ucsd.edu/data/19280/I08N_I05E_1995_bot_clean_sorted.joa
-          - name: I08N_I05E_1995_bot_clean_sorted_hy1.csv
-            path: https://cchdo.ucsd.edu/data/19279/I08N_I05E_1995_bot_clean_sorted_hy1.csv
+          - name: I08N_1995a_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19739/I08N_1995a_bot_clean_sorted_hy1.csv
+          - name: I08N_1995a_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/19740/I08N_1995a_bot_clean_sorted.joa
       - year: 1995b
         files :
-          - name: TBD
-            path:
+          - name: I08N_1995b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19741/I08N_1995b_bot_clean.joa
+          - name: I08N_1995b_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19742/I08N_1995b_bot_clean2_hy1.csv
       - year: 2019
         files :
           - name: I08N_2019_bottle_clean_edited.joa
@@ -173,6 +195,16 @@ section:
             path: https://cchdo.ucsd.edu/data/19277/I08N_2019_bottle_clean_edited_hy1.csv
           - name: I08N_2019_CTD_std_levels_only.joa
             path: https://cchdo.ucsd.edu/data/16828/I08N_2019_CTD_std_levels_only.joa
+
+  - title: I08N_I05E
+    zip_path: https://cchdo.ucsd.edu/data/19757/I08N_I05E.zip
+    years:
+      - year: 1995a
+        files :
+          - name: I08N_I05E_1995_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/19280/I08N_I05E_1995_bot_clean_sorted.joa
+          - name: I08N_I05E_1995_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19279/I08N_I05E_1995_bot_clean_sorted_hy1.csv
 
   - title: I08S/I09N
     zip_path: https://cchdo.ucsd.edu/data/19594/I08S:I09N.zip
@@ -225,12 +257,14 @@ section:
             path: https://cchdo.ucsd.edu/data/16841/I09S_2012_01_JAN_bot_clean2_hy1.csv
 
   - title: I10/IR06
-    zip_path: https://cchdo.ucsd.edu/data/19596/I10:IR06.zip
+    zip_path: https://cchdo.ucsd.edu/data/19759/I10:IR06.zip
     years:
-      - year: 1982
+      - year: 1992
         files :
-          - name: TBD
-            path:
+          - name: I10_1992_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19743/I10_1992_bot_clean.joa
+          - name: I10_1992_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19744/I10_1992_bot_clean2_hy1.csv
       - year: 1995
         files :
           - name: I10_1995_bot_clean.joa
@@ -239,16 +273,22 @@ section:
             path: https://cchdo.ucsd.edu/data/19283/I10_1995_bot_clean_hy1.csv
       - year: 1995_a
         files :
-          - name: TBD
-            path:
+          - name: I10_IR06_1995a_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19747/I10_IR06_1995a_bot_clean_edited_hy1.csv
+          - name: I10_IR06_1995a_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/19748/I10_IR06_1995a_bot_clean_edited.joa
       - year: 1995_b
         files :
-          - name: TBD
-            path:
+          - name: I10_IR06_1995b_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19749/I10_IR06_1995b_bot_clean_edited_hy1.csv
+          - name: I10_IR06_1995b_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/19750/I10_IR06_1995b_bot_clean_edited.joa
       - year: 2000
         files :
-          - name: TBD
-            path:
+          - name: I10_2000_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19745/I10_2000_bot_clean.joa
+          - name: I10_2000_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19746/I10_2000_bot_clean2_hy1.csv
       - year: 2015
         files :
           - name: TBD
