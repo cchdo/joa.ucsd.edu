@@ -1160,35 +1160,43 @@ section:
           - name:
             path:
   - title: Mediterranean
+    zip_path: https://cchdo.ucsd.edu/data/19771/Mediterranean.zip
     years:
+      - year: 1987
+        files :
+          - name: MedSea_1987_east_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19760/MedSea_1987_east_bot_clean_edited_hy1.csv
+          - name: MedSea _1987_east_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/19761/MedSea_1987_east_bot_clean_edited.joa
       - year: 1994
         files :
-          - name:
-            path:
-      - year: 1997
+          - name: MedSea_1994_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19762/MedSea_1994_bot_clean_edited_hy1.csv
+          - name: MedSea_1994_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/19763/MedSea_1994_bot_clean_edited.joa
+      - year: 1999
         files :
-          - name:
-            path:
-      - year: 1998
-        files :
-          - name:
-            path:
+          - name: MedSea_1999_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19764/MedSea_1999_bot_clean.joa
+          - name: MEDSEA_1999_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19765/MedSea_1999_bot_clean2_hy1.csv
       - year: 2001
         files :
-          - name:
-            path:
+          - name: MedSea_2001_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/19766/MedSea_2001_bot_clean.joa
+          - name: MedSea_2001_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19767/MedSea_2001_bot_clean2_hy1.csv
       - year: 2011
         files :
-          - name:
-            path:
-      - year: 2013
-        files :
-          - name:
-            path:
+          - name: MedSea_2011_clean_subset_hy1.csv
+            path: https://cchdo.ucsd.edu/data/19768/MedSea_2011_clean_subset_hy1.csv
+          - name: MedSea_2011_clean_subset.joa
+            path: https://cchdo.ucsd.edu/data/19769/MedSea_2011_clean_subset.joa
       - year: WOA
         files :
-          - name:
+          - name: TBD
             path:
+
 matched:
   - title: A02_1994
     zip_path: https://cchdo.ucsd.edu/data/19598/A02_1994.zip

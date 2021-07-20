@@ -30,7 +30,7 @@ ocean: Indian
    <ul>
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
-               <li><a href = "https://cchdo.ucsd.edu/data/19657/Indian_Ocean_Data.zip"><span style="background:#5cb85c;color:white">Download all Indian Data</span></a></li>
+               <li><a href = "https://cchdo.ucsd.edu/data/19751/Indian_Ocean_Data.zip"><span style="background:#5cb85c;color:white">Download all Indian Data</span></a></li>
                <li>
                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
                <ul>
