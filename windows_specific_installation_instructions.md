@@ -28,7 +28,7 @@ css: joa
 
 <h2>Windows System Requirements</h2>
 <p>
-JOA 5.5: Microsoft Windows 10 (may work under earlier version of Windows but has not been tested)<br>
+JOA 5.5: Microsoft Windows 10 but should work on versions of Windows back to version 7.<br>
 JOA 5.3: Microsoft Windows 8 or 8.1 (not tested under Windows 10)<br>
 4 GB of RAM (JOA 5.5 standard version, earlier versions of JOA) or 16 GB of RAM (JOA 5.5 pro version)
 </p>

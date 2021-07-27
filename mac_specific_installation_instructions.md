@@ -12,7 +12,7 @@ css: joa
 
 <ul>
 <li>You do not have to install a separate Java environment for JOA 5.5 </li>
-<li>The installation process depends on what operating system you are using. To check what version of macOS is installed on your computer, go to the apple menu in the top left corner of your screen and select <b>About This Mac.</b> JOA 5.5 has been tested on versions 10.12-10.15, 11, and 12 (beta) of macOS.</li>
+<li>The installation process depends on what operating system you are using. To check what version of macOS is installed on your computer, go to the apple menu in the top left corner of your screen and select About This Mac. JOA 5.5 has been tested on versions 10.12-10.15, 11, and 12 of macOS.</li>
 </ul>
 
 
@@ -31,7 +31,7 @@ css: joa
 <li>Move or copy the Java OceanAtlas folder to the desired location on your computer. We recommend putting it in Applications.</li>
 </ol>
 
-<h2>Installation on macOS Sierra (10.12), High Sierra (10.13), and Mojave (10.14)</h2>
+<h2>Installation on macOS Sierra (10.12), High Sierra (10.13),  Mojave (10.14), Catalina (10.15), and Big Sur (11). Provisionally on macOS 12 (Monterey).</h2>
 <ol>
 <li>Download the DMG file </li>
 
