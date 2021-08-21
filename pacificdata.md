@@ -34,18 +34,18 @@ height: 12px;
 }
 
 ::-webkit-scrollbar-track {
-box-shadow: inset 0 0 10px olivedrab;
+background-color: #4e4e4e
 border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
 border-radius: 10px;
-background: #393939; 
+background: #00ad5f; 
 box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #00ad5f;
+background: #4e4e4e;
 }
 </style>
 </head>
