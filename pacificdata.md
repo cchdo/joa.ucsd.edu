@@ -22,7 +22,7 @@ ocean: Pacific
 border: none;
 padding: 5px;
 font: 24px/36px sans-serif;
-width: 200vh;
+width: 60vh;
 height: 225vh;
 overflow: scroll;
 }
