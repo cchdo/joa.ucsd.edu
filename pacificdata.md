@@ -12,6 +12,49 @@ ocean: Pacific
   </div>
 </section><!-- #hero -->
 
+
+<head>
+
+<style>
+
+/* Box styles */
+.myBox {
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: auto;
+height: auto;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px olivedrab;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: yellowgreen; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #7bac10;
+}
+</style>
+</head>
+
+
+
+
+
+
 <section id="call-to-action1">
 <section id="call-to-action3">
     <div class="container wow fadeIn">
@@ -24,6 +67,7 @@ ocean: Pacific
 </section>
 </section><!-- #call-to-action -->
 
+<div class="myBox">
 <div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
 <div class="tree ">
    <ul>
@@ -73,6 +117,7 @@ ocean: Pacific
 
    </ul>
    </ul>
+</div>
 </div>
 
 <div class="rightbox">
