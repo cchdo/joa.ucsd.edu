@@ -22,8 +22,8 @@ ocean: Pacific
 border: none;
 padding: 5px;
 font: 24px/36px sans-serif;
-width: auto;
-height: auto;
+width: 200vh;
+height: 225vh;
 overflow: scroll;
 }
 
@@ -67,9 +67,9 @@ background: #7bac10;
 </section>
 </section><!-- #call-to-action -->
 
-<div class="myBox">
 <div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
 <div class="tree ">
+<div class="myBox">
    <ul>
        <span style="color:white;font-size:large"><b><u>Pacific Ocean</u></b></span>
            <ul>
