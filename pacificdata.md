@@ -12,49 +12,6 @@ ocean: Pacific
   </div>
 </section><!-- #hero -->
 
-
-<head>
-
-<style>
-
-/* Box styles */
-.myBox {
-border: none;
-padding: 5px;
-font: 24px/36px sans-serif;
-width: 60vh;
-height: 225vh;
-overflow: scroll;
-}
-
-/* Scrollbar styles */
-::-webkit-scrollbar {
-width: 12px;
-height: 12px;
-}
-
-::-webkit-scrollbar-track {
-background-color: #4e4e4e
-border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-border-radius: 10px;
-background: #00ad5f; 
-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-
-::-webkit-scrollbar-thumb:hover {
-background: #4e4e4e;
-}
-</style>
-</head>
-
-
-
-
-
-
 <section id="call-to-action1">
 <section id="call-to-action3">
     <div class="container wow fadeIn">

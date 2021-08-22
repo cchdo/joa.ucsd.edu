@@ -26,6 +26,7 @@ ocean: Atlantic
 
 <div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
 <div class="tree ">
+<div class="myBox">
    <ul>
        <span style="color:white;font-size:large"><b><u>Atlantic Ocean</u></b></span>
            <ul>
@@ -69,10 +70,9 @@ ocean: Atlantic
                  {% endfor %}
                  </ul>
                  </li>
-
-
    </ul>
    </ul>
+</div>
 </div>
 
 <div class="rightbox">
