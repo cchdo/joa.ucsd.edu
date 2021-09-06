@@ -1105,38 +1105,84 @@ section:
             path: https://cchdo.ucsd.edu/data/18913/AR04C_2005_15N_bot_clean_edited_hy1.csv
           - name: AR04C_2005_15N_bot_clean_edited.joa
             path: https://cchdo.ucsd.edu/data/18914/AR04C_2005_15N_bot_clean_edited.joa
-  - title: AR16
-    years:
-      - year: 1992
-        files :
-          - name:
-            path:
   - title: AR18
     years:
-      - year: 1992
-        files :
-          - name:
-            path:
-      - year: 1993
-        files :
-          - name:
-            path:
-      - year: 1994
-        files :
-          - name:
-            path:
-      - year: 1995
-        files :
-          - name:
-            path:
       - year: 1997
         files :
-          - name:
-            path:
-      - year: WOA
-        files :
-          - name:
-            path:
+          - name: AR18_1997_section_map.pdf
+            path: https://cchdo.ucsd.edu/data/21800/AR18_1997_section_map.pdf
+          - name: AR18_1997_bot_clean_all_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21764/AR18_1997_bot_clean_all_hy1.csv
+          - name: AR18_1997_bot_clean_all.joa
+            path: https://cchdo.ucsd.edu/data/21765/AR18_1997_bot_clean_all.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_1_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21766/AR18_1997_bot_clean_DenmarkStrait_1_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_1.joa
+            path: https://cchdo.ucsd.edu/data/21767/AR18_1997_bot_clean_DenmarkStrait_1.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21768/AR18_1997_bot_clean_DenmarkStrait_2_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_2.joa
+            path: https://cchdo.ucsd.edu/data/21769/AR18_1997_bot_clean_DenmarkStrait_2.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_3_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21770/AR18_1997_bot_clean_DenmarkStrait_3_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_3.joa
+            path: https://cchdo.ucsd.edu/data/21771/AR18_1997_bot_clean_DenmarkStrait_3.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_4_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21772/AR18_1997_bot_clean_DenmarkStrait_4_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_4.joa
+            path: https://cchdo.ucsd.edu/data/21773/AR18_1997_bot_clean_DenmarkStrait_4.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_5a_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21774/AR18_1997_bot_clean_DenmarkStrait_5a_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_5a.joa
+            path: https://cchdo.ucsd.edu/data/21775/AR18_1997_bot_clean_DenmarkStrait_5a.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_5b_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21776/AR18_1997_bot_clean_DenmarkStrait_5b_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_5b.joa
+            path: https://cchdo.ucsd.edu/data/21777/AR18_1997_bot_clean_DenmarkStrait_5b.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_5c_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21778/AR18_1997_bot_clean_DenmarkStrait_5c_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_5c.joa
+            path: https://cchdo.ucsd.edu/data/21779/AR18_1997_bot_clean_DenmarkStrait_5c.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_6a_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21780/AR18_1997_bot_clean_DenmarkStrait_6a_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_6a.joa
+            path: https://cchdo.ucsd.edu/data/21781/AR18_1997_bot_clean_DenmarkStrait_6a.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_6b_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21782/AR18_1997_bot_clean_DenmarkStrait_6b_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_6b.joa
+            path: https://cchdo.ucsd.edu/data/21783/AR18_1997_bot_clean_DenmarkStrait_6b.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_7_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21784/AR18_1997_bot_clean_DenmarkStrait_7_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_7.joa
+            path: https://cchdo.ucsd.edu/data/21785/AR18_1997_bot_clean_DenmarkStrait_7.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_8_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21786/AR18_1997_bot_clean_DenmarkStrait_8_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_8.joa
+            path: https://cchdo.ucsd.edu/data/21787/AR18_1997_bot_clean_DenmarkStrait_8.joa
+          - name: AR18_1997_bot_clean_DenmarkStrait_9_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21788/AR18_1997_bot_clean_DenmarkStrait_9_hy1.csv
+          - name: AR18_1997_bot_clean_DenmarkStrait_9.joa
+            path: https://cchdo.ucsd.edu/data/21789/AR18_1997_bot_clean_DenmarkStrait_9.joa
+          - name: AR18_1997_bot_clean_Faeroe_Bank_Channel_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21790/AR18_1997_bot_clean_Faeroe_Bank_Channel_hy1.csv
+          - name: AR18_1997_bot_clean_Faeroe_Bank_Channel.joa
+            path: https://cchdo.ucsd.edu/data/21791/AR18_1997_bot_clean_Faeroe_Bank_Channel.joa
+          - name: AR18_1997_bot_clean_Faeroe_Shetland_Channel_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21792/AR18_1997_bot_clean_Faeroe_Shetland_Channel_hy1.csv
+          - name: AR18_1997_bot_clean_Faeroe_Shetland_Channel.joa
+            path: https://cchdo.ucsd.edu/data/21793/AR18_1997_bot_clean_Faeroe_Shetland_Channel.joa
+          - name: AR18_1997_bot_clean_NE_Atl_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21794/AR18_1997_bot_clean_NE_Atl_hy1.csv
+          - name: AR18_1997_bot_clean_NE_Atl.joa
+            path: https://cchdo.ucsd.edu/data/21795/AR18_1997_bot_clean_NE_Atl.joa
+          - name: AR18_1997_bot_clean_SE_Iceland_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21796/AR18_1997_bot_clean_SE_Iceland_hy1.csv
+          - name: AR18_1997_bot_clean_SE_Iceland.joa
+            path: https://cchdo.ucsd.edu/data/21797/AR18_1997_bot_clean_SE_Iceland.joa
+          - name: AR18_1997_bot_clean_SW_Iceland_hy1.csv
+            path: https://cchdo.ucsd.edu/data/21798/AR18_1997_bot_clean_SW_Iceland_hy1.csv
+          - name: AR18_1997_bot_clean_SW_Iceland.joa
+            path: https://cchdo.ucsd.edu/data/21799/AR18_1997_bot_clean_SW_Iceland.joa
   - title: AR24
     years:
       - year: 1991
