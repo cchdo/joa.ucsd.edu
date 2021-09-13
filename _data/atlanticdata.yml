@@ -1327,6 +1327,14 @@ matched:
         - name: AR07E_2012_06_JUN_b_bot_clean_Irminger.joa
           path: https://cchdo.ucsd.edu/data/21891/AR07E_2012_06_JUN_b_bot_clean_Irminger.joa
 
+  - title: A02_1993
+    zip_path: 
+    files :
+        - name: A02_1993_06_JUN_bot_clean_edited_east.joa
+          path: https://cchdo.ucsd.edu/data/21857/A02_1993_06_JUN_bot_clean_edited_east.joa
+        - name: A02_1993_06_JUN_bot_clean_edited_west.joa
+          path: https://cchdo.ucsd.edu/data/21858/A02_1993_06_JUN_bot_clean_edited_west.joa
+
   - title: A02_1994
     zip_path: https://cchdo.ucsd.edu/data/19598/A02_1994.zip
     files :
@@ -1340,8 +1348,8 @@ matched:
     files :
         - name: A02_1996_05_MAY_bot_clean_east.joa
           path: https://cchdo.ucsd.edu/data/21806/A02_1996_05_MAY_bot_clean_east.joa
-        - name: A02_1994_bot_clean_west.joa
-          path: https://cchdo.ucsd.edu/data/19180/A02_1994_bot_clean_west.joa
+        - name: A02_1996_05_MAY_bot_clean_west.joa
+          path: https://cchdo.ucsd.edu/data/21807/A02_1996_05_MAY_bot_clean_west.joa
 
   - title: A02_1997
     zip_path: https://cchdo.ucsd.edu/data/19599/A02_1997.zip
@@ -1484,6 +1492,16 @@ matched:
         - name: A06_1993_bot_clean3_west.joa
           path: https://cchdo.ucsd.edu/data/19211/A06_1993_bot_clean3_west.joa
 
+  - title: A06_2000
+    zip_path: 
+    files :
+        - name: A06_2000_bot_clean_edited_fareast.joa
+          path: https://cchdo.ucsd.edu/data/21860/A06_2000_bot_clean_edited_fareast.joa
+        - name: A06_2000_bot_clean_edited_eastcentral.joa
+          path: https://cchdo.ucsd.edu/data/21859/A06_2000_bot_clean_edited_eastcentral.joa
+        - name: A06_2000_bot_clean_edited_west.joa
+          path: https://cchdo.ucsd.edu/data/21861/A06_2000_bot_clean_edited_west.joa
+
   - title: A06_2010
     zip_path: https://cchdo.ucsd.edu/data/19613/A06_2010.zip
     files :
@@ -1542,6 +1560,16 @@ matched:
         - name: A10_2003_bot_clean_stn_west.joa
           path: https://cchdo.ucsd.edu/data/16259/A10_2003_bot_clean_stn_west.joa
 
+  - title: A10_2009
+    zip_path: 
+    files :
+        - name: A10_2009_bot_clean_fareast.joa
+          path: https://cchdo.ucsd.edu/data/21863/A10_2009_bot_clean_fareast.joa
+        - name: A10_2009_bot_clean_eastcentral.joa
+          path: https://cchdo.ucsd.edu/data/21862/A10_2009_bot_clean_eastcentral.joa
+        - name: A10_2009_bot_clean_west.joa
+          path: https://cchdo.ucsd.edu/data/21864/A10_2009_bot_clean_west.joa
+
   - title: A10_2011
     zip_path: https://cchdo.ucsd.edu/data/19618/A10_2011.zip
     files :
@@ -1552,6 +1580,16 @@ matched:
         - name: A10_2011_bot_clean_stn_west.joa
           path: https://cchdo.ucsd.edu/data/16266/A10_2011_bot_clean_stn_west.joa
 
+  - title: A10_2017
+    zip_path: 
+    files :
+        - name: A10_2017_bot_clean3_edited_fareast.joa
+          path: https://cchdo.ucsd.edu/data/21816/A10_2017_bot_clean3_edited_fareast.joa
+        - name: A10_2017_bot_clean3_edited_east.joa
+          path: https://cchdo.ucsd.edu/data/21815/A10_2017_bot_clean3_edited_east.joa
+        - name: A10_2017_bot_clean3_edited_west.joa
+          path: https://cchdo.ucsd.edu/data/21817/A10_2017_bot_clean3_edited_west.joa
+
   - title: A10_2018
     zip_path: https://cchdo.ucsd.edu/data/19619/A10_2018.zip
     files :
@@ -1561,6 +1599,37 @@ matched:
           path: https://cchdo.ucsd.edu/data/19224/A10_2018_bot_clean4_fareast.joa
         - name: A10_2018_bot_clean4_west.joa
           path: https://cchdo.ucsd.edu/data/19225/A10_2018_bot_clean4_west.joa
+
+  - title: A12_1992
+    zip_path: 
+    files :
+        - name: A12_1992_south_to55S_bot_clean3_edited.joa
+          path: https://cchdo.ucsd.edu/data/21868/A12_1992_south_to55S_bot_clean3_edited.joa
+
+  - title: A12_2008
+    zip_path: 
+    files :
+        - name: A12_2008a_northof55S_bot_clean_edited_sorted.joa
+          path: https://cchdo.ucsd.edu/data/21869/A12_2008a_northof55S_bot_clean_edited_sorted.joa
+
+  - title: A12_2014
+    zip_path: 
+    files :
+        - name: A12_2014_northof55S_bot_clean3_edited.joa
+          path: https://cchdo.ucsd.edu/data/21870/A12_2014_northof55S_bot_clean3_edited.joa
+        - name: A12_2014_south_to55S_bot_clean3_edited.joa
+          path: https://cchdo.ucsd.edu/data/21871/A12_2014_south_to55S_bot_clean3_edited.joa
+
+  - title: A13_1995
+    zip_path: 
+    files :
+        - name: A13_1995_bot_clean_edited_Nof2S.joa
+          path: https://cchdo.ucsd.edu/data/21867/A13_1995_bot_clean_edited_Nof2S.joa
+        - name: A13_1995_bot_clean_edited_22.5Sto2.5S.joa
+          path: https://cchdo.ucsd.edu/data/21865/A13_1995_bot_clean_edited_22.5Sto2.5S.joa
+        - name: A13_1995_bot_clean_edited_40Sto22.5S.joa
+          path: https://cchdo.ucsd.edu/data/21866/A13_1995_bot_clean_edited_40Sto22.5S.joa
+
 
   - title: A13.5_AJAX_1983_1984
     zip_path: https://cchdo.ucsd.edu/data/19621/A13.5_AJAX_1983_1984.zip
@@ -1595,6 +1664,14 @@ matched:
           path: https://cchdo.ucsd.edu/data/19233/A16_1988_1989_bot_clean_18Nto42N.joa
         - name: A16_1988_1989_bot_clean_42Nto64N.joa
           path: https://cchdo.ucsd.edu/data/19234/A16_1988_1989_bot_clean_42Nto64N.joa
+
+  - title: A16_1998
+    zip_path: 
+    files :
+        - name: A16N_1998_bot_clean_42Nto64N.joa
+          path: https://cchdo.ucsd.edu/data/21819/A16N_1998_bot_clean_42Nto64N.joa
+        - name: A16N_1998_bot_clean_20Nto42N.joa
+          path: https://cchdo.ucsd.edu/data/21818/A16N_1998_bot_clean_20Nto42N.joa
 
   - title: A16_2003_2005
     zip_path: https://cchdo.ucsd.edu/data/19623/A16_2003_2005.zip
@@ -1635,6 +1712,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/19241/A20_1997_bot_clean_sorted_northof20N.joa
         - name: A20_1997_bot_clean_sorted_southof20N.joa
           path: https://cchdo.ucsd.edu/data/19242/A20_1997_bot_clean_sorted_southof20N.joa
+
   - title: A20_2003
     zip_path: https://cchdo.ucsd.edu/data/19626/A20_2003.zip
     files :
@@ -1642,6 +1720,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/19243/A20_2003_bot_clean_sorted_northof20N.joa
         - name: A20_2003_bot_clean_sorted_southof20N.joa
           path: https://cchdo.ucsd.edu/data/19244/A20_2003_bot_clean_sorted_southof20N.joa
+
   - title: A20_2012
     zip_path: https://cchdo.ucsd.edu/data/19627/A20_2012.zip
     files :
@@ -1649,6 +1728,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/19245/A20_2012_bot_clean_northof20N.joa
         - name: A20_2012_bot_clean_southof20N.joa
           path: https://cchdo.ucsd.edu/data/19246/A20_2012_bot_clean_southof20N.joa
+
   - title: A20_2021
     zip_path: https://cchdo.ucsd.edu/data/21977/A20_2021.zip
     files :
@@ -1664,6 +1744,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/16224/A22_1997_bot_clean_sorted_south.joa
         - name: A22_1997_bot_clean_sorted_north.joa
           path: https://cchdo.ucsd.edu/data/16223/A22_1997_bot_clean_sorted_north.joa
+
   - title: A22_2003
     zip_path: https://cchdo.ucsd.edu/data/19629/A22_2003.zip
     files :
@@ -1671,6 +1752,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/16228/A22_2003_bot_clean_sorted_south.joa
         - name: A22_2003_bot_clean_sorted_north.joa
           path: https://cchdo.ucsd.edu/data/16227/A22_2003_bot_clean_sorted_north.joa
+
   - title: A22_2012
     zip_path: https://cchdo.ucsd.edu/data/19630/A22_2012.zip
     files :
@@ -1678,6 +1760,7 @@ matched:
           path: https://cchdo.ucsd.edu/data/16232/A22_2012_bot_clean_sorted_south.joa
         - name: A22_2012_bot_clean_sorted_north.joa
           path: https://cchdo.ucsd.edu/data/16231/A22_2012_bot_clean_sorted_north.joa
+
   - title: A22_2021
     zip_path: https://cchdo.ucsd.edu/data/21978/A22_2021.zip
     files :
@@ -1685,6 +1768,96 @@ matched:
           path: https://cchdo.ucsd.edu/data/21820/A20_2021_bot_clean_edited_northof20N.joa
         - name: A20_2021_bot_clean_edited_southof20N.joa
           path: https://cchdo.ucsd.edu/data/21821/A20_2021_bot_clean_edited_southof20N.joa
+
+  - title: A25_1997
+    zip_path: 
+    files :
+        - name: A25_1997_bot_clean_edited_SE.joa
+          path: https://cchdo.ucsd.edu/data/21825/A25_1997_bot_clean_edited_SE.joa
+        - name: A25_1997_bot_clean_edited_central.joa
+          path: https://cchdo.ucsd.edu/data/21995/A25_1997_bot_clean_edited_central.joa
+        - name: A25_1997_bot_clean_edited_NW.joa
+          path: https://cchdo.ucsd.edu/data/21824/A25_1997_bot_clean_edited_NW.joa
+
+  - title: A25_OVIDE_2002
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2002_bot_clean3_SE.joa
+          path: https://cchdo.ucsd.edu/data/21828/A25_OVIDE_2002_bot_clean3_SE.joa
+        - name: A25_OVIDE_2002_bot_clean3_central.joa
+          path: https://cchdo.ucsd.edu/data/21826/A25_OVIDE_2002_bot_clean3_central.joa
+        - name: A25_OVIDE_2002_bot_clean3_NW.joa
+          path: https://cchdo.ucsd.edu/data/21827/A25_OVIDE_2002_bot_clean3_NW.joa
+
+  - title: A25_OVIDE_2004
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2004_bot_clean_edited_SE.joa
+          path: https://cchdo.ucsd.edu/data/21831/A25_OVIDE_2004_bot_clean_edited_SE.joa
+        - name: A25_OVIDE_2004_bot_clean_edited_central.joa
+          path: https://cchdo.ucsd.edu/data/21829/A25_OVIDE_2004_bot_clean_edited_central.joa
+        - name: A25_OVIDE_2004_bot_clean_edited_NW.joa
+          path: https://cchdo.ucsd.edu/data/21830/A25_OVIDE_2004_bot_clean_edited_NW.joa
+
+  - title: A25_OVIDE_2006
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2006_bot_clean_edited_SE.joa
+          path: https://cchdo.ucsd.edu/data/21834/A25_OVIDE_2006_bot_clean_edited_SE.joa
+        - name: A25_OVIDE_2006_bot_clean_edited_central.joa
+          path: https://cchdo.ucsd.edu/data/21832/A25_OVIDE_2006_bot_clean_edited_central.joa
+        - name: A25_OVIDE_2006_bot_clean_edited_NW.joa
+          path: https://cchdo.ucsd.edu/data/21833/A25_OVIDE_2006_bot_clean_edited_NW.joa
+
+  - title: A25_OVIDE_2008
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2008_bot_clean_SE.joa
+          path: https://cchdo.ucsd.edu/data/21837/A25_OVIDE_2008_bot_clean_SE.joa
+        - name: A25_OVIDE_2008_bot_clean_central.joa
+          path: https://cchdo.ucsd.edu/data/21835/A25_OVIDE_2008_bot_clean_central.joa
+        - name: A25_OVIDE_2008_bot_clean_NW.joa
+          path: https://cchdo.ucsd.edu/data/21836/A25_OVIDE_2008_bot_clean_NW.joa
+
+  - title: A25_OVIDE_2010
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2010_bot_clean_SE.joa
+          path: https://cchdo.ucsd.edu/data/21856/A25_OVIDE_2010_bot_clean_SE.joa
+        - name: A25_OVIDE_2010_bot_clean_central.joa
+          path: https://cchdo.ucsd.edu/data/21854/A25_OVIDE_2010_bot_clean_central.joa
+        - name: A25_OVIDE_2010_bot_clean_NW.joa
+          path: https://cchdo.ucsd.edu/data/21855/A25_OVIDE_2010_bot_clean_NW.joa
+
+  - title: A25_OVIDE_2012
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2012_bot_clean_sorted_SE.joa
+          path: https://cchdo.ucsd.edu/data/21841/A25_OVIDE_2012_bot_clean_sorted_SE.joa
+        - name: A25_OVIDE_2012_bot_clean_sorted_central.joa
+          path: https://cchdo.ucsd.edu/data/21838/A25_OVIDE_2012_bot_clean_sorted_central.joa
+        - name: A25_OVIDE_2012_bot_clean_sorted_NW.joa
+          path: https://cchdo.ucsd.edu/data/21840/A25_OVIDE_2012_bot_clean_sorted_NW.joa
+
+  - title: A25_OVIDE_2014
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2014_bot_clean_edited_SE.joa
+          path: https://cchdo.ucsd.edu/data/21846/A25_OVIDE_2014_bot_clean_edited_SE.joa
+        - name: A25_OVIDE_2014_bot_clean_edited_central.joa 
+          path: https://cchdo.ucsd.edu/data/21843/A25_OVIDE_2014_bot_clean_edited_central.joa
+        - name: A25_OVIDE_2014_bot_clean_edited_NW.joa
+          path: https://cchdo.ucsd.edu/data/21845/A25_OVIDE_2014_bot_clean_edited_NW.joa
+
+  - title: A25_OVIDE_2016
+    zip_path: 
+    files :
+        - name: A25_OVIDE_2016_bot_clean_edited_SE.joa
+          path: https://cchdo.ucsd.edu/data/21852/A25_OVIDE_2016_bot_clean_edited_SE.joa
+        - name: A25_OVIDE_2016_bot_clean_edited_central.joa
+          path: https://cchdo.ucsd.edu/data/21849/A25_OVIDE_2016_bot_clean_edited_central.joa
+        - name: A25_OVIDE_2016_bot_clean_edited_NW.joa
+          path: https://cchdo.ucsd.edu/data/21851/A25_OVIDE_2016_bot_clean_edited_NW.joa
 
 
 yeardropdown:
