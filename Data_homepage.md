@@ -13,7 +13,7 @@ css: Data_homepage
      &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="#call-to-action1" class="btn-get-started">World Ocean Atlas Data</a>
     &nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="#call-to-action2" class="btn-get-started">'The Best' CTD/Hydrographic Data</a>
+   <a href="#call-to-action2" class="btn-get-started">LEGACY/HISTORICAL DATA</a>
     <br><br><br><br><br><br><br><br><br>
     <h3>Learn About</h3>
     <a href="#about" class="btn-get-started1">Java OceanAtlas Data Files</a>
