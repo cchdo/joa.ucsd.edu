@@ -58,33 +58,32 @@ css: Data_homepage
             Click here to find the <a href="mac_specific_installation_instructions"><u>Mac specific installation instructions</u></a> for Mac OS 10.15 (Catalina) and above (Mac OS 11 Big Sur, and Mac OS 12 Monterey).
            <br><br><br>
           <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-          <p class="cta-text">JOA 5.5 was tested on Windows 10 (1903). The installer .msi file should run on basically every recent-ish Windows OS, both 32 and 64-bit versions: Vista, Server, 7, 8, 8.1, and 10. Java 8 (the embedded JRE) is compatible with all of those except Vista and some old versions of Server. JOA has not been tested on Windows 11. Please let us know your experience with JOA and Windows 11.</p>
+          <p class="cta-text">JOA 5.5 was tested on Windows 10 (1903). The installer .msi file should run on basically every recent-ish Windows OS, both 32 and 64-bit versions: Vista, Server, 7, 8, 8.1, and 10. Java 8 (the embedded JRE) is compatible with all of those except Vista and some old versions of Server. JOA has not been tested on Windows 11. Please let us know your experience with JOA and Windows 11.
+          <br>
+          <b> Note: </b> The 'pro' versions of JOA 5.5 are capable of handling the largest global WOA data files but require at least 16 GB of installed RAM. </p>
            <br>
-            Click here to find the <a href="windows_specific_installation_instructions"><u>Windows specific installation instructions</u></a> for Windows.    
+            Click here to find the <a href="windows_specific_installation_instructions"><u>Windows specific installation instructions</u><a> for Windows.    
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
-        <h3 class="cta-title" style="font-size:20px;">JOA Standard - macOS 10.15</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get JOA 5.5</a>
+        <h3 class="cta-title" style="font-size:20px;">JOA macOS 10.15</h3>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(121 MB)</p>
         <br>
-        <h3 class="cta-title" style="font-size:20px;">JOA Pro - macOS 10.15</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(121 MB)</p>
         <br>
-        <h3 class="cta-title" style="font-size:20px;">JOA Standard - macOS 10.12-10.14</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get JOA 5.5</a>
+        <h3 class="cta-title" style="font-size:20px;">macOS 10.12-10.14</h3>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
         <br>
-        <h3 class="cta-title" style="font-size:20px;">JOA Pro - macOS 10.12-10.14</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
         <br>
-        <h3 class="cta-title" style="font-size:20px;">JOA Standard - Windows</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
+        <h3 class="cta-title" style="font-size:20px;">Windows</h3>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(59 MB)</p>
         <br>
-        <h3 class="cta-title" style="font-size:20px;">JOA Pro - Windows</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(59 MB)</p>
       </div>
     </div>
