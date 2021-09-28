@@ -66,24 +66,24 @@ css: Data_homepage
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
         <h3 class="cta-title" style="font-size:20px;">JOA macOS 10.15</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get Standard JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip" style = "font-size: 10px;">Get Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(121 MB)</p>
         <br>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Get Pro JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip" style = "font-size: 10px;">Get Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(121 MB)</p>
         <br>
         <h3 class="cta-title" style="font-size:20px;">macOS 10.12-10.14</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get Standard JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg" style = "font-size: 10px;">Get Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
         <br>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Get Pro JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg" style = "font-size: 10px;">Get Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
         <br>
         <h3 class="cta-title" style="font-size:20px;">Windows</h3>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get Standard JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi" style = "font-size: 10px;">Get Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(59 MB)</p>
         <br>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Get Pro JOA 5.5</a>
+        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi" style = "font-size: 10px;">Get Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(59 MB)</p>
       </div>
     </div>
