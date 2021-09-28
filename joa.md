@@ -45,13 +45,16 @@ css: Data_homepage
         <h3 class="cta-title">Download Current Versions</h3>
         <h3 class="cta-title">JOA 5.5 for Windows, macOS 10.15 or earlier</h3>
         <p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via  'About Java OceanAtlas' under the Java OceanAtlas menu.
+        <br>
+        <br>
+        <b>Note : </b> The 'pro' versions of JOA 5.5 are capable of handling the largest global WOA data files but require at least 8 GB of installed RAM.
           </p>
           <br>
           Click here to find the <a href="general_installation_instructions"><u>General installation instructions</u></a> for JOA.
           <br>
         </div>
           <div class="col-lg-9 text-center text-lg-left">
-          <br><br><br><br>
+          <br><br><br><br><br><br><br>
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
           <p class="cta-text">Tested on MacOS Monterey (12 beta), Big Sur (11), Catalina (10.15), Mojave (10.14) and High Sierra (10.13). It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download. <b>Note: Exact installation instructions must be followed for Mac OS 10.15 and above.</b></p>
           <br>
@@ -76,7 +79,7 @@ css: Data_homepage
         <p class="cta-text" style="text-align:center;">(116.8 MB)</p>
         <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22046/Java%20OceanAtlas.dmg">Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(114.8 MB)</p>
-        <br><br><br>
+        <br>
         <h3 class="cta-title" style="font-size:20px;">Windows</h3>
           <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22050/JOA_5.5_Setup.msi">Standard JOA 5.5</a>
           <p class="cta-text" style="text-align:center;">(61.4 MB)</p>
