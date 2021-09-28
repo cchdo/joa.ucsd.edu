@@ -63,6 +63,7 @@ css: Data_homepage
             Click here to find the <a href="windows_specific_installation_instructions"><u>Windows specific installation instructions</u></a> for Windows.    
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
+        <br><br>
         <h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3>
         <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16272/JOA5.5.zip">Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(121 MB)</p>
@@ -74,7 +75,7 @@ css: Data_homepage
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
         <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16270/Java%20OceanAtlas.dmg">Pro JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(111 MB)</p>
-        <br>
+        <br><br><br>
         <h3 class="cta-title" style="font-size:20px;">Windows</h3>
           <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/16271/JOA_5.5_Setup.msi">Standard JOA 5.5</a>
           <p class="cta-text" style="text-align:center;">(59 MB)</p>
@@ -97,7 +98,8 @@ css: Data_homepage
 netCDF files and the need to make a plot before browsing.</p>
           <br>
         </div>
-        <div class="col-lg-9 text-center text-lg-left">   
+        <div class="col-lg-9 text-center text-lg-left">
+        <br><br>   
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
           <p class="cta-text">Tested for Mac OS X 10.11 or earlier. It may work on earlier versions of Mac OS X. This version of JOA contains an embedded Java environment and does not require a separate Java download.</p>
           <br><br>
