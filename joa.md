@@ -109,6 +109,7 @@ netCDF files and the need to make a plot before browsing.</p>
           <p class="cta-text">Tested for Windows 7, 8, and 8.1. It has not been tested under Windows 10 or XP. This version of JOA contains an embedded Java environment and does not require a separate Java download.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center" style="display:block;">
+        <br><br>
           <h3 class="cta-title" style="font-size:20px;">macOS</h3>
           <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/12001/JOA5.3.zip">Get JOA 5.3</a>
           <p class="cta-text" style="text-align:center;">(71 MB)</p>
@@ -139,12 +140,12 @@ netCDF files and the need to make a plot before browsing.</p>
           <p class="cta-text">Enable built-in JOA features, such as additional plot and calculation types. Also use to temporarily disable features.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center" style="display:block;">
-          <br><br><br>
-          <a class="cta-btn align-middle" href="1">Guided Tour</a>
+          <br><br><br><br>
+          <a class="cta-btn align-middle" href="1" style="font-size:15px;">Guided Tour</a>
           <br><br><br><br><br><br>
-          <a class="cta-btn align-middle" href="assets/documents/JOA5_userguide.pdf">User Guide (PDF)</a>
+          <a class="cta-btn align-middle" href="assets/documents/JOA5_userguide.pdf" style="font-size:15px;">User Guide (PDF)</a>
           <br><br><br><br><br><br>
-          <a class="cta-btn align-middle" href="joa_features">JOA Features</a>
+          <a class="cta-btn align-middle" href="joa_features" style="font-size:15px;">JOA Features</a>
       </div>
     </div>
   </div>
