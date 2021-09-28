@@ -60,8 +60,8 @@ css: Data_homepage
           <h3 class="cta-title" style="font-size:20px;">Windows</h3>
           <p class="cta-text">JOA 5.5 was tested on Windows 10 (1903). The installer .msi file should run on basically every recent-ish Windows OS, both 32 and 64-bit versions: Vista, Server, 7, 8, 8.1, and 10. Java 8 (the embedded JRE) is compatible with all of those except Vista and some old versions of Server. JOA has not been tested on Windows 11. Please let us know your experience with JOA and Windows 11.</p>
            <br>
-           Click here to find the <a href="windows_specific_installation_instructions"><u>Windows specific installation instructions<u></a> for Windows.    
-            <br><br>
+            Click here to find the <a href="windows_specific_installation_instructions"><u>Windows specific installation instructions</u></a> for Windows.   
+            <br><br> 
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
         <br><br>
