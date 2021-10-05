@@ -1,6 +1,6 @@
 ---
 layout : joahomelayout
-title : projects
+title : Projects
 css: Data_homepage
 ---
 
@@ -10,7 +10,7 @@ css: Data_homepage
     <br><br><br>
     <div class="row">
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
-        <h3 class="cta-title"><center>Projects</center></h3>
+        <h3 class="cta-title"><center>Projects & Methods</center></h3>
         <p class="cta-text" style="text-align:center;">This area of the Java OceanAtlas Suite contains documents related to using the JOA
 application. It is recommended that JOA users first become familiar with JOA terminology
 and functions via the JOA Guided Tour (first page at <a href = "1">https://joa.ucsd.edu/1</a>).</p>
@@ -27,7 +27,7 @@ and functions via the JOA Guided Tour (first page at <a href = "1">https://joa.u
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
         <p class="cta-text">
           <li><a href="assets/documents/Guide to Data Analysis Projects Using JOA.pdf">Guide to Data Analysis Projects Using JOA.pdf</a></li><br>
-          <h3 class="cta-text" style="font-size: 18px">Extensive guide to using Java OceanAtlas for data analyses, such as in educationoriented data analysis projects using data from the data area of the JOA Suite site.</h3>
+          <h3 class="cta-text" style="font-size: 18px">Extensive guide to using Java OceanAtlas for data analyses, such as in education-oriented data analysis projects using data from the data area of the JOA Suite site.</h3>
         </p>
         <br>
         <p class="cta-text">
