@@ -25,23 +25,28 @@ css: Data_homepage
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
+          <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         </p>
-        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <br><br><br>
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
+          <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         </p>
-        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <br><br><br>
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
+          <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         </p>
-        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <br><br><br>
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
+          <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         </p>
-        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
+        <br><br><br>
+        <p class="cta-text">
+          <li><a href="general_installation_instructions">Project File</a></li><br>
+          <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
+        </p>
         <br><br><br>
       </div>
     </div>
