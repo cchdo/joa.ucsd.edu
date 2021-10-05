@@ -1,6 +1,6 @@
 ---
 layout : joahomelayout
-title : JOA
+title : projects
 css: Data_homepage
 ---
 
@@ -23,24 +23,26 @@ css: Data_homepage
 <section id="call-to-action3">
   <div class="container wow fadeIn">
       <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
-        <h3 class="cta-title">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
-          <p> Here we cover how to convert between mass and volume units for dissolved oxygen and nutrients. First we list the conversion equation, and then we demonstrate how to use Java OceanAtlas Custom Calculations to convert from volume to mass units for an entire data file. </p>
         </p>
+        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <br><br><br>
-        <h3 class="cta-title">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
-          <p> Here we cover how to convert between mass and volume units for dissolved oxygen and nutrients. First we list the conversion equation, and then we demonstrate how to use Java OceanAtlas Custom Calculations to convert from volume to mass units for an entire data file. </p>
         </p>
+        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <br><br><br>
-         <h3 class="cta-title">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
         <p class="cta-text">
           <li><a href="general_installation_instructions">Project File</a></li><br>
-          <p> Here we cover how to convert between mass and volume units for dissolved oxygen and nutrients. First we list the conversion equation, and then we demonstrate how to use Java OceanAtlas Custom Calculations to convert from volume to mass units for an entire data file. </p>
         </p>
-        <br><br><br>        
+        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
+        <br><br><br>
+        <p class="cta-text">
+          <li><a href="general_installation_instructions">Project File</a></li><br>
+        </p>
+        <h3 class="cta-title" style="font-family: Monospace; font-size: 18px">Converting O2 in volume units (ml/l) to O2 in mass units (μmol/kg) with Java OceanAtlas Custom Calculation (and also conversion of nutrients in μmol/l to μmol/kg)</h3>
+        <br><br><br>
       </div>
     </div>
 </section>
