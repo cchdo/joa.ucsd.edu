@@ -31,6 +31,8 @@ ocean: Pacific
        <span style="color:white;font-size:large"><b><u>Pacific Ocean</u></b></span>
            <ul>
               <li><a href='https://cchdo.ucsd.edu/data/19696/Pacific_Ocean_Data.zip'><span style="background:#5cb85c;color:white">Download all Pacific Data</span></a></li>
+               <li><a href = "assets/documents/Guide to Pacific Cruises and Clean Files.pdf"><span style="color:white">Guide to Pacific Cruise and Clean Files</span></a></li>
+              <li><a href = "assets/documents/Pacific Ocean matched line segment map.pdf"><span style="color:white">Pacific Ocean Matched Line Segment map</span></a></li>             
               <li>
               <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
               <ul>
