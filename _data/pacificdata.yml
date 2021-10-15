@@ -649,7 +649,7 @@ section:
             path: https://cchdo.ucsd.edu/data/23792/Line_P_2009_06_JUN_CTD_clean.joa
           - name: Line_P_2009_08_AUG_CTD_clean.joa
             path: https://cchdo.ucsd.edu/data/23793/Line_P_2009_08_AUG_CTD_clean.joa
-        - year: 2010
+      - year: 2010
         files :
           - name: Line_P_2010_02_FEB_CTD_clean.joa
             path: https://cchdo.ucsd.edu/data/23794/Line_P_2010_02_FEB_CTD_clean.joa
