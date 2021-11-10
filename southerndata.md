@@ -13,6 +13,7 @@ ocean: Southern
   </div>
 </section><!-- #hero -->
 
+
 <section id="call-to-action1">
 <section id="call-to-action3">
     <div class="container wow fadeIn">
@@ -31,28 +32,51 @@ ocean: Southern
    <ul>
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
-              <li>	<span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li>
-              {% for item in site.data.southerndata.section %}
+               <li><a href = "https://cchdo.ucsd.edu/data/19751/Indian_Ocean_Data.zip"><span style="background:#5cb85c;color:white">Download all Indian Data</span></a></li>
+               <li><a href = "assets/documents/Guide to Indian Cruises and Clean Files.pdf"><span style="color:white">Guide to Indian Cruise and Clean Files</span></a></li>
+              <li><a href = "assets/documents/Indian Ocean matched line segment map.pdf"><span style="color:white">Indian Ocean Matched Line Segment map</span></a></li>              
                <li>
-               	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+               <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
+               <ul>
+               {% for item in site.data.southerndata.section %}
+                <li>
+                	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+                  <ul>
+                    <li><a href = "{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></a></li>
+                    {% for entry in item.years%}
+                      <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
+                          <ul>
+                              {% for file in entry.files%}
+                              <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
+                              {% endfor %}
+                          </ul>
+                      </li>
+                     {% endfor %}
+                  </ul>
+                </li>
+                {% endfor %}
+                </ul>
+                </li>
+
+                 <li>
+                 <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
                  <ul>
-                   <li>	<span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li>
-                   {% for entry in item.years%}
-                     <li>	<span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
-                         <ul>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                             <li> <span style="color:white">File</span> </li>
-                         </ul>
-                     </li>
-                    {% endfor %}
-                 </ul>
-               </li>
-               {% endfor %}
+                 {% for item in site.data.southerndata.matched %}
+                  <li>
+                   <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+                    <ul>
+                      <li><a href = "{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></a></li>
+                                 {% for file in item.files%}
+                                <li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>
+                                 {% endfor %}
+                    </ul>
+                  </li>
+                  {% endfor %}
+                  </ul>
+                  </li>
    </ul>
    </ul>
-   </div>
+</div>
 </div>
 
 <div class="rightbox">
@@ -81,12 +105,12 @@ ocean: Southern
   </select>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <select class="custom-select" id="fileDropdown">
-    <option value="All">File</option>
-    <option value="Basin">.csv</option>
-    <option value="Sub Basin">.jos</option>
-    <option value="Option_3">.txt</option>
-    <option value="Option_4">.joa</option>
-    <option value="Option_5">.zip</option>
+  <option value="All">File</option>
+  <option value=".csv">.csv</option>
+  <option value=".jos">.jos</option>
+  <option value=".txt">.txt</option>
+  <option value=".joa">.joa</option>
+  <option value=".zip">.zip</option>
   </select>
 </center>
 </form>
@@ -114,19 +138,21 @@ ocean: Southern
         </table>
         </div>
         <div class="table100-body js-pscroll" style="max-height:1500px">
-        <table class="table" id="datatable1">
-        <tbody id="datatable">
-        {% for item in site.data.southerndata.section%}
-        {% for entry in item.years%}
-          <tr>
-              <td class="cell100 column1">{{item.title}}</td>
-              <td class="cell100 column2">{{entry.year}}</td>
-              <td class="cell100 column4">{{entry.file}}</td>
-            </tr>
-        {% endfor %}
-        {% endfor %}
-        </tbody>
-        </table>
+            <table class="table" id="datatable1">
+            <tbody id="datatable">
+            {% for item in site.data.southerndata.section%}
+            {% for entry in item.years%}
+            {% for file in entry.files%}
+              <tr>
+                  <td class="cell100 column1">{{item.title}}</td>
+                  <td class="cell100 column2">{{entry.year}}</td>
+                  <td class="cell100 column4"><a href="{{file.path}}">{{file.name}}</a></td>
+                </tr>
+            {% endfor %}
+            {% endfor %}
+            {% endfor %}
+            </tbody>
+            </table>
 </div>
 </div>
 </div>
