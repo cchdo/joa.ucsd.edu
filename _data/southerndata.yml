@@ -2,7 +2,7 @@ section:
   - title: S04_circumAA
     zip_path: 
     years:
-      - year: 1992_1994_1996
+      - year: 1992-1994-1996
         files :
           - name: S04_circumAA_1992_1994_1996_bot_clean.joa
             path: https://cchdo.ucsd.edu/data/23936/S04_circumAA_1992_1994_1996_bot_clean.joa
