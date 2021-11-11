@@ -32,9 +32,9 @@ ocean: Southern
    <ul>
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
-               <li><a href = "https://cchdo.ucsd.edu/data/19751/Indian_Ocean_Data.zip"><span style="background:#5cb85c;color:white">Download all Indian Data</span></a></li>
-               <li><a href = "assets/documents/Guide to Indian Cruises and Clean Files.pdf"><span style="color:white">Guide to Indian Cruise and Clean Files</span></a></li>
-              <li><a href = "assets/documents/Indian Ocean matched line segment map.pdf"><span style="color:white">Indian Ocean Matched Line Segment map</span></a></li>              
+               <li><a href = ""><span style="background:#5cb85c;color:white">Download all Southern Data</span></a></li>
+               <li><a href = "assets/documents/Guide to Southern Cruises and Clean Files.pdf"><span style="color:white">Guide to Southern Cruise and Clean Files</span></a></li>
+              <li><a href = ""><span style="color:white">Southern Ocean Matched Line Segment map</span></a></li>              
                <li>
                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
                <ul>
