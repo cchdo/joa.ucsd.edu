@@ -33,8 +33,7 @@ ocean: Southern
        <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
            <ul>
                <li><a href = ""><span style="background:#5cb85c;color:white">Download all Southern Data</span></a></li>
-               <li><a href = "assets/documents/Guide to Southern Cruises and Clean Files.pdf"><span style="color:white">Guide to Southern Cruise and Clean Files</span></a></li>
-              <li><a href = ""><span style="color:white">Southern Ocean Matched Line Segment map</span></a></li>              
+               <li><a href = "assets/documents/Guide to Southern Cruises and Clean Files.pdf"><span style="color:white">Guide to Southern Cruise and Clean Files</span></a></li>        
                <li>
                <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
                <ul>
