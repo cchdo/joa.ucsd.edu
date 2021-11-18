@@ -1,45 +1,254 @@
 section:
-  - title: WOA 1998 files
-    years:
-      - year: WOA98 global files
-        file: File
-      - year: WOA98 regional files
-        file: File
-  - title: WOA 2005 files
-    years:
-      - year: WOA05 decimated regional files
-        file: File
-      - year: WOA05 global files
-        file: File
-      - year: WOA05 regional files
-        file: File
-
-  - title: WOA 2009 files
-    years:
-      - year: WOA09 annual global files
-        file: File
-      - year: WOA09 annual regional files
-        file: File
-      - year: WOA09 seasonal regional files
-        file: File
-  - title: WOA 2013 files
-    years:
-      - year: WOA13 global files
-        file: File
-  - title: WOA 2018 files
+  - title: WOA18 global files
+    zip_path: 
     years:
       - year: WOA18 global annual mean files
-        file: File
-      - year: WOA18 global seasonal files
-        file: File
-      - year: WOA_2018_meridional files
-        file: File
-      - year: WOA_2018_zonal_section_files
-        file: File
-      - year: WOA18 regional annual average files
-        file: File
+        files :
+          - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.jos
+            path: 
+          - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.joa
+            path: 
+          - name: WOA18_annual_decimated_0m_surface_only_mass.jos
+            path: 
+          - name: WOA18_annual_decimated_41_levels_mass.jos
+            path: 
+          - name: WOA18_annual_decimated_all_102_levels_mass.jos
+            path: 
+
+      - year: WOA18 global seasonal files 0 to 800 meters
+        files :
+          - name: WOA18_13_JFM_decimated_to_800m_mass.jos
+            path: 
+          - name: WOA18_14_AMJ_decimated_to_800m_mass.jos
+            path: 
+          - name: WOA18_15_JAS_decimated_to_800m_mass.jos
+            path: 
+          - name: WOA18_16_OND_decimated_to_800m_mass.jos
+            path: 
+
+  - title: WOA18 regional files
+    zip_path:
+    years: 
+      - year: WOA18 regional annual mean files
+        files :
+          - name: S04A_1996_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23937/S04A_1996_bot_clean2_hy1.csv
+          - name: S04A_1996_bot_clean2.joa
+            path: https://cchdo.ucsd.edu/data/23938/S04A_1996_bot_clean2.joa
+
       - year: WOA18 regional seasonal files
-        file: File
+        files :
+          - name: S04A_1996_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23937/S04A_1996_bot_clean2_hy1.csv
+          - name: S04A_1996_bot_clean2.joa
+            path: https://cchdo.ucsd.edu/data/23938/S04A_1996_bot_clean2.joa
+
+
+  - title: S04I
+    zip_path: 
+    years:
+      - year: 1994
+        files :
+          - name: S04I_1994_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23939/S04I_1994_bot_clean_hy1.csv
+          - name: S04I_1994_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23940/S04I_1994_bot_clean.joa
+      - year: 1996_a
+        files :
+          - name: S04I_1996a_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23941/S04I_1996a_bot_clean_edited_hy1.csv
+          - name: S04I_1996a_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/23942/S04I_1996a_bot_clean_edited.joa
+          - name: S04I_1996a_bot_clean_with_margin_sections_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23943/S04I_1996a_bot_clean_with_margin_sections_hy1.csv
+          - name: S04I_1996a_bot_clean_with_margin_sections.joa
+            path: https://cchdo.ucsd.edu/data/23944/S04I_1996a_bot_clean_with_margin_sections.joa
+      - year: 1996_b
+        files :
+          - name: S04I_1996b_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23945/S04I_1996b_bot_clean_hy1.csv
+          - name: S04I_1996b_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23946/S04I_1996b_bot_clean.joa
+      - year: 2006
+        files :
+          - name: S04I_2006_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23947/S04I_2006_bot_clean_edited_hy1.csv
+          - name: S04I_2006_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/23948/S04I_2006_bot_clean_edited.joa
+          - name: S04I_2006_bot_clean_with_margin_sections_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23949/S04I_2006_bot_clean_with_margin_sections_hy1.csv
+          - name: S04I_2006_bot_clean_with_margin_sections.joa
+            path: https://cchdo.ucsd.edu/data/23950/S04I_2006_bot_clean_with_margin_sections.joa
+      - year: 2012_2013
+        files :
+          - name: S04I_2012_2013_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23951/S04I_2012_2013_bot_clean_edited_hy1.csv
+          - name: S04I_2012_2013_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/23952/S04I_2012_2013_bot_clean_edited.joa
+
+  - title: S04P
+    zip_path: 
+    years:
+      - year: 1992
+        files :
+          - name: S04P_1992_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23956/S04P_1992_bot_clean.joa
+          - name: S04P_1992_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23955/S04P_1992_bot_clean_hy1.csv
+          - name: S04P_1992_bot_clean_all.joa
+            path: https://cchdo.ucsd.edu/data/23954/S04P_1992_bot_clean_all.joa
+          - name: S04P_1992_bot_clean_all_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23953/S04P_1992_bot_clean_all_hy1.csv
+
+      - year: 2011
+        files :
+          - name: S04P_2011_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23960/S04P_2011_bot_clean.joa
+          - name: S04P_2011_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23957/S04P_2011_bot_clean_hy1.csv
+          - name: S04P_2011_bot_clean_with_margin_sections.joa
+            path: https://cchdo.ucsd.edu/data/23959/S04P_2011_bot_clean_with_margin_sections.joa
+          - name: S04P_2011_bot_clean_with_margin_sections_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23958/S04P_2011_bot_clean_with_margin_sections_hy1.csv
+          - name: S04P_2011_CTD_clean_unsorted_ct1.zip
+            path: https://cchdo.ucsd.edu/data/23961/S04P_2011_CTD_clean_unsorted_ct1.zip
+          - name: S04P_2011_ctd_clean.joa
+            path: https://cchdo.ucsd.edu/data/23962/S04P_2011_ctd_clean.joa
+
+      - year: 2018
+        files :
+          - name: S04P_2018_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23964/S04P_2018_bot_clean.joa
+          - name: S04P_2018_bot clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23963/S04P_2018_bot_clean_hy1.csv
+          - name: S04_2018_bot_clean_with_margin_sections.joa
+            path: https://cchdo.ucsd.edu/data/23934/S04_2018_bot_clean_with_margin_sections.joa
+          - name: S04_2018_bot_clean_with_margin_sections_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23933/S04_2018_bot_clean_with_margin_sections_hy1.csv
+
+  - title: SR01
+    zip_path: 
+    years:
+      - year: 1990_Drake
+        files :
+          - name: SR01_1990_bottle_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23965/SR01_1990_bottle_clean_sorted_hy1.csv
+          - name: SR01_1990_bottle_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/23966/SR01_1990_bottle_clean_sorted.joa
+      - year: 1997_east
+        files :
+          - name: SR01_1997_bot_clean_no_O2_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23967/SR01_1997_bot_clean_no_O2_sorted_hy1.csv
+          - name: SR01_1997_bot_clean_no_O2_sorted.joa
+            path: https://cchdo.ucsd.edu/data/23968/SR01_1997_bot_clean_no_O2_sorted.joa
+      - year: 1999_Drake
+        files :
+          - name: SR01_1999_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23969/SR01_1999_bot_clean_sorted_hy1.csv
+          - name: SR01_1999_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/23970/SR01_1999_bot_clean_sorted.joa
+      - year: 2000_east
+        files :
+          - name: SR01_2000_bot_clean_no_O2.joa
+            path: https://cchdo.ucsd.edu/data/23971/SR01_2000_bot_clean_no_O2.joa
+          - name: SR01_2000_bot_clean2_no_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23972/SR01_2000_bot_clean2_no_O2_hy1.csv
+      - year: 2001_east
+        files :
+          - name: SR01_2001_bot_clean_no_O2.joa
+            path: https://cchdo.ucsd.edu/data/23973/SR01_2001_bot_clean_no_O2.joa
+          - name: SR01_2001_bot_clean2_no_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23974/SR01_2001_bot_clean2_no_O2_hy1.csv
+      - year: 2002_east
+        files :
+          - name: SR01_2002_bot_clean_no_O2_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23975/SR01_2002_bot_clean_no_O2_sorted_hy1.csv
+          - name: SR01_2002_bot_clean_no_O2_sorted.joa
+            path: https://cchdo.ucsd.edu/data/23976/SR01_2002_bot_clean_no_O2_sorted.joa
+      - year: 2003_east
+        files :
+          - name: SR01_2003_bot_clean_no_O2.joa
+            path: https://cchdo.ucsd.edu/data/23977/SR01_2003_bot_clean_no_O2.joa
+          - name: SR01_2003_bot_clean2_no_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23978/SR01_2003_bot_clean2_no_O2_hy1.csv
+      - year: 2005_DrakeSE
+        files :
+          - name: SR01_2005_bot_clean_nuts_no_bottle_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23979/SR01_2005_bot_clean_nuts_no_bottle_O2_hy1.csv
+          - name: SR01_2005_bot_clean_nuts_no_bottle_O2.joa
+            path: https://cchdo.ucsd.edu/data/23980/SR01_2005_bot_clean_nuts_no_bottle_O2.joa
+      - year: 2006_Drake
+        files :
+          - name: SR01_2006_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23981/SR01_2006_bot_clean.joa
+          - name: SR01_2006_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23982/SR01_2006_bot_clean2_hy1.csv
+      - year: 2007_far_east
+        files :
+          - name: SR01_2007_bot_clean_no_O2.joa
+            path: https://cchdo.ucsd.edu/data/23983/SR01_2007_bot_clean_no_O2.joa
+          - name: SR01_2007_bot_clean2_no_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23984/SR01_2007_bot_clean2_no_O2_hy1.csv
+      - year: 2008_DrakeSE
+        files :
+          - name: SR01_2008_bot_clean_nuts_nobottleO2_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23985/SR01_2008_bot_clean_nuts_nobottleO2_edited_hy1.csv
+          - name: SR01_2008_bot_clean_nuts_nobottleO2_edited.joa
+            path: https://cchdo.ucsd.edu/data/23986/SR01_2008_bot_clean_nuts_nobottleO2_edited.joa
+      - year: 2009_1_Drake
+        files :
+          - name: SR01_2009_92_FEB_1_bottle_clean_sorted_hy1.csv  
+            path: https://cchdo.ucsd.edu/data/23991/SR01_2009_92_FEB_1_bottle_clean_sorted_hy1.csv
+          - name: SR01_2009_92_FEB_1_bottle_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/23992/SR01_2009_92_FEB_1_bottle_clean_sorted.joa
+      - year: 2009_2_east
+        files :
+          - name: SR01_2009_02_FEB_2_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23987/SR01_2009_02_FEB_2_bot_clean.joa
+          - name: SR01_2009_02_FEB_2_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23988/SR01_2009_02_FEB_2_bot_clean2_hy1.csv
+      - year: 2009_3_east
+        files :
+          - name: SR01_2009_11_NOV_bot_clean_no_O2_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23989/SR01_2009_11_NOV_bot_clean_no_O2_sorted_hy1.csv
+          - name: SR01_2009_11_NOV_bot_clean_no_O2_sorted.joa
+            path: https://cchdo.ucsd.edu/data/23990/SR01_2009_11_NOV_bot_clean_no_O2_sorted.joa
+      - year: 2011_east
+        files :
+          - name: SR01_2011_11_NOV_bot_clean_no_O2.joa
+            path: https://cchdo.ucsd.edu/data/23993/SR01_2011_11_NOV_bot_clean_no_O2.joa
+          - name: SR01_2011_11_NOV_bot_clean2_no_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23994/SR01_2011_11_NOV_bot_clean2_no_O2_hy1.csv
+      - year: 2015_east
+        files :
+          - name: SR01_2015_JAN_bot_clean_no_O2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23995/SR01_2015_JAN_bot_clean_no_O2_hy1.csv
+          - name: SR01_2015_JAN_bot_clean_no_O2_hy1.joa
+            path: https://cchdo.ucsd.edu/data/23996/SR01_2015_JAN_bot_clean_no_O2_hy1.joa
+      - year: 2016_1_east
+        files :
+          - name: SR01_2016_01_JAN_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/23998/SR01_2016_01_JAN_bot_clean2_hy1.csv
+          - name: SR01_2016_01_JAN_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/23997/SR01_2016_01_JAN_bot_clean.joa
+      - year: 2016_2_east
+        files :
+          - name: SR01_2016_11_NOV_bot_clean.joa 
+            path: https://cchdo.ucsd.edu/data/23999/SR01_2016_11_NOV_bot_clean.joa
+          - name: SR01_2016_11_NOV_bot_clean2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24000/SR01_2016_11_NOV_bot_clean2_hy1.csv
+      - year: 2018_east
+        files :
+          - name: SR01_2018_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24001/SR01_2018_bot_clean_sorted_hy1.csv
+          - name: SR01_2018_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/24002/SR01_2018_bot_clean_sorted.joa
+      - year: 2021_east
+        files :
+          - name: SR01_2021_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24003/SR01_2021_bot_clean_edited_hy1.csv
+          - name: SR01_2021_bot_clean_edited.joa
+            path: https://cchdo.ucsd.edu/data/24004/SR01_2021_bot_clean_edited.joa      
 
 
 yeardropdown:
