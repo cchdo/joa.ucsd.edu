@@ -1,5 +1,5 @@
 ---
-layout : woa_datapage
+layout : datapage
 title : World Ocean Atlas Datapage
 ocean: World Ocean Atlas
 ---
@@ -52,6 +52,14 @@ ocean: World Ocean Atlas
     {% for item in site.data.woadata.yeardropdown %}
     <option value="{{item.year}}">{{item.year}}</option>
     {% endfor %}
+  </select>
+  <select class="custom-select" id="fileDropdown" hidden>
+  <option value="All">File</option>
+  <option value=".csv">.csv</option>
+  <option value=".jos">.jos</option>
+  <option value=".txt">.txt</option>
+  <option value=".joa">.joa</option>
+  <option value=".zip">.zip</option>
   </select>
 </form>
 </div>
