@@ -30,8 +30,8 @@ ocean: World Ocean Atlas
 <!-- #call-to-action -->
 
 <div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
-<div class="rightbox" style="width:100%">
-<div class="container h-100" style="width:80%">
+<div class="rightbox" style="width:100%; padding:0">
+<div class="container h-100" style="width:75%">
 <div class="row h-100 align-items-center justify-content-center">
 <div class="col-12 col-md-10">
 <div class="hero-search-form">
@@ -75,7 +75,7 @@ ocean: World Ocean Atlas
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <div class="limiter">
     <div class="container-table100">
-      <div class="wrap-table100">
+      <div class="wrap-table100" style='width: 80vw'>
         <div class="table100 ver3 m-b-110">
           <div class="table100-head">
             <table>
