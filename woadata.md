@@ -39,15 +39,15 @@ ocean: World Ocean Atlas
 <div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
 <h6>What data are you looking for?</h6>
 <div class="row">
-<form action="#" method="get">
-  <select class="custom-select" id="verticalSectionDropdown">
+<form action="#" method="get" style='padding: 0px 22.5vw'>
+  <select class="custom-select" id="verticalSectionDropdown" style='width: 13vw'>
     <option value="All" selected="selected">Vertical Section</option>
     {% for item in site.data.woadata.section%}
     <option value="{{item.title}}">{{item.title}}</option>
     {% endfor %}
   </select>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <select class="custom-select" id="yearDropdown">
+  <select class="custom-select" id="yearDropdown" style='width: 13vw'>
     <option value="All">Year</option>
     {% for item in site.data.woadata.yeardropdown %}
     <option value="{{item.year}}">{{item.year}}</option>
