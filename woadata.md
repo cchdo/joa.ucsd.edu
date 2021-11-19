@@ -40,7 +40,6 @@ ocean: World Ocean Atlas
 <h6>What data are you looking for?</h6>
 <div class="row">
 <form action="#" method="get">
-<center>
   <select class="custom-select" id="verticalSectionDropdown">
     <option value="All" selected="selected">Vertical Section</option>
     {% for item in site.data.woadata.section%}
@@ -54,16 +53,6 @@ ocean: World Ocean Atlas
     <option value="{{item.year}}">{{item.year}}</option>
     {% endfor %}
   </select>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <select class="custom-select" id="fileDropdown">
-  <option value="All">File</option>
-  <option value=".csv">.csv</option>
-  <option value=".jos">.jos</option>
-  <option value=".txt">.txt</option>
-  <option value=".joa">.joa</option>
-  <option value=".zip">.zip</option>
-  </select>
-</center>
 </form>
 </div>
 </div>
@@ -74,7 +63,7 @@ ocean: World Ocean Atlas
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <div class="limiter">
-    <div class="container-table100">
+    <div class="container-table100" style='padding: 5vh 10vw'>
       <div class="wrap-table100" style='width: 80vw'>
         <div class="table100 ver3 m-b-110">
           <div class="table100-head">
