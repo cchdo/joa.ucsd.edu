@@ -39,7 +39,7 @@ ocean: World Ocean Atlas
 <div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
 <h6>What data are you looking for?</h6>
 <div class="row">
-<form action="#" method="get" style='padding: 0px 22.5vw'>
+<form action="#" method="get" style='padding: 0px 17.5vw'>
   <select class="custom-select" id="verticalSectionDropdown" style='width: 13vw'>
     <option value="All" selected="selected">Vertical Section</option>
     {% for item in site.data.woadata.section%}
