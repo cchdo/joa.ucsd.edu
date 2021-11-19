@@ -1,5 +1,5 @@
 ---
-layout : datapage
+layout : woa_datapage
 title : World Ocean Atlas Datapage
 ocean: World Ocean Atlas
 ---
