@@ -48,7 +48,7 @@ ocean: World Ocean Atlas
   </select>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <select class="custom-select" id="yearDropdown" style='width: 13vw'>
-    <option value="All">Year</option>
+    <option value="All">Subsection</option>
     {% for item in site.data.woadata.yeardropdown %}
     <option value="{{item.year}}">{{item.year}}</option>
     {% endfor %}
@@ -79,7 +79,7 @@ ocean: World Ocean Atlas
             <thead>
             <tr class="row100 head">
                 <th class="cell100 column1">Vertical Section</th>
-                <th class="cell100 column2">Year</th>
+                <th class="cell100 column2">Subsection</th>
                 <th class="cell100 column4">File</th>
             </tr>
           </thead>
