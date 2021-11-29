@@ -5,26 +5,26 @@ section:
       - year: WOA18 global annual mean files
         files :
           - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24529/WOA18_annual_2deg_heavy_decimated_41_levels_massx.jos
           - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.joa
-            path: 
+            path: https://cchdo.ucsd.edu/data/24528/WOA18_annual_2deg_heavy_decimated_41_levels_massx.joa
           - name: WOA18_annual_decimated_0m_surface_only_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24530/WOA18_annual_decimated_0m_surface_only_massx.jos
           - name: WOA18_annual_decimated_41_levels_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24531/WOA18_annual_decimated_41_levels_massx.jos
           - name: WOA18_annual_decimated_all_102_levels_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/22091/WOA18_annual_decimated_all_102_levels_mass.jos
 
       - year: WOA18 global seasonal files 0 to 800 meters
         files :
           - name: WOA18_13_JFM_decimated_to_800m_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24524/WOA18_13_JFM_decimated_to_800m_massx.jos
           - name: WOA18_14_AMJ_decimated_to_800m_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24525/WOA18_14_AMJ_decimated_to_800m_massx.jos
           - name: WOA18_15_JAS_decimated_to_800m_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24526/WOA18_15_JAS_decimated_to_800m_massx.jos
           - name: WOA18_16_OND_decimated_to_800m_mass.jos
-            path: 
+            path: https://cchdo.ucsd.edu/data/24527/WOA18_16_OND_decimated_to_800m_massx.jos
 
   - title: WOA18 regional files
     zip_path:
@@ -482,6 +482,7 @@ section:
             path: https://cchdo.ucsd.edu/data/24332/woa18_16_lat_80.5.jos
           - name: woa18_16_lat_85.5.jos
             path: https://cchdo.ucsd.edu/data/24333/woa18_16_lat_85.5.jos
+
 
   - title: WOA18 Meridional section files
     zip_path: 
