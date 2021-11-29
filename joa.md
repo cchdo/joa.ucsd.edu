@@ -69,8 +69,8 @@ css: Data_homepage
         <h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3>
         <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22051/JOA5.5.zip">Standard JOA 5.5</a>
         <p class="cta-text" style="text-align:center;">(126.8 MB)</p>
-        <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22048/JOA5.5_pro.zip">Pro JOA 5.5</a>
-        <p class="cta-text" style="text-align:center;">(126.8 MB)</p>
+        <a class="cta-btn align-middle" href="hhttps://cchdo.ucsd.edu/data/24533/JOA5.5.1_Pro.zip">Pro JOA 5.5.1</a>
+        <p class="cta-text" style="text-align:center;">(127.6 MB)</p>
         <br>
         <h3 class="cta-title" style="font-size:20px;">macOS 10.12-10.14</h3>
         <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22049/Java%20OceanAtlas.dmg">Standard JOA 5.5</a>
