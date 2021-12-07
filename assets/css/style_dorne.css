@@ -6,22 +6,6 @@
 :: Last Updated: 12-23-2017
 ---------------------------------------------- */
 
-/* Fonts */
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
-
-/* Import CSS */
-
-@import 'css/bootstrap/bootstrap.min.css';
-@import 'css/others/animate.css';
-@import 'css/others/magnific-popup.css';
-@import 'css/others/owl.carousel.min.css';
-@import 'css/others/font-awesome.min.css';
-@import 'css/others/pe-icon-7-stroke.css';
-
-/* Base CSS */
-
-
 #preloader {
     overflow: hidden;
     background-color: rgba(52, 26, 121, 0.99);
@@ -496,5 +480,3 @@ li {
     display: block;
     margin-top: 30px;
 }
-
-/
