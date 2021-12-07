@@ -1,3 +1,7 @@
 [submodule "outreach/virtualcruise"]
 	path = outreach/virtualcruise
 	url = https://github.com/cchdo/virtual-cruise.git
+[submodule "dpo"]
+	path = dpo
+	url = https://github.com/cchdo/dpo.git
+	branch = gh-pages

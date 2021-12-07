@@ -4,3 +4,8 @@ sass:
   style: compressed
 
 baseurl: "/joa.ucsd.edu"
+include: 
+  - _static
+  - _sources
+  - _images
+  - _downloads
