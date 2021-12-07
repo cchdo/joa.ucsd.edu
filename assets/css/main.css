@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../images/Scripps_Institution_of_Oceanography%2C_2011.JPG") top center;
+  background: url("../images/Scripps_Institution_of_Oceanography_2011.JPG") top center;
   background-size: cover;
   position: relative;
 }
