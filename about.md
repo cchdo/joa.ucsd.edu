@@ -66,7 +66,7 @@ Call To Action Section
   <div class="row">
     <div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
       <h3 class="cta-title">About the DPO JOA Examples</h3>
-      <p class="cta-text">Read about the <a href="https://joa_old.cchdo.io/dpo/dpo_joa_examples/background/index.html"><u>Background of the DPO JOA Examples.</u></a></p>
+      <p class="cta-text">Read about the <a href="dpo/background/about.html"><u>Background of the DPO JOA Examples.</u></a></p>
     </div>
   </div>
 </div>
