@@ -1,6 +1,5 @@
 ---
 layout : default
-css: main
 title : Welcome to the Java OceanAtlas Suite
 description : Explore cleaned, vetted World Ocean Bottle and CTD Profile Data
 section_1:
@@ -13,7 +12,6 @@ year_counter : 39
 cruise_counter: 1463
 
 ---
-<link rel="stylesheet" href="/assets/css/main.css">
 <section id="hero">
   <div class="hero-container">
     <br><br><br><br><br>
