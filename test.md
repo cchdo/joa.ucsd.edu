@@ -1,6 +1,6 @@
 ---
 layout : joalayout
-title : Basic Features
+title : Station Maps
 css: joa
 ---
 
@@ -23,8 +23,19 @@ css: joa
 	For a JOA map plot, no further user inputs are required: the &lsquo;Plot&rsquo; button is activated, meaning a basic map plot will be drawn by clicking on the &lsquo;Plot&rsquo; button.
 </p>
 
+<p>
+	In this Guided Tour we show some basic plot customization features:<br><br>
+	Select the &lsquo;Miller&rsquo; projection from the scrollable list of projections.
+	<br><br>
+	Select the &lsquo;Central Atlantic&rsquo; preset region. In the 'Latitude spacing (deg)&rsquo; and Longitude spacing (deg)&rsquo; boxes select the pre-set text and type in '10&rsquo; and '20&rsquo;, respectively. Java OceanAtlas maps include default bathymetry based on the ETOPO60 one-degree coarse grid: click the 'bathymetry&rsquo; tab to see this (on a new copy of JOA it is set up this way by default). The dialog box should look like the examples in Figure 2.
+ <br><br>
+<img alt="Gt_fig-02a" class="gt_image" src="assets/images/fig2.png">
+</p>
+
 <p>Then click 'Plot'. You will see a map with the stations, shaded land masses, gray bathymetry, and a latitude/longitude grid, as shown in Figure 3.<br><br>
     <img alt="Gt_fig-03" class="gt_image" src="assets/images/fig3.png"></p>
+
+<p>Map plots show individual dots for each station, with a different station color for each section subset. (JOA determines this coloring for reasons mostly ignored here, for example when there is more than one section opened.) In Figure 3 the apparent 'cruise line' is actually a series of 80 individual station dots. The map window is scrollable and resizable. (You may need to click on the 'Reset' button in the map plot window to force a redraw.) Selecting a subset of the plot by click-dragging the cursor will produce a subset of the map plot covering only the selected area. [Sometimes, due to a Java quirk, the new map subset plot is initially hidden under the original map plot window.]</p>
 	</div>
 	</div>
 			</div>     
