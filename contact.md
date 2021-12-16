@@ -19,45 +19,14 @@ css: contactus
            </div>
          </div>
        </div>
-
        <div class="row">
          <!-- Contact Information -->
-         <div class="col-12 col-md-4">
+         <div class="col-12 col-md-4" style="max-width:100%; flex:none">
            <div class="contact-information">
              <h5>Address</h5>
              <p>Room #50<br>Deep-Sea Drilling West<br>2215 Downwind Way<br>La Jolla, CA 92037</p>
-
              <h5>Email</h5>
              <p class="mb-0">jswift @ucsd.edu</p>
-           </div>
-         </div>
-
-         <!-- Contact Form -->
-         <div class="col-12 col-md-8">
-           <div class="contact-form">
-             <!-- Section Heading -->
-             <div class="section-heading">
-               <h2>Get In Touch</h2>
-               <div class="line"></div>
-             </div>
-             <!-- Form -->
-             <form action="#" method="post">
-               <div class="row">
-                 <div class="col-lg-6">
-                   <input type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
-                 </div>
-                 <div class="col-lg-6">
-                   <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email">
-                 </div>
-                 <div class="col-12">
-                   <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
-                 </div>
-                 <div class="col-12">
-                   <button type="submit" class="btn dento-btn">Send Message</button>
-                 </div>
-               </div>
-             </form>
-
            </div>
          </div>
        </div>
