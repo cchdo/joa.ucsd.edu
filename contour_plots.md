@@ -51,22 +51,22 @@ css: joa
 		<div id="right" class="span4">        
 <h1>Guided Tour of Java OceanAtlas</h1>
 <ul>
-<li><a href="1.html">Basic Features</a></li>
-<li><a href="2.html">Starting JOA</a></li>
-<li><a href="3.html">Station Maps</a></li>
-<li><a href="4.html">Profile Plots</a></li>
-<li><a href="5.html">Changing Color/Contour Bar</a></li>
-<li><a href="6.html">Calculate Parameters</a></li>
-<li><a href="7.html">Property-Property Plots</a></li>
-<li><a href="8.html">Browsing</a></li>
-<li><a href="9.html">Modifying Plots</a></li>
-<li><a href="10.html">Extracting Selections</a></li>
-<li class="active"><a href="11.html">Contour Plots</a></li>
-<li><a href="12.html">Other Features</a></li>
-<li><a href="13.html">More About Maps</a></li>
-<li><a href="14.html">How to Filter Your Data</a></li>
-<li><a href="15.html">Final Remarks</a></li>
-<li><a href="16.html">Java OceanAtlas Data Files</a></li>
+<li><a href="basic_features.html">Basic Features</a></li>
+<li><a href="starting_joa.html">Starting JOA</a></li>
+<li><a href="station_maps.html">Station Maps</a></li>
+<li><a href="profile_plots.html">Profile Plots</a></li>
+<li><a href="changing_color_bar.html">Changing Color/Contour Bar</a></li>
+<li><a href="calculate_parameters.html">Calculate Parameters</a></li>
+<li><a href="property_plots.html">Property-Property Plots</a></li>
+<li><a href="browsing.html">Browsing</a></li>
+<li><a href="modifying_plots.html">Modifying Plots</a></li>
+<li><a href="extracting_selections.html">Extracting Selections</a></li>
+<li class="active"><a href="contour_plots.html">Contour Plots</a></li>
+<li><a href="other_features.html">Other Features</a></li>
+<li><a href="more_about_maps.html">More About Maps</a></li>
+<li><a href="how_to_filter_your_data.html">How to Filter Your Data</a></li>
+<li><a href="final_remarks.html">Final Remarks</a></li>
+<li><a href="joa_data_files.html">Java OceanAtlas Data Files</a></li>
 </ul>
 
 <p><a class="cta-btn align-middle" href="joa.html">Explore</a></p>
