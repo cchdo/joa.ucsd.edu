@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo img {
   margin: 0;
-  max-width: 50vh;
+  max-width: 20vw;
 }
 
 @media (max-width: 768px) {
