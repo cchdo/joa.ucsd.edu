@@ -24,10 +24,10 @@ css: joa
 			<div id="right" class="span4">        
 	<h1>Guided Tour of Java OceanAtlas</h1>
 	<ul>
-	<li class="active"><a href="1.html">Basic Features</a></li>
-	<li><a href="2.html">Starting JOA</a></li>
-	<li><a href="3.html">Station Maps</a></li>
-	<li><a href="4.html">Profile Plots</a></li>
+	<li class="active"><a href="guided_tour/basic_features.html">Basic Features</a></li>
+	<li><a href="starting_joa.html">Starting JOA</a></li>
+	<li><a href="station_maps.html">Station Maps</a></li>
+	<li><a href="profile_plots.html">Profile Plots</a></li>
 	<li><a href="5.html">Changing Color/Contour Bar</a></li>
 	<li><a href="6.html">Calculate Parameters</a></li>
 	<li><a href="7.html">Property-Property Plots</a></li>
