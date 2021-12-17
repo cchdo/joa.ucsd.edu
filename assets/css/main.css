@@ -995,3 +995,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+#banner { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  background-color: #DDEEEE; 
+  width: 100%; 
+}
+#banner-content { 
+  width: 800px; 
+  margin: 0 auto; 
+  padding: 10px; 
+  border: 1px solid #000;
+}

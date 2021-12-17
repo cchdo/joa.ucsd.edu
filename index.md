@@ -12,6 +12,13 @@ year_counter : 39
 cruise_counter: 1463
 
 ---
+
+<div id="banner">
+        <div id="banner-content">
+            This is your banner text, centered 
+            and fixed at 800px in width
+        </div>
+</div>
 <section id="hero">
   <div class="hero-container">
     <br><br><br><br><br>

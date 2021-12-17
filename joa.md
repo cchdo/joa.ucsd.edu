@@ -141,7 +141,7 @@ netCDF files and the need to make a plot before browsing.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center" style="display:block;">
           <br><br><br><br>
-          <a class="cta-btn align-middle" href="1" style="font-size:15px;">Guided Tour</a>
+          <a class="cta-btn align-middle" href="basic_features" style="font-size:15px;">Guided Tour</a>
           <br><br><br><br><br><br>
           <a class="cta-btn align-middle" href="assets/documents/JOA5_userguide.pdf" style="font-size:15px;">User Guide (PDF)</a>
           <br><br><br><br><br><br>
