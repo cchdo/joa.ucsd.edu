@@ -16,7 +16,6 @@ cruise_counter: 1463
 
 <section id="hero">
   <div class="hero-container">
-    <br><br>
       <h1>{{page.title}}</h1>
       <h2>{{page.description}}</h2>
           <div style="display: inline-block;">

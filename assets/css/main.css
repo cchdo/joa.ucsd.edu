@@ -996,20 +996,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
 }
 
-#banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: burlywood;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  color: floralwhite;
-  padding: 10px;
-}
 
-#banner-content { 
-  width: 800px; 
-  margin: 0 auto; 
-  padding: 10px; 
-  border: 1px solid #000;
-}
