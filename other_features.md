@@ -12,7 +12,7 @@ css: joa
 	<h2>{{page.title}}</h2>
 	<div id="guided_tour_content">
 
-<p> Java OceanAtlas has many features and options not covered here. Most of these are covered in the <a href="http://joa.ucsd.edu/static/joa/files/JOA5_UserGuide.pdf">Java OceanAtlas User Guide</a>.</p>
+<p> Java OceanAtlas has many features and options not covered here. Most of these are covered in the <a href="assets/documents/JOA5_userguide.pdf">Java OceanAtlas User Guide</a>.</p>
 
 </div>
 </div>
