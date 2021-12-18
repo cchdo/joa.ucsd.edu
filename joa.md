@@ -50,6 +50,8 @@ css: Data_homepage
           Click here to find the <a href="general_installation_instructions"><u>General installation instructions</u></a> for JOA.
           <br><br>
           <p class="cta-text"><b>Note  :  The 'pro' versions of JOA 5.5 are capable of handling the largest global WOA data files but require at least 16 GB of installed RAM.</b></p>
+          <br><br>
+          <p class="cta-text"><b>Security Note  :  Log4j is not an issue for JOA. JOA does not include the Log4j library/jar file in its code.</b></p>
         </div>
           <div class="col-lg-9 text-center text-lg-left">
           <br><br><br><br><br><br><br>

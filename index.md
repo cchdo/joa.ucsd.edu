@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : index_default
 title : Welcome to the Java OceanAtlas Suite
 description : Explore cleaned, vetted World Ocean Bottle and CTD Profile Data
 section_1:
@@ -13,12 +13,7 @@ cruise_counter: 1463
 
 ---
 
-<div id="banner">
-        <div id="banner-content">
-            This is your banner text, centered 
-            and fixed at 800px in width
-        </div>
-</div>
+
 <section id="hero">
   <div class="hero-container">
     <br><br><br><br><br>
