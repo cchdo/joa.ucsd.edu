@@ -996,14 +996,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
 }
 
-#banner { 
-  position: relative; 
-  top: 0; 
-  left: 0; 
-  background-color: #DDEEEE; 
-  width: 100%; 
+#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: burlywood;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: floralwhite;
   padding: 10px;
 }
+
 #banner-content { 
   width: 800px; 
   margin: 0 auto; 
