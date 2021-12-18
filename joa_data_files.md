@@ -141,9 +141,8 @@ Java OceanAtlas will read any column of profile parameter data. For many common 
 <li><a href="more_about_maps.html">More About Maps</a></li>
 <li><a href="how_to_filter_your_data.html">How to Filter Your Data</a></li>
 <li><a href="final_remarks.html">Final Remarks</a></li>
-<li class="active"><a href="joa_data_files.html">Java OceanAtlas Data Files</a></li>i>
+<li class="active"><a href="joa_data_files.html">Java OceanAtlas Data Files</a></li>
 </ul>
-
 <p><a class="cta-btn align-middle" href="joa.html">Explore</a></p>
 				</div>       
 			</div>
