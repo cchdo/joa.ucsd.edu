@@ -1,0 +1,98 @@
+<style>
+  .navbar-nav > li > a {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+  }
+  .navbar-nav > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2dc997;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar-nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-2" style="background-color: #F0F8FF;">
+  <div class="container">
+    {% if page.logo == "sio" %}
+    <a class="navbar-brand" href="https://scripps.ucsd.edu/"><img src="assets/images/siologo.png" alt="" title=""></a>
+    {% else %}
+    <a class="navbar-brand" href="#"><img src="assets/images/joalogo.png" alt="" title=""></a>
+    {% endif %}
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index">Home</a>
+          <div></div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Java OceanAtlas</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="joa#joa_5.5">Download JOA 5.5</a></li>
+            <li><a class="dropdown-item" href="joa#joa_5.3">Download JOA 5.3</a></li>
+            <li><a class="dropdown-item" href="etopo">Bathymetry Add-ins (Etopo5 and Etopo2)</a></li>
+            <li class="dropdown dropend">
+              <a class="dropdown-item dropdown-toggle hover-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Guides</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="basic_features">Guided Tour</a></li>
+                <li><a class="dropdown-item" href="assets/documents/JOA5_userguide.pdf">User Guide</a></li>
+                <li><a class="dropdown-item" href="general_installation_instructions">General Installation
+                    Instructions</a></li>
+                <li><a class="dropdown-item" href="mac_specific_installation_instructions">Mac Installation
+                    Instructions</a></li>
+                <li><a class="dropdown-item" href="windows_specific_installation_instructions">Windows Installation
+                    Instructions</a></li>
+                <li><a class="dropdown-item" href="assets/documents/JOA5_linux_terminal.pdf">Installation Instructions
+                    for Linux</a></li>
+                <li><a class="dropdown-item" href="joa_features">JOA Features</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" data-bs-auto-close="outside">Data</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown dropend">
+              <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">'The Best' CTD/Hydrographic Data</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pacificdata">Pacific Ocean</a></li>
+                <li><a class="dropdown-item" href="atlanticdata">Atlantic Ocean</a></li>
+                <li><a class="dropdown-item" href="indiandata">Indian Ocean</a></li>
+                <li><a class="dropdown-item" href="southerndata">Southern Ocean</a></li>
+                <li><a class="dropdown-item" href="arcticdata">Arctic Ocean</a></li>
+                <li><a class="dropdown-item" href="othervertical">Other 'Best' Data</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="woadata">World Ocean Atlas Data</a></li>
+            <li><a class="dropdown-item" href="https://joa_old.cchdo.io/home">Legacy/Historical Data</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Outreach</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{'/outreach/virtualcruise/' | relative_url}}">Virtual Cruise</a></li>
+            <li><a class="dropdown-item" href="projects">Projects & Methods</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+      </ul>
+    </div><!-- #nav-menu-container -->
+  </div>
+</nav>

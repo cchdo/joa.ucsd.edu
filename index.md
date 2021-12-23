@@ -11,6 +11,7 @@ verticalsection_counter : 232
 year_counter : 39
 cruise_counter: 1463
 
+logo: sio
 ---
 
 
