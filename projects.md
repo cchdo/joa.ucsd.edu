@@ -13,7 +13,7 @@ css: Data_homepage
 			<div class="row">
 				<div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
 					<h3 class="cta-title"><center>Projects & Methods</center></h3>
-					<p class="cta-text" style="text-align:center;">This area of the Java OceanAtlas Suite contains documents related to using the JOA application. It is recommended that JOA users first become familiar with JOA terminology and functions via the JOA Guided Tour (first page at <a href="1">https://joa.ucsd.edu/1</a>).</p>
+					<p class="cta-text" style="text-align:center;">This area of the Java OceanAtlas Suite contains documents related to using the JOA application. It is recommended that JOA users first become familiar with JOA terminology and functions via the JOA Guided Tour (first page at <a href="basic_features">https://joa.ucsd.edu/basic_features</a>).</p>
 				</div>
 			</div>
 		</div>
