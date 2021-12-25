@@ -1,865 +1,963 @@
-section:
-  - title: WOA18 global files
+section_1:
+  - title: WOA 1998 files
     zip_path: 
-    years:
-      - year: WOA18 global annual mean files
+    subsections:
+      - subsection: WOA98 global files
         files :
-          - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.jos
-            path: https://cchdo.ucsd.edu/data/24529/WOA18_annual_2deg_heavy_decimated_41_levels_massx.jos
-          - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24528/WOA18_annual_2deg_heavy_decimated_41_levels_massx.joa
-          - name: WOA18_annual_decimated_0m_surface_only_mass.jos
-            path: https://cchdo.ucsd.edu/data/24530/WOA18_annual_decimated_0m_surface_only_massx.jos
-          - name: WOA18_annual_decimated_41_levels_mass.jos
-            path: https://cchdo.ucsd.edu/data/24531/WOA18_annual_decimated_41_levels_massx.jos
-          - name: WOA18_annual_decimated_all_102_levels_mass.jos
-            path: https://cchdo.ucsd.edu/data/22091/WOA18_annual_decimated_all_102_levels_mass.jos
-
-      - year: WOA18 global seasonal files 0 to 800 meters
+          - name: WOA98_heavydeci_Global_vol.joa
+            path: https://cchdo.ucsd.edu/data/24603/WOA98_heavydeci_Global_vol.joa
+      - subsection: WOA98 regional files
         files :
-          - name: WOA18_13_JFM_decimated_to_800m_mass.jos
-            path: https://cchdo.ucsd.edu/data/24524/WOA18_13_JFM_decimated_to_800m_massx.jos
-          - name: WOA18_14_AMJ_decimated_to_800m_mass.jos
-            path: https://cchdo.ucsd.edu/data/24525/WOA18_14_AMJ_decimated_to_800m_massx.jos
-          - name: WOA18_15_JAS_decimated_to_800m_mass.jos
-            path: https://cchdo.ucsd.edu/data/24526/WOA18_15_JAS_decimated_to_800m_massx.jos
-          - name: WOA18_16_OND_decimated_to_800m_mass.jos
-            path: https://cchdo.ucsd.edu/data/24527/WOA18_16_OND_decimated_to_800m_massx.jos
+          - name: woa98_antarctic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24604/woa98_antarctic_vol.joa
+          - name: woa98_arctic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24605/woa98_arctic_vol.joa
+          - name: woa98_atlantic_all_vol.joa
+            path: https://cchdo.ucsd.edu/data/24606/woa98_atlantic_all_vol.joa
+          - name: woa98_indian_all_vol.joa
+            path: https://cchdo.ucsd.edu/data/24607/woa98_indian_all_vol.joa
+          - name: woa98_pacific_all_vol.joa
+            path: https://cchdo.ucsd.edu/data/24608/woa98_pacific_all_vol.joa
 
-  - title: WOA18 regional files
-    zip_path:
-    years: 
-      - year: WOA18 regional annual mean files
-        files :
-          - name: WOA18_annual_Arctic_Nordic_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24403/WOA18_annual_Arctic_Nordic_102_levels_massx.joa
-          - name: WOA18_annual_Atlantic_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24404/WOA18_annual_Atlantic_102_levels_massx.joa
-          - name: WOA18_annual_Indian_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24405/WOA18_annual_Indian_102_levels_massx.joa
-          - name: WOA18_annual_North_Atlantic_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24406/WOA18_annual_North_Atlantic_102_levels_massx.joa
-          - name: WOA18_annual_North_Pacific_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24407/WOA18_annual_North_Pacific_102_levels_massx.joa
-          - name: WOA18_annual_Pacific_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24408/WOA18_annual_Pacific_102_levels_massx.joa
-          - name: WOA18_annual_South_Atlantic_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24409/WOA18_annual_South_Atlantic_102_levels_massx.joa
-          - name: WOA18_annual_South_Pacific_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24410/WOA18_annual_South_Pacific_102_levels_massx.joa
-          - name: WOA18_annual_Southern_102_levels_mass.joa
-            path: https://cchdo.ucsd.edu/data/24411/WOA18_annual_Southern_102_levels_massx.joa
-
-      - year: WOA18 13 JFM regional seasonal files
-        files :
-          - name: WOA18_13_JFM_to_800m_mass_Arctic_Nordic.joa
-            path: https://cchdo.ucsd.edu/data/24367/WOA18_13_JFM_to_800m_massx_Arctic_Nordic.joa
-          - name: WOA18_13_JFM_to_800m_mass_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24368/WOA18_13_JFM_to_800m_massx_Atlantic.joa
-          - name: WOA18_13_JFM_to_800m_mass_Indian.joa
-            path: https://cchdo.ucsd.edu/data/24369/WOA18_13_JFM_to_800m_massx_Indian.joa
-          - name: WOA18_13_JFM_to_800m_mass_North_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24370/WOA18_13_JFM_to_800m_massx_North_Atlantic.joa
-          - name: WOA18_13_JFM_to_800m_mass_North_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24371/WOA18_13_JFM_to_800m_massx_North_Pacific.joa
-          - name: WOA18_13_JFM_to_800m_mass_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24372/WOA18_13_JFM_to_800m_massx_Pacific.joa
-          - name: WOA18_13_JFM_to_800m_mass_South_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24373/WOA18_13_JFM_to_800m_massx_South_Atlantic.joa
-          - name: WOA18_13_JFM_to_800m_mass_South_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24374/WOA18_13_JFM_to_800m_massx_South_Pacific.joa
-          - name: WOA18_13_JFM_to_800m_mass_Southern.joa
-            path: https://cchdo.ucsd.edu/data/24375/WOA18_13_JFM_to_800m_massx_Southern.joa
-
-      - year: WOA18 14 AMJ regional seasonal files
-        files :
-          - name: WOA18_14_AMJ_to_800m_mass_Arctic_Nordic.joa
-            path: https://cchdo.ucsd.edu/data/24376/WOA18_14_AMJ_to_800m_massx_Arctic_Nordic.joa
-          - name: WOA18_14_AMJ_to_800m_mass_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24377/WOA18_14_AMJ_to_800m_massx_Atlantic.joa
-          - name: WOA18_14_AMJ_to_800m_mass_Indian.joa
-            path: https://cchdo.ucsd.edu/data/24378/WOA18_14_AMJ_to_800m_massx_Indian.joa
-          - name: WOA18_14_AMJ_to_800m_mass_North_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24379/WOA18_14_AMJ_to_800m_massx_North_Atlantic.joa
-          - name: WOA18_14_AMJ_to_800m_mass_North_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24380/WOA18_14_AMJ_to_800m_massx_North_Pacific.joa
-          - name: WOA18_14_AMJ_to_800m_mass_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24381/WOA18_14_AMJ_to_800m_massx_Pacific.joa
-          - name: WOA18_14_AMJ_to_800m_mass_South_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24382/WOA18_14_AMJ_to_800m_massx_South_Atlantic.joa
-          - name: WOA18_14_AMJ_to_800m_mass_South_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24383/WOA18_14_AMJ_to_800m_massx_South_Pacific.joa
-          - name: WOA18_14_AMJ_to_800m_mass_Southern.joa
-            path: https://cchdo.ucsd.edu/data/24384/WOA18_14_AMJ_to_800m_massx_Southern.joa
-
-      - year: WOA18 15 JAS regional seasonal files
-        files :
-          - name: WOA18_15_JAS_to_800m_mass_Arctic_Nordic.joa
-            path: https://cchdo.ucsd.edu/data/24385/WOA18_15_JAS_to_800m_massx_Arctic_Nordic.joa
-          - name: WOA18_15_JAS_to_800m_mass_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24386/WOA18_15_JAS_to_800m_massx_Atlantic.joa
-          - name: WOA18_15_JAS_to_800m_mass_Indian.joa
-            path: https://cchdo.ucsd.edu/data/24387/WOA18_15_JAS_to_800m_massx_Indian.joa
-          - name: WOA18_15_JAS_to_800m_mass_North_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24388/WOA18_15_JAS_to_800m_massx_North_Atlantic.joa
-          - name: WOA18_15_JAS_to_800m_mass_North_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24389/WOA18_15_JAS_to_800m_massx_North_Pacific.joa
-          - name: WOA18_15_JAS_to_800m_mass_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24390/WOA18_15_JAS_to_800m_massx_Pacific.joa
-          - name: WOA18_15_JAS_to_800m_mass_South_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24391/WOA18_15_JAS_to_800m_massx_South_Atlantic.joa
-          - name: WOA18_15_JAS_to_800m_mass_South_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24392/WOA18_15_JAS_to_800m_massx_South_Pacific.joa
-          - name: WOA18_15_JAS_to_800m_mass_Southern.joa
-            path: https://cchdo.ucsd.edu/data/24393/WOA18_15_JAS_to_800m_massx_Southern.joa
-
-      - year: WOA18 16 OND regional seasonal files
-        files :
-          - name: WOA18_16_OND_to_800m_mass_Arctic_Nordic.joa
-            path: https://cchdo.ucsd.edu/data/24394/WOA18_16_OND_to_800m_massx_Arctic_Nordic.joa
-          - name: WOA18_16_OND_to_800m_mass_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24395/WOA18_16_OND_to_800m_massx_Atlantic.joa
-          - name: WOA18_16_OND_to_800m_mass_Indian.joa
-            path: https://cchdo.ucsd.edu/data/24396/WOA18_16_OND_to_800m_massx_Indian.joa
-          - name: WOA18_16_OND_to_800m_mass_North_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24397/WOA18_16_OND_to_800m_massx_North_Atlantic.joa
-          - name: WOA18_16_OND_to_800m_mass_North_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24398/WOA18_16_OND_to_800m_massx_North_Pacific.joa
-          - name: WOA18_16_OND_to_800m_mass_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24399/WOA18_16_OND_to_800m_massx_Pacific.joa
-          - name: WOA18_16_OND_to_800m_mass_South_Atlantic.joa
-            path: https://cchdo.ucsd.edu/data/24400/WOA18_16_OND_to_800m_massx_South_Atlantic.joa
-          - name: WOA18_16_OND_to_800m_mass_South_Pacific.joa
-            path: https://cchdo.ucsd.edu/data/24401/WOA18_16_OND_to_800m_massx_South_Pacific.joa
-          - name: WOA18_16_OND_to_800m_mass_Southern.joa
-            path: https://cchdo.ucsd.edu/data/24402/WOA18_16_OND_to_800m_massx_Southern.joa
-
-
-  - title: WOA18 Zonal section files
+  - title: WOA 2005 files
     zip_path: 
-    years:
-      - year: WOA18 Zonal section annual files
+    subsections:
+      - subsection: WOA05 regional files
         files :
-          - name: woa18_lat_-4.5.jos
-            path: https://cchdo.ucsd.edu/data/24334/woa18_lat_-4.5.jos
-          - name: woa18_lat_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24335/woa18_lat_-9.5.jos
-          - name: woa18_lat_-14.5.jos
-            path: https://cchdo.ucsd.edu/data/24336/woa18_lat_-14.5.jos
-          - name: woa18_lat_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24337/woa18_lat_-19.5.jos
-          - name: woa18_lat_-24.5.jos
-            path: https://cchdo.ucsd.edu/data/24338/woa18_lat_-24.5.jos
-          - name: woa18_lat_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24339/woa18_lat_-29.5.jos
-          - name: woa18_lat_-34.5.jos
-            path: https://cchdo.ucsd.edu/data/24340/woa18_lat_-34.5.jos
-          - name: woa18_lat_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24341/woa18_lat_-39.5.jos
-          - name: woa18_lat_-44.5.jos
-            path: https://cchdo.ucsd.edu/data/24342/woa18_lat_-44.5.jos
-          - name: woa18_lat_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24343/woa18_lat_-49.5.jos
-          - name: woa18_lat_-54.5.jos
-            path: https://cchdo.ucsd.edu/data/24344/woa18_lat_-54.5.jos
-          - name: woa18_lat_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24345/woa18_lat_-59.5.jos
-          - name: woa18_lat_-64.5.jos
-            path: https://cchdo.ucsd.edu/data/24346/woa18_lat_-64.5.jos
-          - name: woa18_lat_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24347/woa18_lat_-69.5.jos
-          - name: woa18_lat_-74.5.jos
-            path: https://cchdo.ucsd.edu/data/24348/woa18_lat_-74.5.jos
-          - name: woa18_lat_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24349/woa18_lat_0.5.jos
-          - name: woa18_lat_5.5.jos
-            path: https://cchdo.ucsd.edu/data/24350/woa18_lat_5.5.jos
-          - name: woa18_lat_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24351/woa18_lat_10.5.jos
-          - name: woa18_lat_15.5.jos
-            path: https://cchdo.ucsd.edu/data/24352/woa18_lat_15.5.jos
-          - name: woa18_lat_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24353/woa18_lat_20.5.jos
-          - name: woa18_lat_25.5.jos
-            path: https://cchdo.ucsd.edu/data/24354/woa18_lat_25.5.jos
-          - name: woa18_lat_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24355/woa18_lat_30.5.jos
-          - name: woa18_lat_35.5.jos
-            path: https://cchdo.ucsd.edu/data/24356/woa18_lat_35.5.jos
-          - name: woa18_lat_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24357/woa18_lat_40.5.jos
-          - name: woa18_lat_45.5.jos
-            path: https://cchdo.ucsd.edu/data/24358/woa18_lat_45.5.jos
-          - name: woa18_lat_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24359/woa18_lat_50.5.jos
-          - name: woa18_lat_55.5.jos
-            path: https://cchdo.ucsd.edu/data/24360/woa18_lat_55.5.jos
-          - name: woa18_lat_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24361/woa18_lat_60.5.jos 
-          - name: woa18_lat_65.5.jos
-            path: https://cchdo.ucsd.edu/data/24362/woa18_lat_65.5.jos
-          - name: woa18_lat_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24363/woa18_lat_70.5.jos
-          - name: woa18_lat_75.5.jos
-            path: https://cchdo.ucsd.edu/data/24364/woa18_lat_75.5.jos
-          - name: woa18_lat_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24365/woa18_lat_80.5.jos 
-          - name: woa18_lat_85.5.jos
-            path: https://cchdo.ucsd.edu/data/24366/woa18_lat_85.5.jos
-
-      - year: WOA18 13 JFM Zonal section files
+          - name: WOA05_Arctic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24614/WOA05_Arctic_vol.joa
+          - name: WOA05_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24609/WOA05_Atlantic_vol.joa
+          - name: WOA05_Indian_vol.joa
+            path: https://cchdo.ucsd.edu/data/24610/WOA05_Indian_vol.joa
+          - name: WOA05_North_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24611/WOA05_North_Pacific_vol.joa
+          - name: WOA05_South_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24612/WOA05_South_Pacific_vol.joa
+          - name: WOA05_Southern_vol.joa
+            path: https://cchdo.ucsd.edu/data/24613/WOA05_Southern_vol.joa
+      - subsection: WOA05 decimated regional files
         files :
-          - name: woa18_13_lat_-4.5.jos
-            path: https://cchdo.ucsd.edu/data/24235/woa18_13_lat_-4.5.jos
-          - name: woa18_13_lat_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24236/woa18_13_lat_-9.5.jos
-          - name: woa18_13_lat_-14.5.jos
-            path: https://cchdo.ucsd.edu/data/24237/woa18_13_lat_-14.5.jos
-          - name: woa18_13_lat_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24238/woa18_13_lat_-19.5.jos
-          - name: woa18_13_lat_-24.5.jos
-            path: https://cchdo.ucsd.edu/data/24239/woa18_13_lat_-24.5.jos
-          - name: woa18_13_lat_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24240/woa18_13_lat_-29.5.jos
-          - name: woa18_13_lat_-34.5.jos
-            path: https://cchdo.ucsd.edu/data/24241/woa18_13_lat_-34.5.jos
-          - name: woa18_13_lat_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24242/woa18_13_lat_-39.5.jos
-          - name: woa18_13_lat_-44.5.jos
-            path: https://cchdo.ucsd.edu/data/24243/woa18_13_lat_-44.5.jos
-          - name: woa18_13_lat_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24244/woa18_13_lat_-49.5.jos
-          - name: woa18_13_lat_-54.5.jos
-            path: https://cchdo.ucsd.edu/data/24245/woa18_13_lat_-54.5.jos
-          - name: woa18_13_lat_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24246/woa18_13_lat_-59.5.jos
-          - name: woa18_13_lat_-64.5.jos
-            path: https://cchdo.ucsd.edu/data/24247/woa18_13_lat_-64.5.jos
-          - name: woa18_13_lat_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24248/woa18_13_lat_-69.5.jos
-          - name: woa18_13_lat_-74.5.jos
-            path: https://cchdo.ucsd.edu/data/24249/woa18_13_lat_-74.5.jos
-          - name: woa18_13_lat_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24250/woa18_13_lat_0.5.jos
-          - name: woa18_13_lat_5.5.jos
-            path: https://cchdo.ucsd.edu/data/24251/woa18_13_lat_5.5.jos
-          - name: woa18_13_lat_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24252/woa18_13_lat_10.5.jos
-          - name: woa18_13_lat_15.5.jos
-            path: https://cchdo.ucsd.edu/data/24253/woa18_13_lat_15.5.jos
-          - name: woa18_13_lat_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24254/woa18_13_lat_20.5.jos
-          - name: woa18_13_lat_25.5.jos
-            path: https://cchdo.ucsd.edu/data/24255/woa18_13_lat_25.5.jos
-          - name: woa18_13_lat_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24256/woa18_13_lat_30.5.jos
-          - name: woa18_13_lat_35.5.jos
-            path: https://cchdo.ucsd.edu/data/24257/woa18_13_lat_35.5.jos
-          - name: woa18_13_lat_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24258/woa18_13_lat_40.5.jos
-          - name: woa18_13_lat_45.5.jos
-            path: https://cchdo.ucsd.edu/data/24259/woa18_13_lat_45.5.jos
-          - name: woa18_13_lat_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24260/woa18_13_lat_50.5.jos
-          - name: woa18_13_lat_55.5.jos
-            path: https://cchdo.ucsd.edu/data/24261/woa18_13_lat_55.5.jos
-          - name: woa18_13_lat_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24262/woa18_13_lat_60.5.jos
-          - name: woa18_13_lat_65.5.jos
-            path: https://cchdo.ucsd.edu/data/24263/woa18_13_lat_65.5.jos
-          - name: woa18_13_lat_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24264/woa18_13_lat_70.5.jos
-          - name: woa18_13_lat_75.5.jos
-            path: https://cchdo.ucsd.edu/data/24265/woa18_13_lat_75.5.jos
-          - name: woa18_13_lat_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24266/woa18_13_lat_80.5.jos
-          - name: woa18_13_lat_85.5.jos
-            path: https://cchdo.ucsd.edu/data/24267/woa18_13_lat_85.5.jos
+          - name: WOA05_decimated_Arctic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24616/WOA05_decimated_Arctic_vol.joa
+          - name: WOA05_decimated_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24617/WOA05_decimated_Atlantic_vol.joa
+          - name: WOA05_decimated_Indian_vol.joa
+            path: https://cchdo.ucsd.edu/data/24615/WOA05_decimated_Indian_vol.joa
+          - name: WOA05_decimated_North_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24618/WOA05_decimated_North_Atlantic_vol.joa
+          - name: WOA05_decimated_North_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24619/WOA05_decimated_North_Pacific_vol.joa
+          - name: WOA05_decimated_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24620/WOA05_decimated_Pacific_vol.joa
+          - name: WOA05_decimated_South_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24621/WOA05_decimated_South_Atlantic_vol.joa
+          - name: WOA05_decimated_South_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24622/WOA05_decimated_South_Pacific_vol.joa
+          - name: WOA05_decimated_Southern_vol.joa
+            path: https://cchdo.ucsd.edu/data/24623/WOA05_decimated_Southern_vol.joa
 
-      - year: WOA18 14 AMJ Zonal section files
-        files :
-          - name: woa18_14_lat_-4.5.jos
-            path: https://cchdo.ucsd.edu/data/24268/woa18_14_lat_-4.5.jos
-          - name: woa18_14_lat_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24269/woa18_14_lat_-9.5.jos
-          - name: woa18_14_lat_-14.5.jos
-            path: https://cchdo.ucsd.edu/data/24270/woa18_14_lat_-14.5.jos
-          - name: woa18_14_lat_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24271/woa18_14_lat_-19.5.jos
-          - name: woa18_14_lat_-24.5.jos
-            path: https://cchdo.ucsd.edu/data/24272/woa18_14_lat_-24.5.jos
-          - name: woa18_14_lat_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24273/woa18_14_lat_-29.5.jos
-          - name: woa18_14_lat_-34.5.jos
-            path: https://cchdo.ucsd.edu/data/24274/woa18_14_lat_-34.5.jos
-          - name: woa18_14_lat_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24275/woa18_14_lat_-39.5.jos
-          - name: woa18_14_lat_-44.5.jos
-            path: https://cchdo.ucsd.edu/data/24275/woa18_14_lat_-39.5.jos
-          - name: woa18_14_lat_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24277/woa18_14_lat_-49.5.jos
-          - name: woa18_14_lat_-54.5.jos
-            path: https://cchdo.ucsd.edu/data/24278/woa18_14_lat_-54.5.jos
-          - name: woa18_14_lat_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24279/woa18_14_lat_-59.5.jos
-          - name: woa18_14_lat_-64.5.jos
-            path: https://cchdo.ucsd.edu/data/24280/woa18_14_lat_-64.5.jos
-          - name: woa18_14_lat_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24281/woa18_14_lat_-69.5.jos
-          - name: woa18_14_lat_-74.5.jos
-            path: https://cchdo.ucsd.edu/data/24282/woa18_14_lat_-74.5.jos
-          - name: woa18_14_lat_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24283/woa18_14_lat_0.5.jos
-          - name: woa18_14_lat_5.5.jos
-            path: https://cchdo.ucsd.edu/data/24284/woa18_14_lat_5.5.jos
-          - name: woa18_14_lat_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24285/woa18_14_lat_10.5.jos
-          - name: woa18_14_lat_15.5.jos
-            path: https://cchdo.ucsd.edu/data/24286/woa18_14_lat_15.5.jos
-          - name: woa18_14_lat_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24287/woa18_14_lat_20.5.jos
-          - name: woa18_14_lat_25.5.jos
-            path: https://cchdo.ucsd.edu/data/24288/woa18_14_lat_25.5.jos
-          - name: woa18_14_lat_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24289/woa18_14_lat_30.5.jos
-          - name: woa18_14_lat_35.5.jos
-            path: https://cchdo.ucsd.edu/data/24290/woa18_14_lat_35.5.jos
-          - name: woa18_14_lat_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24291/woa18_14_lat_40.5.jos
-          - name: woa18_14_lat_45.5.jos
-            path: https://cchdo.ucsd.edu/data/24292/woa18_14_lat_45.5.jos
-          - name: woa18_14_lat_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24293/woa18_14_lat_50.5.jos
-          - name: woa18_14_lat_55.5.jos
-            path: https://cchdo.ucsd.edu/data/24294/woa18_14_lat_55.5.jos
-          - name: woa18_14_lat_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24295/woa18_14_lat_60.5.jos
-          - name: woa18_14_lat_65.5.jos
-            path: https://cchdo.ucsd.edu/data/24296/woa18_14_lat_65.5.jos
-          - name: woa18_14_lat_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24297/woa18_14_lat_70.5.jos
-          - name: woa18_14_lat_75.5.jos
-            path: https://cchdo.ucsd.edu/data/24298/woa18_14_lat_75.5.jos
-          - name: woa18_14_lat_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24299/woa18_14_lat_80.5.jos
-          - name: woa18_14_lat_85.5.jos
-            path: https://cchdo.ucsd.edu/data/24300/woa18_14_lat_85.5.jos
-
-      - year: WOA18 15 JAS Zonal section files
-        files :
-          - name: woa18_15_lat_-4.5.jos
-            path: https://cchdo.ucsd.edu/data/24471/woa18_15_lat_-4.5.jos
-          - name: woa18_15_lat_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24472/woa18_15_lat_-9.5.jos
-          - name: woa18_15_lat_-14.5.jos
-            path: https://cchdo.ucsd.edu/data/24473/woa18_15_lat_-14.5.jos
-          - name: woa18_15_lat_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24474/woa18_15_lat_-19.5.jos
-          - name: woa18_15_lat_-24.5.jos
-            path: https://cchdo.ucsd.edu/data/24475/woa18_15_lat_-24.5.jos
-          - name: woa18_15_lat_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24476/woa18_15_lat_-29.5.jos
-          - name: woa18_15_lat_-34.5.jos
-            path: https://cchdo.ucsd.edu/data/24477/woa18_15_lat_-34.5.jos
-          - name: woa18_15_lat_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24478/woa18_15_lat_-39.5.jos
-          - name: woa18_15_lat_-44.5.jos
-            path: https://cchdo.ucsd.edu/data/24479/woa18_15_lat_-44.5.jos
-          - name: woa18_15_lat_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24480/woa18_15_lat_-49.5.jos
-          - name: woa18_15_lat_-54.5.jos
-            path: https://cchdo.ucsd.edu/data/24481/woa18_15_lat_-54.5.jos
-          - name: woa18_15_lat_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24482/woa18_15_lat_-59.5.jos
-          - name: woa18_15_lat_-64.5.jos
-            path: https://cchdo.ucsd.edu/data/24483/woa18_15_lat_-64.5.jos
-          - name: woa18_15_lat_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24484/woa18_15_lat_-69.5.jos
-          - name: woa18_15_lat_-74.5.jos
-            path: https://cchdo.ucsd.edu/data/24485/woa18_15_lat_-74.5.jos
-          - name: woa18_15_lat_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24486/woa18_15_lat_0.5.jos
-          - name: woa18_15_lat_5.5.jos
-            path: https://cchdo.ucsd.edu/data/24487/woa18_15_lat_5.5.jos
-          - name: woa18_15_lat_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24488/woa18_15_lat_10.5.jos
-          - name: woa18_15_lat_15.5.jos
-            path: https://cchdo.ucsd.edu/data/24489/woa18_15_lat_15.5.jos
-          - name: woa18_15_lat_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24490/woa18_15_lat_20.5.jos
-          - name: woa18_15_lat_25.5.jos
-            path: https://cchdo.ucsd.edu/data/24491/woa18_15_lat_25.5.jos
-          - name: woa18_15_lat_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24492/woa18_15_lat_30.5.jos
-          - name: woa18_15_lat_35.5.jos
-            path: https://cchdo.ucsd.edu/data/24493/woa18_15_lat_35.5.jos
-          - name: woa18_15_lat_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24494/woa18_15_lat_40.5.jos
-          - name: woa18_15_lat_45.5.jos
-            path: https://cchdo.ucsd.edu/data/24495/woa18_15_lat_45.5.jos
-          - name: woa18_15_lat_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24496/woa18_15_lat_50.5.jos
-          - name: woa18_15_lat_55.5.jos
-            path: https://cchdo.ucsd.edu/data/24497/woa18_15_lat_55.5.jos
-          - name: woa18_15_lat_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24498/woa18_15_lat_60.5.jos
-          - name: woa18_15_lat_65.5.jos
-            path: https://cchdo.ucsd.edu/data/24498/woa18_15_lat_60.5.jos
-          - name: woa18_15_lat_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24500/woa18_15_lat_70.5.jos
-          - name: woa18_15_lat_75.5.jos
-            path: https://cchdo.ucsd.edu/data/24501/woa18_15_lat_75.5.jos
-          - name: woa18_15_lat_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24502/woa18_15_lat_80.5.jos
-          - name: woa18_15_lat_85.5.jos
-            path: https://cchdo.ucsd.edu/data/24503/woa18_15_lat_85.5.jos
-
-      - year: WOA18 16 OND Zonal section files
-        files :
-          - name: woa18_16_lat_-4.5.jos
-            path: https://cchdo.ucsd.edu/data/24301/woa18_16_lat_-4.5.jos
-          - name: woa18_16_lat_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24302/woa18_16_lat_-9.5.jos
-          - name: woa18_16_lat_-14.5.jos
-            path: https://cchdo.ucsd.edu/data/24303/woa18_16_lat_-14.5.jos
-          - name: woa18_16_lat_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24304/woa18_16_lat_-19.5.jos
-          - name: woa18_16_lat_-24.5.jos
-            path: https://cchdo.ucsd.edu/data/24305/woa18_16_lat_-24.5.jos
-          - name: woa18_16_lat_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24306/woa18_16_lat_-29.5.jos
-          - name: woa18_16_lat_-34.5.jos
-            path: https://cchdo.ucsd.edu/data/24307/woa18_16_lat_-34.5.jos
-          - name: woa18_16_lat_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24308/woa18_16_lat_-39.5.jos
-          - name: woa18_16_lat_-44.5.jos
-            path: https://cchdo.ucsd.edu/data/24309/woa18_16_lat_-44.5.jos
-          - name: woa18_16_lat_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24310/woa18_16_lat_-49.5.jos
-          - name: woa18_16_lat_-54.5.jos
-            path: https://cchdo.ucsd.edu/data/24311/woa18_16_lat_-54.5.jos
-          - name: woa18_16_lat_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24312/woa18_16_lat_-59.5.jos
-          - name: woa18_16_lat_-64.5.jos
-            path: https://cchdo.ucsd.edu/data/24313/woa18_16_lat_-64.5.jos
-          - name: woa18_16_lat_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24314/woa18_16_lat_-69.5.jos
-          - name: woa18_16_lat_-74.5.jos
-            path: https://cchdo.ucsd.edu/data/24315/woa18_16_lat_-74.5.jos
-          - name: woa18_16_lat_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24316/woa18_16_lat_0.5.jos
-          - name: woa18_16_lat_5.5.jos
-            path: https://cchdo.ucsd.edu/data/24317/woa18_16_lat_5.5.jos
-          - name: woa18_16_lat_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24318/woa18_16_lat_10.5.jos
-          - name: woa18_16_lat_15.5.jos
-            path: https://cchdo.ucsd.edu/data/24319/woa18_16_lat_15.5.jos
-          - name: woa18_16_lat_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24320/woa18_16_lat_20.5.jos
-          - name: woa18_16_lat_25.5.jos
-            path: https://cchdo.ucsd.edu/data/24321/woa18_16_lat_25.5.jos
-          - name: woa18_16_lat_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24322/woa18_16_lat_30.5.jos
-          - name: woa18_16_lat_35.5.jos
-            path: https://cchdo.ucsd.edu/data/24323/woa18_16_lat_35.5.jos
-          - name: woa18_16_lat_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24324/woa18_16_lat_40.5.jos
-          - name: woa18_16_lat_45.5.jos
-            path: https://cchdo.ucsd.edu/data/24325/woa18_16_lat_45.5.jos
-          - name: woa18_16_lat_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24326/woa18_16_lat_50.5.jos
-          - name: woa18_16_lat_55.5.jos
-            path: https://cchdo.ucsd.edu/data/24327/woa18_16_lat_55.5.jos
-          - name: woa18_16_lat_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24328/woa18_16_lat_60.5.jos
-          - name: woa18_16_lat_65.5.jos
-            path: https://cchdo.ucsd.edu/data/24329/woa18_16_lat_65.5.jos
-          - name: woa18_16_lat_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24330/woa18_16_lat_70.5.jos
-          - name: woa18_16_lat_75.5.jos
-            path: https://cchdo.ucsd.edu/data/24331/woa18_16_lat_75.5.jos
-          - name: woa18_16_lat_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24332/woa18_16_lat_80.5.jos
-          - name: woa18_16_lat_85.5.jos
-            path: https://cchdo.ucsd.edu/data/24333/woa18_16_lat_85.5.jos
-
-  - title: WOA18 Meridional section files
+  - title: WOA 2009 files
     zip_path: 
-    years:
-      - year: WOA18 Meridional section annual files
+    subsections:
+      - subsection: WOA09 annual regional files
         files :
-          - name: woa18_lon_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24055/woa18_lon_-9.5.jos
-          - name: woa18_lon_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24056/woa18_lon_-19.5.jos
-          - name: woa18_lon_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24057/woa18_lon_-29.5.jos
-          - name: woa18_lon_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24058/woa18_lon_-39.5.jos
-          - name: woa18_lon_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24059/woa18_lon_-49.5.jos
-          - name: woa18_lon_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24060/woa18_lon_-59.5.jos
-          - name: woa18_lon_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24061/woa18_lon_-69.5.jos
-          - name: woa18_lon_-79.5.jos
-            path: https://cchdo.ucsd.edu/data/24062/woa18_lon_-79.5.jos
-          - name: woa18_lon_-89.5.jos
-            path: https://cchdo.ucsd.edu/data/24063/woa18_lon_-89.5.jos
-          - name: woa18_lon_-99.5.jos
-            path: https://cchdo.ucsd.edu/data/24064/woa18_lon_-99.5.jos
-          - name: woa18_lon_-109.5.jos
-            path: https://cchdo.ucsd.edu/data/24065/woa18_lon_-109.5.jos
-          - name: woa18_lon_-119.5.jos
-            path: https://cchdo.ucsd.edu/data/24066/woa18_lon_-119.5.jos
-          - name: woa18_lon_-129.5.jos
-            path: https://cchdo.ucsd.edu/data/24067/woa18_lon_-129.5.jos
-          - name: woa18_lon_-139.5.jos
-            path: https://cchdo.ucsd.edu/data/24068/woa18_lon_-139.5.jos
-          - name: woa18_lon_-149.5.jos
-            path: https://cchdo.ucsd.edu/data/24069/woa18_lon_-149.5.jos
-          - name: woa18_lon_-159.5.jos
-            path: https://cchdo.ucsd.edu/data/24070/woa18_lon_-159.5.jos 
-          - name: woa18_lon_-169.5.jos
-            path: https://cchdo.ucsd.edu/data/24071/woa18_lon_-169.5.jos
-          - name: woa18_lon_-179.5.jos
-            path: https://cchdo.ucsd.edu/data/24072/woa18_lon_-179.5.jos
-          - name: woa18_lon_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24073/woa18_lon_0.5.jos
-          - name: woa18_lon_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24074/woa18_lon_10.5.jos
-          - name: woa18_lon_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24075/woa18_lon_20.5.jos
-          - name: woa18_lon_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24076/woa18_lon_30.5.jos
-          - name: woa18_lon_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24077/woa18_lon_40.5.jos
-          - name: woa18_lon_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24078/woa18_lon_50.5.jos
-          - name: woa18_lon_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24079/woa18_lon_60.5.jos
-          - name: woa18_lon_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24080/woa18_lon_70.5.jos
-          - name: woa18_lon_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24081/woa18_lon_80.5.jos
-          - name: woa18_lon_90.5.jos
-            path: https://cchdo.ucsd.edu/data/24082/woa18_lon_90.5.jos
-          - name: woa18_lon_100.5.jos
-            path: https://cchdo.ucsd.edu/data/24083/woa18_lon_100.5.jos
-          - name: woa18_lon_110.5.jos
-            path: https://cchdo.ucsd.edu/data/24084/woa18_lon_110.5.jos
-          - name: woa18_lon_120.5.jos
-            path: https://cchdo.ucsd.edu/data/24085/woa18_lon_120.5.jos
-          - name: woa18_lon_130.5.jos
-            path: https://cchdo.ucsd.edu/data/24086/woa18_lon_130.5.jos
-          - name: woa18_lon_140.5.jos
-            path: https://cchdo.ucsd.edu/data/24087/woa18_lon_140.5.jos
-          - name: woa18_lon_150.5.jos
-            path: https://cchdo.ucsd.edu/data/24088/woa18_lon_150.5.jos
-          - name: woa18_lon_160.5.jos
-            path: https://cchdo.ucsd.edu/data/24089/woa18_lon_160.5.jos
-          - name: woa18_lon_170.5.jos
-            path: https://cchdo.ucsd.edu/data/24090/woa18_lon_170.5.jos
+          - name: WOA09_annual_an_decimated_Arctic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24624/WOA09_annual_an_decimated_Arctic_vol.joa
+          - name: WOA09_annual_an_decimated_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24625/WOA09_annual_an_decimated_Atlantic_vol.joa
+          - name: WOA09_annual_an_decimated_Indian_vol.joa
+            path: https://cchdo.ucsd.edu/data/24626/WOA09_annual_an_decimated_Indian_vol.joa
+          - name: WOA09_annual_an_decimated_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24627/WOA09_annual_an_decimated_Pacific_vol.joa
+          - name: WOA09_annual_an_decimated_Southern_vol.joa
+            path: https://cchdo.ucsd.edu/data/24628/WOA09_annual_an_decimated_Southern_vol.joa
 
-      - year: WOA18 13 JFM Meridional section files
+      - subsection: WOA09 seasonal regional files
         files :
-          - name: woa18_13_lon_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24091/woa18_13_lon_-9.5.jos
-          - name: woa18_13_lon_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24092/woa18_13_lon_-19.5.jos
-          - name: woa18_13_lon_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24093/woa18_13_lon_-29.5.jos
-          - name: woa18_13_lon_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24094/woa18_13_lon_-39.5.jos
-          - name: woa18_13_lon_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24095/woa18_13_lon_-49.5.jos
-          - name: woa18_13_lon_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24096/woa18_13_lon_-59.5.jos
-          - name: woa18_13_lon_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24097/woa18_13_lon_-69.5.jos
-          - name: woa18_13_lon_-79.5.jos
-            path: https://cchdo.ucsd.edu/data/24098/woa18_13_lon_-79.5.jos
-          - name: woa18_13_lon_-89.5.jos
-            path: https://cchdo.ucsd.edu/data/24099/woa18_13_lon_-89.5.jos
-          - name: woa18_13_lon_-99.5.jos
-            path: https://cchdo.ucsd.edu/data/24100/woa18_13_lon_-99.5.jos
-          - name: woa18_13_lon_-109.5.jos
-            path: https://cchdo.ucsd.edu/data/24101/woa18_13_lon_-109.5.jos
-          - name: woa18_13_lon_-119.5.jos
-            path: https://cchdo.ucsd.edu/data/24102/woa18_13_lon_-119.5.jos
-          - name: woa18_13_lon_-129.5.jos
-            path: https://cchdo.ucsd.edu/data/24103/woa18_13_lon_-129.5.jos
-          - name: woa18_13_lon_-139.5.jos
-            path: https://cchdo.ucsd.edu/data/24104/woa18_13_lon_-139.5.jos
-          - name: woa18_13_lon_-149.5.jos
-            path: https://cchdo.ucsd.edu/data/24105/woa18_13_lon_-149.5.jos
-          - name: woa18_13_lon_-159.5.jos
-            path: https://cchdo.ucsd.edu/data/24106/woa18_13_lon_-159.5.jos
-          - name: woa18_13_lon_-169.5.jos
-            path: https://cchdo.ucsd.edu/data/24107/woa18_13_lon_-169.5.jos
-          - name: woa18_13_lon_-179.5.jos
-            path: https://cchdo.ucsd.edu/data/24108/woa18_13_lon_-179.5.jos
-          - name: woa18_13_lon_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24109/woa18_13_lon_0.5.jos
-          - name: woa18_13_lon_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24110/woa18_13_lon_10.5.jos
-          - name: woa18_13_lon_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24111/woa18_13_lon_20.5.jos
-          - name: woa18_13_lon_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24112/woa18_13_lon_30.5.jos
-          - name: woa18_13_lon_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24113/woa18_13_lon_40.5.jos
-          - name: woa18_13_lon_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24114/woa18_13_lon_50.5.jos
-          - name: woa18_13_lon_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24115/woa18_13_lon_60.5.jos
-          - name: woa18_13_lon_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24116/woa18_13_lon_70.5.jos
-          - name: woa18_13_lon_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24117/woa18_13_lon_80.5.jos
-          - name: woa18_13_lon_90.5.jos
-            path: https://cchdo.ucsd.edu/data/24118/woa18_13_lon_90.5.jos
-          - name: woa18_13_lon_100.5.jos
-            path: https://cchdo.ucsd.edu/data/24119/woa18_13_lon_100.5.jos
-          - name: woa18_13_lon_110.5.jos
-            path: https://cchdo.ucsd.edu/data/24120/woa18_13_lon_110.5.jos
-          - name: woa18_13_lon_120.5.jos
-            path: https://cchdo.ucsd.edu/data/24121/woa18_13_lon_120.5.jos
-          - name: woa18_13_lon_130.5.jos
-            path: https://cchdo.ucsd.edu/data/24122/woa18_13_lon_130.5.jos
-          - name: woa18_13_lon_140.5.jos
-            path: https://cchdo.ucsd.edu/data/24123/woa18_13_lon_140.5.jos
-          - name: woa18_13_lon_150.5.jos
-            path: https://cchdo.ucsd.edu/data/24124/woa18_13_lon_150.5.jos
-          - name: woa18_13_lon_160.5.jos
-            path: https://cchdo.ucsd.edu/data/24125/woa18_13_lon_160.5.jos
-          - name: woa18_13_lon_170.5.jos
-            path: https://cchdo.ucsd.edu/data/24126/woa18_13_lon_170.5.jos
+          - name: WOA09_AMJ_an_decimated_vol_ATL.joa
+            path: https://cchdo.ucsd.edu/data/24629/WOA09_AMJ_an_decimated_vol_ATL.joa
+          - name: WOA09_AMJ_an_decimated_vol_IND.joa
+            path: https://cchdo.ucsd.edu/data/24630/WOA09_AMJ_an_decimated_vol_IND.joa
+          - name: WOA09_AMJ_an_decimated_vol_NPAC.joa
+            path: https://cchdo.ucsd.edu/data/24631/WOA09_AMJ_an_decimated_vol_NPAC.joa
+          - name: WOA09_AMJ_an_decimated_vol_SPAC.joa
+            path: https://cchdo.ucsd.edu/data/24632/WOA09_AMJ_an_decimated_vol_SPAC.joa
+          - name: WOA09_JAS_an_decimated_vol_ATL.joa
+            path: https://cchdo.ucsd.edu/data/24633/WOA09_JAS_an_decimated_vol_ATL.joa
+          - name: WOA09_JAS_an_decimated_vol_IND.joa
+            path: https://cchdo.ucsd.edu/data/24634/WOA09_JAS_an_decimated_vol_IND.joa
+          - name: WOA05_decimated_South_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24621/WOA05_decimated_South_Atlantic_vol.joa
+          - name: WOA05_decimated_South_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24622/WOA05_decimated_South_Pacific_vol.joa
+          - name: WOA05_decimated_Southern_vol.joa
+            path: https://cchdo.ucsd.edu/data/24623/WOA05_decimated_Southern_vol.joa
+          - name: WOA05_decimated_Indian_vol.joa
+            path: https://cchdo.ucsd.edu/data/24615/WOA05_decimated_Indian_vol.joa
+          - name: WOA05_decimated_North_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24618/WOA05_decimated_North_Atlantic_vol.joa
+          - name: WOA05_decimated_North_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24619/WOA05_decimated_North_Pacific_vol.joa
+          - name: WOA05_decimated_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24620/WOA05_decimated_Pacific_vol.joa
+          - name: WOA05_decimated_South_Atlantic_vol.joa
+            path: https://cchdo.ucsd.edu/data/24621/WOA05_decimated_South_Atlantic_vol.joa
+          - name: WOA05_decimated_South_Pacific_vol.joa
+            path: https://cchdo.ucsd.edu/data/24622/WOA05_decimated_South_Pacific_vol.joa
+          - name: WOA05_decimated_Southern_vol.joa
+            path: https://cchdo.ucsd.edu/data/24623/WOA05_decimated_Southern_vol.joa
 
-      - year: WOA18 14 AMJ Meridional section files
-        files :
-          - name: woa18_14_lon_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24127/woa18_14_lon_-9.5.jos
-          - name: woa18_14_lon_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24128/woa18_14_lon_-19.5.jos
-          - name: woa18_14_lon_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24129/woa18_14_lon_-29.5.jos
-          - name: woa18_14_lon_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24130/woa18_14_lon_-39.5.jos
-          - name: woa18_14_lon_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24131/woa18_14_lon_-49.5.jos
-          - name: woa18_14_lon_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24132/woa18_14_lon_-59.5.jos
-          - name: woa18_14_lon_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24133/woa18_14_lon_-69.5.jos
-          - name: woa18_14_lon_-79.5.jos
-            path: https://cchdo.ucsd.edu/data/24134/woa18_14_lon_-79.5.jos
-          - name: woa18_14_lon_-89.5.jos
-            path: https://cchdo.ucsd.edu/data/24135/woa18_14_lon_-89.5.jos
-          - name: woa18_14_lon_-99.5.jos
-            path: https://cchdo.ucsd.edu/data/24136/woa18_14_lon_-99.5.jos
-          - name: woa18_14_lon_-109.5.jos
-            path: https://cchdo.ucsd.edu/data/24137/woa18_14_lon_-109.5.jos
-          - name: woa18_14_lon_-119.5.jos
-            path: https://cchdo.ucsd.edu/data/24138/woa18_14_lon_-119.5.jos
-          - name: woa18_14_lon_-129.5.jos
-            path: https://cchdo.ucsd.edu/data/24139/woa18_14_lon_-129.5.jos
-          - name: woa18_14_lon_-139.5.jos
-            path: https://cchdo.ucsd.edu/data/24140/woa18_14_lon_-139.5.jos
-          - name: woa18_14_lon_-149.5.jos
-            path: https://cchdo.ucsd.edu/data/24141/woa18_14_lon_-149.5.jos
-          - name: woa18_14_lon_-159.5.jos
-            path: https://cchdo.ucsd.edu/data/24142/woa18_14_lon_-159.5.jos
-          - name: woa18_14_lon_-169.5.jos
-            path: https://cchdo.ucsd.edu/data/24143/woa18_14_lon_-169.5.jos
-          - name: woa18_14_lon_-179.5.jos
-            path: https://cchdo.ucsd.edu/data/24144/woa18_14_lon_-179.5.jos
-          - name: woa18_14_lon_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24145/woa18_14_lon_0.5.jos
-          - name: woa18_14_lon_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24146/woa18_14_lon_10.5.jos
-          - name: woa18_14_lon_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24147/woa18_14_lon_20.5.jos
-          - name: woa18_14_lon_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24148/woa18_14_lon_30.5.jos
-          - name: woa18_14_lon_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24149/woa18_14_lon_40.5.jos
-          - name: woa18_14_lon_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24150/woa18_14_lon_50.5.jos
-          - name: woa18_14_lon_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24151/woa18_14_lon_60.5.jos
-          - name: woa18_14_lon_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24152/woa18_14_lon_70.5.jos
-          - name: woa18_14_lon_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24153/woa18_14_lon_80.5.jos
-          - name: woa18_14_lon_90.5.jos
-            path: https://cchdo.ucsd.edu/data/24154/woa18_14_lon_90.5.jos
-          - name: woa18_14_lon_100.5.jos
-            path: https://cchdo.ucsd.edu/data/24155/woa18_14_lon_100.5.jos
-          - name: woa18_14_lon_110.5.jos
-            path: https://cchdo.ucsd.edu/data/24156/woa18_14_lon_110.5.jos
-          - name: woa18_14_lon_120.5.jos
-            path: https://cchdo.ucsd.edu/data/24157/woa18_14_lon_120.5.jos
-          - name: woa18_14_lon_130.5.jos
-            path: https://cchdo.ucsd.edu/data/24158/woa18_14_lon_130.5.jos
-          - name: woa18_14_lon_140.5.jos
-            path: https://cchdo.ucsd.edu/data/24159/woa18_14_lon_140.5.jos
-          - name: woa18_14_lon_150.5.jos
-            path: https://cchdo.ucsd.edu/data/24160/woa18_14_lon_150.5.jos
-          - name: woa18_14_lon_160.5.jos
-            path: https://cchdo.ucsd.edu/data/24161/woa18_14_lon_160.5.jos
-          - name: woa18_14_lon_170.5.jos
-            path: https://cchdo.ucsd.edu/data/24162/woa18_14_lon_170.5.jos
 
-      - year: WOA18 15 JAS Meridional section files
-        files :
-          - name: woa18_15_lon_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24163/woa18_15_lon_-9.5.jos
-          - name: woa18_15_lon_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24164/woa18_15_lon_-19.5.jos
-          - name: woa18_15_lon_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24165/woa18_15_lon_-29.5.jos
-          - name: woa18_15_lon_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24166/woa18_15_lon_-39.5.jos
-          - name: woa18_15_lon_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24167/woa18_15_lon_-49.5.jos
-          - name: woa18_15_lon_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24168/woa18_15_lon_-59.5.jos
-          - name: woa18_15_lon_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24169/woa18_15_lon_-69.5.jos
-          - name: woa18_15_lon_-79.5.jos
-            path: https://cchdo.ucsd.edu/data/24170/woa18_15_lon_-79.5.jos
-          - name: woa18_15_lon_-89.5.jos
-            path: https://cchdo.ucsd.edu/data/24171/woa18_15_lon_-89.5.jos
-          - name: woa18_15_lon_-99.5.jos
-            path: https://cchdo.ucsd.edu/data/24172/woa18_15_lon_-99.5.jos
-          - name: woa18_15_lon_-109.5.jos
-            path: https://cchdo.ucsd.edu/data/24173/woa18_15_lon_-109.5.jos
-          - name: woa18_15_lon_-119.5.jos
-            path: https://cchdo.ucsd.edu/data/24174/woa18_15_lon_-119.5.jos
-          - name: woa18_15_lon_-129.5.jos
-            path: https://cchdo.ucsd.edu/data/24175/woa18_15_lon_-129.5.jos
-          - name: woa18_15_lon_-139.5.jos
-            path: https://cchdo.ucsd.edu/data/24176/woa18_15_lon_-139.5.jos
-          - name: woa18_15_lon_-149.5.jos
-            path: https://cchdo.ucsd.edu/data/24177/woa18_15_lon_-149.5.jos
-          - name: woa18_15_lon_-159.5.jos
-            path: https://cchdo.ucsd.edu/data/24178/woa18_15_lon_-159.5.jos
-          - name: woa18_15_lon_-169.5.jos
-            path: https://cchdo.ucsd.edu/data/24179/woa18_15_lon_-169.5.jos
-          - name: woa18_15_lon_-179.5.jos
-            path: https://cchdo.ucsd.edu/data/24180/woa18_15_lon_-179.5.jos
-          - name: woa18_15_lon_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24181/woa18_15_lon_0.5.jos
-          - name: woa18_15_lon_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24182/woa18_15_lon_10.5.jos
-          - name: woa18_15_lon_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24183/woa18_15_lon_20.5.jos
-          - name: woa18_15_lon_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24184/woa18_15_lon_30.5.jos
-          - name: woa18_15_lon_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24185/woa18_15_lon_40.5.jos
-          - name: woa18_15_lon_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24186/woa18_15_lon_50.5.jos
-          - name: woa18_15_lon_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24187/woa18_15_lon_60.5.jos
-          - name: woa18_15_lon_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24188/woa18_15_lon_70.5.jos
-          - name: woa18_15_lon_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24189/woa18_15_lon_80.5.jos
-          - name: woa18_15_lon_90.5.jos
-            path: https://cchdo.ucsd.edu/data/24190/woa18_15_lon_90.5.jos
-          - name: woa18_15_lon_100.5.jos
-            path: https://cchdo.ucsd.edu/data/24191/woa18_15_lon_100.5.jos
-          - name: woa18_15_lon_110.5.jos
-            path: https://cchdo.ucsd.edu/data/24192/woa18_15_lon_110.5.jos
-          - name: woa18_15_lon_120.5.jos
-            path: https://cchdo.ucsd.edu/data/24193/woa18_15_lon_120.5.jos
-          - name: woa18_15_lon_130.5.jos
-            path: https://cchdo.ucsd.edu/data/24194/woa18_15_lon_130.5.jos
-          - name: woa18_15_lon_140.5.jos
-            path: https://cchdo.ucsd.edu/data/24195/woa18_15_lon_140.5.jos
-          - name: woa18_15_lon_150.5.jos
-            path: https://cchdo.ucsd.edu/data/24196/woa18_15_lon_150.5.jos
-          - name: woa18_15_lon_160.5.jos
-            path: https://cchdo.ucsd.edu/data/24197/woa18_15_lon_160.5.jos
-          - name: woa18_15_lon_170.5.jos
-            path: https://cchdo.ucsd.edu/data/24198/woa18_15_lon_170.5.jos
+section_2:
+  - title: WOA 2018 files
+    zip_path: 
+    subsections:
+      - subsection: WOA18 global files
+        subsubsections :
+          - subsubsection: WOA18 global annual mean files
+            files :
+              - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.jos
+                path: https://cchdo.ucsd.edu/data/24529/WOA18_annual_2deg_heavy_decimated_41_levels_massx.jos
+              - name: WOA18_annual_2deg_heavy_decimated_41_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24528/WOA18_annual_2deg_heavy_decimated_41_levels_massx.joa
+              - name: WOA18_annual_decimated_0m_surface_only_mass.jos
+                path: https://cchdo.ucsd.edu/data/24530/WOA18_annual_decimated_0m_surface_only_massx.jos
+              - name: WOA18_annual_decimated_41_levels_mass.jos
+                path: https://cchdo.ucsd.edu/data/24531/WOA18_annual_decimated_41_levels_massx.jos
+              - name: WOA18_annual_decimated_all_102_levels_mass.jos
+                path: https://cchdo.ucsd.edu/data/22091/WOA18_annual_decimated_all_102_levels_mass.jos
+          - subsubsection: WOA18 global seasonal files 0 to 800 meters
+            files :
+              - name: WOA18_13_JFM_decimated_to_800m_mass.jos
+                path: https://cchdo.ucsd.edu/data/24524/WOA18_13_JFM_decimated_to_800m_massx.jos
+              - name: WOA18_14_AMJ_decimated_to_800m_mass.jos
+                path: https://cchdo.ucsd.edu/data/24525/WOA18_14_AMJ_decimated_to_800m_massx.jos
+              - name: WOA18_15_JAS_decimated_to_800m_mass.jos
+                path: https://cchdo.ucsd.edu/data/24526/WOA18_15_JAS_decimated_to_800m_massx.jos
+              - name: WOA18_16_OND_decimated_to_800m_mass.jos
+                path: https://cchdo.ucsd.edu/data/24527/WOA18_16_OND_decimated_to_800m_massx.jos
+      - subsection: WOA18 regional files
+        subsubsections :
+          - subsubsection: WOA18 regional annual mean files
+            files :
+              - name: WOA18_annual_Arctic_Nordic_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24403/WOA18_annual_Arctic_Nordic_102_levels_massx.joa
+              - name: WOA18_annual_Atlantic_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24404/WOA18_annual_Atlantic_102_levels_massx.joa
+              - name: WOA18_annual_Indian_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24405/WOA18_annual_Indian_102_levels_massx.joa
+              - name: WOA18_annual_North_Atlantic_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24406/WOA18_annual_North_Atlantic_102_levels_massx.joa
+              - name: WOA18_annual_North_Pacific_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24407/WOA18_annual_North_Pacific_102_levels_massx.joa
+              - name: WOA18_annual_Pacific_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24408/WOA18_annual_Pacific_102_levels_massx.joa
+              - name: WOA18_annual_South_Atlantic_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24409/WOA18_annual_South_Atlantic_102_levels_massx.joa
+              - name: WOA18_annual_South_Pacific_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24410/WOA18_annual_South_Pacific_102_levels_massx.joa
+              - name: WOA18_annual_Southern_102_levels_mass.joa
+                path: https://cchdo.ucsd.edu/data/24411/WOA18_annual_Southern_102_levels_massx.joa
+          - subsubsection: WOA18 regional seasonal files 0 to 800 meters
+            seasons :
+              - season : WOA18 13 JFM regional seasonal files
+                files :
+                  - name: WOA18_13_JFM_to_800m_mass_Arctic_Nordic.joa
+                    path: https://cchdo.ucsd.edu/data/24367/WOA18_13_JFM_to_800m_massx_Arctic_Nordic.joa
+                  - name: WOA18_13_JFM_to_800m_mass_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24368/WOA18_13_JFM_to_800m_massx_Atlantic.joa
+                  - name: WOA18_13_JFM_to_800m_mass_Indian.joa
+                    path: https://cchdo.ucsd.edu/data/24369/WOA18_13_JFM_to_800m_massx_Indian.joa
+                  - name: WOA18_13_JFM_to_800m_mass_North_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24370/WOA18_13_JFM_to_800m_massx_North_Atlantic.joa
+                  - name: WOA18_13_JFM_to_800m_mass_North_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24371/WOA18_13_JFM_to_800m_massx_North_Pacific.joa
+                  - name: WOA18_13_JFM_to_800m_mass_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24372/WOA18_13_JFM_to_800m_massx_Pacific.joa
+                  - name: WOA18_13_JFM_to_800m_mass_South_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24373/WOA18_13_JFM_to_800m_massx_South_Atlantic.joa
+                  - name: WOA18_13_JFM_to_800m_mass_South_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24374/WOA18_13_JFM_to_800m_massx_South_Pacific.joa
+                  - name: WOA18_13_JFM_to_800m_mass_Southern.joa
+                    path: https://cchdo.ucsd.edu/data/24375/WOA18_13_JFM_to_800m_massx_Southern.joa
+              - season : WOA18 14 AMJ regional seasonal files
+                files :
+                  - name: WOA18_14_AMJ_to_800m_mass_Arctic_Nordic.joa
+                    path: https://cchdo.ucsd.edu/data/24376/WOA18_14_AMJ_to_800m_massx_Arctic_Nordic.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24377/WOA18_14_AMJ_to_800m_massx_Atlantic.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_Indian.joa
+                    path: https://cchdo.ucsd.edu/data/24378/WOA18_14_AMJ_to_800m_massx_Indian.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_North_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24379/WOA18_14_AMJ_to_800m_massx_North_Atlantic.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_North_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24380/WOA18_14_AMJ_to_800m_massx_North_Pacific.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24381/WOA18_14_AMJ_to_800m_massx_Pacific.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_South_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24382/WOA18_14_AMJ_to_800m_massx_South_Atlantic.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_South_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24383/WOA18_14_AMJ_to_800m_massx_South_Pacific.joa
+                  - name: WOA18_14_AMJ_to_800m_mass_Southern.joa
+                    path: https://cchdo.ucsd.edu/data/24384/WOA18_14_AMJ_to_800m_massx_Southern.joa
+              - season : WOA18 15 JAS regional seasonal files
+                files :
+                  - name: WOA18_15_JAS_to_800m_mass_Arctic_Nordic.joa
+                    path: https://cchdo.ucsd.edu/data/24385/WOA18_15_JAS_to_800m_massx_Arctic_Nordic.joa
+                  - name: WOA18_15_JAS_to_800m_mass_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24386/WOA18_15_JAS_to_800m_massx_Atlantic.joa
+                  - name: WOA18_15_JAS_to_800m_mass_Indian.joa
+                    path: https://cchdo.ucsd.edu/data/24387/WOA18_15_JAS_to_800m_massx_Indian.joa
+                  - name: WOA18_15_JAS_to_800m_mass_North_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24388/WOA18_15_JAS_to_800m_massx_North_Atlantic.joa
+                  - name: WOA18_15_JAS_to_800m_mass_North_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24389/WOA18_15_JAS_to_800m_massx_North_Pacific.joa
+                  - name: WOA18_15_JAS_to_800m_mass_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24390/WOA18_15_JAS_to_800m_massx_Pacific.joa
+                  - name: WOA18_15_JAS_to_800m_mass_South_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24391/WOA18_15_JAS_to_800m_massx_South_Atlantic.joa
+                  - name: WOA18_15_JAS_to_800m_mass_South_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24392/WOA18_15_JAS_to_800m_massx_South_Pacific.joa
+                  - name: WOA18_15_JAS_to_800m_mass_Southern.joa
+                    path: https://cchdo.ucsd.edu/data/24393/WOA18_15_JAS_to_800m_massx_Southern.joa
+              - season : WOA18 16 OND regional seasonal files
+                files :
+                  - name: WOA18_16_OND_to_800m_mass_Arctic_Nordic.joa
+                    path: https://cchdo.ucsd.edu/data/24394/WOA18_16_OND_to_800m_massx_Arctic_Nordic.joa
+                  - name: WOA18_16_OND_to_800m_mass_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24395/WOA18_16_OND_to_800m_massx_Atlantic.joa
+                  - name: WOA18_16_OND_to_800m_mass_Indian.joa
+                    path: https://cchdo.ucsd.edu/data/24396/WOA18_16_OND_to_800m_massx_Indian.joa
+                  - name: WOA18_16_OND_to_800m_mass_North_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24397/WOA18_16_OND_to_800m_massx_North_Atlantic.joa
+                  - name: WOA18_16_OND_to_800m_mass_North_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24398/WOA18_16_OND_to_800m_massx_North_Pacific.joa
+                  - name: WOA18_16_OND_to_800m_mass_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24399/WOA18_16_OND_to_800m_massx_Pacific.joa
+                  - name: WOA18_16_OND_to_800m_mass_South_Atlantic.joa
+                    path: https://cchdo.ucsd.edu/data/24400/WOA18_16_OND_to_800m_massx_South_Atlantic.joa
+                  - name: WOA18_16_OND_to_800m_mass_South_Pacific.joa
+                    path: https://cchdo.ucsd.edu/data/24401/WOA18_16_OND_to_800m_massx_South_Pacific.joa
+                  - name: WOA18_16_OND_to_800m_mass_Southern.joa
+                    path: https://cchdo.ucsd.edu/data/24402/WOA18_16_OND_to_800m_massx_Southern.joa
+      - subsection: WOA18 section files
+        subsubsections :
+          - subsubsection: WOA18 annual zonal section files
+            files :
+              - name: woa18_lat_-4.5.jos
+                path: https://cchdo.ucsd.edu/data/24334/woa18_lat_-4.5.jos
+              - name: woa18_lat_-9.5.jos
+                path: https://cchdo.ucsd.edu/data/24335/woa18_lat_-9.5.jos
+              - name: woa18_lat_-14.5.jos
+                path: https://cchdo.ucsd.edu/data/24336/woa18_lat_-14.5.jos
+              - name: woa18_lat_-19.5.jos
+                path: https://cchdo.ucsd.edu/data/24337/woa18_lat_-19.5.jos
+              - name: woa18_lat_-24.5.jos
+                path: https://cchdo.ucsd.edu/data/24338/woa18_lat_-24.5.jos
+              - name: woa18_lat_-29.5.jos
+                path: https://cchdo.ucsd.edu/data/24339/woa18_lat_-29.5.jos
+              - name: woa18_lat_-34.5.jos
+                path: https://cchdo.ucsd.edu/data/24340/woa18_lat_-34.5.jos
+              - name: woa18_lat_-39.5.jos
+                path: https://cchdo.ucsd.edu/data/24341/woa18_lat_-39.5.jos
+              - name: woa18_lat_-44.5.jos
+                path: https://cchdo.ucsd.edu/data/24342/woa18_lat_-44.5.jos
+              - name: woa18_lat_-49.5.jos
+                path: https://cchdo.ucsd.edu/data/24343/woa18_lat_-49.5.jos
+              - name: woa18_lat_-54.5.jos
+                path: https://cchdo.ucsd.edu/data/24344/woa18_lat_-54.5.jos
+              - name: woa18_lat_-59.5.jos
+                path: https://cchdo.ucsd.edu/data/24345/woa18_lat_-59.5.jos
+              - name: woa18_lat_-64.5.jos
+                path: https://cchdo.ucsd.edu/data/24346/woa18_lat_-64.5.jos
+              - name: woa18_lat_-69.5.jos
+                path: https://cchdo.ucsd.edu/data/24347/woa18_lat_-69.5.jos
+              - name: woa18_lat_-74.5.jos
+                path: https://cchdo.ucsd.edu/data/24348/woa18_lat_-74.5.jos
+              - name: woa18_lat_0.5.jos
+                path: https://cchdo.ucsd.edu/data/24349/woa18_lat_0.5.jos
+              - name: woa18_lat_5.5.jos
+                path: https://cchdo.ucsd.edu/data/24350/woa18_lat_5.5.jos
+              - name: woa18_lat_10.5.jos
+                path: https://cchdo.ucsd.edu/data/24351/woa18_lat_10.5.jos
+              - name: woa18_lat_15.5.jos
+                path: https://cchdo.ucsd.edu/data/24352/woa18_lat_15.5.jos
+              - name: woa18_lat_20.5.jos
+                path: https://cchdo.ucsd.edu/data/24353/woa18_lat_20.5.jos
+              - name: woa18_lat_25.5.jos
+                path: https://cchdo.ucsd.edu/data/24354/woa18_lat_25.5.jos
+              - name: woa18_lat_30.5.jos
+                path: https://cchdo.ucsd.edu/data/24355/woa18_lat_30.5.jos
+              - name: woa18_lat_35.5.jos
+                path: https://cchdo.ucsd.edu/data/24356/woa18_lat_35.5.jos
+              - name: woa18_lat_40.5.jos
+                path: https://cchdo.ucsd.edu/data/24357/woa18_lat_40.5.jos
+              - name: woa18_lat_45.5.jos
+                path: https://cchdo.ucsd.edu/data/24358/woa18_lat_45.5.jos
+              - name: woa18_lat_50.5.jos
+                path: https://cchdo.ucsd.edu/data/24359/woa18_lat_50.5.jos
+              - name: woa18_lat_55.5.jos
+                path: https://cchdo.ucsd.edu/data/24360/woa18_lat_55.5.jos
+              - name: woa18_lat_60.5.jos
+                path: https://cchdo.ucsd.edu/data/24361/woa18_lat_60.5.jos 
+              - name: woa18_lat_65.5.jos
+                path: https://cchdo.ucsd.edu/data/24362/woa18_lat_65.5.jos
+              - name: woa18_lat_70.5.jos
+                path: https://cchdo.ucsd.edu/data/24363/woa18_lat_70.5.jos
+              - name: woa18_lat_75.5.jos
+                path: https://cchdo.ucsd.edu/data/24364/woa18_lat_75.5.jos
+              - name: woa18_lat_80.5.jos
+                path: https://cchdo.ucsd.edu/data/24365/woa18_lat_80.5.jos 
+              - name: woa18_lat_85.5.jos
+                path: https://cchdo.ucsd.edu/data/24366/woa18_lat_85.5.jos
+          - subsubsection: WOA18 annual meridional section files
+            files :
+              - name: woa18_lon_-9.5.jos
+                path: https://cchdo.ucsd.edu/data/24055/woa18_lon_-9.5.jos
+              - name: woa18_lon_-19.5.jos
+                path: https://cchdo.ucsd.edu/data/24056/woa18_lon_-19.5.jos
+              - name: woa18_lon_-29.5.jos
+                path: https://cchdo.ucsd.edu/data/24057/woa18_lon_-29.5.jos
+              - name: woa18_lon_-39.5.jos
+                path: https://cchdo.ucsd.edu/data/24058/woa18_lon_-39.5.jos
+              - name: woa18_lon_-49.5.jos
+                path: https://cchdo.ucsd.edu/data/24059/woa18_lon_-49.5.jos
+              - name: woa18_lon_-59.5.jos
+                path: https://cchdo.ucsd.edu/data/24060/woa18_lon_-59.5.jos
+              - name: woa18_lon_-69.5.jos
+                path: https://cchdo.ucsd.edu/data/24061/woa18_lon_-69.5.jos
+              - name: woa18_lon_-79.5.jos
+                path: https://cchdo.ucsd.edu/data/24062/woa18_lon_-79.5.jos
+              - name: woa18_lon_-89.5.jos
+                path: https://cchdo.ucsd.edu/data/24063/woa18_lon_-89.5.jos
+              - name: woa18_lon_-99.5.jos
+                path: https://cchdo.ucsd.edu/data/24064/woa18_lon_-99.5.jos
+              - name: woa18_lon_-109.5.jos
+                path: https://cchdo.ucsd.edu/data/24065/woa18_lon_-109.5.jos
+              - name: woa18_lon_-119.5.jos
+                path: https://cchdo.ucsd.edu/data/24066/woa18_lon_-119.5.jos
+              - name: woa18_lon_-129.5.jos
+                path: https://cchdo.ucsd.edu/data/24067/woa18_lon_-129.5.jos
+              - name: woa18_lon_-139.5.jos
+                path: https://cchdo.ucsd.edu/data/24068/woa18_lon_-139.5.jos
+              - name: woa18_lon_-149.5.jos
+                path: https://cchdo.ucsd.edu/data/24069/woa18_lon_-149.5.jos
+              - name: woa18_lon_-159.5.jos
+                path: https://cchdo.ucsd.edu/data/24070/woa18_lon_-159.5.jos 
+              - name: woa18_lon_-169.5.jos
+                path: https://cchdo.ucsd.edu/data/24071/woa18_lon_-169.5.jos
+              - name: woa18_lon_-179.5.jos
+                path: https://cchdo.ucsd.edu/data/24072/woa18_lon_-179.5.jos
+              - name: woa18_lon_0.5.jos
+                path: https://cchdo.ucsd.edu/data/24073/woa18_lon_0.5.jos
+              - name: woa18_lon_10.5.jos
+                path: https://cchdo.ucsd.edu/data/24074/woa18_lon_10.5.jos
+              - name: woa18_lon_20.5.jos
+                path: https://cchdo.ucsd.edu/data/24075/woa18_lon_20.5.jos
+              - name: woa18_lon_30.5.jos
+                path: https://cchdo.ucsd.edu/data/24076/woa18_lon_30.5.jos
+              - name: woa18_lon_40.5.jos
+                path: https://cchdo.ucsd.edu/data/24077/woa18_lon_40.5.jos
+              - name: woa18_lon_50.5.jos
+                path: https://cchdo.ucsd.edu/data/24078/woa18_lon_50.5.jos
+              - name: woa18_lon_60.5.jos
+                path: https://cchdo.ucsd.edu/data/24079/woa18_lon_60.5.jos
+              - name: woa18_lon_70.5.jos
+                path: https://cchdo.ucsd.edu/data/24080/woa18_lon_70.5.jos
+              - name: woa18_lon_80.5.jos
+                path: https://cchdo.ucsd.edu/data/24081/woa18_lon_80.5.jos
+              - name: woa18_lon_90.5.jos
+                path: https://cchdo.ucsd.edu/data/24082/woa18_lon_90.5.jos
+              - name: woa18_lon_100.5.jos
+                path: https://cchdo.ucsd.edu/data/24083/woa18_lon_100.5.jos
+              - name: woa18_lon_110.5.jos
+                path: https://cchdo.ucsd.edu/data/24084/woa18_lon_110.5.jos
+              - name: woa18_lon_120.5.jos
+                path: https://cchdo.ucsd.edu/data/24085/woa18_lon_120.5.jos
+              - name: woa18_lon_130.5.jos
+                path: https://cchdo.ucsd.edu/data/24086/woa18_lon_130.5.jos
+              - name: woa18_lon_140.5.jos
+                path: https://cchdo.ucsd.edu/data/24087/woa18_lon_140.5.jos
+              - name: woa18_lon_150.5.jos
+                path: https://cchdo.ucsd.edu/data/24088/woa18_lon_150.5.jos
+              - name: woa18_lon_160.5.jos
+                path: https://cchdo.ucsd.edu/data/24089/woa18_lon_160.5.jos
+              - name: woa18_lon_170.5.jos
+                path: https://cchdo.ucsd.edu/data/24090/woa18_lon_170.5.jos
+          - subsubsection: WOA18 seasonal zonal section files 0 to 800 meters
+            seasons :
+              - season : WOA18 13 JFM zonal seasonal files
+                files :
+                  - name: woa18_13_lat_-4.5.jos
+                    path: https://cchdo.ucsd.edu/data/24235/woa18_13_lat_-4.5.jos
+                  - name: woa18_13_lat_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24236/woa18_13_lat_-9.5.jos
+                  - name: woa18_13_lat_-14.5.jos
+                    path: https://cchdo.ucsd.edu/data/24237/woa18_13_lat_-14.5.jos
+                  - name: woa18_13_lat_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24238/woa18_13_lat_-19.5.jos
+                  - name: woa18_13_lat_-24.5.jos
+                    path: https://cchdo.ucsd.edu/data/24239/woa18_13_lat_-24.5.jos
+                  - name: woa18_13_lat_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24240/woa18_13_lat_-29.5.jos
+                  - name: woa18_13_lat_-34.5.jos
+                    path: https://cchdo.ucsd.edu/data/24241/woa18_13_lat_-34.5.jos
+                  - name: woa18_13_lat_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24242/woa18_13_lat_-39.5.jos
+                  - name: woa18_13_lat_-44.5.jos
+                    path: https://cchdo.ucsd.edu/data/24243/woa18_13_lat_-44.5.jos
+                  - name: woa18_13_lat_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24244/woa18_13_lat_-49.5.jos
+                  - name: woa18_13_lat_-54.5.jos
+                    path: https://cchdo.ucsd.edu/data/24245/woa18_13_lat_-54.5.jos
+                  - name: woa18_13_lat_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24246/woa18_13_lat_-59.5.jos
+                  - name: woa18_13_lat_-64.5.jos
+                    path: https://cchdo.ucsd.edu/data/24247/woa18_13_lat_-64.5.jos
+                  - name: woa18_13_lat_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24248/woa18_13_lat_-69.5.jos
+                  - name: woa18_13_lat_-74.5.jos
+                    path: https://cchdo.ucsd.edu/data/24249/woa18_13_lat_-74.5.jos
+                  - name: woa18_13_lat_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24250/woa18_13_lat_0.5.jos
+                  - name: woa18_13_lat_5.5.jos
+                    path: https://cchdo.ucsd.edu/data/24251/woa18_13_lat_5.5.jos
+                  - name: woa18_13_lat_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24252/woa18_13_lat_10.5.jos
+                  - name: woa18_13_lat_15.5.jos
+                    path: https://cchdo.ucsd.edu/data/24253/woa18_13_lat_15.5.jos
+                  - name: woa18_13_lat_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24254/woa18_13_lat_20.5.jos
+                  - name: woa18_13_lat_25.5.jos
+                    path: https://cchdo.ucsd.edu/data/24255/woa18_13_lat_25.5.jos
+                  - name: woa18_13_lat_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24256/woa18_13_lat_30.5.jos
+                  - name: woa18_13_lat_35.5.jos
+                    path: https://cchdo.ucsd.edu/data/24257/woa18_13_lat_35.5.jos
+                  - name: woa18_13_lat_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24258/woa18_13_lat_40.5.jos
+                  - name: woa18_13_lat_45.5.jos
+                    path: https://cchdo.ucsd.edu/data/24259/woa18_13_lat_45.5.jos
+                  - name: woa18_13_lat_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24260/woa18_13_lat_50.5.jos
+                  - name: woa18_13_lat_55.5.jos
+                    path: https://cchdo.ucsd.edu/data/24261/woa18_13_lat_55.5.jos
+                  - name: woa18_13_lat_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24262/woa18_13_lat_60.5.jos
+                  - name: woa18_13_lat_65.5.jos
+                    path: https://cchdo.ucsd.edu/data/24263/woa18_13_lat_65.5.jos
+                  - name: woa18_13_lat_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24264/woa18_13_lat_70.5.jos
+                  - name: woa18_13_lat_75.5.jos
+                    path: https://cchdo.ucsd.edu/data/24265/woa18_13_lat_75.5.jos
+                  - name: woa18_13_lat_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24266/woa18_13_lat_80.5.jos
+                  - name: woa18_13_lat_85.5.jos
+                    path: https://cchdo.ucsd.edu/data/24267/woa18_13_lat_85.5.jos
+              - season : WOA18 14 AMJ zonal seasonal files
+                files :
+                  - name: woa18_14_lat_-4.5.jos
+                    path: https://cchdo.ucsd.edu/data/24268/woa18_14_lat_-4.5.jos
+                  - name: woa18_14_lat_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24269/woa18_14_lat_-9.5.jos
+                  - name: woa18_14_lat_-14.5.jos
+                    path: https://cchdo.ucsd.edu/data/24270/woa18_14_lat_-14.5.jos
+                  - name: woa18_14_lat_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24271/woa18_14_lat_-19.5.jos
+                  - name: woa18_14_lat_-24.5.jos
+                    path: https://cchdo.ucsd.edu/data/24272/woa18_14_lat_-24.5.jos
+                  - name: woa18_14_lat_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24273/woa18_14_lat_-29.5.jos
+                  - name: woa18_14_lat_-34.5.jos
+                    path: https://cchdo.ucsd.edu/data/24274/woa18_14_lat_-34.5.jos
+                  - name: woa18_14_lat_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24275/woa18_14_lat_-39.5.jos
+                  - name: woa18_14_lat_-44.5.jos
+                    path: https://cchdo.ucsd.edu/data/24275/woa18_14_lat_-39.5.jos
+                  - name: woa18_14_lat_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24277/woa18_14_lat_-49.5.jos
+                  - name: woa18_14_lat_-54.5.jos
+                    path: https://cchdo.ucsd.edu/data/24278/woa18_14_lat_-54.5.jos
+                  - name: woa18_14_lat_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24279/woa18_14_lat_-59.5.jos
+                  - name: woa18_14_lat_-64.5.jos
+                    path: https://cchdo.ucsd.edu/data/24280/woa18_14_lat_-64.5.jos
+                  - name: woa18_14_lat_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24281/woa18_14_lat_-69.5.jos
+                  - name: woa18_14_lat_-74.5.jos
+                    path: https://cchdo.ucsd.edu/data/24282/woa18_14_lat_-74.5.jos
+                  - name: woa18_14_lat_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24283/woa18_14_lat_0.5.jos
+                  - name: woa18_14_lat_5.5.jos
+                    path: https://cchdo.ucsd.edu/data/24284/woa18_14_lat_5.5.jos
+                  - name: woa18_14_lat_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24285/woa18_14_lat_10.5.jos
+                  - name: woa18_14_lat_15.5.jos
+                    path: https://cchdo.ucsd.edu/data/24286/woa18_14_lat_15.5.jos
+                  - name: woa18_14_lat_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24287/woa18_14_lat_20.5.jos
+                  - name: woa18_14_lat_25.5.jos
+                    path: https://cchdo.ucsd.edu/data/24288/woa18_14_lat_25.5.jos
+                  - name: woa18_14_lat_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24289/woa18_14_lat_30.5.jos
+                  - name: woa18_14_lat_35.5.jos
+                    path: https://cchdo.ucsd.edu/data/24290/woa18_14_lat_35.5.jos
+                  - name: woa18_14_lat_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24291/woa18_14_lat_40.5.jos
+                  - name: woa18_14_lat_45.5.jos
+                    path: https://cchdo.ucsd.edu/data/24292/woa18_14_lat_45.5.jos
+                  - name: woa18_14_lat_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24293/woa18_14_lat_50.5.jos
+                  - name: woa18_14_lat_55.5.jos
+                    path: https://cchdo.ucsd.edu/data/24294/woa18_14_lat_55.5.jos
+                  - name: woa18_14_lat_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24295/woa18_14_lat_60.5.jos
+                  - name: woa18_14_lat_65.5.jos
+                    path: https://cchdo.ucsd.edu/data/24296/woa18_14_lat_65.5.jos
+                  - name: woa18_14_lat_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24297/woa18_14_lat_70.5.jos
+                  - name: woa18_14_lat_75.5.jos
+                    path: https://cchdo.ucsd.edu/data/24298/woa18_14_lat_75.5.jos
+                  - name: woa18_14_lat_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24299/woa18_14_lat_80.5.jos
+                  - name: woa18_14_lat_85.5.jos
+                    path: https://cchdo.ucsd.edu/data/24300/woa18_14_lat_85.5.jos
+              - season : WOA18 15 JAS zonal seasonal files
+                files :
+                  - name: woa18_15_lat_-4.5.jos
+                    path: https://cchdo.ucsd.edu/data/24471/woa18_15_lat_-4.5.jos
+                  - name: woa18_15_lat_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24472/woa18_15_lat_-9.5.jos
+                  - name: woa18_15_lat_-14.5.jos
+                    path: https://cchdo.ucsd.edu/data/24473/woa18_15_lat_-14.5.jos
+                  - name: woa18_15_lat_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24474/woa18_15_lat_-19.5.jos
+                  - name: woa18_15_lat_-24.5.jos
+                    path: https://cchdo.ucsd.edu/data/24475/woa18_15_lat_-24.5.jos
+                  - name: woa18_15_lat_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24476/woa18_15_lat_-29.5.jos
+                  - name: woa18_15_lat_-34.5.jos
+                    path: https://cchdo.ucsd.edu/data/24477/woa18_15_lat_-34.5.jos
+                  - name: woa18_15_lat_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24478/woa18_15_lat_-39.5.jos
+                  - name: woa18_15_lat_-44.5.jos
+                    path: https://cchdo.ucsd.edu/data/24479/woa18_15_lat_-44.5.jos
+                  - name: woa18_15_lat_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24480/woa18_15_lat_-49.5.jos
+                  - name: woa18_15_lat_-54.5.jos
+                    path: https://cchdo.ucsd.edu/data/24481/woa18_15_lat_-54.5.jos
+                  - name: woa18_15_lat_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24482/woa18_15_lat_-59.5.jos
+                  - name: woa18_15_lat_-64.5.jos
+                    path: https://cchdo.ucsd.edu/data/24483/woa18_15_lat_-64.5.jos
+                  - name: woa18_15_lat_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24484/woa18_15_lat_-69.5.jos
+                  - name: woa18_15_lat_-74.5.jos
+                    path: https://cchdo.ucsd.edu/data/24485/woa18_15_lat_-74.5.jos
+                  - name: woa18_15_lat_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24486/woa18_15_lat_0.5.jos
+                  - name: woa18_15_lat_5.5.jos
+                    path: https://cchdo.ucsd.edu/data/24487/woa18_15_lat_5.5.jos
+                  - name: woa18_15_lat_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24488/woa18_15_lat_10.5.jos
+                  - name: woa18_15_lat_15.5.jos
+                    path: https://cchdo.ucsd.edu/data/24489/woa18_15_lat_15.5.jos
+                  - name: woa18_15_lat_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24490/woa18_15_lat_20.5.jos
+                  - name: woa18_15_lat_25.5.jos
+                    path: https://cchdo.ucsd.edu/data/24491/woa18_15_lat_25.5.jos
+                  - name: woa18_15_lat_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24492/woa18_15_lat_30.5.jos
+                  - name: woa18_15_lat_35.5.jos
+                    path: https://cchdo.ucsd.edu/data/24493/woa18_15_lat_35.5.jos
+                  - name: woa18_15_lat_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24494/woa18_15_lat_40.5.jos
+                  - name: woa18_15_lat_45.5.jos
+                    path: https://cchdo.ucsd.edu/data/24495/woa18_15_lat_45.5.jos
+                  - name: woa18_15_lat_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24496/woa18_15_lat_50.5.jos
+                  - name: woa18_15_lat_55.5.jos
+                    path: https://cchdo.ucsd.edu/data/24497/woa18_15_lat_55.5.jos
+                  - name: woa18_15_lat_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24498/woa18_15_lat_60.5.jos
+                  - name: woa18_15_lat_65.5.jos
+                    path: https://cchdo.ucsd.edu/data/24498/woa18_15_lat_60.5.jos
+                  - name: woa18_15_lat_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24500/woa18_15_lat_70.5.jos
+                  - name: woa18_15_lat_75.5.jos
+                    path: https://cchdo.ucsd.edu/data/24501/woa18_15_lat_75.5.jos
+                  - name: woa18_15_lat_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24502/woa18_15_lat_80.5.jos
+                  - name: woa18_15_lat_85.5.jos
+                    path: https://cchdo.ucsd.edu/data/24503/woa18_15_lat_85.5.jos
+              - season : WOA18 16 OND zonal seasonal files
+                files :
+                  - name: woa18_16_lat_-4.5.jos
+                    path: https://cchdo.ucsd.edu/data/24301/woa18_16_lat_-4.5.jos
+                  - name: woa18_16_lat_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24302/woa18_16_lat_-9.5.jos
+                  - name: woa18_16_lat_-14.5.jos
+                    path: https://cchdo.ucsd.edu/data/24303/woa18_16_lat_-14.5.jos
+                  - name: woa18_16_lat_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24304/woa18_16_lat_-19.5.jos
+                  - name: woa18_16_lat_-24.5.jos
+                    path: https://cchdo.ucsd.edu/data/24305/woa18_16_lat_-24.5.jos
+                  - name: woa18_16_lat_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24306/woa18_16_lat_-29.5.jos
+                  - name: woa18_16_lat_-34.5.jos
+                    path: https://cchdo.ucsd.edu/data/24307/woa18_16_lat_-34.5.jos
+                  - name: woa18_16_lat_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24308/woa18_16_lat_-39.5.jos
+                  - name: woa18_16_lat_-44.5.jos
+                    path: https://cchdo.ucsd.edu/data/24309/woa18_16_lat_-44.5.jos
+                  - name: woa18_16_lat_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24310/woa18_16_lat_-49.5.jos
+                  - name: woa18_16_lat_-54.5.jos
+                    path: https://cchdo.ucsd.edu/data/24311/woa18_16_lat_-54.5.jos
+                  - name: woa18_16_lat_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24312/woa18_16_lat_-59.5.jos
+                  - name: woa18_16_lat_-64.5.jos
+                    path: https://cchdo.ucsd.edu/data/24313/woa18_16_lat_-64.5.jos
+                  - name: woa18_16_lat_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24314/woa18_16_lat_-69.5.jos
+                  - name: woa18_16_lat_-74.5.jos
+                    path: https://cchdo.ucsd.edu/data/24315/woa18_16_lat_-74.5.jos
+                  - name: woa18_16_lat_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24316/woa18_16_lat_0.5.jos
+                  - name: woa18_16_lat_5.5.jos
+                    path: https://cchdo.ucsd.edu/data/24317/woa18_16_lat_5.5.jos
+                  - name: woa18_16_lat_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24318/woa18_16_lat_10.5.jos
+                  - name: woa18_16_lat_15.5.jos
+                    path: https://cchdo.ucsd.edu/data/24319/woa18_16_lat_15.5.jos
+                  - name: woa18_16_lat_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24320/woa18_16_lat_20.5.jos
+                  - name: woa18_16_lat_25.5.jos
+                    path: https://cchdo.ucsd.edu/data/24321/woa18_16_lat_25.5.jos
+                  - name: woa18_16_lat_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24322/woa18_16_lat_30.5.jos
+                  - name: woa18_16_lat_35.5.jos
+                    path: https://cchdo.ucsd.edu/data/24323/woa18_16_lat_35.5.jos
+                  - name: woa18_16_lat_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24324/woa18_16_lat_40.5.jos
+                  - name: woa18_16_lat_45.5.jos
+                    path: https://cchdo.ucsd.edu/data/24325/woa18_16_lat_45.5.jos
+                  - name: woa18_16_lat_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24326/woa18_16_lat_50.5.jos
+                  - name: woa18_16_lat_55.5.jos
+                    path: https://cchdo.ucsd.edu/data/24327/woa18_16_lat_55.5.jos
+                  - name: woa18_16_lat_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24328/woa18_16_lat_60.5.jos
+                  - name: woa18_16_lat_65.5.jos
+                    path: https://cchdo.ucsd.edu/data/24329/woa18_16_lat_65.5.jos
+                  - name: woa18_16_lat_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24330/woa18_16_lat_70.5.jos
+                  - name: woa18_16_lat_75.5.jos
+                    path: https://cchdo.ucsd.edu/data/24331/woa18_16_lat_75.5.jos
+                  - name: woa18_16_lat_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24332/woa18_16_lat_80.5.jos
+                  - name: woa18_16_lat_85.5.jos
+                    path: https://cchdo.ucsd.edu/data/24333/woa18_16_lat_85.5.jos
+          - subsubsection: WOA18 seasonal meridional section files 0 to 800 meters
+            seasons :
+              - season : WOA18 13 JFM meridional seasonal files
+                files :
+                  - name: woa18_13_lon_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24091/woa18_13_lon_-9.5.jos
+                  - name: woa18_13_lon_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24092/woa18_13_lon_-19.5.jos
+                  - name: woa18_13_lon_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24093/woa18_13_lon_-29.5.jos
+                  - name: woa18_13_lon_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24094/woa18_13_lon_-39.5.jos
+                  - name: woa18_13_lon_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24095/woa18_13_lon_-49.5.jos
+                  - name: woa18_13_lon_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24096/woa18_13_lon_-59.5.jos
+                  - name: woa18_13_lon_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24097/woa18_13_lon_-69.5.jos
+                  - name: woa18_13_lon_-79.5.jos
+                    path: https://cchdo.ucsd.edu/data/24098/woa18_13_lon_-79.5.jos
+                  - name: woa18_13_lon_-89.5.jos
+                    path: https://cchdo.ucsd.edu/data/24099/woa18_13_lon_-89.5.jos
+                  - name: woa18_13_lon_-99.5.jos
+                    path: https://cchdo.ucsd.edu/data/24100/woa18_13_lon_-99.5.jos
+                  - name: woa18_13_lon_-109.5.jos
+                    path: https://cchdo.ucsd.edu/data/24101/woa18_13_lon_-109.5.jos
+                  - name: woa18_13_lon_-119.5.jos
+                    path: https://cchdo.ucsd.edu/data/24102/woa18_13_lon_-119.5.jos
+                  - name: woa18_13_lon_-129.5.jos
+                    path: https://cchdo.ucsd.edu/data/24103/woa18_13_lon_-129.5.jos
+                  - name: woa18_13_lon_-139.5.jos
+                    path: https://cchdo.ucsd.edu/data/24104/woa18_13_lon_-139.5.jos
+                  - name: woa18_13_lon_-149.5.jos
+                    path: https://cchdo.ucsd.edu/data/24105/woa18_13_lon_-149.5.jos
+                  - name: woa18_13_lon_-159.5.jos
+                    path: https://cchdo.ucsd.edu/data/24106/woa18_13_lon_-159.5.jos
+                  - name: woa18_13_lon_-169.5.jos
+                    path: https://cchdo.ucsd.edu/data/24107/woa18_13_lon_-169.5.jos
+                  - name: woa18_13_lon_-179.5.jos
+                    path: https://cchdo.ucsd.edu/data/24108/woa18_13_lon_-179.5.jos
+                  - name: woa18_13_lon_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24109/woa18_13_lon_0.5.jos
+                  - name: woa18_13_lon_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24110/woa18_13_lon_10.5.jos
+                  - name: woa18_13_lon_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24111/woa18_13_lon_20.5.jos
+                  - name: woa18_13_lon_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24112/woa18_13_lon_30.5.jos
+                  - name: woa18_13_lon_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24113/woa18_13_lon_40.5.jos
+                  - name: woa18_13_lon_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24114/woa18_13_lon_50.5.jos
+                  - name: woa18_13_lon_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24115/woa18_13_lon_60.5.jos
+                  - name: woa18_13_lon_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24116/woa18_13_lon_70.5.jos
+                  - name: woa18_13_lon_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24117/woa18_13_lon_80.5.jos
+                  - name: woa18_13_lon_90.5.jos
+                    path: https://cchdo.ucsd.edu/data/24118/woa18_13_lon_90.5.jos
+                  - name: woa18_13_lon_100.5.jos
+                    path: https://cchdo.ucsd.edu/data/24119/woa18_13_lon_100.5.jos
+                  - name: woa18_13_lon_110.5.jos
+                    path: https://cchdo.ucsd.edu/data/24120/woa18_13_lon_110.5.jos
+                  - name: woa18_13_lon_120.5.jos
+                    path: https://cchdo.ucsd.edu/data/24121/woa18_13_lon_120.5.jos
+                  - name: woa18_13_lon_130.5.jos
+                    path: https://cchdo.ucsd.edu/data/24122/woa18_13_lon_130.5.jos
+                  - name: woa18_13_lon_140.5.jos
+                    path: https://cchdo.ucsd.edu/data/24123/woa18_13_lon_140.5.jos
+                  - name: woa18_13_lon_150.5.jos
+                    path: https://cchdo.ucsd.edu/data/24124/woa18_13_lon_150.5.jos
+                  - name: woa18_13_lon_160.5.jos
+                    path: https://cchdo.ucsd.edu/data/24125/woa18_13_lon_160.5.jos
+                  - name: woa18_13_lon_170.5.jos
+                    path: https://cchdo.ucsd.edu/data/24126/woa18_13_lon_170.5.jos
+              - season : WOA18 14 AMJ meridional seasonal files
+                files :
+                  - name: woa18_14_lon_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24127/woa18_14_lon_-9.5.jos
+                  - name: woa18_14_lon_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24128/woa18_14_lon_-19.5.jos
+                  - name: woa18_14_lon_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24129/woa18_14_lon_-29.5.jos
+                  - name: woa18_14_lon_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24130/woa18_14_lon_-39.5.jos
+                  - name: woa18_14_lon_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24131/woa18_14_lon_-49.5.jos
+                  - name: woa18_14_lon_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24132/woa18_14_lon_-59.5.jos
+                  - name: woa18_14_lon_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24133/woa18_14_lon_-69.5.jos
+                  - name: woa18_14_lon_-79.5.jos
+                    path: https://cchdo.ucsd.edu/data/24134/woa18_14_lon_-79.5.jos
+                  - name: woa18_14_lon_-89.5.jos
+                    path: https://cchdo.ucsd.edu/data/24135/woa18_14_lon_-89.5.jos
+                  - name: woa18_14_lon_-99.5.jos
+                    path: https://cchdo.ucsd.edu/data/24136/woa18_14_lon_-99.5.jos
+                  - name: woa18_14_lon_-109.5.jos
+                    path: https://cchdo.ucsd.edu/data/24137/woa18_14_lon_-109.5.jos
+                  - name: woa18_14_lon_-119.5.jos
+                    path: https://cchdo.ucsd.edu/data/24138/woa18_14_lon_-119.5.jos
+                  - name: woa18_14_lon_-129.5.jos
+                    path: https://cchdo.ucsd.edu/data/24139/woa18_14_lon_-129.5.jos
+                  - name: woa18_14_lon_-139.5.jos
+                    path: https://cchdo.ucsd.edu/data/24140/woa18_14_lon_-139.5.jos
+                  - name: woa18_14_lon_-149.5.jos
+                    path: https://cchdo.ucsd.edu/data/24141/woa18_14_lon_-149.5.jos
+                  - name: woa18_14_lon_-159.5.jos
+                    path: https://cchdo.ucsd.edu/data/24142/woa18_14_lon_-159.5.jos
+                  - name: woa18_14_lon_-169.5.jos
+                    path: https://cchdo.ucsd.edu/data/24143/woa18_14_lon_-169.5.jos
+                  - name: woa18_14_lon_-179.5.jos
+                    path: https://cchdo.ucsd.edu/data/24144/woa18_14_lon_-179.5.jos
+                  - name: woa18_14_lon_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24145/woa18_14_lon_0.5.jos
+                  - name: woa18_14_lon_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24146/woa18_14_lon_10.5.jos
+                  - name: woa18_14_lon_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24147/woa18_14_lon_20.5.jos
+                  - name: woa18_14_lon_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24148/woa18_14_lon_30.5.jos
+                  - name: woa18_14_lon_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24149/woa18_14_lon_40.5.jos
+                  - name: woa18_14_lon_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24150/woa18_14_lon_50.5.jos
+                  - name: woa18_14_lon_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24151/woa18_14_lon_60.5.jos
+                  - name: woa18_14_lon_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24152/woa18_14_lon_70.5.jos
+                  - name: woa18_14_lon_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24153/woa18_14_lon_80.5.jos
+                  - name: woa18_14_lon_90.5.jos
+                    path: https://cchdo.ucsd.edu/data/24154/woa18_14_lon_90.5.jos
+                  - name: woa18_14_lon_100.5.jos
+                    path: https://cchdo.ucsd.edu/data/24155/woa18_14_lon_100.5.jos
+                  - name: woa18_14_lon_110.5.jos
+                    path: https://cchdo.ucsd.edu/data/24156/woa18_14_lon_110.5.jos
+                  - name: woa18_14_lon_120.5.jos
+                    path: https://cchdo.ucsd.edu/data/24157/woa18_14_lon_120.5.jos
+                  - name: woa18_14_lon_130.5.jos
+                    path: https://cchdo.ucsd.edu/data/24158/woa18_14_lon_130.5.jos
+                  - name: woa18_14_lon_140.5.jos
+                    path: https://cchdo.ucsd.edu/data/24159/woa18_14_lon_140.5.jos
+                  - name: woa18_14_lon_150.5.jos
+                    path: https://cchdo.ucsd.edu/data/24160/woa18_14_lon_150.5.jos
+                  - name: woa18_14_lon_160.5.jos
+                    path: https://cchdo.ucsd.edu/data/24161/woa18_14_lon_160.5.jos
+                  - name: woa18_14_lon_170.5.jos
+                    path: https://cchdo.ucsd.edu/data/24162/woa18_14_lon_170.5.jos
+              - season : WOA18 15 JAS meridional seasonal files
+                files :
+                  - name: woa18_15_lon_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24163/woa18_15_lon_-9.5.jos
+                  - name: woa18_15_lon_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24164/woa18_15_lon_-19.5.jos
+                  - name: woa18_15_lon_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24165/woa18_15_lon_-29.5.jos
+                  - name: woa18_15_lon_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24166/woa18_15_lon_-39.5.jos
+                  - name: woa18_15_lon_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24167/woa18_15_lon_-49.5.jos
+                  - name: woa18_15_lon_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24168/woa18_15_lon_-59.5.jos
+                  - name: woa18_15_lon_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24169/woa18_15_lon_-69.5.jos
+                  - name: woa18_15_lon_-79.5.jos
+                    path: https://cchdo.ucsd.edu/data/24170/woa18_15_lon_-79.5.jos
+                  - name: woa18_15_lon_-89.5.jos
+                    path: https://cchdo.ucsd.edu/data/24171/woa18_15_lon_-89.5.jos
+                  - name: woa18_15_lon_-99.5.jos
+                    path: https://cchdo.ucsd.edu/data/24172/woa18_15_lon_-99.5.jos
+                  - name: woa18_15_lon_-109.5.jos
+                    path: https://cchdo.ucsd.edu/data/24173/woa18_15_lon_-109.5.jos
+                  - name: woa18_15_lon_-119.5.jos
+                    path: https://cchdo.ucsd.edu/data/24174/woa18_15_lon_-119.5.jos
+                  - name: woa18_15_lon_-129.5.jos
+                    path: https://cchdo.ucsd.edu/data/24175/woa18_15_lon_-129.5.jos
+                  - name: woa18_15_lon_-139.5.jos
+                    path: https://cchdo.ucsd.edu/data/24176/woa18_15_lon_-139.5.jos
+                  - name: woa18_15_lon_-149.5.jos
+                    path: https://cchdo.ucsd.edu/data/24177/woa18_15_lon_-149.5.jos
+                  - name: woa18_15_lon_-159.5.jos
+                    path: https://cchdo.ucsd.edu/data/24178/woa18_15_lon_-159.5.jos
+                  - name: woa18_15_lon_-169.5.jos
+                    path: https://cchdo.ucsd.edu/data/24179/woa18_15_lon_-169.5.jos
+                  - name: woa18_15_lon_-179.5.jos
+                    path: https://cchdo.ucsd.edu/data/24180/woa18_15_lon_-179.5.jos
+                  - name: woa18_15_lon_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24181/woa18_15_lon_0.5.jos
+                  - name: woa18_15_lon_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24182/woa18_15_lon_10.5.jos
+                  - name: woa18_15_lon_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24183/woa18_15_lon_20.5.jos
+                  - name: woa18_15_lon_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24184/woa18_15_lon_30.5.jos
+                  - name: woa18_15_lon_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24185/woa18_15_lon_40.5.jos
+                  - name: woa18_15_lon_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24186/woa18_15_lon_50.5.jos
+                  - name: woa18_15_lon_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24187/woa18_15_lon_60.5.jos
+                  - name: woa18_15_lon_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24188/woa18_15_lon_70.5.jos
+                  - name: woa18_15_lon_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24189/woa18_15_lon_80.5.jos
+                  - name: woa18_15_lon_90.5.jos
+                    path: https://cchdo.ucsd.edu/data/24190/woa18_15_lon_90.5.jos
+                  - name: woa18_15_lon_100.5.jos
+                    path: https://cchdo.ucsd.edu/data/24191/woa18_15_lon_100.5.jos
+                  - name: woa18_15_lon_110.5.jos
+                    path: https://cchdo.ucsd.edu/data/24192/woa18_15_lon_110.5.jos
+                  - name: woa18_15_lon_120.5.jos
+                    path: https://cchdo.ucsd.edu/data/24193/woa18_15_lon_120.5.jos
+                  - name: woa18_15_lon_130.5.jos
+                    path: https://cchdo.ucsd.edu/data/24194/woa18_15_lon_130.5.jos
+                  - name: woa18_15_lon_140.5.jos
+                    path: https://cchdo.ucsd.edu/data/24195/woa18_15_lon_140.5.jos
+                  - name: woa18_15_lon_150.5.jos
+                    path: https://cchdo.ucsd.edu/data/24196/woa18_15_lon_150.5.jos
+                  - name: woa18_15_lon_160.5.jos
+                    path: https://cchdo.ucsd.edu/data/24197/woa18_15_lon_160.5.jos
+                  - name: woa18_15_lon_170.5.jos
+                    path: https://cchdo.ucsd.edu/data/24198/woa18_15_lon_170.5.jos
+              - season : WOA18 16 OND meridional seasonal files
+                files :
+                  - name: woa18_16_lon_-9.5.jos
+                    path: https://cchdo.ucsd.edu/data/24199/woa18_16_lon_-9.5.jos
+                  - name: woa18_16_lon_-19.5.jos
+                    path: https://cchdo.ucsd.edu/data/24200/woa18_16_lon_-19.5.jos
+                  - name: woa18_16_lon_-29.5.jos
+                    path: https://cchdo.ucsd.edu/data/24201/woa18_16_lon_-29.5.jos
+                  - name: woa18_16_lon_-39.5.jos
+                    path: https://cchdo.ucsd.edu/data/24202/woa18_16_lon_-39.5.jos
+                  - name: woa18_16_lon_-49.5.jos
+                    path: https://cchdo.ucsd.edu/data/24203/woa18_16_lon_-49.5.jos
+                  - name: woa18_16_lon_-59.5.jos
+                    path: https://cchdo.ucsd.edu/data/24204/woa18_16_lon_-59.5.jos
+                  - name: woa18_16_lon_-69.5.jos
+                    path: https://cchdo.ucsd.edu/data/24205/woa18_16_lon_-69.5.jos
+                  - name: woa18_16_lon_-79.5.jos
+                    path: https://cchdo.ucsd.edu/data/24206/woa18_16_lon_-79.5.jos
+                  - name: woa18_16_lon_-89.5.jos
+                    path: https://cchdo.ucsd.edu/data/24207/woa18_16_lon_-89.5.jos
+                  - name: woa18_16_lon_-99.5.jos
+                    path: https://cchdo.ucsd.edu/data/24208/woa18_16_lon_-99.5.jos
+                  - name: woa18_16_lon_-109.5.jos
+                    path: https://cchdo.ucsd.edu/data/24209/woa18_16_lon_-109.5.jos
+                  - name: woa18_16_lon_-119.5.jos
+                    path: https://cchdo.ucsd.edu/data/24210/woa18_16_lon_-119.5.jos
+                  - name: woa18_16_lon_-129.5.jos
+                    path: https://cchdo.ucsd.edu/data/24211/woa18_16_lon_-129.5.jos
+                  - name: woa18_16_lon_-139.5.jos
+                    path: https://cchdo.ucsd.edu/data/24212/woa18_16_lon_-139.5.jos
+                  - name: woa18_16_lon_-149.5.jos
+                    path: https://cchdo.ucsd.edu/data/24213/woa18_16_lon_-149.5.jos
+                  - name: woa18_16_lon_-159.5.jos
+                    path: https://cchdo.ucsd.edu/data/24214/woa18_16_lon_-159.5.jos
+                  - name: woa18_16_lon_-169.5.jos
+                    path: https://cchdo.ucsd.edu/data/24215/woa18_16_lon_-169.5.jos
+                  - name: woa18_16_lon_-179.5.jos
+                    path: https://cchdo.ucsd.edu/data/24216/woa18_16_lon_-179.5.jos
+                  - name: woa18_16_lon_0.5.jos
+                    path: https://cchdo.ucsd.edu/data/24217/woa18_16_lon_0.5.jos
+                  - name: woa18_16_lon_10.5.jos
+                    path: https://cchdo.ucsd.edu/data/24218/woa18_16_lon_10.5.jos
+                  - name: woa18_16_lon_20.5.jos
+                    path: https://cchdo.ucsd.edu/data/24219/woa18_16_lon_20.5.jos
+                  - name: woa18_16_lon_30.5.jos
+                    path: https://cchdo.ucsd.edu/data/24220/woa18_16_lon_30.5.jos
+                  - name: woa18_16_lon_40.5.jos
+                    path: https://cchdo.ucsd.edu/data/24221/woa18_16_lon_40.5.jos
+                  - name: woa18_16_lon_50.5.jos
+                    path: https://cchdo.ucsd.edu/data/24222/woa18_16_lon_50.5.jos
+                  - name: woa18_16_lon_60.5.jos
+                    path: https://cchdo.ucsd.edu/data/24223/woa18_16_lon_60.5.jos
+                  - name: woa18_16_lon_70.5.jos
+                    path: https://cchdo.ucsd.edu/data/24224/woa18_16_lon_70.5.jos
+                  - name: woa18_16_lon_80.5.jos
+                    path: https://cchdo.ucsd.edu/data/24225/woa18_16_lon_80.5.jos
+                  - name: woa18_16_lon_90.5.jos
+                    path: https://cchdo.ucsd.edu/data/24226/woa18_16_lon_90.5.jos
+                  - name: woa18_16_lon_100.5.jos
+                    path: https://cchdo.ucsd.edu/data/24227/woa18_16_lon_100.5.jos
+                  - name: woa18_16_lon_110.5.jos
+                    path: https://cchdo.ucsd.edu/data/24228/woa18_16_lon_110.5.jos
+                  - name: woa18_16_lon_120.5.jos
+                    path: https://cchdo.ucsd.edu/data/24229/woa18_16_lon_120.5.jos
+                  - name: woa18_16_lon_130.5.jos
+                    path: https://cchdo.ucsd.edu/data/24230/woa18_16_lon_130.5.jos
+                  - name: woa18_16_lon_140.5.jos
+                    path: https://cchdo.ucsd.edu/data/24231/woa18_16_lon_140.5.jos
+                  - name: woa18_16_lon_150.5.jos
+                    path: https://cchdo.ucsd.edu/data/24232/woa18_16_lon_150.5.jos
+                  - name: woa18_16_lon_160.5.jos
+                    path: https://cchdo.ucsd.edu/data/24233/woa18_16_lon_160.5.jos
+                  - name: woa18_16_lon_170.5.jos
+                    path: https://cchdo.ucsd.edu/data/24234/woa18_16_lon_170.5.jos
 
-      - year: WOA18 16 OND Meridional section files
-        files :
-          - name: woa18_16_lon_-9.5.jos
-            path: https://cchdo.ucsd.edu/data/24199/woa18_16_lon_-9.5.jos
-          - name: woa18_16_lon_-19.5.jos
-            path: https://cchdo.ucsd.edu/data/24200/woa18_16_lon_-19.5.jos
-          - name: woa18_16_lon_-29.5.jos
-            path: https://cchdo.ucsd.edu/data/24201/woa18_16_lon_-29.5.jos
-          - name: woa18_16_lon_-39.5.jos
-            path: https://cchdo.ucsd.edu/data/24202/woa18_16_lon_-39.5.jos
-          - name: woa18_16_lon_-49.5.jos
-            path: https://cchdo.ucsd.edu/data/24203/woa18_16_lon_-49.5.jos
-          - name: woa18_16_lon_-59.5.jos
-            path: https://cchdo.ucsd.edu/data/24204/woa18_16_lon_-59.5.jos
-          - name: woa18_16_lon_-69.5.jos
-            path: https://cchdo.ucsd.edu/data/24205/woa18_16_lon_-69.5.jos
-          - name: woa18_16_lon_-79.5.jos
-            path: https://cchdo.ucsd.edu/data/24206/woa18_16_lon_-79.5.jos
-          - name: woa18_16_lon_-89.5.jos
-            path: https://cchdo.ucsd.edu/data/24207/woa18_16_lon_-89.5.jos
-          - name: woa18_16_lon_-99.5.jos
-            path: https://cchdo.ucsd.edu/data/24208/woa18_16_lon_-99.5.jos
-          - name: woa18_16_lon_-109.5.jos
-            path: https://cchdo.ucsd.edu/data/24209/woa18_16_lon_-109.5.jos
-          - name: woa18_16_lon_-119.5.jos
-            path: https://cchdo.ucsd.edu/data/24210/woa18_16_lon_-119.5.jos
-          - name: woa18_16_lon_-129.5.jos
-            path: https://cchdo.ucsd.edu/data/24211/woa18_16_lon_-129.5.jos
-          - name: woa18_16_lon_-139.5.jos
-            path: https://cchdo.ucsd.edu/data/24212/woa18_16_lon_-139.5.jos
-          - name: woa18_16_lon_-149.5.jos
-            path: https://cchdo.ucsd.edu/data/24213/woa18_16_lon_-149.5.jos
-          - name: woa18_16_lon_-159.5.jos
-            path: https://cchdo.ucsd.edu/data/24214/woa18_16_lon_-159.5.jos
-          - name: woa18_16_lon_-169.5.jos
-            path: https://cchdo.ucsd.edu/data/24215/woa18_16_lon_-169.5.jos
-          - name: woa18_16_lon_-179.5.jos
-            path: https://cchdo.ucsd.edu/data/24216/woa18_16_lon_-179.5.jos
-          - name: woa18_16_lon_0.5.jos
-            path: https://cchdo.ucsd.edu/data/24217/woa18_16_lon_0.5.jos
-          - name: woa18_16_lon_10.5.jos
-            path: https://cchdo.ucsd.edu/data/24218/woa18_16_lon_10.5.jos
-          - name: woa18_16_lon_20.5.jos
-            path: https://cchdo.ucsd.edu/data/24219/woa18_16_lon_20.5.jos
-          - name: woa18_16_lon_30.5.jos
-            path: https://cchdo.ucsd.edu/data/24220/woa18_16_lon_30.5.jos
-          - name: woa18_16_lon_40.5.jos
-            path: https://cchdo.ucsd.edu/data/24221/woa18_16_lon_40.5.jos
-          - name: woa18_16_lon_50.5.jos
-            path: https://cchdo.ucsd.edu/data/24222/woa18_16_lon_50.5.jos
-          - name: woa18_16_lon_60.5.jos
-            path: https://cchdo.ucsd.edu/data/24223/woa18_16_lon_60.5.jos
-          - name: woa18_16_lon_70.5.jos
-            path: https://cchdo.ucsd.edu/data/24224/woa18_16_lon_70.5.jos
-          - name: woa18_16_lon_80.5.jos
-            path: https://cchdo.ucsd.edu/data/24225/woa18_16_lon_80.5.jos
-          - name: woa18_16_lon_90.5.jos
-            path: https://cchdo.ucsd.edu/data/24226/woa18_16_lon_90.5.jos
-          - name: woa18_16_lon_100.5.jos
-            path: https://cchdo.ucsd.edu/data/24227/woa18_16_lon_100.5.jos
-          - name: woa18_16_lon_110.5.jos
-            path: https://cchdo.ucsd.edu/data/24228/woa18_16_lon_110.5.jos
-          - name: woa18_16_lon_120.5.jos
-            path: https://cchdo.ucsd.edu/data/24229/woa18_16_lon_120.5.jos
-          - name: woa18_16_lon_130.5.jos
-            path: https://cchdo.ucsd.edu/data/24230/woa18_16_lon_130.5.jos
-          - name: woa18_16_lon_140.5.jos
-            path: https://cchdo.ucsd.edu/data/24231/woa18_16_lon_140.5.jos
-          - name: woa18_16_lon_150.5.jos
-            path: https://cchdo.ucsd.edu/data/24232/woa18_16_lon_150.5.jos
-          - name: woa18_16_lon_160.5.jos
-            path: https://cchdo.ucsd.edu/data/24233/woa18_16_lon_160.5.jos
-          - name: woa18_16_lon_170.5.jos
-            path: https://cchdo.ucsd.edu/data/24234/woa18_16_lon_170.5.jos
 
 yeardropdown:
   - year: WOA18 global annual mean files
