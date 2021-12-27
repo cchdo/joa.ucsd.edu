@@ -34,7 +34,7 @@ ocean: World Ocean Atlas
 			<ul> <span style="color:white;font-size:large"><b><u>{{page.ocean}} Data</u></b></span>
 				<ul>
 					<li><a href="#"><span style="background:#5cb85c;color:white">Download all World Ocean Atlas Data</span></a></li>
-					<li><a href="#"><span style="color:white">Guide to World Ocean Atlas files</span></a></li>
+					<li><a href="assets/documents/About the WOA Data Files.pdf"><span style="color:white">About the WOA Data Files.pdf</span></a></li>
 					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
 						<ul> {% for item in site.data.woadata.section_1 %}
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
