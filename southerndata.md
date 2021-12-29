@@ -58,8 +58,7 @@ ocean: Southern
 			</ul>
 		</div>
 	</div>
-	<div class="rightbox">
-		<div class="container h-100" style="width:80%">
+		<div class="container h-100">
 			<div class="row h-100 align-items-center justify-content-center">
 				<div class="col-12 col-md-10">
 					<div class="hero-search-form">
@@ -92,22 +91,6 @@ ocean: Southern
 				</div>
 			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div class="limiter">
 			<div class="container-table100">
 				<div class="wrap-table100">
 					<div class="table100 ver3 m-b-110">
@@ -135,6 +118,4 @@ ocean: Southern
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 </div>

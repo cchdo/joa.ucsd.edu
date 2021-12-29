@@ -158,11 +158,11 @@ iframe {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 33px 2.5vw;
+  padding: 0vh 0vw 15vh 17.5%;
 }
 
 .wrap-table100 {
-  width: 50vw;
+  width: 80%;
 }
 
 /*//////////////////////////////////////////////////////////////////
