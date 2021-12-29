@@ -4,7 +4,7 @@ title : Atlantic Datapage
 ocean: Atlantic
 matched: "site.data.atlanticdata.matched"
 section: "site.data.atlanticdata.section"
-yeardropdown: 
+yeardropdown: "site.data.atlanticdata.yeardropdown"
 ---
 
 <!-- first lines of the data tree -->
