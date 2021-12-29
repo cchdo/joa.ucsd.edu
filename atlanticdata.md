@@ -1,5 +1,5 @@
 ---
-layout : datapage_1
+layout : datapage_template
 title : Atlantic Datapage
 ocean: Atlantic
 matched: "site.data.atlanticdata.matched"
