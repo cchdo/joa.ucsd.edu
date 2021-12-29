@@ -407,7 +407,8 @@ li {
     margin-left: -100px;
     margin-right: -100px;
     background-color: white;
-    border-radius:25px
+    border-radius:25px;
+    margin-bottom: 10vh;
 }
 
 .hero-search-form .tab-content .tab-pane h6 {
