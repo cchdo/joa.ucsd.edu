@@ -8,61 +8,38 @@
   <body>
 
 {% include header.html %}
-
 {% if page.matched == "site.data.atlanticdata.matched" %}
 {% assign matched = site.data.atlanticdata.matched %}
-
 {% elsif page.matched == "site.data.pacificdata.matched" %}
 {% assign matched = site.data.pacificdata.matched %}
-
 {% elsif page.matched == "site.data.indiandata.matched"%}
 {% assign matched = site.data.indiandata.matched %}
-
 {% elsif page.matched == "site.data.southerndata.matched"%}
 {% assign matched = site.data.southerndata.matched %}
-
 {% endif %}
-
-
-
 {% if page.section == "site.data.atlanticdata.section" %}
 {% assign section = site.data.atlanticdata.section %}
-
 {% elsif page.section == "site.data.pacificdata.section" %}
 {% assign section = site.data.pacificdata.section %}
-
 {% elsif page.section == "site.data.indiandata.section" %}
 {% assign section = site.data.indiandata.section %}
-
 {% elsif page.section == "site.data.southerndata.section" %}
 {% assign section = site.data.southerndata.section %}
-
 {% endif %}
-
-
-
 {% if page.yeardropdown == "site.data.atlanticdata.yeardropdown" %}
 {% assign yeardropdown = site.data.atlanticdata.yeardropdown %}
-
 {% elsif page.yeardropdown == "site.data.pacificdata.yeardropdown" %}
 {% assign yeardropdown = site.data.pacificdata.yeardropdown %}
-
 {% elsif page.yeardropdown == "site.data.indiandata.yeardropdown" %}
 {% assign yeardropdown = site.data.indiandata.yeardropdown %}
-
 {% elsif page.yeardropdown == "site.data.southerndata.yeardropdown" %}
 {% assign yeardropdown = site.data.southerndata.yeardropdown %}
-
 {% endif %}
 
 
 
 <section id="hero">
 	<div class="hero-container">
-		<br>
-		<br>
-		<br>
-		<br>
 		<h1>Explore {{page.ocean}} Ocean Data</h1>
 		<h2>Navigate to your desired data below</h2>
 		<center><img src="assets/images/cleandatamap.jpg" alt="" class="responsive"></center>
@@ -81,8 +58,9 @@
 	</section>
 </section>
 <!-- #call-to-action -->
-<div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
+<div style="background-color: black">
 		<div class="container h-100">
+			<hr class="style-one">
 			<div class="row h-100 align-items-center justify-content-center">
 				<div class="col-12 col-md-10">
 					<div class="hero-search-form">
@@ -142,9 +120,11 @@
 					</div>
 				</div>
 			</div>
+			<hr class="style-two">
+			<center style="color: white;font-size: 25px;padding-bottom: 3%;font-family: 'Poppins';"> Data Tree Search</center>
+			<section id="tree-search">
 			<div class="tree ">
-				<div class="myBox">
-					<ul> <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
+					<ul> <span style="color:white;font-size: 20px;"><b>{{page.ocean}} Ocean</b></span>
 						<ul>
 							{{content}}
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
@@ -168,8 +148,8 @@
 							</li>
 						</ul>
 					</ul>
-				</div>
 			</div>
+			</section>
 <script>
 
     $('.js-pscroll').each(function(){
