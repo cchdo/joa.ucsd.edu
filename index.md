@@ -1,6 +1,6 @@
 ---
 layout : index_default
-title : Welcome to the Java OceanAtlas Suite
+title : Welcome to the Java OceanAtlas
 description : Explore cleaned, vetted World Ocean Bottle and CTD Profile Data
 section_1:
   title: About the Java OceanAtlas Suite
