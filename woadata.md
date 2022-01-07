@@ -6,10 +6,6 @@ ocean: World Ocean Atlas
 
 <section id="hero">
 	<div class="hero-container">
-		<br>
-		<br>
-		<br>
-		<br>
 		<h1>Explore {{page.ocean}} Data</h1>
 		<h2>Navigate to your desired data below</h2>
 		<center><img src="assets/images/woamap.jpg" alt="" class="responsive"></center>
@@ -29,57 +25,13 @@ ocean: World Ocean Atlas
 </section>
 <!-- #call-to-action -->
 <div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
-	<div class="tree ">
-		<div class="myBox">
-			<ul> <span style="color:white;font-size:large"><b><u>{{page.ocean}} Data</u></b></span>
-				<ul>
-					<li><a href="#"><span style="background:#5cb85c;color:white">Download all World Ocean Atlas Data</span></a></li>
-					<li><a href="assets/documents/About the WOA Data Files.pdf"><span style="color:white">About the WOA Data Files.pdf</span></a></li>
-					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
-						<ul> {% for item in site.data.woadata.section_1 %}
-							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
-								<ul>
-									<li><a href="{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} </span></a></li> {% for entry in item.subsections%}
-									<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.subsection}}</span>
-										<ul> {% for file in entry.files%}
-											<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %}
-										</ul>
-									</li> {% endfor %} 
-								</ul>
-							</li> {% endfor %} {% for item in site.data.woadata.section_2 %}
-							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
-								<ul>
-									<li><a href="{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} </span></a></li>
-									<li><a href="assets/documents/Guide to the WOA18 Data Files v2.pdf"><span style="color:white">Guide to the WOA18 Data Files v2.pdf</span></a></li>
-									<li><a href="assets/documents/Important warning about WOA18 oxygen units.pdf"><span style="color:white">Important warning about WOA18 oxygen units.pdf</span></a></li>
-									{% for entry in item.subsections%}
-									<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.subsection}}</span>
-										<ul> {% for subentry in entry.subsubsections%}
-											<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{subentry.subsubsection}}</span> {% if subentry.seasons[0] %}
-												<ul> {% for subsubentry in subentry.seasons%}
-													<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{subsubentry.season}}</span>
-														<ul> {% for file in subsubentry.files%}
-															<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>{% endfor %} 
-														</ul>
-													</li> {% endfor %} 
-												</ul> 
-											{% else %}
-												<ul> {% for file in subentry.files%}
-													<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %} 
-												</ul> 
-											{% endif %} 
-											</li> {% endfor %}
-										</ul>
-									</li> {% endfor %} 
-								</ul>
-							</li> {% endfor %} 
-						</ul>
-					</li>
-				</ul>
-			</ul>
-		</div>
-	</div>
-		<div class="container h-100" >
+		<div class="container h-100">
+			<center style="color: white;font-size: 25px;font-family: 'Poppins';margin-top: 7%;"> Pick a Search Functionality</center>
+			<center style="color: white; padding-top: 5%;"><a class='button-func' href="#tree-search"> Tree Search </a>
+			<a class='button-func' href="#dropdown-search"> Dropdown Search </a></center>
+			<hr class="style-one">
+			<center style="color: white;font-size: 25px;font-family: 'Poppins';margin-top: 7%;"> Dropdown Search</center>
+			<section id="dropdown-search">
 			<div class="row h-100 align-items-center justify-content-center">
 				<div class="col-12 col-md-10">
 					<div class="hero-search-form">
@@ -87,8 +39,8 @@ ocean: World Ocean Atlas
 							<div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
 								<h6>What data are you looking for?</h6>
 								<div class="row">
-									<form action="#" method="get">
-										<center>
+									<form action="#" method="get" >
+										<center style="margin-left: 10vw;">
 											<select class="custom-select" id="verticalSectionDropdown">
 												<option value="All" selected="selected">Vertical Section</option> {% for item in site.data.woadata.section_1%}
 												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -111,6 +63,7 @@ ocean: World Ocean Atlas
 					</div>
 				</div>
 			</div>
+			</section>
 		</div>
 			<div class="container-table100">
 				<div class="wrap-table100">
@@ -171,4 +124,56 @@ ocean: World Ocean Atlas
 					</div>
 				</div>
 			</div>
+			<hr class="style-two">
+			<center style="color: white;font-size: 25px;padding-bottom: 3%;font-family: 'Poppins';"> Data Tree Search</center>
+			<section id="tree-search">
+			<div class="tree ">
+				<ul> <span style="color:white;font-size: 20px;"><b>{{page.ocean}} Data</b></span>
+				<ul>
+					<li><a href="#"><span style="background:#5cb85c;color:white">Download all World Ocean Atlas Data</span></a></li>
+					<li><a href="assets/documents/About the WOA Data Files.pdf"><span style="color:white">About the WOA Data Files.pdf</span></a></li>
+					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
+						<ul> {% for item in site.data.woadata.section_1 %}
+							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+								<ul>
+									<li><a href="{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} </span></a></li> {% for entry in item.subsections%}
+									<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.subsection}}</span>
+										<ul> {% for file in entry.files%}
+											<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %}
+										</ul>
+									</li> {% endfor %} 
+								</ul>
+							</li> {% endfor %} {% for item in site.data.woadata.section_2 %}
+							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+								<ul>
+									<li><a href="{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} </span></a></li>
+									<li><a href="assets/documents/Guide to the WOA18 Data Files v2.pdf"><span style="color:white">Guide to the WOA18 Data Files v2.pdf</span></a></li>
+									<li><a href="assets/documents/Important warning about WOA18 oxygen units.pdf"><span style="color:white">Important warning about WOA18 oxygen units.pdf</span></a></li>
+									{% for entry in item.subsections%}
+									<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.subsection}}</span>
+										<ul> {% for subentry in entry.subsubsections%}
+											<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{subentry.subsubsection}}</span> {% if subentry.seasons[0] %}
+												<ul> {% for subsubentry in subentry.seasons%}
+													<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{subsubentry.season}}</span>
+														<ul> {% for file in subsubentry.files%}
+															<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li>{% endfor %} 
+														</ul>
+													</li> {% endfor %} 
+												</ul> 
+											{% else %}
+												<ul> {% for file in subentry.files%}
+													<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %} 
+												</ul> 
+											{% endif %} 
+											</li> {% endfor %}
+										</ul>
+									</li> {% endfor %} 
+								</ul>
+							</li> {% endfor %} 
+						</ul>
+					</li>
+				</ul>
+			</ul>
+			</div>
+			</section>
 </div>

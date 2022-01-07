@@ -6,10 +6,6 @@ ocean: Other
 
 <section id="hero">
 	<div class="hero-container">
-		<br>
-		<br>
-		<br>
-		<br>
 		<h1>Explore {{page.ocean}} Best Section Data</h1>
 		<h2>Navigate to your desired data below</h2>
 		<center><img src="assets/images/othervertical.jpg" alt="" class="responsive"></center>
@@ -31,25 +27,13 @@ ocean: Other
 </section>
 
 <div id="collapseDVR3" class="panel-collapse collapse in" style="background-color: black">
-	<div class="tree ">
-		<ul> <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
-			<ul>
-				<li> <span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li> {% for item in site.data.otherverticaldata.section %}
-				<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
-					<ul>
-						<li> <span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li> {% for entry in item.years%}
-						<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
-							<ul>
-								<li> <span style="color:white">File</span> </li>
-								<li> <span style="color:white">File</span> </li>
-								<li> <span style="color:white">File</span> </li>
-								<li> <span style="color:white">File</span> </li>
-							</ul>
-						</li> {% endfor %} </ul>
-				</li> {% endfor %} </ul>
-		</ul>
-	</div>
 		<div class="container h-100">
+			<center style="color: white;font-size: 25px;font-family: 'Poppins';margin-top: 7%;"> Pick a Search Functionality</center>
+			<center style="color: white; padding-top: 5%;"><a class='button-func' href="#tree-search"> Tree Search </a>
+			<a class='button-func' href="#dropdown-search"> Dropdown Search </a></center>
+			<hr class="style-one">
+			<center style="color: white;font-size: 25px;font-family: 'Poppins';margin-top: 7%;"> Dropdown Search</center>
+			<section id="dropdown-search">
 			<div class="row h-100 align-items-center justify-content-center">
 				<div class="col-12 col-md-10">
 					<div class="hero-search-form">
@@ -58,7 +42,7 @@ ocean: Other
 								<h6>What data are you looking for?</h6>
 								<div class="row">
 									<form action="#" method="get">
-										<center>
+										<center style="margin-left: 10vw;">
 											<select class="custom-select" id="verticalSectionDropdown">
 												<option value="All" selected="selected">Vertical Section</option> {% for item in site.data.otherverticaldata.section%}
 												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -81,6 +65,7 @@ ocean: Other
 					</div>
 				</div>
 			</div>
+			</section>
 		</div>
 			<div class="container-table100">
 				<div class="wrap-table100">
@@ -109,4 +94,26 @@ ocean: Other
 					</div>
 				</div>
 			</div>
+			<hr class="style-two">
+			<center style="color: white;font-size: 25px;padding-bottom: 3%;font-family: 'Poppins';"> Data Tree Search</center>
+			<section id="tree-search">
+			<div class="tree ">
+			<ul> <span style="color:white;font-size:large"><b><u>{{page.ocean}} Ocean</u></b></span>
+				<ul>
+					<li> <span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li> {% for item in site.data.otherverticaldata.section %}
+					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
+						<ul>
+							<li> <span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li> {% for entry in item.years%}
+							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
+								<ul>
+									<li> <span style="color:white">File</span> </li>
+									<li> <span style="color:white">File</span> </li>
+									<li> <span style="color:white">File</span> </li>
+									<li> <span style="color:white">File</span> </li>
+								</ul>
+							</li> {% endfor %} </ul>
+					</li> {% endfor %} </ul>
+			</ul>
+			</div>
+			</section>
 </div>

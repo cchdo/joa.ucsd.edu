@@ -152,8 +152,7 @@ iframe {
 
 .container-table100 {
   width: 100%;
-  min-height: 100vh;
-  height: auto;
+  height: 60%;
   display: -webkit-box;
   align-items: center;
   justify-content: center;
