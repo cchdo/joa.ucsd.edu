@@ -291,7 +291,7 @@ if(document.cookie && document.cookie.match('myClock')){
   deadline = new Date(currentTime + timeInMinutes*60*1000);
 
   // store deadline in cookie for future reference
-  document.cookie = 'myClock=' + deadline + '; path=/; domain=.yourdomain.com';
+  document.cookie = 'myClock=' + deadline + '; path=/; domain=https://joa.ucsd.edu/';
 }
   initializeClock('clockdiv', deadline); 
 </script>
