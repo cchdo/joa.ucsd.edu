@@ -25,11 +25,15 @@ css: contactus
 			<!-- Contact Information -->
 			<div class="col-12 col-md-4" style="max-width:100%; flex:none">
 				<div class="contact-information">
-					<h5>Address</h5>
+					<h5>Office</h5>
 					<p>Room #50
 						<br>Deep-Sea Drilling West
 						<br>2215 Downwind Way
 						<br>La Jolla, CA 92037</p>
+					<h5>Postal</h5>
+					<p>UCSD Scripps Institution of Oceanography, MC-0236
+						<br>9500 Gilman Dr
+						<br>La Jolla, CA 92093-0236</p>
 					<h5>Email</h5>
 					<p class="mb-0">jswift @ucsd.edu</p>
 				</div>
