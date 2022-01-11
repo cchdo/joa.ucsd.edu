@@ -150,7 +150,7 @@ cruise_counter: 1463
 			<div class="row justify-content-center">
 				<div class="col-lg-3 col-md-4">
 					<div class="info">
-						<div> <i class="fa fa-map-marker"></i>
+						<div style="width: 200%;"> <i class="fa fa-map-marker"></i>
 							<p>Office<br>Room #50
 								<br>Deep-Sea Drilling West
 								<br>2215 Downwind Way
