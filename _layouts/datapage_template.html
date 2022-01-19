@@ -167,10 +167,29 @@
       })
     });
 
+	const yearOptions = document.getElementById("yearDropdown").cloneNode(true)
+
+	const filterYearOptions = (yearOptions, table) => {
+		let tableYears = [...table].map(tr => tr.children[1].textContent)
+		return [...yearOptions.children].filter(opt => {
+			let val = opt.getAttribute("value")
+			if (val == "All"){
+				return true
+			}
+			for (let i=0; i<tableYears.length; i++){
+				if (tableYears[i].includes(val)){
+					return true
+				}
+			}
+			return false
+		})
+	}
+
 	$('.container').on("change", 'select', function() {
 	  var section = $('#verticalSectionDropdown').val().toLowerCase(),
 	    year = $('#yearDropdown').val().toLowerCase(),
 	    file = $('#fileDropdown').val().toLowerCase();
+		console.log($('#yearDropdown'))
 
 	  var table = $("#datatable");
 	  var trs = table.find('tr');
@@ -191,6 +210,9 @@
 	  })
 
 	  filtered.show();
+
+	  let newYearOptions = filterYearOptions(yearOptions, filtered)
+	  document.getElementById("yearDropdown").replaceChildren(...newYearOptions)
 
 	  if (filtered.length == 0) {
 	    alert("No Records Found!");
