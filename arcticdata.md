@@ -39,8 +39,8 @@ ocean: Arctic
 							<div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
 								<h6>What data are you looking for?</h6>
 								<div class="row">
-									<form action="#" method="get">
-										<center style="margin-left: 10vw;">
+									<div class="mx-auto">
+									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown">
 												<option value="All" selected="selected">Vertical Section</option> {% for item in site.data.arcticdata.section%}
 												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -55,8 +55,8 @@ ocean: Arctic
 												<option value="Option_4">.joa</option>
 												<option value="Option_5">.zip</option>
 											</select>
-										</center>
 									</form>
+									</div>
 								</div>
 							</div>
 						</div>

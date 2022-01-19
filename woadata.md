@@ -39,8 +39,8 @@ ocean: World Ocean Atlas
 							<div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
 								<h6>What data are you looking for?</h6>
 								<div class="row">
-									<form action="#" method="get" >
-										<center style="margin-left: 10vw;">
+									<div class="mx-auto">
+									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown">
 												<option value="All" selected="selected">Vertical Section</option> {% for item in site.data.woadata.section_1%}
 												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -55,8 +55,8 @@ ocean: World Ocean Atlas
 												<option value=".joa">.joa</option>
 												<option value=".zip">.zip</option>
 											</select>
-										</center>
 									</form>
+									</div>
 								</div>
 							</div>
 						</div>
