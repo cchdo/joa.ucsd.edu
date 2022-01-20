@@ -370,8 +370,8 @@ section:
         files :
           - name: P13_2011_bot_clean_edited.joa
             path: https://cchdo.ucsd.edu/data/21952/P13_2011_bot_clean_edited.joa
-          - name: P13_2011_bot_clean_edited.joa.jos
-            path: https://cchdo.ucsd.edu/data/21953/P13_2011_bot_clean_edited.joa.jos
+          - name: P13_2011_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24653/P13_2011_bot_clean_edited_hy1.csv
 
 
   - title: P14
