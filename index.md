@@ -7,9 +7,9 @@ section_1:
 section_2_title : About Java OceanAtlas
 section_3_title :   About the Data on the Website
 ocean_counter : 5
-verticalsection_counter : 232
-year_counter : 39
-cruise_counter: 1463
+verticalsection_counter : 165
+year_counter : 42
+file_counter: 1669
 
 ---
 
@@ -93,8 +93,8 @@ cruise_counter: 1463
 				<div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">{{page.year_counter}}</span>
 					<p><font color="white">Years of Cumulative Data</font></p>
 				</div>
-				<div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">{{page.cruise_counter}}</span>
-					<p><font color="white">Cruises</font></p>
+				<div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">{{page.file_counter}}</span>
+					<p><font color="white">Data Files</font></p>
 				</div>
 			</div>
 		</div>
