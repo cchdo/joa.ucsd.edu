@@ -101,6 +101,7 @@
 			<div class="container-table100">
 				<div class="wrap-table100">
 					<div class="table100 ver3 m-b-110">
+						<!--
 						<div class="table100-head">
 							<table>
 								<thead>
@@ -112,7 +113,9 @@
 								</thead>
 							</table>
 						</div>
-						<div class="table100-body js-pscroll" style="max-height:1500px">
+					-->
+						<div id="datatable1" class="table100-body js-pscroll" style="max-height:1500px">
+							<!--
 							<table class="table" id="datatable1">
 								<tbody id="datatable"> {% for item in section%} {% for entry in item.years%} {% for file in entry.files%}
 									<tr>
@@ -121,6 +124,7 @@
 										<td class="cell100 column4"><a href="{{file.path}}">{{file.name}}</a></td>
 									</tr> {% endfor %} {% endfor %} {% endfor %} </tbody>
 							</table>
+						-->
 						</div>
 					</div>
 				</div>
@@ -158,67 +162,184 @@
 			</section>
 	</div>
 <script>
+	const section = {{section | jsonify}};
 
-    $('.js-pscroll').each(function(){
-      var ps = new PerfectScrollbar(this);
+	console.log(section)
 
-      $(window).on('resize', function(){
-        ps.update();
-      })
-    });
+	const lines = section.map(s => s.title)
 
-	const yearOptions = document.getElementById("yearDropdown").cloneNode(true)
-
-	const filterYearOptions = (yearOptions, table) => {
-		let tableYears = [...table].map(tr => tr.children[1].textContent)
-		return [...yearOptions.children].filter(opt => {
-			let val = opt.getAttribute("value")
-			if (val == "All"){
-				return true
-			}
-			for (let i=0; i<tableYears.length; i++){
-				if (tableYears[i].includes(val)){
-					return true
-				}
-			}
-			return false
+		const flat_files = []
+		section.forEach(sect => {
+			sect.years.forEach(year => {
+				year.files.forEach(file => {
+					flat_files.push({
+						title: sect.title,
+						year: year.year,
+						name: file.name,
+						path: file.path,
+					})
+				})
+			})
 		})
+
+	console.log(flat_files)
+
+	const updateTable = (files) => {
+	const datatable1 = document.createElement("table")
+	datatable1.classList.add("table")
+	const thead = datatable1.createTHead()
+	const theadRow = thead.insertRow()
+
+	theadRow.innerHTML = "<th>Vertical Section</th><th>Year</th><th>File</th>"
+
+	const tbody = datatable1.createTBody()
+	files.forEach(file => {
+		let row = tbody.insertRow(-1)
+		let title = row.insertCell();
+		title.appendChild(document.createTextNode(file.title))
+		let year = row.insertCell();
+		year.appendChild(document.createTextNode(file.year))
+
+		let fileRow = row.insertCell();
+		let fileContent = document.createElement("a")
+		fileContent.appendChild(document.createTextNode(file.name))
+		fileContent.setAttribute("href", file.path)
+		fileRow.appendChild(fileContent)
+	})
+
+	let tableContainer = document.querySelector("#datatable1");
+
+	tableContainer.replaceChildren(datatable1)
+}
+
+	updateTable(flat_files)
+
+	const verticalSectionDropdown = document.getElementById("verticalSectionDropdown")
+	const yearDropdown = document.getElementById("yearDropdown")
+
+	const filterFiles = (flat_files) => {
+		const selectedSection = verticalSectionDropdown.value
+		const selectedYear = yearDropdown.value
+		let filteredFiles = flat_files
+
+		if (selectedSection !== "All"){
+			filteredFiles = filteredFiles.filter(file => file.title === selectedSection)
+		}
+		if (selectedYear !== "All"){
+			filteredFiles = filteredFiles.filter(file => file.year.toString().includes(selectedYear))
+		}
+		return filteredFiles;
 	}
 
-	$('.container').on("change", 'select', function() {
-	  var section = $('#verticalSectionDropdown').val().toLowerCase(),
-	    year = $('#yearDropdown').val().toLowerCase(),
-	    file = $('#fileDropdown').val().toLowerCase();
-		console.log($('#yearDropdown'))
+	verticalSectionDropdown.addEventListener("change", event => {
+		let selectedSection = event.target.value;
+		var sectionfilteredFiles = flat_files
 
-	  var table = $("#datatable");
-	  var trs = table.find('tr');
-	  trs.hide();
+		if (selectedSection !== "All"){
+			sectionfilteredFiles = flat_files.filter(file => file.title === selectedSection)
+		}
 
-	  var filtered = trs.filter(function(index, elem) {
-	    var tds = $(elem).find('td');
-	    if (section !== "all" && tds.eq(0).text().trim().toLowerCase() !== section) {
-	      return false;
-	    }
-	    if (year !== "all" && tds.eq(1).text().trim().toLowerCase() !== year) {
-	      return false;
-	    }
-	    if (file !== "all" && tds.eq(2).text().trim().toLowerCase() !== file) {
-	      return false;
-	    }
-	    return true;
-	  })
+		updateTable(filterFiles(flat_files))
 
-	  filtered.show();
+		let validYears = new Set(sectionfilteredFiles.map(file => file.year.toString()))
+		for (let i = 0; i < yearDropdown.children.length; i++){
+			let yearOption = yearDropdown.children[i];
+			if (yearOption.value === "All"){
+				continue;
+			}
+			yearOption.removeAttribute("disabled")
 
-	  let newYearOptions = filterYearOptions(yearOptions, filtered)
-	  document.getElementById("yearDropdown").replaceChildren(...newYearOptions)
+			let isInvalid = [...validYears].some(validYear => validYear.includes(yearOption.value))
+			if (!isInvalid){
+				yearOption.setAttribute("disabled", "anything")
+			}
+		}
+	})
 
-	  if (filtered.length == 0) {
-	    alert("No Records Found!");
-	  }
+	yearDropdown.addEventListener("change", event => {
+		let selectedYear = event.target.value;
+		var yearFilteredFiles = flat_files
+		if (selectedYear !== "All"){
+			yearFilteredFiles = flat_files.filter(file => file.year.toString().includes(selectedYear))
+		}
+		updateTable(filterFiles(flat_files))
 
-	});
+		let validSections = new Set(yearFilteredFiles.map(file => file.title.toString()))
+		for (let i = 0; i < verticalSectionDropdown.children.length; i++){
+			let sectionOption = verticalSectionDropdown.children[i];
+			if (sectionOption.value === "All"){
+				continue;
+			}
+			sectionOption.removeAttribute("disabled")
+
+			let isInvalid = [...validSections].some(validSection => validSection.includes(sectionOption.value))
+			if (!isInvalid){
+				sectionOption.setAttribute("disabled", "anything")
+			}
+		}
+	})
+
+
+ //   $('.js-pscroll').each(function(){
+ //     var ps = new PerfectScrollbar(this);
+
+ //     $(window).on('resize', function(){
+ //       ps.update();
+ //     })
+ //   });
+
+	//const yearOptions = document.getElementById("yearDropdown").cloneNode(true)
+
+	//const filterYearOptions = (yearOptions, table) => {
+	//	let tableYears = [...table].map(tr => tr.children[1].textContent)
+	//	return [...yearOptions.children].filter(opt => {
+	//		let val = opt.getAttribute("value")
+	//		if (val == "All"){
+	//			return true
+	//		}
+	//		for (let i=0; i<tableYears.length; i++){
+	//			if (tableYears[i].includes(val)){
+	//				return true
+	//			}
+	//		}
+	//		return false
+	//	})
+	//}
+
+	//$('.container').on("change", 'select', function() {
+	//  var section = $('#verticalSectionDropdown').val().toLowerCase(),
+	//    year = $('#yearDropdown').val().toLowerCase(),
+	//    file = $('#fileDropdown').val().toLowerCase();
+	//	console.log($('#yearDropdown'))
+
+	//  var table = $("#datatable");
+	//  var trs = table.find('tr');
+	//  trs.hide();
+
+	//  var filtered = trs.filter(function(index, elem) {
+	//    var tds = $(elem).find('td');
+	//    if (section !== "all" && tds.eq(0).text().trim().toLowerCase() !== section) {
+	//      return false;
+	//    }
+	//    if (year !== "all" && tds.eq(1).text().trim().toLowerCase() !== year) {
+	//      return false;
+	//    }
+	//    if (file !== "all" && tds.eq(2).text().trim().toLowerCase() !== file) {
+	//      return false;
+	//    }
+	//    return true;
+	//  })
+
+	//  filtered.show();
+
+	//  let newYearOptions = filterYearOptions(yearOptions, filtered)
+	//  document.getElementById("yearDropdown").replaceChildren(...newYearOptions)
+
+	//  if (filtered.length == 0) {
+	//    alert("No Records Found!");
+	//  }
+
+	//});
 	
 </script>
 
