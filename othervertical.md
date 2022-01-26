@@ -49,7 +49,7 @@ ocean: Other
 											<select class="custom-select" id="yearDropdown">
 												<option value="All">Year</option> {% for item in site.data.otherverticaldata.yeardropdown %}
 												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<select class="custom-select" id="fileDropdown">
+											<select style="display:none" class="custom-select" id="fileDropdown">
 												<option value="All">File</option>
 												<option value="Basin">.csv</option>
 												<option value="Sub Basin">.jos</option>
@@ -69,7 +69,7 @@ ocean: Other
 		</div>
 			<div class="container-table100">
 				<div class="wrap-table100">
-					<div class="table100 ver3 m-b-110">
+					<div class="table100 ver3 m-b-110" style="padding-top:60px;">
 						<div class="table100-head">
 							<table>
 								<thead>

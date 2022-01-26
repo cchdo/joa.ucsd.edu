@@ -179,7 +179,6 @@ th, td {
 }
 
 .column1 {
-  background-color: white;
   width: 30%;
 }
 
@@ -206,7 +205,6 @@ th, td {
 [ Fix header ]*/
 .table100 {
   position: relative;
-  padding-top: 60px;
 }
 
 .table100-head {
@@ -222,6 +220,7 @@ th, td {
 }
 
 
+
 /*==================================================================
 [ Ver3 ]*/
 
@@ -231,11 +230,10 @@ th, td {
 
 .table100.ver3 th {
   font-family: Lato-Bold;
-  font-size: 15px;
+  font-size: 16px;
   color: #00ad5f;
   line-height: 1.4;
-  text-transform: uppercase;
-  background-color: #393939;
+  padding: 2%;
 }
 
 .table100.ver3 td {

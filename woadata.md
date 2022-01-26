@@ -41,13 +41,18 @@ ocean: World Ocean Atlas
 								<div class="row">
 									<div class="mx-auto">
 									<form style="margin-left: auto;" action="#" method="get">
-											<select class="custom-select" id="verticalSectionDropdown">
-												<option value="All" selected="selected">Vertical Section</option> {% for item in site.data.woadata.section_1%}
-												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<select class="custom-select" id="yearDropdown">
+											<select class="custom-select" id="verticalSectionDropdown" style="width:100%">
+												<option value="All" selected="selected">File Set</option>
+												<option value="WOA 1998 files">WOA 1998 files</option> 
+												<option value="WOA 2005 files">WOA 2005 files</option> 
+												<option value="WOA 2009 files">WOA 2009 files</option> 
+												<option value="WOA 2018 files">WOA 2018 files</option> 
+											</select>
+										    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select style="display:none" class="custom-select" id="yearDropdown">
 												<option value="All">Year</option> {% for item in site.data.woadata.yeardropdown %}
 												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<select class="custom-select" id="fileDropdown">
+											<select style="display:none" class="custom-select" id="fileDropdown">
 												<option value="All">File</option>
 												<option value=".csv">.csv</option>
 												<option value=".jos">.jos</option>
@@ -67,7 +72,7 @@ ocean: World Ocean Atlas
 		</div>
 			<div class="container-table100">
 				<div class="wrap-table100">
-					<div class="table100 ver3 m-b-110">
+					<div class="table100 ver3 m-b-110" style="padding-top: 60px;">
 						<div class="table100-head">
 							<table>
 								<thead>
@@ -132,8 +137,7 @@ ocean: World Ocean Atlas
 				<ul>
 					<li><a href="#"><span style="background:#5cb85c;color:white">Download all World Ocean Atlas Data</span></a></li>
 					<li><a href="assets/documents/About the WOA Data Files.pdf"><span style="color:white">About the WOA Data Files.pdf</span></a></li>
-					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
-						<ul> {% for item in site.data.woadata.section_1 %}
+						{% for item in site.data.woadata.section_1 %}
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
 								<ul>
 									<li><a href="{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} </span></a></li> {% for entry in item.subsections%}
@@ -169,9 +173,8 @@ ocean: World Ocean Atlas
 										</ul>
 									</li> {% endfor %} 
 								</ul>
-							</li> {% endfor %} 
-						</ul>
-					</li>
+							</li> 
+						{% endfor %} 
 				</ul>
 			</ul>
 			</div>
