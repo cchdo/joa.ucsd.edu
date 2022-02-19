@@ -60,7 +60,13 @@
 			<div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
 				<h3 class="cta-title1" style="text-align:center">About {{page.ocean}} Ocean Data</h3>
 				<br>
+				{% if section == site.data.otherverticaldata.section %}
+				<p class="cta-text1" style="text-align:center">Global-scale vertical sections assembled by J. Swift from the Best Vertical Sections, intended to illuminate the largest-scale spatial structure of seawater characteristics. The data have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p>
+				<br>
+				<p class="cta-text1" style="text-align:center">A collection of carefully-matched section segments from all of the oceans - crossings of the same path in one basin or region from different years. These are included to facilitate accurate comparisons of seawater characteristics from different years. Data file names are designed to identify spacially-matched sets.</p>
+				{% else %}
 				<p class="cta-text1" style="text-align:center">Ocean basin spanning vertical section data from the WOCE Hydrographic Program, CLIVAR Repeat Hydrography, GO-SHIP and other programs with similar intent and high quality standards. Many of the sections have been occupied multiple times. The data values for measured parameters are identical those available from the CLIVAR and Carbon Hydrographic Data Office (CCHDO), but the files have been vetted and groomed for improved readability and consistency, and assembled in sensible geographic order.</p>
+				{% endif %}
 			</div>
 		</div>
 	</section>
@@ -163,14 +169,14 @@
 							{% if section == site.data.otherverticaldata.section %}
 							<li><span style="color:white"><i class="fa fa-plus-square" style="color:white">Grand_Tour_2_Documentation_Files</i></span>
 								<ul>
-									<li><span style="color:white"><a href="#">Grand_Tour_2_Documentation.doc</a></span></li>
-									<li><span style="color:white"><a href="#">GrandTour2_file_list.doc</a></span></li> 
+									<li><span style="color:white"><a href="https://cchdo.ucsd.edu/data/16313/Grand_Tour_2_Documentation.pdf">Grand_Tour_2_Documentation.pdf</a></span></li>
+									<li><span style="color:white"><a href="https://cchdo.ucsd.edu/data/24802/GrandTour2_file_list.doc">GrandTour2_file_list.doc</a></span></li> 
 									<li><span style="color:white"><a href="#">Ocean_Grand_Tour_original.pdf</a></span></li> 
 									<li><span style="color:white"><a href="#">WHP_Exchange_Description_05June2008.doc</a></span></li> 
 								</ul>
 							</li>
-							<li><a href="#"><span style="color:white">Ocean_Grand_Tour_2_CTD.joa</span></a></li>
-							<li><a href="#"><span style="color:white">Ocean_Grand_Tour_2_bottle.joa</span></a></li>
+							<li><a href="https://cchdo.ucsd.edu/data/16314/Ocean_Grand_Tour_2_CTD.joa"><span style="color:white">Ocean_Grand_Tour_2_CTD.joa</span></a></li>
+							<li><a href="https://cchdo.ucsd.edu/data/16315/Ocean_Grand_Tour_2_bottle.joa"><span style="color:white">Ocean_Grand_Tour_2_bottle.joa</span></a></li>
 							{% else %}
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
 								<ul> {% for item in matched %}
