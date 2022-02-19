@@ -1,69 +1,228 @@
 section:
-  - title: 24N Global Section
+  - title: A16_files_for_grand_tour_2
+    zip_path: 
     years:
-      - year: 1993
-        file: File
-      - year: 1995
-        file: File
-      - year: 1998
-        file: File
-      - year: WOA
-        file: File
-  - title: 30S Global Section
-    years:
-      - year: 1995
-        file: File
-      - year: 2000
-        file: File
-      - year: WOA
-        file: File
+      - year: A16_bottle_for_grand_tour_2
+        files :
+          - name: A16_2005_2003_botclean_N2S_2.joa
+            path: 
+          - name: A16_bottle_filler_for_tour2.joa
+            path: 
+          - name: A16_bottle_filler_for_tour2_hy1.csv
+            path: 
+          - name: a16n_2003_botclean2_2_hy1.csv
+            path: 
+          - name: a16n_2003_botclean2_2.joa
+            path: 
+          - name: a16s_2005_botclean_2_hy1.csv
+            path: 
+          - name: a16s_2005_botclean_2.joa
+            path: 
+      - year: A16_CTD_for_grand_tour_2
+        files :
+          - name: A16_CTD_w_filler_for_tour2.joa
+            path: 
+          - name: A16_CTD_filler_for_tour2.joa
+            path: 
+          - name: A16_CTD_filler_for_tour2_hy1.csv
+            path: 
+          - name: A16N_for_tour2_CTD_ct1.zip
+            path: 
+          - name: A16N_for_tour2_CTD.joa
+            path: 
+          - name: A16S_for_tour2_CTD_ct1.zip
+            path: 
+          - name: A16S_for_tour2_CTD.joa
+            path: 
 
-  - title: Ocean Grand Tour
+  - title: A23_files_for_grand_tour_2
+    zip_path: 
     years:
-      - year: 1976
-        file: File
-      - year: 1995
-        file: File
-      - year: 2003
-        file: File
-      - year: WOA
-        file: File
+      - year: A23_bottle_files_for_tour_2
+        files :
+          - name: A23_1995_bottle_for_tour2.joa
+            path: 
+          - name: A23_1995_for_tour2_hy1.csv
+            path: 
+      - year: A23_CTD_files_for_tour_2
+        files :
+          - name: A23_1995_CTD_for_tour2.joa
+            path: 
+          - name: A23_1995_CTD_for_tour2_ct1.zip
+            path: 
 
-  - title: Matched ocean-spanning sections
+  - title: Arctic_files_for_grand_tour_2
+    zip_path: 
     years:
-      - year: 1995
-        file: File
-      - year: 2004
-        file: File
-
-  - title: Matched basin and sub-basin segments
+      - year: Arctic_bottle_for_tour_2
+        files :
+          - name: Arctic_bot_for_global_section_2.joa
+            path: 
+          - name: a87.fixedO2.362_278_hy1.csv
+            path: 
+          - name: a87.fixedO2.362_278.joa
+            path: 
+          - name: AOS94clean.w.CFC.36_hy1.csv
+            path: 
+          - name: AOS94clean.w.CFC.36.joa
+            path: 
+          - name: ODEN_IOS_2005_botclean2_hy1.csv
+            path: 
+          - name: ODEN_IOS_2005_botclean2.joa
+            path: 
+          - name: SBI_2003_bot_for_tour_hy1.csv
+            path: 
+          - name: SBI_2003_bot_for_tour.joa
+            path: 
     years:
-      - year: 1995
-        file: File
-      - year: 2004
-        file: File
+      - year: Arctic_CTD_for_grand_tour_2
+        files :
+          - name: Arctic_CTD_for_tour2.joa
+            path: 
+          - name: SBI2003_CTD_for_tour2.joa
+            path: 
+          - name: A87_CTD_for_tour2_ct1.zip
+            path: 
+          - name: A87_CTD_for_tour2.joa
+            path: 
+          - name: AOS94_CTD_036_for_tour2_ct1.csv
+            path: 
+          - name: AOS94_CTD_036_for_tour2.joa
+            path: 
+          - name: ODEN2005_CTD_for_tour2_ct1.zip
+            path: 
+          - name: ODEN2005_CTD_for_tour2.joa
+            path: 
+          - name: SBI2003_CTD_for_tour2_ct1.zip
+            path: 
 
+  - title: NordicSeas_files_for_grand_tour_2
+    zip_path: 
+    years:
+      - year: NordicSeas_bottle_for_tour_2
+        files :
+          - name: NordicSeas_w_fill_bot_for_transGlobal2.joa
+            path: 
+          - name: NordicSea2002_bot_for_tour2.joa
+            path: 
+          - name: NordicSea2002_for_transGlobal2_hy1.csv
+            path: 
+          - name: NordicSeas_bot_filler_for_Global2.joa
+            path: 
+          - name: NordicSeas_bot_filler_for_Global2_hy1.csv
+            path: 
+      - year: NordicSeas_CTD_for_tour_2
+        files :
+          - name: NordicSeas_CTD_w_filler_for_tour2.joa
+            path: 
+          - name: NordicSeas_CTD_filler_for_tour2_hy1.csv
+            path: 
+          - name: NordicSeas_CTD_filler_for_tour2.joa
+            path: 
+          - name: NordicSeas_CTD_for_tour2_ct1.zip
+            path: 
+          - name: NordicSeas_CTD_for_tour2.joa
+            path: 
+
+  - title: P14_files_for_grand_tour_2
+    zip_path: 
+    years:
+      - year: P14_bottle_for_tour_2
+        files :
+          - name: P14_bottle_for_tour_2.joa
+            path: 
+          - name: P14_bottle_filler_2_hy1.csv
+            path: 
+          - name: P14_bottle_filler_2.joa
+            path: 
+          - name: P14C_botclean_2_hy1.csv
+            path: 
+          - name: P14C_bottle_for_tour_2.joa
+            path: 
+          - name: P14N_botclean_2_hy1.csv
+            path: 
+          - name: P14N_bottle_for_tour_2.joa
+            path: 
+          - name: P14S_botclean1_2_hy1.csv
+            path: 
+          - name: P14S_bottle_for_tour_2.joa
+            path: 
+          - name: S04p_bottle_for_tour_2_hy1.csv
+            path: 
+          - name: S04P_bottle_for_tour_2.joa
+            path: 
+
+      - year: P14_CTD_for_tour_2
+        files :
+          - name: P14_CTD_w_filler_for_tour2.joa
+            path: 
+          - name: P14_CTD_filler.jos
+            path: 
+          - name: P14C_CTD_for_tour2_ct1.zip
+            path: 
+          - name: P14C_CTD_for_tour2.joa
+            path: 
+          - name: P14N_CTD_for_tour2_ct1.zip
+            path: 
+          - name: P14N_CTD_for_tour2.joa
+            path: 
+          - name: P14S_CTD_for_tour2_ct1.zip
+            path: 
+          - name: P14S_CTD_for_tour2.joa
+            path: 
+          - name: S4P_CTD_for_tour2_ct1.zip
+            path: 
+          - name: S4P_CTD_for_tour2.joa
+            path: 
+
+  - title: Grand_Tour_2_Documentation_Files
+    zip_path: 
+    years:
+      - year: Grand_Tour_2_Documentation.doc
+        path: 
+      - year: GrandTour2_file_list.doc
+        path: 
+      - year: Ocean_Grand_Tour_original.pdf
+        path: 
+      - year: WHP_Exchange_Description_05June2008.doc
+        path: 
+
+  - title: Grand_Tour_2_Documentation_Files
+    path:
+  - title: Grand_Tour_2_Documentation_Files
+    path:
 
 yeardropdown:
-  - year: 1976
+  - year: 1967
+  - year: 1970
+  - year: 1974
+  - year: 1980
+  - year: 1984
+  - year: 1985
   - year: 1987
   - year: 1989
+  - year: 1990
+  - year: 1991
   - year: 1992
   - year: 1993
   - year: 1994
   - year: 1995
   - year: 1996
-  - year: 1998
-  - year: 2000
-  - year: 2002
+  - year: 1999
+  - year: 2001
   - year: 2003
   - year: 2004
+  - year: 2005
+  - year: 2006
   - year: 2007
   - year: 2008
   - year: 2009
+  - year: 2010
+  - year: 2011
   - year: 2012
+  - year: 2013
+  - year: 2014
   - year: 2015
   - year: 2016
+  - year: 2017
   - year: 2018
-  - year: 2019
-  - year: WOA

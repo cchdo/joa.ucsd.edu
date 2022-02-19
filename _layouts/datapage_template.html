@@ -25,6 +25,8 @@
 {% assign section = site.data.indiandata.section %}
 {% elsif page.section == "site.data.southerndata.section" %}
 {% assign section = site.data.southerndata.section %}
+{% elsif page.section == "site.data.otherverticaldata.section" %}
+{% assign section = site.data.otherverticaldata.section %}
 {% endif %}
 {% if page.yeardropdown == "site.data.atlanticdata.yeardropdown" %}
 {% assign yeardropdown = site.data.atlanticdata.yeardropdown %}
@@ -34,6 +36,8 @@
 {% assign yeardropdown = site.data.indiandata.yeardropdown %}
 {% elsif page.yeardropdown == "site.data.southerndata.yeardropdown" %}
 {% assign yeardropdown = site.data.southerndata.yeardropdown %}
+{% elsif page.yeardropdown == "site.data.otherverticaldata.yeardropdown" %}
+{% assign yeardropdown = site.data.otherverticaldata.yeardropdown %}
 {% endif %}
 
 
@@ -42,7 +46,11 @@
 	<div class="hero-container">
 		<h1>Explore {{page.ocean}} Ocean Data</h1>
 		<h2>Navigate to your desired data below</h2>
+		{% if section == site.data.otherverticaldata.section %}
+		<center><img src="assets/images/othervertical.jpg" alt="" class="responsive"></center>
+		{% else %}
 		<center><img src="assets/images/cleandatamap.jpg" alt="" class="responsive"></center>
+		{% endif %}
 	</div>
 </section>
 <!-- #hero -->
@@ -100,8 +108,12 @@
 		</div>
 			<div class="container-table100">
 				<div class="wrap-table100">
+					{% if section == site.data.otherverticaldata.section %}
+					<div class="table100 ver3 m-b-110" style="padding-top: 60px;">
+					{% else %}
 					<div class="table100 ver3 m-b-110">
-						<!--
+					{% endif %}
+						{% if section == site.data.otherverticaldata.section %}
 						<div class="table100-head">
 							<table>
 								<thead>
@@ -113,9 +125,9 @@
 								</thead>
 							</table>
 						</div>
-					-->
+						{% endif %}
 						<div id="datatable1" class="table100-body js-pscroll" style="max-height:1500px">
-							<!--
+						{% if section == site.data.otherverticaldata.section %}
 							<table class="table" id="datatable1">
 								<tbody id="datatable"> {% for item in section%} {% for entry in item.years%} {% for file in entry.files%}
 									<tr>
@@ -124,7 +136,7 @@
 										<td class="cell100 column4"><a href="{{file.path}}">{{file.name}}</a></td>
 									</tr> {% endfor %} {% endfor %} {% endfor %} </tbody>
 							</table>
-						-->
+						{% endif %}
 						</div>
 					</div>
 				</div>
@@ -145,9 +157,21 @@
 											<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
 												<ul> {% for file in entry.files%}
 													<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %} </ul>
-											</li> {% endfor %} </ul>
+											</li> {% endfor %} </ul> 
 									</li> {% endfor %} </ul>
 							</li>
+							{% if section == site.data.otherverticaldata.section %}
+							<li><span style="color:white"><i class="fa fa-plus-square" style="color:white">Grand_Tour_2_Documentation_Files</i></span>
+								<ul>
+									<li><span style="color:white"><a href="#">Grand_Tour_2_Documentation.doc</a></span></li>
+									<li><span style="color:white"><a href="#">GrandTour2_file_list.doc</a></span></li> 
+									<li><span style="color:white"><a href="#">Ocean_Grand_Tour_original.pdf</a></span></li> 
+									<li><span style="color:white"><a href="#">WHP_Exchange_Description_05June2008.doc</a></span></li> 
+								</ul>
+							</li>
+							<li><a href="#"><span style="color:white">Ocean_Grand_Tour_2_CTD.joa</span></a></li>
+							<li><a href="#"><span style="color:white">Ocean_Grand_Tour_2_bottle.joa</span></a></li>
+							{% else %}
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
 								<ul> {% for item in matched %}
 									<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
@@ -156,11 +180,67 @@
 											<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %} </ul>
 									</li> {% endfor %} </ul>
 							</li>
+							{% endif %}
 						</ul>
 					</ul>
 			</div>
 			</section>
 	</div>
+	{% if section == site.data.otherverticaldata.section %}
+	<script>
+		$('.js-pscroll').each(function(){
+		  var ps = new PerfectScrollbar(this);
+		  $(window).on('resize', function(){
+			ps.update();
+		  })
+		});
+		const yearOptions = document.getElementById("yearDropdown").cloneNode(true)
+		const filterYearOptions = (yearOptions, table) => {
+			let tableYears = [...table].map(tr => tr.children[1].textContent)
+			return [...yearOptions.children].filter(opt => {
+				let val = opt.getAttribute("value")
+				if (val == "All"){
+					return true
+				}
+				for (let i=0; i<tableYears.length; i++){
+					if (tableYears[i].includes(val)){
+						return true
+					}
+				}
+				return false
+			})
+		}
+		$('.container').on("change", 'select', function() {
+		  var section = $('#verticalSectionDropdown').val().toLowerCase(),
+			year = $('#yearDropdown').val().toLowerCase(),
+			file = $('#fileDropdown').val().toLowerCase();
+			console.log($('#yearDropdown'))
+		  var table = $("#datatable");
+		  var trs = table.find('tr');
+		  trs.hide();
+		  var filtered = trs.filter(function(index, elem) {
+			var tds = $(elem).find('td');
+			if (section !== "all" && tds.eq(0).text().trim().toLowerCase() !== section) {
+			  return false;
+			}
+			if (year !== "all" && tds.eq(1).text().trim().toLowerCase() !== year) {
+			  return false;
+			}
+			if (file !== "all" && tds.eq(2).text().trim().toLowerCase() !== file) {
+			  return false;
+			}
+			return true;
+		  })
+		  filtered.show();
+		  let newYearOptions = filterYearOptions(yearOptions, filtered)
+		  document.getElementById("yearDropdown").replaceChildren(...newYearOptions)
+		  if (filtered.length == 0) {
+			alert("No Records Found!");
+		  }
+		});
+		
+	</script>
+	{% else %}
 <script>
 	const section = {{section | jsonify}};
 	console.log(section)
@@ -256,59 +336,9 @@
 			}
 		}
 	})
- //   $('.js-pscroll').each(function(){
- //     var ps = new PerfectScrollbar(this);
- //     $(window).on('resize', function(){
- //       ps.update();
- //     })
- //   });
-	//const yearOptions = document.getElementById("yearDropdown").cloneNode(true)
-	//const filterYearOptions = (yearOptions, table) => {
-	//	let tableYears = [...table].map(tr => tr.children[1].textContent)
-	//	return [...yearOptions.children].filter(opt => {
-	//		let val = opt.getAttribute("value")
-	//		if (val == "All"){
-	//			return true
-	//		}
-	//		for (let i=0; i<tableYears.length; i++){
-	//			if (tableYears[i].includes(val)){
-	//				return true
-	//			}
-	//		}
-	//		return false
-	//	})
-	//}
-	//$('.container').on("change", 'select', function() {
-	//  var section = $('#verticalSectionDropdown').val().toLowerCase(),
-	//    year = $('#yearDropdown').val().toLowerCase(),
-	//    file = $('#fileDropdown').val().toLowerCase();
-	//	console.log($('#yearDropdown'))
-	//  var table = $("#datatable");
-	//  var trs = table.find('tr');
-	//  trs.hide();
-	//  var filtered = trs.filter(function(index, elem) {
-	//    var tds = $(elem).find('td');
-	//    if (section !== "all" && tds.eq(0).text().trim().toLowerCase() !== section) {
-	//      return false;
-	//    }
-	//    if (year !== "all" && tds.eq(1).text().trim().toLowerCase() !== year) {
-	//      return false;
-	//    }
-	//    if (file !== "all" && tds.eq(2).text().trim().toLowerCase() !== file) {
-	//      return false;
-	//    }
-	//    return true;
-	//  })
-	//  filtered.show();
-	//  let newYearOptions = filterYearOptions(yearOptions, filtered)
-	//  document.getElementById("yearDropdown").replaceChildren(...newYearOptions)
-	//  if (filtered.length == 0) {
-	//    alert("No Records Found!");
-	//  }
-	//});
-	
 </script>
-
+{% endif %}
+ 
 
   </body>
 </html>
