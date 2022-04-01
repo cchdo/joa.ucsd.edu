@@ -43,7 +43,7 @@ css: Data_homepage
 			<div class="row">
 				<div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
 					<h3 class="cta-title">Download Current Versions</h3>
-					<h3 class="cta-title">JOA 5.5 for Windows, macOS 10.15 or earlier</h3>
+					<h3 class="cta-title">JOA 5.5 for Windows and MacOS</h3>
 					<p class="cta-text">These versions of JOA have been extensively tested, but there may be problems. If reporting a problem, please check and report the specific version and release date for your copy, which you can find via 'About Java OceanAtlas' under the Java OceanAtlas menu.
 						<br> </p> Click here to find the <a href="general_installation_instructions"><u>General installation instructions</u></a> for JOA.
 					<br>
@@ -82,7 +82,7 @@ css: Data_homepage
 					<br>
 					<br>
 					<h3 class="cta-title" style="font-size:20px;">macOS 10.15</h3> <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22051/JOA5.5.zip">Standard JOA 5.5</a>
-					<p class="cta-text" style="text-align:center;">(126.8 MB)</p> <a class="cta-btn align-middle" href="hhttps://cchdo.ucsd.edu/data/24533/JOA5.5.1_Pro.zip">Pro JOA 5.5.1</a>
+					<p class="cta-text" style="text-align:center;">(126.8 MB)</p> <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/24533/JOA5.5.1_Pro.zip">Pro JOA 5.5.1</a>
 					<p class="cta-text" style="text-align:center;">(127.6 MB)</p>
 					<br>
 					<h3 class="cta-title" style="font-size:20px;">macOS 10.12-10.14</h3> <a class="cta-btn align-middle" href="https://cchdo.ucsd.edu/data/22049/Java%20OceanAtlas.dmg">Standard JOA 5.5</a>
