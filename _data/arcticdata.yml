@@ -1,4 +1,14 @@
 section:
+  - title: Arctic Ocean & Nordic Sea Maps
+    years:
+      - year: Arctic Cruises Map.pdf
+        file: https://cchdo.ucsd.edu/data/24919/Arctic%20Cruises%20Map.pdf
+      - year: Nordic Seas Cruises map.pdf
+        file: https://cchdo.ucsd.edu/data/24922/Nordic%20Seas%20Cruises%20map.pdf
+      - year: Chukchi-Beaufort and Fram Strait Arctic Cruise Maps.pdf
+        file: https://cchdo.ucsd.edu/data/24920/Chukchi-Beaufort%20and%20Fram%20Strait%20Arctic%20Cruise%20Maps.pdf
+      - year: ARC01 2015 Map.pdf
+        file: https://cchdo.ucsd.edu/data/24918/ARC01%202015%20Map.pdf
   - title: Arctic Ocean sections
     years:
       - year: ARC01_2015_3_ship_bot_clean_sorted_hy1.csv
@@ -9,7 +19,7 @@ section:
     years:
       - year: (75°N section not yet prepared for site) 
         file: File
-  - title: Nordic Seas sections
+  - title: Arctic Ocean cruise files
     years:
       - year: YMER_1980_77YM19800811_bot_clean_merged_hy1.csv
         file: https://cchdo.ucsd.edu/data/24969/YMER_1980_77YM19800811_bot_clean_merged_hy1.csv
@@ -145,7 +155,7 @@ section:
         file: https://cchdo.ucsd.edu/data/24987/Nordic_2009_58GS20090528_bot_clean_hy1.csv
       - year: Nordic_2009_58GS20090528_bot_clean.joa
         file: https://cchdo.ucsd.edu/data/24988/Nordic_2009_58GS20090528_bot_clean.joa
-  - title: Nordic Seas cruise files
+  - title: Bering Sea cruise files
     years:
       - year: BEST_2008_APR_33HQ20080329_bot_partly_clean_hy1.csv
         file: https://cchdo.ucsd.edu/data/24989/BEST_2008_APR_33HQ20080329_bot_partly_clean_hy1.csv

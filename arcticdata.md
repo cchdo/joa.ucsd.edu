@@ -42,19 +42,8 @@ ocean: Arctic
 									<div class="mx-auto">
 									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown">
-												<option value="All" selected="selected">Vertical Section</option> {% for item in site.data.arcticdata.section%}
+												<option value="All" selected="selected">Section</option> {% for item in site.data.arcticdata.section%}
 												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<select class="custom-select" id="yearDropdown">
-												<option value="All">Year</option> {% for item in site.data.arcticdata.yeardropdown %}
-												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<select style="display:none" class="custom-select" id="fileDropdown">
-												<option value="All">File</option>
-												<option value="Basin">.csv</option>
-												<option value="Sub Basin">.jos</option>
-												<option value="Option_3">.txt</option>
-												<option value="Option_4">.joa</option>
-												<option value="Option_5">.zip</option>
-											</select>
 									</form>
 									</div>
 								</div>
@@ -72,8 +61,7 @@ ocean: Arctic
 							<table>
 								<thead>
 									<tr class="row100 head">
-										<th class="cell100 column1">Vertical Section</th>
-										<th class="cell100 column2">Year</th>
+										<th class="cell100 column1">Section</th>
 										<th class="cell100 column4">File</th>
 									</tr>
 								</thead>
@@ -84,8 +72,7 @@ ocean: Arctic
 								<tbody id="datatable"> {% for item in site.data.arcticdata.section%} {% for entry in item.years%}
 									<tr>
 										<td class="cell100 column1">{{item.title}}</td>
-										<td class="cell100 column2">{{entry.year}}</td>
-										<td class="cell100 column4">{{entry.file}}</td>
+										<td class="cell100 column4"><a href="{{entry.file}}">{{entry.year}}</a></td>
 									</tr> {% endfor %} {% endfor %} </tbody>
 							</table>
 						</div>
@@ -96,21 +83,19 @@ ocean: Arctic
 	<center style="color: white;font-size: 25px;padding-bottom: 3%;font-family: 'Poppins';"> Data Tree Search</center>
 	<section id="tree-search">
 	<div class="tree ">
-					<ul> <span style="color:white;font-size: 20px;"><b>{{page.ocean}} Ocean</b></span>
+			<ul> <span style="color:white;font-size: 20px;"><b>{{page.ocean}} Ocean</b></span>
 				<ul>
-					<li> <span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li> {% for item in site.data.arcticdata.section %}
+					<li> <span style="background:#5cb85c;color:white">Download all {{page.ocean}} Data</span></li>
+					<li><a href="assets/documents/Guide to the Best Data Arctic directory.pdf"><span style="color:white">Guide to Arctic Ocean and Nordic Sea files</span></a></li>
+					{% for item in site.data.arcticdata.section %}
 					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
 						<ul>
-							<li> <span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></li> {% for entry in item.years%}
-							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
-								<ul>
-									<li> <span style="color:white">File</span> </li>
-									<li> <span style="color:white">File</span> </li>
-									<li> <span style="color:white">File</span> </li>
-									<li> <span style="color:white">File</span> </li>
-								</ul>
-							</li> {% endfor %} </ul>
-					</li> {% endfor %} </ul>
+								{% for entry in item.years%}
+								<li><span style="color:white"><a href="{{entry.file}}">{{entry.year}}</a></span></li> 
+								{% endfor %} 
+						</ul> 
+					</li> {% endfor %} 
+				</ul>
 			</ul>
 	</div>
 	</section>
