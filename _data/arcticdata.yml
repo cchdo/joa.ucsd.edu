@@ -1,179 +1,186 @@
 section:
   - title: Arctic Ocean & Nordic Sea Maps
+    diff:
+      - name: Arctic Cruises Map.pdf
+        path: https://cchdo.ucsd.edu/data/24919/Arctic%20Cruises%20Map.pdf
+      - name: Nordic Seas Cruises map.pdf
+        path: https://cchdo.ucsd.edu/data/24922/Nordic%20Seas%20Cruises%20map.pdf
+      - name: Chukchi-Beaufort and Fram Strait Arctic Cruise Maps.pdf
+        path: https://cchdo.ucsd.edu/data/24920/Chukchi-Beaufort%20and%20Fram%20Strait%20Arctic%20Cruise%20Maps.pdf
+      - name: ARC01 2015 Map.pdf
+        path: https://cchdo.ucsd.edu/data/24918/ARC01%202015%20Map.pdf
+
+  - title: Arctic Ocean
     years:
-      - year: Arctic Cruises Map.pdf
-        file: https://cchdo.ucsd.edu/data/24919/Arctic%20Cruises%20Map.pdf
-      - year: Nordic Seas Cruises map.pdf
-        file: https://cchdo.ucsd.edu/data/24922/Nordic%20Seas%20Cruises%20map.pdf
-      - year: Chukchi-Beaufort and Fram Strait Arctic Cruise Maps.pdf
-        file: https://cchdo.ucsd.edu/data/24920/Chukchi-Beaufort%20and%20Fram%20Strait%20Arctic%20Cruise%20Maps.pdf
-      - year: ARC01 2015 Map.pdf
-        file: https://cchdo.ucsd.edu/data/24918/ARC01%202015%20Map.pdf
-  - title: Arctic Ocean sections
+      - year: Arctic Ocean sections
+        files :
+          - name: ARC01_2015_3_ship_bot_clean_sorted_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24916/ARC01_2015_3_ship_bot_clean_sorted_hy1.csv
+          - name: ARC01_2015_3_ship_bot_clean_sorted.joa
+            path: https://cchdo.ucsd.edu/data/24917/ARC01_2015_3_ship_bot_clean_sorted.joa
+      - year: Arctic Ocean cruise files
+        files :
+          - name: YMER_1980_77YM19800811_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24969/YMER_1980_77YM19800811_bot_clean_merged_hy1.csv
+          - name: YMER_1980_77YM19800811_bot_clean_merged.joa 
+            path: https://cchdo.ucsd.edu/data/24970/YMER_1980_77YM19800811_bot_clean_merged.joa
+          - name: ARKTIS_II/3_1984_06AQ19840719_bot_clean_hy1.csv 
+            path: https://cchdo.ucsd.edu/data/24927/ARKTIS_II_3_1984_06AQ19840719_bot_clean_hy1.csv
+          - name: ARKTIS_II/3_1984_06AQ19840719_bot_clean.joa 
+            path: https://cchdo.ucsd.edu/data/24928/ARKTIS_II_3_1984_06AQ19840719_bot_clean.joa
+          - name: ARKTIS_IV/3_1987_06AQ19870704_cchdo_bot_clean_hy1.csv 
+            path: https://cchdo.ucsd.edu/data/24929/ARKTIS_IV_3_1987_06AQ19870704_cchdo_bot_clean_hy1.csv
+          - name: ARKTIS_IV/3_1987_06AQ19870704_cchdo_bot_clean.joa 
+            path: https://cchdo.ucsd.edu/data/24930/ARKTIS_IV_3_1987_06AQ19870704_cchdo_bot_clean.joa
+          - name: ODEN_1991_77DN19910726_bot_clean_edited_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24941/ODEN_1991_77DN19910726_bot_clean_edited_hy1.csv
+          - name: ODEN_1991_77DN19910726_bot_clean_edited.joa 
+            path: https://cchdo.ucsd.edu/data/24942/ODEN_1991_77DN19910726_bot_clean_edited.joa
+          - name: Polarstern_1993_06AQ19930806_bot_clean_merged_hy1.csv 
+            path: https://cchdo.ucsd.edu/data/24947/Polarstern_1993_06AQ19930806_bot_clean_merged_hy1.csv
+          - name: Polarstern_1993_06AQ19930806_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24948/Polarstern_1993_06AQ19930806_bot_clean_merged.joa
+          - name: AOS94_18SN19940724_bot_clean_merged_hy1.csv 
+            path: https://cchdo.ucsd.edu/data/24925/AOS94_18SN19940724_bot_clean_merged_hy1.csv
+          - name: AOS94_18SN19940724_bot_clean_merged.joa 
+            path: https://cchdo.ucsd.edu/data/24926/AOS94_18SN19940724_bot_clean_merged.joa
+          - name: Polarstern_1995_06AQ19950707_bot_clean_heavyedit_hy1.csv 
+            path: https://cchdo.ucsd.edu/data/24949/Polarstern_1995_06AQ19950707_bot_clean_heavyedit_hy1.csv
+          - name: Polarstern_1995_06AQ19950707_bot_clean_heavyedit.joa 
+            path: https://cchdo.ucsd.edu/data/24950/Polarstern_1995_06AQ19950707_bot_clean_heavyedit.joa
+          - name: Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24955/Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged_hy1.csv
+          - name: Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged.joa 
+            path: https://cchdo.ucsd.edu/data/24956/Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged.joa
+          - name: JOIS4_1997_18SN19970924_section_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24939/JOIS4_1997_18SN19970924_section_bot_clean_hy1.csv
+          - name: JOIS4_1997_18SN19970924_section_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24940/JOIS4_1997_18SN19970924_section_bot_clean.joa
+          - name: CBL_2002_32PZ20020819_bot_clean_hy1.csv 
+            path: https://cchdo.ucsd.edu/data/24931/CBL_2002_32PZ20020819_bot_clean_hy1.csv
+          - name: CBL_2002_32PZ20020819_bot_clean.joa 
+            path: https://cchdo.ucsd.edu/data/24932/CBL_2002_32PZ20020819_bot_clean.joa
+          - name: SBI_2002_July_32H120020718_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24957/SBI_2002_July_32H120020718_bot_clean_merged_hy1.csv
+          - name: SBI_2002_July_32H120020718_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24958/SBI_2002_July_32H120020718_bot_clean_merged.joa
+          - name: SBI_2002_May_32H120020505_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24959/SBI_2002_May_32H120020505_bot_clean_merged_hy1.csv
+          - name: SBI_2002_May_32H120020505_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24960/SBI_2002_May_32H120020505_bot_clean_merged.joa
+          - name: SBI_2002_mooring_32PZ20020715_bot_clean_noO2_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24961/SBI_2002_mooring_32PZ20020715_bot_clean_noO2_hy1.csv
+          - name: SBI_2002_mooring_32PZ20020715_bot_clean_noO2.joa 
+            path: https://cchdo.ucsd.edu/data/24962/SBI_2002_mooring_32PZ20020715_bot_clean_noO2.joa
+          - name: SBI_2003_survey_320620030705_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24963/SBI_2003_survey_320620030705_bot_clean_merged_hy1.csv
+          - name: SBI_2003_survey_320620030705_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24964/SBI_2003_survey_320620030705_bot_clean_merged.joa
+          - name: SBI_2004_July_32H120040718_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24965/SBI_2004_July_32H120040718_bot_clean_merged_hy1.csv
+          - name: SBI_2004_July_32H120040718_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24966/SBI_2004_July_32H120040718_bot_clean_merged.joa
+          - name: SBI_2004_May_32H120040515_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24967/SBI_2004_May_32H120040515_bot_clean_merged_hy1.csv
+          - name: SBI_2004_May_32H120040515_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24968/SBI_2004_May_32H120040515_bot_clean_merged.joa
+          - name: Oden_2005_77DN20050819_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24943/Oden_2005_77DN20050819_bot_clean_merged_hy1.csv
+          - name: Oden_2005_77DN20050819_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24944/Oden_2005_77DN20050819_bot_clean_merged.joa
+          - name: Oden_2007_77DN20070812_no_nuts_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24945/Oden_2007_77DN20070812_no_nuts_bot_clean_hy1.csv
+          - name: Oden_2007_77DN20070812_no_nuts_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24946/Oden_2007_77DN20070812_no_nuts_bot_clean.joa
+          - name: Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24951/Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged_hy1.csv
+          - name: Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24952/Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged.joa
+          - name: ICESCAPE_2010_bot_clean_06OCT2015_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24935/ICESCAPE_2010_bot_clean_06OCT2015_hy1.csv
+          - name: ICESCAPE_2010_bot_clean_06OCT2015.joa
+            path: https://cchdo.ucsd.edu/data/24936/ICESCAPE_2010_bot_clean_06OCT2015.joa
+          - name: ICESCAPE_2011_clean_06OCT2015_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24937/ICESCAPE_2011_clean_06OCT2015_hy1.csv
+          - name: ICESCAPE_2011_clean_06OCT2015.joa
+            path: https://cchdo.ucsd.edu/data/24938/ICESCAPE_2011_clean_06OCT2015.joa
+          - name: Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24953/Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged_hy1.csv
+          - name: Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24954/Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged.joa
+          - name: Healy_2015_Geotraces_33HQ20150809_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24933/Healy_2015_Geotraces_33HQ20150809_bot_clean_merged_hy1.csv
+          - name: Healy_2015_Geotraces_33HQ20150809_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24934/Healy_2015_Geotraces_33HQ20150809_bot_clean_merged.joa
+          - name: 2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24923/2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean_hy1.csv
+          - name: 2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24924/2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean.joa
+
+  - title: Nordic Sea
     years:
-      - year: ARC01_2015_3_ship_bot_clean_sorted_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24916/ARC01_2015_3_ship_bot_clean_sorted_hy1.csv
-      - year: ARC01_2015_3_ship_bot_clean_sorted.joa
-        file: https://cchdo.ucsd.edu/data/24917/ARC01_2015_3_ship_bot_clean_sorted.joa
-  - title: Nordic Seas sections
-    years:
-      - year: (75°N section not yet prepared for site) 
-        file: File
-  - title: Arctic Ocean cruise files
-    years:
-      - year: YMER_1980_77YM19800811_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24969/YMER_1980_77YM19800811_bot_clean_merged_hy1.csv
-      - year: YMER_1980_77YM19800811_bot_clean_merged.joa 
-        file: https://cchdo.ucsd.edu/data/24970/YMER_1980_77YM19800811_bot_clean_merged.joa
-      - year: ARKTIS_II/3_1984_06AQ19840719_bot_clean_hy1.csv 
-        file: https://cchdo.ucsd.edu/data/24927/ARKTIS_II_3_1984_06AQ19840719_bot_clean_hy1.csv
-      - year: ARKTIS_II/3_1984_06AQ19840719_bot_clean.joa 
-        file: https://cchdo.ucsd.edu/data/24928/ARKTIS_II_3_1984_06AQ19840719_bot_clean.joa
-      - year: ARKTIS_IV/3_1987_06AQ19870704_cchdo_bot_clean_hy1.csv 
-        file: https://cchdo.ucsd.edu/data/24929/ARKTIS_IV_3_1987_06AQ19870704_cchdo_bot_clean_hy1.csv
-      - year: ARKTIS_IV/3_1987_06AQ19870704_cchdo_bot_clean.joa 
-        file: https://cchdo.ucsd.edu/data/24930/ARKTIS_IV_3_1987_06AQ19870704_cchdo_bot_clean.joa
-      - year: ODEN_1991_77DN19910726_bot_clean_edited_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24941/ODEN_1991_77DN19910726_bot_clean_edited_hy1.csv
-      - year: ODEN_1991_77DN19910726_bot_clean_edited.joa 
-        file: https://cchdo.ucsd.edu/data/24942/ODEN_1991_77DN19910726_bot_clean_edited.joa
-      - year: Polarstern_1993_06AQ19930806_bot_clean_merged_hy1.csv 
-        file: https://cchdo.ucsd.edu/data/24947/Polarstern_1993_06AQ19930806_bot_clean_merged_hy1.csv
-      - year: Polarstern_1993_06AQ19930806_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24948/Polarstern_1993_06AQ19930806_bot_clean_merged.joa
-      - year: AOS94_18SN19940724_bot_clean_merged_hy1.csv 
-        file: https://cchdo.ucsd.edu/data/24925/AOS94_18SN19940724_bot_clean_merged_hy1.csv
-      - year: AOS94_18SN19940724_bot_clean_merged.joa 
-        file: https://cchdo.ucsd.edu/data/24926/AOS94_18SN19940724_bot_clean_merged.joa
-      - year: Polarstern_1995_06AQ19950707_bot_clean_heavyedit_hy1.csv 
-        file: https://cchdo.ucsd.edu/data/24949/Polarstern_1995_06AQ19950707_bot_clean_heavyedit_hy1.csv
-      - year: Polarstern_1995_06AQ19950707_bot_clean_heavyedit.joa 
-        file: https://cchdo.ucsd.edu/data/24950/Polarstern_1995_06AQ19950707_bot_clean_heavyedit.joa
-      - year: Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24955/Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged_hy1.csv
-      - year: Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged.joa 
-        file: https://cchdo.ucsd.edu/data/24956/Polarstern_ARKXII_1996_06AQ19960712_bot_clean_merged.joa
-      - year: JOIS4_1997_18SN19970924_section_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24939/JOIS4_1997_18SN19970924_section_bot_clean_hy1.csv
-      - year: JOIS4_1997_18SN19970924_section_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24940/JOIS4_1997_18SN19970924_section_bot_clean.joa
-      - year: CBL_2002_32PZ20020819_bot_clean_hy1.csv 
-        file: https://cchdo.ucsd.edu/data/24931/CBL_2002_32PZ20020819_bot_clean_hy1.csv
-      - year: CBL_2002_32PZ20020819_bot_clean.joa 
-        file: https://cchdo.ucsd.edu/data/24932/CBL_2002_32PZ20020819_bot_clean.joa
-      - year: SBI_2002_July_32H120020718_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24957/SBI_2002_July_32H120020718_bot_clean_merged_hy1.csv
-      - year: SBI_2002_July_32H120020718_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24958/SBI_2002_July_32H120020718_bot_clean_merged.joa
-      - year: SBI_2002_May_32H120020505_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24959/SBI_2002_May_32H120020505_bot_clean_merged_hy1.csv
-      - year: SBI_2002_May_32H120020505_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24960/SBI_2002_May_32H120020505_bot_clean_merged.joa
-      - year: SBI_2002_mooring_32PZ20020715_bot_clean_noO2_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24961/SBI_2002_mooring_32PZ20020715_bot_clean_noO2_hy1.csv
-      - year: SBI_2002_mooring_32PZ20020715_bot_clean_noO2.joa 
-        file: https://cchdo.ucsd.edu/data/24962/SBI_2002_mooring_32PZ20020715_bot_clean_noO2.joa
-      - year: SBI_2003_survey_320620030705_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24963/SBI_2003_survey_320620030705_bot_clean_merged_hy1.csv
-      - year: SBI_2003_survey_320620030705_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24964/SBI_2003_survey_320620030705_bot_clean_merged.joa
-      - year: SBI_2004_July_32H120040718_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24965/SBI_2004_July_32H120040718_bot_clean_merged_hy1.csv
-      - year: SBI_2004_July_32H120040718_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24966/SBI_2004_July_32H120040718_bot_clean_merged.joa
-      - year: SBI_2004_May_32H120040515_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24967/SBI_2004_May_32H120040515_bot_clean_merged_hy1.csv
-      - year: SBI_2004_May_32H120040515_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24968/SBI_2004_May_32H120040515_bot_clean_merged.joa
-      - year: Oden_2005_77DN20050819_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24943/Oden_2005_77DN20050819_bot_clean_merged_hy1.csv
-      - year: Oden_2005_77DN20050819_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24944/Oden_2005_77DN20050819_bot_clean_merged.joa
-      - year: Oden_2007_77DN20070812_no_nuts_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24945/Oden_2007_77DN20070812_no_nuts_bot_clean_hy1.csv
-      - year: Oden_2007_77DN20070812_no_nuts_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24946/Oden_2007_77DN20070812_no_nuts_bot_clean.joa
-      - year: Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24951/Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged_hy1.csv
-      - year: Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24952/Polarstern_2007_ARKXXII_2_06AQ20070728_bot_clean_merged.joa
-      - year: ICESCAPE_2010_bot_clean_06OCT2015_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24935/ICESCAPE_2010_bot_clean_06OCT2015_hy1.csv
-      - year: ICESCAPE_2010_bot_clean_06OCT2015.joa
-        file: https://cchdo.ucsd.edu/data/24936/ICESCAPE_2010_bot_clean_06OCT2015.joa
-      - year: ICESCAPE_2011_clean_06OCT2015_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24937/ICESCAPE_2011_clean_06OCT2015_hy1.csv
-      - year: ICESCAPE_2011_clean_06OCT2015.joa
-        file: https://cchdo.ucsd.edu/data/24938/ICESCAPE_2011_clean_06OCT2015.joa
-      - year: Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24953/Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged_hy1.csv
-      - year: Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24954/Polarstern_2011_06AQ20110805_nobotO2orS_bot_clean_merged.joa
-      - year: Healy_2015_Geotraces_33HQ20150809_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24933/Healy_2015_Geotraces_33HQ20150809_bot_clean_merged_hy1.csv
-      - year: Healy_2015_Geotraces_33HQ20150809_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24934/Healy_2015_Geotraces_33HQ20150809_bot_clean_merged.joa
-      - year: 2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24923/2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean_hy1.csv
-      - year: 2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24924/2015_Arctic_Geotraces_3cruise_GOSHIP_params_bot_clean.joa
-  - title: Nordic Seas cruise files
-    years:
-      - year: Hudson_1982_Nordic_18HU19820228_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24971/Hudson_1982_Nordic_18HU19820228_bot_clean_hy1.csv
-      - year: Hudson_1982_Nordic_18HU19820228_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24972/Hudson_1982_Nordic_18HU19820228_bot_clean.joa
-      - year: Nordic_1997_58JH19970425_O2only_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24973/Nordic_1997_58JH19970425_O2only_bot_clean_merged_hy1.csv
-      - year: Nordic_1997_58JH19970425_O2only_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24974/Nordic_1997_58JH19970425_O2only_bot_clean_merged.joa
-      - year: Nordic_1999_58JH19990615_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24975/Nordic_1999_58JH19990615_bot_clean_merged_hy1.csv
-      - year: Nordic_1999_58JH19990615_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24976/Nordic_1999_58JH19990615_bot_clean_merged.joa
-      - year: Nordic_2000_58JH20000527_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24977/Nordic_2000_58JH20000527_bot_clean_merged_hy1.csv
-      - year: Nordic_2000_58JH20000527_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24978/Nordic_2000_58JH20000527_bot_clean_merged.joa
-      - year: Nordic_2001_58AA20010527_no_nuts_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24979/Nordic_2001_58AA20010527_no_nuts_bot_clean_hy1.csv
-      - year: Nordic_2001_58AA20010527_no_nuts_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24980/Nordic_2001_58AA20010527_no_nuts_bot_clean.joa
-      - year: Nordic_2002_Knorr_316N20020530_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24981/Nordic_2002_Knorr_316N20020530_bot_clean_hy1.csv
-      - year: Nordic_2002_Knorr_316N20020530_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24982/Nordic_2002_Knorr_316N20020530_bot_clean.joa
-      - year: Nordic_2002_Oden_77DN20020420_bot_clean_merged_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24983/Nordic_2002_Oden_77DN20020420_bot_clean_merged_hy1.csv
-      - year: Nordic_2002_Oden_77DN20020420_bot_clean_merged.joa
-        file: https://cchdo.ucsd.edu/data/24984/Nordic_2002_Oden_77DN20020420_bot_clean_merged.joa
-      - year: Nordic_2002_survey_Knorr_Oden_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24985/Nordic_2002_survey_Knorr_Oden_bot_clean_hy1.csv
-      - year: Nordic_2002_survey_Knorr_Oden_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24986/Nordic_2002_survey_Knorr_Oden_bot_clean.joa
-      - year: Nordic_2009_58GS20090528_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24987/Nordic_2009_58GS20090528_bot_clean_hy1.csv
-      - year: Nordic_2009_58GS20090528_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24988/Nordic_2009_58GS20090528_bot_clean.joa
+      - year: Nordic Seas sections
+        files :
+          - name: (75°N section not yet prepared for site) 
+            path: #
+      - year: Nordic Seas cruise files
+        files :
+          - name: Hudson_1982_Nordic_18HU19820228_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24971/Hudson_1982_Nordic_18HU19820228_bot_clean_hy1.csv
+          - name: Hudson_1982_Nordic_18HU19820228_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24972/Hudson_1982_Nordic_18HU19820228_bot_clean.joa
+          - name: Nordic_1997_58JH19970425_O2only_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24973/Nordic_1997_58JH19970425_O2only_bot_clean_merged_hy1.csv
+          - name: Nordic_1997_58JH19970425_O2only_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24974/Nordic_1997_58JH19970425_O2only_bot_clean_merged.joa
+          - name: Nordic_1999_58JH19990615_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24975/Nordic_1999_58JH19990615_bot_clean_merged_hy1.csv
+          - name: Nordic_1999_58JH19990615_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24976/Nordic_1999_58JH19990615_bot_clean_merged.joa
+          - name: Nordic_2000_58JH20000527_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24977/Nordic_2000_58JH20000527_bot_clean_merged_hy1.csv
+          - name: Nordic_2000_58JH20000527_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24978/Nordic_2000_58JH20000527_bot_clean_merged.joa
+          - name: Nordic_2001_58AA20010527_no_nuts_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24979/Nordic_2001_58AA20010527_no_nuts_bot_clean_hy1.csv
+          - name: Nordic_2001_58AA20010527_no_nuts_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24980/Nordic_2001_58AA20010527_no_nuts_bot_clean.joa
+          - name: Nordic_2002_Knorr_316N20020530_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24981/Nordic_2002_Knorr_316N20020530_bot_clean_hy1.csv
+          - name: Nordic_2002_Knorr_316N20020530_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24982/Nordic_2002_Knorr_316N20020530_bot_clean.joa
+          - name: Nordic_2002_Oden_77DN20020420_bot_clean_merged_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24983/Nordic_2002_Oden_77DN20020420_bot_clean_merged_hy1.csv
+          - name: Nordic_2002_Oden_77DN20020420_bot_clean_merged.joa
+            path: https://cchdo.ucsd.edu/data/24984/Nordic_2002_Oden_77DN20020420_bot_clean_merged.joa
+          - name: Nordic_2002_survey_Knorr_Oden_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24985/Nordic_2002_survey_Knorr_Oden_bot_clean_hy1.csv
+          - name: Nordic_2002_survey_Knorr_Oden_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24986/Nordic_2002_survey_Knorr_Oden_bot_clean.joa
+          - name: Nordic_2009_58GS20090528_bot_clean_hy1.csv
+            path: https://cchdo.ucsd.edu/data/24987/Nordic_2009_58GS20090528_bot_clean_hy1.csv
+          - name: Nordic_2009_58GS20090528_bot_clean.joa
+            path: https://cchdo.ucsd.edu/data/24988/Nordic_2009_58GS20090528_bot_clean.joa
+            
   - title: Bering Sea cruise files
-    years:
-      - year: BEST_2008_APR_33HQ20080329_bot_partly_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24989/BEST_2008_APR_33HQ20080329_bot_partly_clean_hy1.csv
-      - year: BEST_2008_APR_33HQ20080329_bot_partly_clean.joa
-        file: https://cchdo.ucsd.edu/data/24990/BEST_2008_APR_33HQ20080329_bot_partly_clean.joa
-      - year: BEST_2009_OCT_31FN20090924_bot_clean_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24991/BEST_2009_OCT_31FN20090924_bot_clean_hy1.csv
-      - year: BEST_2009_OCT_31FN20090924_bot_clean.joa
-        file: https://cchdo.ucsd.edu/data/24992/BEST_2009_OCT_31FN20090924_bot_clean.joa
-      - year: BEST_2010_JUN_325020100509_bot_clean_header_problems_hy1.csv
-        file: https://cchdo.ucsd.edu/data/24993/BEST_2010_JUN_325020100509_bot_clean_header_problems_hy1.csv
-      - year: BEST_2010_JUN_325020100509_bot_clean_header_problems.joa
-        file: https://cchdo.ucsd.edu/data/24994/BEST_2010_JUN_325020100509_bot_clean_header_problems.joa
+    diff:
+      - name: BEST_2008_APR_33HQ20080329_bot_partly_clean_hy1.csv
+        path: https://cchdo.ucsd.edu/data/24989/BEST_2008_APR_33HQ20080329_bot_partly_clean_hy1.csv
+      - name: BEST_2008_APR_33HQ20080329_bot_partly_clean.joa
+        path: https://cchdo.ucsd.edu/data/24990/BEST_2008_APR_33HQ20080329_bot_partly_clean.joa
+      - name: BEST_2009_OCT_31FN20090924_bot_clean_hy1.csv
+        path: https://cchdo.ucsd.edu/data/24991/BEST_2009_OCT_31FN20090924_bot_clean_hy1.csv
+      - name: BEST_2009_OCT_31FN20090924_bot_clean.joa
+        path: https://cchdo.ucsd.edu/data/24992/BEST_2009_OCT_31FN20090924_bot_clean.joa
+      - name: BEST_2010_JUN_325020100509_bot_clean_header_problems_hy1.csv
+        path: https://cchdo.ucsd.edu/data/24993/BEST_2010_JUN_325020100509_bot_clean_header_problems_hy1.csv
+      - name: BEST_2010_JUN_325020100509_bot_clean_header_problems.joa
+        path: https://cchdo.ucsd.edu/data/24994/BEST_2010_JUN_325020100509_bot_clean_header_problems.joa
 
 
 yeardropdown:
-  - year: 1982
-  - year: 1994
-  - year: 2002
-  - year: 2005
-  - year: 2015
+  - name: 1982
+  - name: 1994
+  - name: 2002
+  - name: 2005
+  - name: 2015

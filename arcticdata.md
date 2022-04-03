@@ -9,7 +9,7 @@ ocean: Arctic
 		<h1>Explore {{page.ocean}} Ocean Data</h1>
 		<h2>Navigate to your desired data below</h2>
 		<!--# <center style="color: white; padding: 1%;"><a class='button-func' href="#tree-search"> Tree Search </a></center> -->
-		<center><img src="assets/images/Arctic_map.jpg" alt="" class="responsive" style="width:95%"></center>
+		<center><img src="assets/images/Arctic_map.jpg" alt="" class="responsive" style="width:100%"></center>
 	</div>
 </section>
 <!-- #hero -->
@@ -44,7 +44,15 @@ ocean: Arctic
 									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown">
 												<option value="All" selected="selected">Section</option> {% for item in site.data.arcticdata.section%}
-												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												{% if item.diff[0]%}
+												<option value="{{item.title}}">{{item.title}}</option>
+												{% else %}
+												{% for entry in item.years%}
+												<option value="{{entry.year}}">{{entry.year}}</option> {% endfor %} {% endif%} 
+												{% endfor %} 
+											</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
 											<select style="display:none" class="custom-select" id="yearDropdown">
 												<option value="All">Year</option> {% for item in site.data.arcticdata.yeardropdown %}
 												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -81,11 +89,21 @@ ocean: Arctic
 						</div>
 						<div class="table100-body js-pscroll" style="max-height:1500px">
 							<table class="table" id="datatable1">
-								<tbody id="datatable"> {% for item in site.data.arcticdata.section%} {% for entry in item.years%}
-									<tr>
+								<tbody id="datatable"> {% for item in site.data.arcticdata.section%} 
+								{% if item.diff[0]%}
+								{% for entry in item.diff%}
+								<tr>
 										<td class="cell100 column1">{{item.title}}</td>
-										<td class="cell100 column4"><a href="{{entry.file}}">{{entry.year}}</a></td>
-									</tr> {% endfor %} {% endfor %} </tbody>
+										<td class="cell100 column4"><a href="{{entry.path}}">{{entry.name}}</a></td>
+								</tr>
+								{% endfor %}
+								{% else %}
+								{% for entry in item.years%}{% for file in entry.files%}
+									<tr>
+										<td class="cell100 column1">{{entry.year}}</td>
+										<td class="cell100 column4"><a href="{{file.path}}">{{file.name}}</a></td>
+									</tr> {% endfor %} {% endfor %} {% endif %}
+								{% endfor %}</tbody>
 							</table>
 						</div>
 					</div>
@@ -102,9 +120,18 @@ ocean: Arctic
 					{% for item in site.data.arcticdata.section %}
 					<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
 						<ul>
+								{% if item.diff[0]%}
+								{% for entry in item.diff%}
+							    <li><span style="color:white"><a href="{{entry.path}}">{{entry.name}}</a></span></li>
+								{% endfor %}
+								{% else %}
 								{% for entry in item.years%}
-								<li><span style="color:white"><a href="{{entry.file}}">{{entry.year}}</a></span></li> 
+								<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{entry.year}}</span>
+								<ul> {% for file in entry.files%}
+								<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %} </ul>
+								</li> 
 								{% endfor %} 
+								{% endif %}
 						</ul> 
 					</li> {% endfor %} 
 				</ul>
