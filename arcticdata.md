@@ -8,7 +8,8 @@ ocean: Arctic
 	<div class="hero-container">
 		<h1>Explore {{page.ocean}} Ocean Data</h1>
 		<h2>Navigate to your desired data below</h2>
-		<center><img src="assets/images/cleandatamap.jpg" alt="" class="responsive"></center>
+		<!--# <center style="color: white; padding: 1%;"><a class='button-func' href="#tree-search"> Tree Search </a></center> -->
+		<center><img src="assets/images/Arctic_map.jpg" alt="" class="responsive" style="width:95%"></center>
 	</div>
 </section>
 <!-- #hero -->
@@ -44,6 +45,17 @@ ocean: Arctic
 											<select class="custom-select" id="verticalSectionDropdown">
 												<option value="All" selected="selected">Section</option> {% for item in site.data.arcticdata.section%}
 												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select style="display:none" class="custom-select" id="yearDropdown">
+												<option value="All">Year</option> {% for item in site.data.arcticdata.yeardropdown %}
+												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select style="display:none" class="custom-select" id="fileDropdown">
+												<option value="All">File</option>
+												<option value="Basin">.csv</option>
+												<option value="Sub Basin">.jos</option>
+												<option value="Option_3">.txt</option>
+												<option value="Option_4">.joa</option>
+												<option value="Option_5">.zip</option>
+											</select>
 									</form>
 									</div>
 								</div>
