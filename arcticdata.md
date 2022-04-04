@@ -43,7 +43,9 @@ ocean: Arctic
 									<div class="mx-auto">
 									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown">
-												<option value="All" selected="selected">Section</option> {% for item in site.data.arcticdata.section%}
+												<option value="All" selected="selected">Section</option> 
+												<option value="Guide">Guide</option>
+												{% for item in site.data.arcticdata.section%}
 												{% if item.diff[0]%}
 												<option value="{{item.title}}">{{item.title}}</option>
 												{% else %}
@@ -51,8 +53,6 @@ ocean: Arctic
 												<option value="{{entry.year}}">{{entry.year}}</option> {% endfor %} {% endif%} 
 												{% endfor %} 
 											</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
 											<select style="display:none" class="custom-select" id="yearDropdown">
 												<option value="All">Year</option> {% for item in site.data.arcticdata.yeardropdown %}
 												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -89,7 +89,12 @@ ocean: Arctic
 						</div>
 						<div class="table100-body js-pscroll" style="max-height:1500px">
 							<table class="table" id="datatable1">
-								<tbody id="datatable"> {% for item in site.data.arcticdata.section%} 
+								<tbody id="datatable"> 
+								<tr>
+										<td class="cell100 column1">Guide</td>
+										<td class="cell100 column4"><a href="assets/documents/Guide to the Best Data Arctic directory.pdf">Guide to Arctic Ocean and Nordic Sea files</a></td>
+								</tr>
+								{% for item in site.data.arcticdata.section%} 
 								{% if item.diff[0]%}
 								{% for entry in item.diff%}
 								<tr>
