@@ -1,4 +1,18 @@
 section:
+  - title: Guide
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Guide to Indian Cruise and Clean Files
+            path: assets/documents/Guide to Indian Cruises and Clean Files.pdf
+  - title: Maps
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Indian Ocean Matched Line Segment map
+            path: assets/documents/Indian Ocean matched line segment map.pdf
   - title: I01/IR01
     zip_path: https://cchdo.ucsd.edu/data/19586/I01:IR01.zip
     years:

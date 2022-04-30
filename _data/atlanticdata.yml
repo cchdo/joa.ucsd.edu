@@ -1,4 +1,18 @@
 section:
+  - title: Guide
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Guide to Atlantic Cruise and Clean Files
+            path: assets/documents/Guide to Atlantic Cruises and Clean Files.pdf
+  - title: Maps
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Atlantic Ocean Matched Line Segment map
+            path: assets/documents/Atlantic Ocean matched line segment map.pdf
   - title: A01/AR07
     zip_path: https://cchdo.ucsd.edu/data/19631/A01:AR07.zip
     years:

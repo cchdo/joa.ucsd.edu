@@ -43,6 +43,7 @@ ocean: World Ocean Atlas
 									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown" style="width:100%">
 												<option value="All" selected="selected">File Set</option>
+												<option value="Guide">Guide</option> 
 												<option value="WOA 1998 files">WOA 1998 files</option> 
 												<option value="WOA 2005 files">WOA 2005 files</option> 
 												<option value="WOA 2009 files">WOA 2009 files</option> 
@@ -87,6 +88,11 @@ ocean: World Ocean Atlas
 						<div class="table100-body js-pscroll" style="max-height:1500px">
 							<table class="table" id="datatable1">
 								<tbody id="datatable"> 
+									<tr>
+											<td class="cell100 column1">Guide</td>
+											<td class="cell100 column2">N/A</td>
+											<td class="cell100 column4"><a href="assets/documents/About the WOA Data Files.pdf">About the WOA Data Files</a></td>
+									</tr>
 									{% for item in site.data.woadata.section_1%} 
 										{% for entry in item.subsections%} 
 											{% for file in entry.files%}

@@ -1,4 +1,11 @@
 section:
+  - title: Guide
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Guide to Southern Cruise and Clean Files
+            path: assets/documents/Guide to Southern Cruises and Clean Files.pdf
   - title: S04_circumAA
     zip_path: 
     years:

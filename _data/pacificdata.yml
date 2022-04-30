@@ -1,4 +1,18 @@
 section:
+  - title: Guide
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Guide to Southern Cruise and Clean Files
+            path: assets/documents/Guide to Pacific Cruises and Clean Files.pdf
+  - title: Maps
+    zip_path: 
+    years:
+      - year: N/A
+        files :
+          - name: Pacific Ocean Matched Line Segment map
+            path: assets/documents/Pacific Ocean matched line segment map.pdf
   - title: P01
     zip_path: https://cchdo.ucsd.edu/data/19697/P01.zip
     years:

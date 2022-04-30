@@ -91,11 +91,15 @@
 									<div class="mx-auto">
 									<form style="margin-left: auto;" action="#" method="get">
 											<select class="custom-select" id="verticalSectionDropdown">
-												<option value="All" selected="selected">Vertical Section</option> {% for item in section%}
-												<option value="{{item.title}}">{{item.title}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<option value="All" selected="selected">Vertical Section</option> 
+												{% for item in section%}
+												<option value="{{item.title}}">{{item.title}}</option> 
+												{% endfor %} 
+											</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<select class="custom-select" id="yearDropdown">
 												<option value="All">Year</option> {% for item in yeardropdown %}
-												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<option value="{{item.year}}">{{item.year}}</option> {% endfor %} 
+											</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<select style="display:none" class="custom-select" id="fileDropdown">
 												<option value="All">File</option>
 												<option value=".csv">.csv</option>
@@ -133,6 +137,7 @@
 							{% if section != site.data.otherverticaldata.section %}
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Vertical Section Data</span>
 								<ul> {% for item in section %}
+									{% if item.title != 'Maps' and item.title != 'Guide' %}
 									<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>{{item.title}}</span>
 										<ul>
 											<li><a href="{{item.zip_path}}"><span style="background:#5cb85c;color:white">Download all {{item.title}} Data</span></a></li> {% for entry in item.years%}
@@ -140,6 +145,7 @@
 												<ul> {% for file in entry.files%}
 													<li><span style="color:white"><a href="{{file.path}}">{{file.name}}</a></span></li> {% endfor %} </ul>
 											</li> {% endfor %} </ul> 
+									{% endif %}
 									</li> {% endfor %} </ul>
 							</li>
 							<li> <span style="color:white"><i class="fa fa-plus-square" style="color:white"></i>Matched Segment Data</span>
