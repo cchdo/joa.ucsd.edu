@@ -4,7 +4,7 @@ section:
     years:
       - year: N/A
         files :
-          - name: Guide to Southern Cruise and Clean Files
+          - name: Guide to Pacific Cruise and Clean Files
             path: assets/documents/Guide to Pacific Cruises and Clean Files.pdf
   - title: Maps
     zip_path: 
