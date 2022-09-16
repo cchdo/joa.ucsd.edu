@@ -25,7 +25,7 @@ css: Data_homepage
 		<div class="container wow fadeIn">
 			<div class="col-lg-9 text-center text-lg-left" style="flex:0 0 100%;max-width:100%">
 				<p class="cta-text">
-					<li><a href="assets/documents/Guide to Data Analysis Projects Using JOA.pdf">Guide to Data Analysis Projects Using JOA.pdf</a></li>
+					<li><a href="assets/documents/Guide to Data Analysis Projects v2.pdf">Guide to Data Analysis Projects v2.pdf</a></li>
 					<br>
 					<h3 class="cta-text" style="font-size: 18px">Extensive guide to using Java OceanAtlas for data analyses, such as in education-oriented data analysis projects using data from the data area of the JOA Suite site.</h3> </p>
 				<br>
