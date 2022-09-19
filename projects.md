@@ -27,7 +27,7 @@ css: Data_homepage
 				<p class="cta-text">
 					<li><a href="assets/documents/Guide to Data Analysis Projects v2.pdf">Guide to Data Analysis Projects v2.pdf</a></li>
 					<br>
-					<h3 class="cta-text" style="font-size: 18px">Extensive guide to using Java OceanAtlas for data analyses, such as in education-oriented data analysis projects using data from the data area of the JOA Suite site.</h3> </p>
+					<h3 class="cta-text" style="font-size: 18px">Extensive guide to research- and education-oriented data analysis projects using data from the data area of the JOA Suite site.</h3> </p>
 				<br>
 				<p class="cta-text">
 					<li><a href="assets/documents/Comparing multiple data files with JOA SEP2021.pdf">Comparing multiple data files with JOA SEP2021.pdf</a></li>
