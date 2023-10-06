@@ -27,7 +27,7 @@ css: Data_homepage
 				<h3 class="cta-title">Install</h3>
 				<p class="cta-text">
 					<li><a href="general_installation_instructions">General installation instructions</a></li>
-					<li><a href="mac_specific_installation_instructions">Mac specific installation instructions for Mac OS 10.15 (Catalina) and above (Mac OS 11 Big Sur, and Mac OS 12 Monterey)</a></li>
+					<li><a href="mac_specific_installation_instructions">Mac specific installation instructions for MacOS 10.15 and above</a></li>
 					<li><a href="windows_specific_installation_instructions">Windows specific installation instructions</a></li>
 					<li><a href="assets/documents/JOA5_linux_terminal.pdf">Installation instructions for JOA 5.5 on Linux and running JOA 5.5 from terminal in macOS Catalina</a></li>
 				</p>
