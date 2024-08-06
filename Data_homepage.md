@@ -75,7 +75,7 @@ css: Data_homepage
 					<br>
 					<br>
 					<br>
-					<br><a class="cta-btn align-middle" href="https://joa_old.cchdo.io/home">Explore</a> </div>
+					<br><a class="cta-btn align-middle" href="https://joa-ucsd-edu.pages.dev/data/">Explore</a> </div>
 			</div>
 		</div>
 	</section>

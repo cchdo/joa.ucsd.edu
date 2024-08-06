@@ -134,7 +134,7 @@ file_counter: 1669
 					<h3 class="cta-title">Outreach</h3>
 					<p class="cta-text">A virtual research cruise to the far southeast Indian Ocean aboard SIO's R/V Roger Revelle: tour the ship, watch videos of activities at sea and interviews with students, crew, techs, officers, and scientists, read the weekly reports, read the NSF proposal that funded the cruise, examine some aspects of the data, etc.</p>
 				</div>
-				<div class="col-lg-3 cta-btn-container text-center"> <a class="cta-btn align-middle" href="{{'/outreach/virtualcruise/' | relative_url}}">Explore</a> </div>
+				<div class="col-lg-3 cta-btn-container text-center"> <a class="cta-btn align-middle" href="https://joa-ucsd-edu.pages.dev/outreach/virtualcruise/index.html">Explore</a> </div>
 			</div>
 		</div>
 	</section>
